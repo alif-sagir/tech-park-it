@@ -1,0 +1,103 @@
+// header_area start
+.header_area {
+    border: $border;
+    .header_area_content {
+        border: $border;
+        display: flex;
+        align-items: center;
+        // logo_area start
+        .logo_area {
+            border: $border;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            width: 202px;
+            a {
+                border: $border;
+                width: 190px;
+                img {
+                    border: $border;
+                    // width: 100%;
+                    height: 64px;
+                }
+            }
+        }
+        // logo_area end
+
+        //  nav_and_login_area start
+        .nav_and_login_area {
+            border: $border;
+            display: flex;
+            flex: 1;
+            justify-content: end;
+            // nav_area start
+            .nav-area {
+                border: $border;
+                // margin: 48px 0px;
+                ul {
+                    border: $border;
+                    display: flex;
+                    padding: 48px 0px;
+                    li {
+                        border: $border;
+                        // margin: 0px 32px;
+                        a {
+                            border: $border;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: $mute_1;
+                            font-family: $font_medium;
+                            margin-left: 32px;
+                            transition-duration: 0.4s;
+                            position: relative;
+                            &::before{
+                                content: "";
+                                width: 100%;
+                                height: 2px;
+                                background-color: transparent;
+                                position: absolute;
+                                top: 19px;
+                                transition-duration: 0.4s;
+                            }
+                            &:hover {
+                                color: $primary_color;
+                                &::before{
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // nav_area end
+
+            // login_area start
+            .login_area {
+                border: $border;
+                align-items: center;
+                display: flex;
+                a {
+                    border: $border;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $mute_1;
+                    font-family: $font_medium;
+                    border: 1px solid #6b7280;
+                    padding: 14.5px 30.5px;
+                    border-radius: 6px;
+                    margin-left: 32px;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        background-color: $primary_color;
+                        color: $white;
+                        border: 1px solid transparent;
+                    }
+                }
+            }
+            // login_area end
+        }
+
+        //  nav_and_login_area end
+    }
+}
+// header_area end
