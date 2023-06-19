@@ -13,8 +13,6 @@
         width: 40px;
         height: 40px;
         border-radius: 28px;
-        // padding: 12px 14px;
-        // border-radius: 28px;
         align-items: center;
         justify-content: center;
         padding-top: 5px;
@@ -22,19 +20,16 @@
         transition-duration: 0.4s;
         &:hover {
             width: 109px;
-           
+
             .logo_and_text {
-                .logo{
+                .logo {
                     padding-left: 10px;
                 }
-                .text{
-                    //   display: block;
+                .text {
+                    
                     visibility: visible;
                     opacity: 1;
                 }
-                // visibility: visible;
-                // opacity: 1px;
-                // display: block;
             }
         }
         .logo_and_text {
@@ -46,7 +41,7 @@
             .logo {
                 border: $border;
                 // padding-top: 3px;
-                transition-duration: .4s;
+                transition-duration: 0.4s;
                 i {
                     border: $border;
                     color: $white;
@@ -63,7 +58,7 @@
                 // display: none;
                 visibility: hidden;
                 opacity: 0;
-                transition-duration: .4s;
+                transition-duration: 0.4s;
             }
         }
     }

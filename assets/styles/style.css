@@ -92,6 +92,10 @@ i {
 
 .header_area {
   border: 0px solid red;
+  position: sticky;
+  top: 0px;
+  background-color: #ffffff;
+  z-index: 999999;
 }
 .header_area .header_area_content {
   border: 0px solid red;
@@ -163,7 +167,7 @@ i {
 .header_area .header_area_content .nav_and_login_area .login_area a {
   border: 0px solid red;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 12px;
   color: #1c1c1c;
   font-family: "Medium";
   border: 1px solid #6b7280;
@@ -287,6 +291,15 @@ i {
   padding: 10px;
   background-color: white;
   border-radius: 8px;
+  animation: bounce2 2s linear infinite;
+}
+@keyframes bounce2 {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-40%);
+  }
 }
 .banner_part .banner_part_content .banner_part_right .banner_part_right_content .right_area_content .left_site {
   border: 0px solid red;

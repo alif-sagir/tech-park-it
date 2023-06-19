@@ -123,6 +123,18 @@
                     padding: 10px;
                     background-color: white;
                     border-radius: 8px;
+
+                    @keyframes bounce2 {
+                        0% { transform:translateY(0); }
+                        // 70% { transform:translateY(0%); }
+                        // 80% { transform:translateY(-15%); }
+                        // 90% { transform:translateY(0%); }
+                        // 95% { transform:translateY(-7%); }
+                        // 97% { transform:translateY(0%); }
+                        // 99% { transform:translateY(-3%); }
+                        100% { transform:translateY(-40%); }
+                    }
+                      animation: bounce2 2s linear infinite;
                     .left_site {
                         border: $border;
                         img {
@@ -583,7 +595,7 @@
                     border: $border;
                     text-align: center;
                     position: relative;
-                    .step_number{
+                    .step_number {
                         border: $border;
                         width: 48px;
                         height: 48px;
@@ -632,14 +644,13 @@
                                 // width: 167px;
                             }
                         }
-                        
                     }
                     a {
                         // border: $border;
                         border: 2px solid $primary_color;
                         color: $white;
                     }
-                    
+
                     .bottom_text {
                         border: $border;
                         font-size: 20px;
