@@ -583,23 +583,8 @@
                     border: $border;
                     text-align: center;
                     position: relative;
-                    &::after {
-                        content: "";
-                        width: 10px;
-                        height: 3px;
-                        background-color: blue;
-                        position: absolute;
-                        top: 50%;
-                        left: 105px;
-                    }
-                    &.one {
-                        &::after {
-                            // width: 167px;
-                        }
-                    }
-                    a {
-                        // border: $border;
-                        border: 2px solid $primary_color;
+                    .step_number{
+                        border: $border;
                         width: 48px;
                         height: 48px;
                         border-radius: 50%;
@@ -613,7 +598,48 @@
                         align-items: center;
                         margin-top: 58px;
                         margin-bottom: 16px;
+                        position: relative;
+                        &::after {
+                            content: "";
+                            width: 100%;
+                            height: 3px;
+                            background-color: blue;
+                            position: absolute;
+                            top: 50%;
+                            left: 60px;
+                        }
+                        &::before {
+                            content: "";
+                            width: 100%;
+                            height: 3px;
+                            background-color: rgb(255, 0, 0);
+                            position: absolute;
+                            top: 50%;
+                            left: 80px;
+                        }
+                        &::before {
+                            content: "";
+                            width: 16px;
+                            height: 2px;
+                            background-color: rgb(255, 0, 0);
+                            position: absolute;
+                            top: 43%;
+                            left: 91px;
+                            rotate: 30deg;
+                        }
+                        &.one {
+                            &::after {
+                                // width: 167px;
+                            }
+                        }
+                        
                     }
+                    a {
+                        // border: $border;
+                        border: 2px solid $primary_color;
+                        color: $white;
+                    }
+                    
                     .bottom_text {
                         border: $border;
                         font-size: 20px;
@@ -1080,8 +1106,7 @@
                         &:hover {
                             background-color: $primary_color;
                             color: $white;
-                           border: 1px solid $primary_color;
-                            
+                            border: 1px solid $primary_color;
                         }
                     }
                 }
@@ -1145,7 +1170,6 @@
                     display: flex;
                     justify-content: center;
                     border-radius: 16px 16px 0px 0px;
-                   
                 }
             }
             .wordpress {
@@ -1213,3 +1237,44 @@
     }
 }
 // my_it_service_area end
+
+// working_company_name area start
+.working_company_name_area {
+    border: $border;
+    padding-top: 120px;
+    .working_company_name_area_content {
+        border: $border;
+        // -working_company_name_area_title start
+        .working_company_name_area_title {
+            border: $border;
+            text-align: center;
+            margin-bottom: 48px;
+            .area_title {
+            }
+        }
+        // -working_company_name_area_title end
+        // all_company_name and logo area start
+        .all_company_name {
+            border: $border;
+            ul {
+                border: $border;
+                display: flex;
+                justify-content: center;
+                gap: 48px;
+                .company_logo {
+                    border: $border;
+                    width: 193px;
+                    height: 91px;
+                    a {
+                        img {
+                            border: $border;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        // all_company_name and logo area end
+    }
+}
+// working_company_name area end

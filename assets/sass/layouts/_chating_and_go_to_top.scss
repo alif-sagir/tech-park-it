@@ -4,6 +4,7 @@
     position: fixed;
     right: 37px;
     bottom: 77px;
+    overflow: hidden;
     // chating_area start
     .chating_area {
         border: $border;
@@ -11,7 +12,7 @@
         background-color: $primary_color;
         width: 40px;
         height: 40px;
-        border-radius: 50%;
+        border-radius: 28px;
         // padding: 12px 14px;
         // border-radius: 28px;
         align-items: center;
@@ -21,36 +22,49 @@
         transition-duration: 0.4s;
         &:hover {
             width: 109px;
-            height: 56px;
-            // padding: 12px 14px;
-            border-radius: 28px;
-            .text {
+           
+            .logo_and_text {
+                .logo{
+                    padding-left: 10px;
+                }
+                .text{
+                    //   display: block;
+                    visibility: visible;
+                    opacity: 1;
+                }
                 // visibility: visible;
                 // opacity: 1px;
-                display: block;
+                // display: block;
             }
         }
-        .logo {
+        .logo_and_text {
             border: $border;
-            // padding-top: 3px;
-
-            i {
+            display: flex;
+            position: absolute;
+            left: 10px;
+            top: 9px;
+            .logo {
                 border: $border;
-                color: $white;
-                font-size: 20px;
+                // padding-top: 3px;
+                transition-duration: .4s;
+                i {
+                    border: $border;
+                    color: $white;
+                    font-size: 20px;
+                }
             }
-        }
-        .text {
-            border: $border;
-            font-size: 20px;
-            line-height: 30px;
-            font-family: $font_medium;
-            color: $white;
-            margin-left: 6px;
-            display: none;
-            // visibility: hidden;
-            // opacity: 0px;
-            // transition-duration: .4s;
+            .text {
+                border: $border;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: $font_medium;
+                color: $white;
+                margin-left: 6px;
+                // display: none;
+                visibility: hidden;
+                opacity: 0;
+                transition-duration: .4s;
+            }
         }
     }
     // chating_area end
@@ -65,8 +79,8 @@
             justify-content: center;
             display: inline-flex;
             border: 1px solid $primary_color;
-            width: 39px;
-            height: 39px;
+            width: 38px;
+            height: 38px;
             border-radius: 50%;
             cursor: pointer;
             i {
