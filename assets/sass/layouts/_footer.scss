@@ -127,7 +127,7 @@
                                     align-items: center;
                                     display: flex;
                                     justify-content: center;
-                                    border: 1px solid $off_white;
+                                    border: 1px solid #d6d6d6;
                                     transition-duration: 0.4s;
                                     &:hover {
                                         border: 1px solid $primary_color;
@@ -163,27 +163,37 @@
         // footer_blog_area start
         .footer_blog_area {
             border: $border;
+            padding-top: 20px;
             .blog_title_and-item_area {
                 border: $border;
-                margin-top: 42px;
-                // blog_title start
-                .blog_title {
+                // margin-top: 42px;
+                // quick_and_importent_link_title start
+                .quick_and_importent_link_title {
                     border: $border;
+                    margin-bottom: 12px;
                     display: flex;
-                    .title {
+                    .logo {
                         border: $border;
-                        .text {
-                            border: $border;
-                        }
-                    }
-                    .icon {
-                        border: $border;
+
+                        align-items: center;
+                        display: flex;
+
                         i {
                             border: $border;
+                            font-size: 20px;
+                            color: $primary_color;
                         }
                     }
+                    .title_text {
+                        border: $border;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-family: $font_medium;
+                        color: $mute_1;
+                        margin-left: 8px;
+                    }
                 }
-                // blog_title end
+                // quick_and_importent_link_title end
                 // blog_item start
                 .blog_item {
                     border: $border;
@@ -195,32 +205,55 @@
                             font-size: 16px;
                             line-height: 26px;
                             font-family: $font_regular;
-                            color: $footer_text;
+                            // color: $footer_text;
                             margin-bottom: 12px;
                             transition-duration: 0.4s;
                             &:hover {
-                                color: $primary_color;
+                                // color: $primary_color;
+                                .text {
+                                    color: $primary_color;
+                                }
                                 .icon {
-                                    visibility: visible;
-                                    opacity: 1px;
+                                    // visibility: visible;
+                                    // opacity: 1px;
+
+                                    i {
+                                        visibility: visible;
+                                        opacity: 1;
+                                    }
                                 }
                             }
                             .text {
                                 border: $border;
+                                color: $footer_text;
+                                transition-duration: 0.4s;
                             }
                             .icon {
                                 border: $border;
                                 align-items: center;
-                                display: flex;
                                 padding-left: 10px;
-                                visibility: hidden;
-                                opacity: 0px;
-                                // transition-duration: .4s;
 
+                                @keyframes right_animation {
+                                    0% {
+                                        transform: translate(0px);
+                                    }
+
+                                    50% {
+                                        transform: translate(10px);
+                                    }
+
+                                    100% {
+                                        transform: translate(0px);
+                                    }
+                                }
+                                animation: right_animation 2s linear infinite;
                                 i {
                                     border: $border;
                                     font-size: 14px;
                                     color: $primary_color;
+                                    transition-duration: 0.4s;
+                                    visibility: hidden;
+                                    opacity: 0;
                                 }
                             }
                         }
@@ -234,13 +267,16 @@
         // footer_address_area start
         .footer_address_area {
             border: $border;
+            padding-top: 20px;
             // address_title_area start
             .address_title_area {
                 border: $border;
                 display: flex;
                 .logo {
                     border: $border;
-                    padding-top: 1px;
+                    padding-top: 3px;
+                    // align-items: center;
+                    // display: flex;
                     i {
                         border: $border;
                         color: $primary_color;
@@ -314,4 +350,3 @@
     // footer_copyright_area end
 }
 // footer area end
-

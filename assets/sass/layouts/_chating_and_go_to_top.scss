@@ -78,10 +78,18 @@
             height: 38px;
             border-radius: 50%;
             cursor: pointer;
+            transition-duration: .4s;
+            &:hover{
+                background-color: $primary_color;
+                i{
+                    color: $white;
+                }
+            }
             i {
                 border: $border;
                 font-size: 16px;
                 color: $primary_color;
+                transition-duration: .4s;
             }
         }
     }
