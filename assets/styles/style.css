@@ -182,6 +182,27 @@ i {
   border: 1px solid transparent;
 }
 
+html {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+html ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #dc2626;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
 .banner_part {
   border: 0px solid red;
   background-color: #f3f4f6;

@@ -1,9 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
     font-family: $font_regular;
+
+    
 }
 
 h1,
@@ -11,18 +13,18 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     margin: 0;
 }
 
 p,
 ol,
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
 
-ul li{
+ul li {
     list-style-type: none;
 }
 
@@ -30,7 +32,7 @@ img,
 iframe,
 a,
 span,
-i{
+i {
     text-decoration: none;
     display: inline-block;
 }
