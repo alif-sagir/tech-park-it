@@ -1,27 +1,20 @@
-// button start
-// @mixin button_all() {
-//     padding: 12px 24px 11px 24px;
-//     border: 1px solid #6B7280;
-//     font-size: 18px;
-//     line-height: 30.31px;
-//     border-radius: 8px;
-//     color: #101727;
-//     background-color: $white;
-//     font-family: $font_semibold;
-// }
-// button end
-
-
 // all area main class
-.header_area_full,
-.feature_area_full,
-.about_area,
-.servicess_area,
-.contact_us_area_full,
-.map_area_full
-.footer_area
+.header_area,
+// .banner_part,
+.course_item,
+.our_course_area,
+.our_course_specialty,
+.earning_area,
+.student_success_history_area,
+.profational_trainer_area,
+.free_seminar_area,
+.job_career_area,
+.my_it_service_area,
+.working_company_name_area,
+.footer_area_start,
+.chating_and_go_to_top_area
 {
-// display: none;
+display: none;
 }
 /* responsive_desine_mixin start*/
 @mixin xs() {
