@@ -1,6 +1,6 @@
 // all area main class
 .header_area,
-// .banner_part,
+.banner_part,
 .course_item,
 .our_course_area,
 .our_course_specialty,
@@ -14,7 +14,7 @@
 .footer_area_start,
 .chating_and_go_to_top_area
 {
-display: none;
+// display: none;
 }
 /* responsive_desine_mixin start*/
 @mixin xs() {

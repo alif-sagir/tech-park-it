@@ -23,20 +23,20 @@
             @include xs() {
                 padding-top: 50px;
                 padding-bottom: 50px;
-              }
+            }
             @include sm() {
                 padding-top: 50px;
                 padding-bottom: 50px;
-              }
+            }
             @include md() {
                 padding-top: 50px;
                 padding-bottom: 50px;
-              }
+            }
             @include lg() {
                 padding-top: unset;
                 padding-bottom: unset;
                 margin: 135px 0px;
-              }
+            }
             // banner_title start
             .banner_title {
                 border: $border;
@@ -46,12 +46,12 @@
                     line-height: 83.2px;
                     font-family: $font_bold;
                     @include xs() {
-                        font-size: 20px;
+                        font-size: 25px;
                         line-height: 30px;
                         text-align: center;
                     }
                     @include sm() {
-                        font-size: 20px;
+                        font-size: 25px;
                         line-height: 30px;
                         text-align: center;
                     }
@@ -94,7 +94,7 @@
                 padding-bottom: 48px;
                 @include lg() {
                     padding-top: 40px;
-                padding-bottom: 40px;
+                    padding-bottom: 40px;
                 }
                 p {
                     border: $border;
@@ -134,7 +134,7 @@
                     text-align: center;
                 }
                 @include md() {
-                   justify-content: center;
+                    justify-content: center;
                 }
                 .button_left {
                     border: $border;
@@ -202,8 +202,8 @@
             .banner_img {
                 border: $border;
                 @include md() {
-                   justify-content: center;
-                   display: flex;
+                    justify-content: center;
+                    display: flex;
                 }
                 img {
                     border: $border;
@@ -406,6 +406,18 @@
         display: flex;
         justify-content: center;
         gap: 24px;
+        @include xs() {
+            display: block;
+            text-align: center;
+            gap: 20px;
+            display: grid;
+        }
+        @include sm() {
+            display: block;
+            text-align: center;
+            gap: 20px;
+            display: grid;
+        }
         // course item start
         .course {
             border: $border;
@@ -417,9 +429,26 @@
                 .course_icon {
                     border: $border;
                     padding: 29px 98px 0px 98px;
-                    #icon_course {
-                        fill: $primary_color;
-                        transition-duration: 0.4s;
+                    @include xs() {
+                        padding: 7px 80px 0px 80px;
+                    }
+                    @include md() {
+                        padding: 16px 70px 0px 70px;
+                    }
+                    svg {
+                        @include xs() {
+                            width: 60px;
+                        }
+                        @include md() {
+                            width: 60px;
+                        }
+                        @include lg() {
+                            width: 80px;
+                        }
+                        #icon_course {
+                            fill: $primary_color;
+                            transition-duration: 0.4s;
+                        }
                     }
                 }
                 .course_text_area {
@@ -427,6 +456,14 @@
                     padding-top: 16px;
                     padding-bottom: 28px;
                     text-align: center;
+                    @include xs() {
+                        padding-top: 0px;
+                        padding-bottom: 16px;
+                    }
+                    @include md() {
+                        padding-top: 0px;
+                        padding-bottom: 16px;
+                    }
                     .course_text {
                         border: $border;
                         font-size: 26px;
@@ -434,6 +471,14 @@
                         font-family: $font_semibold;
                         color: $mute_1;
                         transition-duration: 0.4s;
+                        @include xs() {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                        @include md() {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
                     }
                 }
                 transition-duration: 0.4s;
@@ -466,11 +511,17 @@
         border: $border;
         background-color: $off_white;
         border-radius: 20px;
+        @include xs() {
+           padding-bottom: 38px;
+        }
         // our_course_area_title start
         .our_course_area_title {
             border: $border;
             text-align: center;
             padding: 48px 0px 58px 0px;
+            @include xs() {
+                padding: 38px 0px 38px 0px;
+            }
             .area_title {
                 border: $border;
             }
@@ -483,11 +534,35 @@
             ul {
                 border: $border;
                 display: flex;
+                @include xs() {
+                    display: block;
+                    text-align: center;
+                    gap: 10px;
+                    display: grid;
+                }
+                @include sm() {
+                    display: block;
+                    text-align: center;
+                    gap: 10px;
+                    display: grid;
+                }
                 li {
                     border: $border;
                     margin-left: 64px;
+                    @include xs() {
+                        margin-left: 0px;
+                    }
+                    @include sm() {
+                        margin-left: 0px;
+                    }
                     &:first-child {
                         margin-left: 31px;
+                        @include xs() {
+                            margin-left: 0px;
+                        }
+                        @include sm() {
+                            margin-left: 0px;
+                        }
                     }
                     a {
                         border: $border;
@@ -497,6 +572,10 @@
                         color: $mute_1;
                         transition-duration: 0.4s;
                         position: relative;
+                        @include xs() {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
                         &:hover {
                             color: $primary_color;
                             &::before {
@@ -512,6 +591,9 @@
                             position: absolute;
                             top: 36px;
                             transition-duration: 0.4s;
+                            @include xs() {
+                                top: 26px;
+                            }
                         }
                     }
                 }
@@ -526,12 +608,24 @@
             justify-content: center;
             grid-template-columns: repeat(3, 1fr);
             margin: 0px 110px;
+            @include xs() {
+                display: block;
+                margin: unset;
+            }
+            @include sm() {
+                display: block;
+                margin: unset;
+            }
             .c_card {
                 border: $border;
                 display: grid;
                 align-content: space-between;
                 background-color: $white;
                 margin-bottom: 49px;
+                @include xs() {
+                    margin: 20px 20px 0px 20px;
+                }
+               
                 &:hover {
                     .card_title_area {
                         .card_title {
@@ -568,12 +662,23 @@
                     display: flex;
                     padding: 24px 72px;
                     height: 250px;
+                    border-bottom: 2px solid #e0e0e0;
+                    @include xs() {
+                        padding: unset;
+                        height: 190px;
+                    }
                     // height: 225px;
                     // align-items: center;
                     // display: grid;
                     .card_img {
                         border: $border;
                         width: 200px;
+                        @include xs() {
+                            width: 170px;
+                            align-content: center;
+                            display: grid;
+                           
+                        }
                         // justify-content: center;
                         // display: flex;
                         // padding: 24px 72px;
@@ -586,12 +691,15 @@
                 }
                 // card_title_area start
                 .card_title_area {
-                    border-top: 2px solid #e0e0e0;
+                    // border-top: 2px solid #e0e0e0;
                     padding-top: 17px;
                     .card_title {
                         border: $border;
                         padding-bottom: 14px;
                         margin-left: 16px;
+                        @include xs() {
+                          margin: 0px 5px;
+                         }
                         .title_text {
                             border: $border;
                             font-size: 20px;
@@ -599,6 +707,10 @@
                             font-family: $font_semibold;
                             color: $mute_1;
                             transition-duration: 0.4s;
+                            @include xs() {
+                                font-size: 18px;
+                                line-height: 28px;
+                               }
                         }
                     }
                     .day_and_boking_area {
@@ -607,6 +719,9 @@
                         justify-content: space-between;
                         padding-bottom: 14px;
                         margin-left: 19px;
+                        @include xs() {
+                            margin: 0px 5px;
+                           }
                         .day_area {
                             border: $border;
                             align-items: center;
@@ -655,10 +770,16 @@
                         justify-content: space-between;
                         border-top: 1px solid $off_orange;
                         margin-left: 16px;
+                        @include xs() {
+                           display: block;
+                           text-align: center;
+                           margin: 0px 5px;
+                        }
                         .all_amount {
                             border: $border;
                             display: flex;
                             align-items: center;
+                           
                             .previous_amount_area {
                                 border: $border;
                                 .previous_amount {
@@ -699,6 +820,9 @@
                             color: $primary_color;
                             transition-duration: 0.7s;
                             // border: transparent;
+                            @include xs() {
+                                margin: 10px 0px;
+                            }
                             .btn-text {
                                 border: $border;
                                 padding-right: 8px;
