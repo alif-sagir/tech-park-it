@@ -107,7 +107,8 @@
     }
 }
 .vision_part {
-    margin-top: 155px;
+    margin-top: 150px;
+    margin-bottom: 50px;
     .vision_part_details {
         display: flex;
         justify-content: center;
@@ -140,6 +141,25 @@
                         margin-top: 20px;
                     }
                 }
+            }
+        }
+    }
+}
+.course_item{
+    // margin-top: 120px;
+    .training_details{
+        margin-bottom: 64px;
+        .training_title{
+            text-align: center;
+            .training_title_bangla{
+                font-weight: 700;
+                font-size: 41px;
+                line-height: 61.5px;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 16px;
+                line-height: 25.6px;
             }
         }
     }
