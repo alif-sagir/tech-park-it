@@ -2424,4 +2424,48 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 25.6px;
 }
 
+.team_area {
+  margin-top: 120px;
+}
+.team_area .team_area_details {
+  margin-bottom: 64px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team_area .team_area_details .team_area_title {
+  margin-bottom: 64px;
+  width: 981px;
+}
+.team_area .team_area_details .team_area_title .team_area_title_bangla {
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 61.5px;
+}
+.team_area .team_area_details .team_area_title p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+.team_area .team_area_details .team_area_carousel {
+  text-align: center;
+}
+.team_area .team_area_details .team_area_carousel .carousel_image img {
+  width: 1062px;
+  height: 657px;
+}
+.team_area .team_area_details .team_area_carousel .carousel_images {
+  display: flex;
+}
+.team_area .team_area_details .team_area_carousel .carousel_images .single_image {
+  border-radius: 8px;
+  margin-top: 24px;
+  margin-right: 16px;
+}
+.team_area .team_area_details .team_area_carousel .carousel_images .single_image:last-child {
+  margin-right: 0px;
+}
+
 /*# sourceMappingURL=style.css.map */
