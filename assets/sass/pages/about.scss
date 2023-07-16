@@ -211,3 +211,118 @@
         }
     }
 }
+
+.trainers_area{
+    .trainers_description{
+        .trainers_title{
+            margin-bottom: 47px;
+            .trainers_title_bangla{
+                text-align: center;
+                font-weight: 700;
+                font-size: 41px;
+                line-height: 61.5px;
+            }
+        }
+        .trainers_details{
+            display: flex;
+            gap: 40px;
+           .trainer_details{
+            width: 411px;
+            .trainer_images{
+                display: flex;
+                .image{
+                    img{
+                        width: 139px;
+                        height: 139px;
+                    }
+                }
+                .trainer_info{
+                    margin-left: 16px;
+                    .trainer_name{
+                        font-size: 20px;
+                        line-height: 30px;
+                        margin-top: 14px;
+                        font-weight: 700;
+                        color: #1C1C1C;
+                    }
+                    p{
+                        font-size: 16px;
+                        line-height: 25.6px;
+                        color: #494949;
+                    }
+                    .trainer_link{
+                        // margin-top: 16px;
+                        i{
+                            width: 24px;
+                            height: 24px;
+                            font-size: 24px;
+                            border-radius: 4px;
+                            margin-right: 16px;
+                            margin-top: 16px;
+                            color: rgb(73, 73, 241);
+                            cursor: pointer;
+                            &:last-child{
+                                margin-right: 0px;
+                            }
+                            &.tw{
+                                color: rgb(121, 121, 248);
+                            }
+                            &.fb{
+                                color: rgb(84, 84, 250);
+                            }
+                            &.ld{
+                                color: rgb(40, 40, 240);
+                            }
+                            &.in{
+                                color: rgb(253, 85, 24);
+                            }
+                        }
+                       
+                    }
+                }
+            }
+            .trainer_descrip{
+                p{
+                    margin-top: 23px;
+                }
+            }
+           }
+           
+        }
+    }
+}
+.hire_area{
+    .hire_details{
+        margin-bottom: 64px;
+        margin-top: 140px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .hire_title{
+            text-align: center;
+            .hire_title_bangla{
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 48px;
+            }
+            p{
+                margin-top: 10px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .hire_btn{
+            width: 195px;
+            height: 56px;
+            background-color: #DC2626;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            color: white;
+            font-size: 18px;
+            margin-top: 32px;
+        }
+    }
+}
