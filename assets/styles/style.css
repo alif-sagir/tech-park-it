@@ -2271,4 +2271,65 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 
+.aboutus_part {
+  margin-bottom: 150px;
+}
+.aboutus_part .aboutus_title .aboutus_title_bangla {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 61.5px;
+}
+.aboutus_part .aboutus_relation_description {
+  width: 1063px;
+  margin-top: 24px;
+}
+.aboutus_part .aboutus_relation_description .aboutus_info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #494949;
+}
+.aboutus_part .aboutus_relation_description .aboutus_info:last-child {
+  margin-top: 20px;
+}
+.aboutus_part .aboutus_partner {
+  margin-top: 64px;
+}
+.aboutus_part .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
+  font-weight: 600px;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1C1C1C;
+}
+.aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
+  margin-top: 42px;
+  display: flex;
+}
+.aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item {
+  margin-right: 48px;
+}
+.aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item img {
+  width: 120px;
+  object-fit: contain;
+  object-position: left;
+}
+
+.motivation_part .motivation_title {
+  text-align: center;
+}
+.motivation_part .motivation_title h2 {
+  margin: 0;
+  padding: 0;
+}
+.motivation_part .motivation_title .motivation_title_bangla {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 61.5px;
+}
+.motivation_part .motivation_title .motivation_title_english {
+  font-size: 41px;
+  font-weight: 500;
+  line-height: 61.5px;
+}
+
 /*# sourceMappingURL=style.css.map */
