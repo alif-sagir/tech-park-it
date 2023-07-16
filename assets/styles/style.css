@@ -2299,7 +2299,7 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600px;
   font-size: 32px;
   line-height: 48px;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
   margin-top: 42px;
@@ -2330,6 +2330,80 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 41px;
   font-weight: 500;
   line-height: 61.5px;
+}
+
+.mission_part {
+  margin-top: 155px;
+}
+.mission_part .mission_part_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission_part .mission_part_details .mission_part_image {
+  margin-right: 200px;
+}
+.mission_part .mission_part_details .mission_part_image img {
+  width: 409px;
+  height: 367px;
+  object-fit: contain;
+}
+.mission_part .mission_part_details .mission_part_description {
+  width: 495px;
+}
+.mission_part .mission_part_details .mission_part_description .mission_part_title {
+  margin-bottom: 24px;
+}
+.mission_part .mission_part_details .mission_part_description .mission_part_title .mission_title_bangla {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 61.5px;
+}
+.mission_part .mission_part_details .mission_part_description .mission_part_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #494949;
+}
+.mission_part .mission_part_details .mission_part_description .mission_part_info p:last-child {
+  margin-top: 20px;
+}
+
+.vision_part {
+  margin-top: 155px;
+}
+.vision_part .vision_part_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vision_part .vision_part_details .vision_part_image {
+  margin-left: 200px;
+}
+.vision_part .vision_part_details .vision_part_image img {
+  width: 596px;
+  height: 367px;
+  object-fit: contain;
+}
+.vision_part .vision_part_details .vision_part_description {
+  width: 495px;
+}
+.vision_part .vision_part_details .vision_part_description .vision_part_title {
+  margin-bottom: 24px;
+}
+.vision_part .vision_part_details .vision_part_description .vision_part_title .vision_title_bangla {
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 61.5px;
+}
+.vision_part .vision_part_details .vision_part_description .vision_part_info p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #494949;
+}
+.vision_part .vision_part_details .vision_part_description .vision_part_info p:last-child {
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
