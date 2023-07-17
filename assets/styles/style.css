@@ -940,11 +940,12 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .our_course_area .our_course_area_content .our_course_all_card .c_card {
-  border: 0px solid red;
+  border: 1px solid rgb(228, 227, 227);
   display: grid;
   align-content: space-between;
   background-color: #ffffff;
   margin-bottom: 49px;
+  border-radius: 8px 8px 0px;
 }
 @media screen and (max-width: 575.9px) {
   .our_course_area .our_course_area_content .our_course_all_card .c_card {
@@ -2567,6 +2568,109 @@ html ::-webkit-scrollbar-thumb:hover {
   color: white;
   font-size: 18px;
   margin-top: 32px;
+}
+
+.course_details_area .course_details_part {
+  display: flex;
+  margin-top: 80px;
+}
+.course_details_area .course_details_part .course_details {
+  border: 1px solid red;
+  flex: 1;
+  margin-right: 18px;
+}
+.course_details_area .course_details_part .course_details .course_title .course_title_text {
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 61.5px;
+}
+.course_details_area .course_details_part .course_details .what_is_course .what_is_course_title {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+.course_details_area .course_details_part .course_details .what_is_course .what_is_course_details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-top: 8px;
+}
+.course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_title {
+  font-size: 26px;
+  line-height: 39px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+.course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_details {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-top: 8px;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing {
+  margin-top: 34px;
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition {
+  flex: 1;
+  border: 1px solid red;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_possition_title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories {
+  margin-top: 18px;
+  margin-left: 24px;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories .job_categorie {
+  margin-bottom: 16px;
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories .job_categorie .job_categorie_icon {
+  margin-right: 6px;
+  color: #27AE60;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories .job_categorie .job_categorie_title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project {
+  flex: 1;
+  border: 1px solid red;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_project_title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 24px;
+  margin-left: 24px;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories {
+  margin-top: 18px;
+  margin-left: 24px;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie {
+  margin-bottom: 16px;
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie .freelancing_categorie_icon {
+  margin-right: 6px;
+  color: #27AE60;
+}
+.course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie .freelancing_categorie_title {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.course_details_area .course_details_part .course_info {
+  border: 1px solid red;
+  width: 411px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -617,11 +617,12 @@
                 margin: unset;
             }
             .c_card {
-                border: $border;
+                border: 1px solid rgb(228, 227, 227);
                 display: grid;
                 align-content: space-between;
                 background-color: $white;
                 margin-bottom: 49px;
+                border-radius: 8px 8px 0px;
                 @include xs() {
                     margin: 20px 20px 0px 20px;
                 }

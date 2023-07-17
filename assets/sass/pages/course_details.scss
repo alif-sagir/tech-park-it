@@ -1,0 +1,110 @@
+.course_details_area{
+    .course_details_part{
+        display: flex;
+       margin-top: 80px;
+    .course_details{
+        border: 1px solid red;
+        flex: 1;
+        margin-right: 18px;
+        .course_title{
+            .course_title_text{
+                font-weight: 700;
+                font-size: 41px;
+                line-height: 61.5px;
+            }
+        }
+        .what_is_course{
+            .what_is_course_title{
+                font-size: 26px;
+                line-height: 39px;
+                font-weight: 600;
+                margin-top: 32px;
+            }
+            .what_is_course_details{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                margin-top: 8px;
+            }
+        }
+        .why_learn_this_course{
+            .why_learn_this_course_title{
+                font-size: 26px;
+                line-height: 39px;
+                font-weight: 600;
+                margin-top: 32px;
+            }
+            .why_learn_this_course_details{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25.6px;
+                margin-top: 8px;
+            }
+        }
+        .job_possition_and_freelancing{
+            margin-top: 34px;
+            display: flex;
+            .job_possition{
+                flex: 1;
+                border: 1px solid red;
+                .job_possition_title{
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-weight: 600;
+                    margin-top: 24px;
+                    margin-left: 24px;
+                }
+                .job_categories{
+                    margin-top: 18px;
+                    margin-left: 24px;
+                    .job_categorie{
+                        margin-bottom: 16px;
+                        display: flex;
+                        .job_categorie_icon{
+                            margin-right: 6px;
+                            color: #27AE60;
+                        }
+                        .job_categorie_title{
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            .freelancing_project{
+                flex: 1;
+                border: 1px solid red;
+                .freelancing_project_title{
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-weight: 600;
+                    margin-top: 24px;
+                    margin-left: 24px;
+                }
+                .freelancing_categories{
+                    margin-top: 18px;
+                    margin-left: 24px;
+                    .freelancing_categorie{
+                        margin-bottom: 16px;
+                        display: flex;
+                        .freelancing_categorie_icon{
+                            margin-right: 6px;
+                            color: #27AE60;
+                        }
+                        .freelancing_categorie_title{
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .course_info{
+        border: 1px solid red;
+        width: 411px;
+    }
+}
+    }
