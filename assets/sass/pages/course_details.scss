@@ -114,8 +114,7 @@
                             padding: 24px 0px;
                             margin: 0px 24px;
                             border-bottom: 1px solid rgb(217, 214, 214);
-                            
-                            
+
                             .feature_name {
                                 color: #1c1c1c;
                                 font-family: Baloo Da 2;
@@ -125,23 +124,20 @@
                                 line-height: 150%; /* 39px */
                             }
                         }
-                        &.active{
-                            .feature_title{
+                        &.active {
+                            .feature_title {
                                 border-bottom: 0;
-                                .feature_acordion_icon{
-                                    i{
+                                .feature_acordion_icon {
+                                    i {
                                         color: red;
-                                        &::before{
-                                            content:"\f106";
+                                        &::before {
+                                            content: "\f106";
                                         }
                                     }
-
-                                    
                                 }
                             }
-                            .feature_content{
+                            .feature_content {
                                 display: block;
-                                
                             }
                         }
                         .feature_content {
@@ -159,12 +155,149 @@
                                         color: #27ae60;
                                     }
                                     .feature_content_text {
-                                        color:#1c1c1c;
+                                        color: #1c1c1c;
                                         font-family: Baloo Da 2;
                                         font-size: 16px;
                                         font-style: normal;
                                         font-weight: 500;
                                         line-height: 24px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .class_module {
+                margin-top: 65px;
+                .class_module_head {
+                    // border: 1px solid red;
+                    align-items: center;
+                    display: flex;
+                    .class_module_title {
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H3/Semibold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 48px;
+                        margin: 15px 24px;
+                    }
+                    .class_module_content {
+                        display: flex;
+                        li {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 24px */
+                            margin: 0px 12px;
+                        }
+                    }
+                }
+                .class_module_details {
+                    .class_module_features {
+                        border-radius: 8px;
+                        border: 1px solid #d2d2d2;
+                        li {
+                            .class_module_title {
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                padding: 24px 0px;
+                                margin: 0px 24px;
+                                border-bottom: 1px solid rgb(217, 214, 214);
+                                .class_module_title_and_number {
+                                    display: flex;
+                                    .class_module_number {
+                                        color: var(--mute-color-80, #494949);
+                                        font-family: Baloo Da 2;
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        line-height: 140%; /* 28px */
+                                        display: flex;
+                                        align-items: center;
+                                        span {
+                                            color: var(--mute-color-80, #494949);
+                                            font-family: Baloo Da 2;
+                                            font-size: 32px;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: 120%;
+                                        }
+                                    }
+                                    .class_module_title_details {
+                                        margin-left: 43px;
+                                        .title {
+                                            color: var(--mute-color-100, #1c1c1c);
+
+                                            /* H4/Semibold 26 */
+                                            font-family: Baloo Da 2;
+                                            font-size: 26px;
+                                            font-style: normal;
+                                            font-weight: 600;
+                                            line-height: 150%; /* 39px */
+                                        }
+                                        .details {
+                                            color: var(--mute-color-80, #494949);
+                                            font-family: Baloo Da 2;
+                                            font-size: 16px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            line-height: 150%; /* 24px */
+                                            display: flex;
+                                            li{
+                                                margin:0px 10px;
+                                                &:first-child{
+                                                    margin-left: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            &.active {
+                                .class_module_title {
+                                    border-bottom: 0;
+                                    .class_module_acordion_icon {
+                                        i {
+                                            color: red;
+                                            &::before {
+                                                content: "\f106";
+                                            }
+                                        }
+                                    }
+                                }
+                                .feature_content {
+                                    display: block;
+                                }
+                            }
+                            .feature_content {
+                                display: none;
+                                ul {
+                                    margin-top: 24px;
+                                    margin-left: 24px;
+                                    column-count: 2;
+                                    width: 450px;
+                                    li {
+                                        display: flex;
+                                        margin-bottom: 16px;
+                                        .cheak_icon {
+                                            margin-right: 6px;
+                                            color: #27ae60;
+                                        }
+                                        .feature_content_text {
+                                            color: #1c1c1c;
+                                            font-family: Baloo Da 2;
+                                            font-size: 16px;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            line-height: 24px;
+                                        }
                                     }
                                 }
                             }

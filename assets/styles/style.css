@@ -1,3 +1,24 @@
+:root {
+  --mute-color-100: #1C1C1C;
+  --mute-color-80: #494949;
+  --mute-color-60: #777;
+  --mute-color-10: #E8E8E8;
+  --primary-color-60: #FCA5A5;
+  --primary-color-40: #FECACA;
+  --primary-color-20: #FEE2E2;
+  --primary-color-10: #FEF2F2;
+  --secondary-100: #101727;
+  --secondary-90: #1F2937;
+  --secondary-80: #374151;
+  --secondary-70: #4B5563;
+  --secondary-60: #6B7280;
+  --secondary-50: #9CA3AF;
+  --secondary-40: #D1D5DB;
+  --secondary-30: #E5E7EB;
+  --secondary-20: #F3F4F6;
+  --secondary-10: #F9FAFB;
+}
+
 /* color veriable */
 /* dark_mode_color */
 /* font name */
@@ -2718,6 +2739,132 @@ html ::-webkit-scrollbar-thumb:hover {
   color: #27ae60;
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li .feature_content_text {
+  color: #1c1c1c;
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.course_details_area .course_details_part .course_details .class_module {
+  margin-top: 65px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_head {
+  align-items: center;
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H3/Semibold 32 */
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 15px 24px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_content {
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_content li {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  margin: 0px 12px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features {
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+  margin: 0px 24px;
+  border-bottom: 1px solid rgb(217, 214, 214);
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number {
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  display: flex;
+  align-items: center;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number span {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details {
+  margin-left: 43px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H4/Semibold 26 */
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 39px */
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details li {
+  margin: 0px 10px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details li:first-child {
+  margin-left: 0;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_title {
+  border-bottom: 0;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_title .class_module_acordion_icon i {
+  color: red;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_title .class_module_acordion_icon i::before {
+  content: "\f106";
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .feature_content {
+  display: block;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content {
+  display: none;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul {
+  margin-top: 24px;
+  margin-left: 24px;
+  column-count: 2;
+  width: 450px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li {
+  display: flex;
+  margin-bottom: 16px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li .cheak_icon {
+  margin-right: 6px;
+  color: #27ae60;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li .feature_content_text {
   color: #1c1c1c;
   font-family: Baloo Da 2;
   font-size: 16px;

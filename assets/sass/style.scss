@@ -1,5 +1,22 @@
 :root{
-    
+    --mute-color-100: #1C1C1C;
+    --mute-color-80: #494949;
+    --mute-color-60: #777;
+    --mute-color-10: #E8E8E8;
+    --primary-color-60: #FCA5A5;
+    --primary-color-40: #FECACA;
+    --primary-color-20: #FEE2E2;
+    --primary-color-10: #FEF2F2;
+    --secondary-100: #101727;
+    --secondary-90: #1F2937;
+    --secondary-80: #374151;
+    --secondary-70: #4B5563;
+    --secondary-60: #6B7280;
+    --secondary-50: #9CA3AF;
+    --secondary-40: #D1D5DB;
+    --secondary-30: #E5E7EB;
+    --secondary-20: #F3F4F6;
+    --secondary-10: #F9FAFB;
 }
 @import "./abstracts/variables";
 @import "./abstracts/mixins";
