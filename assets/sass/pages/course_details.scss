@@ -204,9 +204,7 @@
                         border-radius: 8px;
                         border: 1px solid #d2d2d2;
                         li {
-                            
                             .class_module_title {
-                               
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
@@ -310,9 +308,9 @@
                                 display: none;
                                 ul {
                                     li {
-                                        margin:0px 17px;
+                                        margin: 0px 17px;
                                         padding: 8px 0px;
-                                        border-top: 1px solid #D2D2D2;
+                                        border-top: 1px solid #d2d2d2;
                                         .class_module_class_no {
                                             color: var(--mute-color-100, #1c1c1c);
 
@@ -390,6 +388,87 @@
                                             }
                                         }
                                     }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .course_trainers_area {
+                margin-top: 40px;
+                .trainers_description {
+                    .trainers_title {
+                        margin-bottom: 12px;
+
+                        .trainers_title_bangla {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 150%; /* 39px */
+                        }
+                    }
+                    .trainers_details {
+                        display: flex;
+                        gap: 40px;
+                        .trainer_details {
+                            width: 411px;
+                            .trainer_images {
+                                display: flex;
+                                .image {
+                                    img {
+                                        width: 139px;
+                                        height: 139px;
+                                    }
+                                }
+                                .trainer_info {
+                                    margin-left: 16px;
+                                    .trainer_name {
+                                        font-size: 20px;
+                                        line-height: 30px;
+                                        margin-top: 14px;
+                                        font-weight: 700;
+                                        color: #1c1c1c;
+                                    }
+                                    p {
+                                        font-size: 16px;
+                                        line-height: 25.6px;
+                                        color: #494949;
+                                    }
+                                    .trainer_link {
+                                        // margin-top: 16px;
+                                        i {
+                                            width: 24px;
+                                            height: 24px;
+                                            font-size: 24px;
+                                            border-radius: 4px;
+                                            margin-right: 16px;
+                                            margin-top: 16px;
+                                            color: rgb(73, 73, 241);
+                                            cursor: pointer;
+                                            &:last-child {
+                                                margin-right: 0px;
+                                            }
+                                            &.tw {
+                                                color: rgb(121, 121, 248);
+                                            }
+                                            &.fb {
+                                                color: rgb(84, 84, 250);
+                                            }
+                                            &.ld {
+                                                color: rgb(40, 40, 240);
+                                            }
+                                            &.in {
+                                                color: rgb(253, 85, 24);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .trainer_descrip {
+                                p {
+                                    margin-top: 23px;
                                 }
                             }
                         }
