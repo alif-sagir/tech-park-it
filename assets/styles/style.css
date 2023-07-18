@@ -2634,6 +2634,9 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition {
   flex: 1;
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  margin-right: 22px;
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_possition_title {
   font-size: 20px;
@@ -2661,6 +2664,8 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project {
   flex: 1;
+  background-color: #f3f4f6;
+  border-radius: 8px;
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_project_title {
   font-size: 20px;
@@ -2752,6 +2757,8 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module .class_module_head {
   align-items: center;
   display: flex;
+  background-color: #f3f4f6;
+  border-radius: 8px;
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -2946,6 +2953,9 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .course_details_area .course_details_part .course_details .course_trainers_area .trainers_description .trainers_details .trainer_details {
   width: 411px;
+  background-color: #f3f4f6;
+  padding: 12px;
+  border-radius: 8px;
 }
 .course_details_area .course_details_part .course_details .course_trainers_area .trainers_description .trainers_details .trainer_details .trainer_images {
   display: flex;
@@ -3000,6 +3010,64 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_info {
   border: 1px solid red;
   width: 411px;
+}
+
+.general_question_part {
+  margin-top: 115px;
+}
+.general_question_part .general_questions {
+  display: flex;
+  justify-content: center;
+}
+.general_question_part .general_questions .general_question_details {
+  width: 846px;
+}
+.general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_title {
+  color: #1c1c1c;
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 48px */
+}
+.general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_brief {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+.general_question_part .general_questions .general_question_details .general_question_all {
+  margin-top: 42px;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li {
+  margin: 14px 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #d2d2d2;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_title_and_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_title_and_icon .general_question_title {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_content {
+  margin-top: 33px;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li:last-child {
+  border-bottom: none;
 }
 
 /*# sourceMappingURL=style.css.map */
