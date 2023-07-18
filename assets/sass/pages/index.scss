@@ -511,6 +511,7 @@
         border: $border;
         background-color: $off_white;
         border-radius: 20px;
+        padding-bottom: 49px;
         @include xs() {
            padding-bottom: 38px;
         }
@@ -621,7 +622,7 @@
                 display: grid;
                 align-content: space-between;
                 background-color: $white;
-                margin-bottom: 49px;
+                // margin-bottom: 49px;
                 @include xs() {
                     margin: 20px 20px 0px 20px;
                 }

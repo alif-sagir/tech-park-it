@@ -816,6 +816,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   background-color: #f3f4f6;
   border-radius: 20px;
+  padding-bottom: 49px;
 }
 @media screen and (max-width: 575.9px) {
   .our_course_area .our_course_area_content {
@@ -945,7 +946,6 @@ html ::-webkit-scrollbar-thumb:hover {
   display: grid;
   align-content: space-between;
   background-color: #ffffff;
-  margin-bottom: 49px;
 }
 @media screen and (max-width: 575.9px) {
   .our_course_area .our_course_area_content .our_course_all_card .c_card {
@@ -1563,7 +1563,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area {
-  border: 1px solid #fca5a5;
+  border: 1px solid #fecaca;
   display: flex;
   background-color: #ffffff;
   border-radius: 12px;
@@ -1574,7 +1574,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   text-align: center;
   padding: 10px 23px;
-  background-color: #fca5a5;
+  background-color: #fecaca;
   border-radius: 12px 0px 0px 12px;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .date .date_number {
@@ -2098,6 +2098,41 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .bank_name_area .bank_name_area_content .ssl_area .ssl_image img {
   border: 0px solid red;
+}
+
+.free_seminar_area_copy {
+  padding-bottom: 120px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy {
+  width: 845px;
+  padding: 0px;
+  margin: auto;
+  background-color: unset;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy {
+  margin-bottom: 15px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .date_copy {
+  padding: 10px 30px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .date_copy .date_number_copy {
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .data_science_copy .data_science_text_title_copy {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Medium";
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .data_science_copy .data_science_text_sub_title_copy {
+  font-size: 14px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .join_button_copy .button_all_copy {
+  padding: 10px 48px;
+}
+
+.our_course_area-copy {
+  padding-bottom: 0px;
 }
 
 .footer_area_start {
