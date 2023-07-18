@@ -488,8 +488,157 @@
             }
         }
         .course_info {
-            border: 1px solid red;
             width: 411px;
+            border-radius: 16px 16px 0px 0px;
+            .course_info_div {
+                border: 1px solid #d2d2d2;
+                border-radius: 16px 16px 0px 0px;
+                .course_info_thubnail_and_icon {
+                    position: relative;
+                    // border: 1px solid red;
+                    width: 411px;
+                    height: 272px;
+                    border-radius: 16px 16px 0px 0px;
+                    .course_info_icon {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        // border: 1px solid red;
+                        width: 411px;
+                        height: 272px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .course_info_thubnail {
+                        overflow: hidden;
+                        border-radius: 16px 16px 0px 0px;
+                        img {
+                            transition: transform 0.4s ease-in-out;
+                        }
+                    }
+                    &:hover {
+                        .course_info_thubnail {
+                            border-radius: 16px 16px 0px 0px;
+                            img {
+                                transform: scale(1.2);
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+                .course_info_time {
+                    border-bottom: 1px solid #9e9e9e;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    // margin: 16px;
+                    .time_have {
+                        margin: 16px;
+                        .time_have_title {
+                            color: var(--mute-color-100, #1c1c1c);
+                            text-align: left;
+                            font-family: Source Sans Pro;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 27px; /* 150% */
+                            padding-bottom: 8px;
+                        }
+                        ul {
+                            display: flex;
+                            li {
+                                color: var(--mute-color-100, #1c1c1c);
+                                font-family: Baloo Da 2;
+                                font-size: 26px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 100%; /* 26px */
+                                margin-left: 5px;
+                                span {
+                                    color: var(--mute-color-80, #494949);
+                                    text-align: center;
+                                    font-family: Baloo Da 2;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 160%; /* 22.4px */
+                                    margin: 0px 5px;
+                                }
+                            }
+                        }
+                    }
+                    .course_booked {
+                        border: 4px solid rgb(242, 53, 53);
+                        // padding: px;
+                        border-radius: 50px;
+                        width: 60px;
+                        height: 60px;
+                        display: flex;
+
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 16px;
+                        div {
+                            font-size: 12px;
+                            font-weight: 900;
+                        }
+                    }
+                }
+                .course_fee {
+                    display: flex;
+                    align-items: center;
+                    margin: 16px;
+                    // justify-content: center;
+                    .twenty_thousand {
+                        color: var(--primary-color-100, #dc2626);
+                        text-align: center;
+                        font-family: Baloo Da 2;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 32px */
+                        text-decoration-line: strikethrough;
+                        margin-right: 9px;
+                    }
+                    .ten_thousand {
+                        color: var(--mute-color-100, #1c1c1c);
+                        text-align: center;
+
+                        /* H4/Semibold 26 */
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 39px */
+                    }
+                }
+                .admit_course {
+                    .admit_course_title_and_icon {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 12px 24px;
+                        background-color: #dc2626;
+                        .admit_course_title {
+                            color: #fff;
+                            text-align: center;
+                            font-family: Baloo Da 2;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            margin-right: 10px;
+                        }
+                        .admit_course_icon {
+                            width: 24px;
+                            height: 24px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -523,12 +672,12 @@
                 margin-top: 42px;
                 .general_question {
                     background-color: #f3f4f6;
-                        border-radius: 8px;
+                    border-radius: 8px;
                     li {
                         margin: 14px 16px;
                         padding: 12px 0;
                         border-bottom: 1px solid #d2d2d2;
-                        
+
                         .general_question_title_and_icon {
                             display: flex;
                             align-items: center;
@@ -549,8 +698,8 @@
                         &:last-child {
                             border-bottom: none;
                         }
-                        &.active{
-                            .general_question_acordion_icon{
+                        &.active {
+                            .general_question_acordion_icon {
                                 i {
                                     color: red;
                                     &::before {
@@ -558,7 +707,7 @@
                                     }
                                 }
                             }
-                            .general_question_content{
+                            .general_question_content {
                                 display: block;
                             }
                         }
