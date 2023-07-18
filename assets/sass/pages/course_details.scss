@@ -200,15 +200,18 @@
                 }
                 .class_module_details {
                     .class_module_features {
+                        margin-top: 24px;
                         border-radius: 8px;
                         border: 1px solid #d2d2d2;
                         li {
+                            
                             .class_module_title {
+                               
                                 display: flex;
                                 justify-content: space-between;
                                 align-items: center;
                                 padding: 24px 0px;
-                                margin: 0px 24px;
+                                margin: 0px 17px;
                                 border-bottom: 1px solid rgb(217, 214, 214);
                                 .class_module_title_and_number {
                                     display: flex;
@@ -228,6 +231,7 @@
                                             font-style: normal;
                                             font-weight: 600;
                                             line-height: 120%;
+                                            margin-left: 10px;
                                         }
                                     }
                                     .class_module_title_details {
@@ -250,9 +254,9 @@
                                             font-weight: 500;
                                             line-height: 150%; /* 24px */
                                             display: flex;
-                                            li{
-                                                margin:0px 10px;
-                                                &:first-child{
+                                            li {
+                                                margin: 0px 10px;
+                                                &:first-child {
                                                     margin-left: 0;
                                                 }
                                             }
@@ -261,6 +265,7 @@
                                 }
                             }
                             &.active {
+                                display: block;
                                 .class_module_title {
                                     border-bottom: 0;
                                     .class_module_acordion_icon {
@@ -272,31 +277,117 @@
                                         }
                                     }
                                 }
-                                .feature_content {
+                                .class_module_feature_content {
                                     display: block;
                                 }
                             }
-                            .feature_content {
+                            // .feature_content {
+                            //     display: none;
+                            //     ul {
+                            //         margin-top: 24px;
+                            //         margin-left: 24px;
+                            //         column-count: 2;
+                            //         width: 450px;
+                            //         li {
+                            //             display: flex;
+                            //             margin-bottom: 16px;
+                            //             .cheak_icon {
+                            //                 margin-right: 6px;
+                            //                 color: #27ae60;
+                            //             }
+                            //             .feature_content_text {
+                            //                 color: #1c1c1c;
+                            //                 font-family: Baloo Da 2;
+                            //                 font-size: 16px;
+                            //                 font-style: normal;
+                            //                 font-weight: 500;
+                            //                 line-height: 24px;
+                            //             }
+                            //         }
+                            //     }
+                            // }
+                            .class_module_feature_content {
                                 display: none;
                                 ul {
-                                    margin-top: 24px;
-                                    margin-left: 24px;
-                                    column-count: 2;
-                                    width: 450px;
                                     li {
-                                        display: flex;
-                                        margin-bottom: 16px;
-                                        .cheak_icon {
-                                            margin-right: 6px;
-                                            color: #27ae60;
-                                        }
-                                        .feature_content_text {
-                                            color: #1c1c1c;
+                                        margin:0px 17px;
+                                        padding: 8px 0px;
+                                        border-top: 1px solid #D2D2D2;
+                                        .class_module_class_no {
+                                            color: var(--mute-color-100, #1c1c1c);
+
+                                            /* H6/Medium 16 */
                                             font-family: Baloo Da 2;
                                             font-size: 16px;
                                             font-style: normal;
-                                            font-weight: 500;
-                                            line-height: 24px;
+                                            font-weight: 600;
+                                            line-height: 150%; /* 24px */
+                                            margin-bottom: 8px;
+                                        }
+                                        .live_class_and_topic {
+                                            margin-bottom: 16px;
+                                            display: flex;
+                                            .live_class_icon {
+                                                // border: 2px solid red;
+                                                img {
+                                                    width: 24;
+                                                    height: 24px;
+                                                }
+                                            }
+                                            .class_module_live_class {
+                                                margin-left: 8px;
+                                                color: var(--mute-color-80, #494949);
+
+                                                /* Body Regular 16 */
+                                                font-family: Baloo Da 2;
+                                                font-size: 16px;
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: 160%; /* 25.6px */
+                                            }
+                                            .class_module_topic {
+                                                color: var(--mute-color-80, #494949);
+
+                                                /* Body Regular 16 */
+                                                font-family: Baloo Da 2;
+                                                font-size: 16px;
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: 160%; /* 25.6px */
+                                                margin-left: 5px;
+                                            }
+                                        }
+                                        .quiz_and_mcq {
+                                            display: flex;
+                                            margin-left: 5px;
+                                            .quiz_icon {
+                                                i {
+                                                    width: 24px;
+                                                    height: 24px;
+                                                    color: #787e8a;
+                                                }
+                                            }
+                                            .quiz {
+                                                color: var(--mute-color-80, #494949);
+
+                                                /* Body Regular 16 */
+                                                font-family: Baloo Da 2;
+                                                font-size: 16px;
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: 160%; /* 25.6px */
+                                            }
+                                            .mcq {
+                                                color: var(--mute-color-80, #494949);
+
+                                                /* Body Regular 16 */
+                                                font-family: Baloo Da 2;
+                                                font-size: 16px;
+                                                font-style: normal;
+                                                font-weight: 400;
+                                                line-height: 160%; /* 25.6px */
+                                                margin-left: 5px;
+                                            }
                                         }
                                     }
                                 }

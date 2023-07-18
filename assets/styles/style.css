@@ -2776,6 +2776,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin: 0px 12px;
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features {
+  margin-top: 24px;
   border-radius: 8px;
   border: 1px solid #d2d2d2;
 }
@@ -2784,7 +2785,7 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: space-between;
   align-items: center;
   padding: 24px 0px;
-  margin: 0px 24px;
+  margin: 0px 17px;
   border-bottom: 1px solid rgb(217, 214, 214);
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number {
@@ -2807,6 +2808,7 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
+  margin-left: 10px;
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details {
   margin-left: 43px;
@@ -2835,6 +2837,9 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details li:first-child {
   margin-left: 0;
 }
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active {
+  display: block;
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_title {
   border-bottom: 0;
 }
@@ -2844,33 +2849,82 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_title .class_module_acordion_icon i::before {
   content: "\f106";
 }
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .feature_content {
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li.active .class_module_feature_content {
   display: block;
 }
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content {
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content {
   display: none;
 }
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul {
-  margin-top: 24px;
-  margin-left: 24px;
-  column-count: 2;
-  width: 450px;
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li {
+  margin: 0px 17px;
+  padding: 8px 0px;
+  border-top: 1px solid #D2D2D2;
 }
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li {
-  display: flex;
-  margin-bottom: 16px;
-}
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li .cheak_icon {
-  margin-right: 6px;
-  color: #27ae60;
-}
-.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .feature_content ul li .feature_content_text {
-  color: #1c1c1c;
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .class_module_class_no {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H6/Medium 16 */
   font-family: Baloo Da 2;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  margin-bottom: 8px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic {
+  margin-bottom: 16px;
+  display: flex;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .live_class_icon img {
+  width: 24;
+  height: 24px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .class_module_live_class {
+  margin-left: 8px;
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .class_module_topic {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 5px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq {
+  display: flex;
+  margin-left: 5px;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .quiz_icon i {
+  width: 24px;
+  height: 24px;
+  color: #787e8a;
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .quiz {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .mcq {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 5px;
 }
 .course_details_area .course_details_part .course_info {
   border: 1px solid red;
