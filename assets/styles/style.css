@@ -3065,9 +3065,19 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_content {
   margin-top: 33px;
+  display: none;
 }
 .general_question_part .general_questions .general_question_details .general_question_all .general_question li:last-child {
   border-bottom: none;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li.active .general_question_acordion_icon i {
+  color: red;
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li.active .general_question_acordion_icon i::before {
+  content: "\f106";
+}
+.general_question_part .general_questions .general_question_details .general_question_all .general_question li.active .general_question_content {
+  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

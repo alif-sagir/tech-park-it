@@ -1023,15 +1023,15 @@
                       <i class="fa-solid fa-chevron-down"></i>
                     </div>
                   </div>
-                  <!-- <div class="general_question_content">
+                  <div class="general_question_content">
                     আমরা সকল ক্লাসের রেকর্ডেড ভিডিও সরবরাহ করি, আপনি আপনার স্টুডেন্ট
                     পোর্টাল থেকে আপনার কোর্সের সকল ক্লাসের রেকর্ডেড ভিডিও পাবেন।
-                  </div> -->
+                  </div>
                 </li>
               </div>
               <div class="general_question">
                 <li>
-                  <li class="general_question">
+                  <li class="general_question active">
                     <div class="general_question_title_and_icon">
                       <div class="general_question_title">
                         অনলাইন/অফলাইন ক্লাসের রেকর্ডেড ভিডিও পাওয়া যায়?
@@ -1049,7 +1049,7 @@
               </div>
               <div class="general_question">
                 <li>
-                  <li class="general_question">
+                  <li class="general_question ">
                     <div class="general_question_title_and_icon">
                       <div class="general_question_title">
                         একাধিক স্কিমে পেমেন্ট করার সুজোগ আছে কি?
@@ -1058,10 +1058,10 @@
                         <i class="fa-solid fa-chevron-down"></i>
                       </div>
                     </div>
-                    <!-- <div class="general_question_content">
+                    <div class="general_question_content">
                       আমরা সকল ক্লাসের রেকর্ডেড ভিডিও সরবরাহ করি, আপনি আপনার স্টুডেন্ট
                       পোর্টাল থেকে আপনার কোর্সের সকল ক্লাসের রেকর্ডেড ভিডিও পাবেন।
-                    </div> -->
+                    </div>
                   </li>
                 </li>
               </div>
@@ -1070,6 +1070,18 @@
         </div>
       </div>
     </div>
+    <script>
+      [
+        ...document.querySelectorAll(".general_question_acordion_icon"),
+      ].forEach((element) => {
+        element.onclick = function (e) {
+          e.currentTarget.parentNode.parentNode.classList.toggle(
+            "active"
+          );
+          // console.log(e.currentTarget.parentNode.classList);
+        };
+      });
+    </script>
     <!-- /general question area end -->
 
     <!-- footer area start -->

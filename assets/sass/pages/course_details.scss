@@ -544,9 +544,23 @@
                         }
                         .general_question_content {
                             margin-top: 33px;
+                            display: none;
                         }
                         &:last-child {
                             border-bottom: none;
+                        }
+                        &.active{
+                            .general_question_acordion_icon{
+                                i {
+                                    color: red;
+                                    &::before {
+                                        content: "\f106";
+                                    }
+                                }
+                            }
+                            .general_question_content{
+                                display: block;
+                            }
                         }
                     }
                 }
