@@ -123,6 +123,7 @@ html ::-webkit-scrollbar-thumb:hover {
   top: 0px;
   background-color: #ffffff;
   z-index: 999999;
+  box-shadow: 0px -6px 5px 10px #e2e3e5;
 }
 .header_area .header_area_content {
   border: 0px solid red;
@@ -1891,6 +1892,212 @@ html ::-webkit-scrollbar-thumb:hover {
 .working_company_name_area .working_company_name_area_content .all_company_name ul .company_logo a img {
   border: 0px solid red;
   width: 100%;
+}
+
+.course_and_payment_area {
+  border: 0px solid red;
+  margin-top: 100px;
+}
+.course_and_payment_area .course_and_payment_area_content {
+  border: 0px solid red;
+  display: flex;
+  gap: 60px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area {
+  border: 0px solid red;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background-color: #f3f4f6;
+  padding: 16px;
+  width: 630px;
+  height: 210px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area:hover .course_image {
+  transform: scale(0.9);
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_image {
+  border: 0px solid red;
+  width: 174px;
+  height: 174px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  transition-duration: 0.4s;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_image img {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price {
+  border: 0px solid red;
+  align-items: center;
+  display: grid;
+  margin-left: 16px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title .title {
+  border: 0px solid red;
+  font-family: "SemiBold";
+  font-size: 26px;
+  line-height: 40px;
+  color: #1c1c1c;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price {
+  border: 0px solid red;
+  margin-top: 16px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .old_price {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Regular";
+  color: #dc2626;
+  text-decoration: line-through;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .update_price {
+  border: 0px solid red;
+  font-size: 26px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  margin-left: 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area {
+  border: 0px solid red;
+  width: 450px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area {
+  border: 0px solid red;
+  border: 2px solid #d2d2d2;
+  border-radius: 6px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content {
+  border: 0px solid red;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 0px;
+  margin: 0 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content label {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Regular";
+  align-items: center;
+  display: flex;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content label i {
+  margin-right: 5px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content input {
+  border: 0px solid red;
+  outline: 0;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Regular";
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_dash {
+  border-bottom: 1px dashed #a4a4a4;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_solid {
+  border-bottom: 1px solid #a4a4a4;
+  margin: 0px;
+  padding: 20px 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_solid input {
+  border: 1px solid #a4a4a4;
+  border-radius: 6px;
+  width: 270px;
+  height: 45px;
+  padding: 0px 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .button_all {
+  border: 0px solid red;
+  border: 1px solid #101727;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  width: 100%;
+  transition-duration: 0.4s;
+  margin-top: 20px;
+  padding: 16px 0px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .button_all:hover {
+  background-color: #dc2626;
+  border: 1px solid #dc2626;
+  color: #ffffff;
+}
+
+.bank_name_area {
+  border: 0px solid red;
+  margin-top: 120px;
+}
+.bank_name_area .bank_name_area_content {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+}
+.bank_name_area .bank_name_area_content .bank_name_area_title {
+  border: 0px solid red;
+  margin-right: 12px;
+}
+.bank_name_area .bank_name_area_content .bank_name_area_title .title {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "Medium";
+  color: #494949;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area {
+  border: 0px solid red;
+  gap: 12px;
+  display: flex;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span img {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area {
+  border: 0px solid red;
+  position: relative;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+.bank_name_area .bank_name_area_content .ssl_area::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #D2D2D2;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_title {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_title .title {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Medium";
+  color: #777777;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_image {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_image img {
+  border: 0px solid red;
 }
 
 .footer_area_start {
