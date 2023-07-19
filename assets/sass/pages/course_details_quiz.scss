@@ -74,11 +74,116 @@
                     justify-content: center;
                     i {
                         font-size: 30px;
-                        color: #FEF2F2;
+                        color: #fef2f2;
                     }
                     // top
                 }
             }
+        }
+    }
+    .class_routine {
+        margin-top: 100px;
+        .class_routine_title_and_details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // border: 1px solid red;
+            .class_routine_title {
+                color: var(--mute-color-100, #1c1c1c);
+
+                /* H3/Semibold 32 */
+                font-family: Baloo Da 2;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 48px */
+            }
+            .class_routine_details {
+                color: var(--mute-color-100, #1c1c1c);
+                text-align: center;
+                font-family: Baloo Da 2;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                text-decoration-line: underline;
+                i {
+                    padding-left: 8px;
+                }
+            }
+        }
+        .class_routine_table {
+            // border-radius: 12px;
+           .table_div{
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            margin-top: 12px;
+            table {
+                width: 100%;
+                thead {
+                    border-radius: 12px 12px 0px 0px;
+                    background: var(--secondary-20, #f3f4f6);
+                    tr {
+                        // border-radius: 12px;
+                        td {
+                            // border: 1px solid #e5e7eb;
+                            text-align: center;
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 32px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 48px */
+                            border-right:  1px solid #e5e7eb;
+                            padding-top: 14px;
+                            &:first-child{
+                                border-radius: 12px 0px 0px 0px;
+                            }
+                            &:last-child{
+                                border-radius: 0px 12px 0px 0px;
+                                border-right: 0px;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            border: 1px solid #e5e7eb;
+                            text-align: center;
+                            color: var(--mute-color-100, #1c1c1c);
+                            text-align: center;
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; 
+                            padding: 20px;
+                            &:first-child{
+                                border-left: 0px;
+                            }
+                            &:last-child:last-child{
+                                border-right: 0px;
+                            }
+                        }
+                       &:last-child{
+                        td{
+                            border-bottom: 0px;
+                            &:first-child{
+                                border-radius: 0px 0px 0px 12px;
+                                // background-color: red;
+                                border-left: 0;
+                            }
+                            &:last-child{
+                                border-radius: 0px 0px 12px 0px;
+                                // background-color: red;
+                            }
+                        }
+                       }
+                    }
+                }
+            }
+           }
         }
     }
 }
