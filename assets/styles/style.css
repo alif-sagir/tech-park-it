@@ -2135,6 +2135,282 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-bottom: 0px;
 }
 
+.contact_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title {
+  border: 0px solid red;
+  text-align: center;
+  width: 996px;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.contact_area .contact_area_content .title .contact_area_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_title .area_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_sub_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_sub_title .sub_title {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Regular";
+}
+.contact_area .contact_area_content .phone_number_and_form_area {
+  border: 0px solid red;
+  margin-bottom: 80px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title {
+  border: 0px solid red;
+  margin-bottom: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title .title_text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo i {
+  border: 0px solid red;
+  font-size: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .phone {
+  color: #1c1b1f;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .whatsapp {
+  color: #25d366;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .telegram {
+  color: #26a5e4;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .email {
+  color: #1c1b1f;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number {
+  border: 0px solid red;
+  padding-left: 6px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number .text {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "Regular";
+  color: #494949;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number .text:hover {
+  color: #dc2626;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title {
+  border: 0px solid red;
+  padding: 30px 0px 24px 0px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title .text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 12px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a {
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d6d6d6;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a:hover {
+  border: 1px solid #dc2626;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a i {
+  border: 0px solid red;
+  font-size: 27px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .facebook {
+  color: #16a6fb;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .instagram {
+  color: #0a58ca;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .youtube {
+  color: #ff0000;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .linkedin-in {
+  color: #2567b3;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .twitter {
+  color: #28a7e8;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px #a4a4a4;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title {
+  border: 0px solid red;
+  margin-bottom: 40px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title .title_text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "Medium";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_item {
+  border: 0px solid red;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: 0;
+  border: 1px solid #a4a4a4;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Medium";
+  color: #494949;
+  padding: 14px 12px;
+  border-radius: 8px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form textarea {
+  height: 100px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_button {
+  border: 0px solid red;
+  padding: 18px 12px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  background-color: transparent;
+  border: 1px solid #a4a4a4;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_button:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+  border: 1px solid #dc2626;
+}
+
+.general_question_area {
+  border: 0px solid red;
+  width: 846px;
+  margin: auto;
+  margin-top: 80px;
+}
+.general_question_area .question_title {
+  border: 0px solid red;
+  margin-bottom: 40px;
+}
+.general_question_area .question_title .general_question_title {
+  border: 0px solid red;
+}
+.general_question_area .question_title .general_question_title .text {
+  border: 0px solid red;
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Medium";
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+.general_question_area .question_title .general_question_sub_title {
+  border: 0px solid red;
+}
+.general_question_area .question_title .general_question_sub_title .sub_text {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Regular";
+  color: #494949;
+}
+.general_question_area .question_and_ans_area {
+  border: 0px solid red;
+  border-bottom: 2px solid #d2d2d2;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+}
+.general_question_area .question_and_ans_area .question_area {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  padding-bottom: 10px;
+}
+.general_question_area .question_and_ans_area .question_area .question {
+  border: 0px solid red;
+}
+.general_question_area .question_and_ans_area .question_area .question .q_text {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Medium";
+  color: #494949;
+}
+.general_question_area .question_and_ans_area .question_area .question_icon {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.general_question_area .question_and_ans_area .question_area .question_icon i {
+  border: 0px solid red;
+  font-size: 20px;
+  color: #494949;
+}
+.general_question_area .question_and_ans_area .ans_area {
+  border: 0px solid red;
+  background-color: #f3f4f6;
+  padding: 15px;
+  margin-top: 15px;
+}
+.general_question_area .question_and_ans_area .ans_area .a_text {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Regular";
+  color: #494949;
+}
+
 .footer_area_start {
   border: 0px solid red;
   padding-top: 120px;
