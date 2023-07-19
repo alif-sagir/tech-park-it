@@ -3402,4 +3402,81 @@ html ::-webkit-scrollbar-thumb:hover {
   display: block;
 }
 
+.course_details_quiz_area .course_progress_mearn {
+  margin-top: 56px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_mearn_title {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 61.5px */
+  margin-bottom: 14px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area {
+  border-radius: 8px;
+  background: var(--secondary-20, #f3f4f6);
+  display: flex;
+  align-items: center;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_progress .course_progress_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H5/Semibold 20 */
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  padding-top: 23px;
+  padding-left: 16px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_progress .course_progress_bar {
+  width: 1091px;
+  height: 15px;
+  border-radius: 6px;
+  background-color: #e5e7eb;
+  margin-left: 16px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_progress .course_progress_bar .course_progress_bar_complete {
+  width: 85.269px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--green-2, #27ae60);
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_progress .course_progress_info {
+  color: var(--mute-color-80, #494949);
+  /* H6/Small Regular 14 */
+  font-family: Baloo Da 2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  margin-top: 8px;
+  margin-left: 16px;
+  padding-bottom: 30px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_certificate {
+  position: relative;
+  padding: 8px 10px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_certificate .course_certificate_image {
+  width: 170px;
+  height: 120px;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_certificate .course_certificate_lock {
+  position: absolute;
+  top: 0;
+  width: 170px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.course_details_quiz_area .course_progress_mearn .course_progress_area .course_certificate .course_certificate_lock i {
+  font-size: 30px;
+  color: #FEF2F2;
+}
+
 /*# sourceMappingURL=style.css.map */
