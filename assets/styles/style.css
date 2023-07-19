@@ -3567,4 +3567,160 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 0px 0px 12px 0px;
 }
 
+.course_quize_and_module_part {
+  margin-top: 100px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details {
+  width: 411px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features {
+  margin-top: 24px;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0px;
+  margin: 0px 17px;
+  border-bottom: 1px solid rgb(217, 214, 214);
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number {
+  display: flex;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; /* 28px */
+  display: flex;
+  align-items: center;
+  margin-right: 43px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number span {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-left: 10px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H4/Semibold 26 */
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 39px */
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details li {
+  margin: 0px 10px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details li:first-child {
+  margin-left: 0;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li.active {
+  display: block;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li.active .class_module_title {
+  border-bottom: 0;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li.active .class_module_title .class_module_acordion_icon i {
+  color: red;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li.active .class_module_title .class_module_acordion_icon i::before {
+  content: "\f106";
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li.active .class_module_feature_content {
+  display: block;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content {
+  display: none;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li {
+  margin: 0px 17px;
+  padding: 8px 0px;
+  border-top: 1px solid #d2d2d2;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .class_module_class_no {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H6/Medium 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  margin-bottom: 8px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic {
+  margin-bottom: 16px;
+  display: flex;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .live_class_icon img {
+  width: 24;
+  height: 24px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .class_module_live_class {
+  margin-left: 8px;
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .live_class_and_topic .class_module_topic {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 5px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq {
+  display: flex;
+  margin-left: 5px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .quiz_icon i {
+  width: 24px;
+  height: 24px;
+  color: #787e8a;
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .quiz {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_feature_content ul li .quiz_and_mcq .mcq {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-left: 5px;
+}
+
 /*# sourceMappingURL=style.css.map */
