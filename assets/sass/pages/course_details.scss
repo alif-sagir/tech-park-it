@@ -492,7 +492,7 @@
             border-radius: 16px 16px 0px 0px;
             .course_info_div {
                 border: 1px solid #d2d2d2;
-                border-radius: 16px 16px 0px 0px;
+                border-radius: 16px;
                 .course_info_thubnail_and_icon {
                     position: relative;
                     // border: 1px solid red;
@@ -637,6 +637,199 @@
                             color: #fff;
                         }
                     }
+                    .admit_course_batch {
+                        display: flex;
+                        background: var(--secondary-20, #f3f4f6);
+                        .admit_course_batch_title {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 30px */
+                            margin: 19px 15px;
+                        }
+                        .admit_course_start_and_deadline {
+                            display: flex;
+                            .admit_course_start {
+                                margin: 8px 7px;
+                                .admit_course_start_title {
+                                    display: flex;
+                                    align-items: center;
+                                    i {
+                                        font-size: 16px;
+                                        margin-right: 4px;
+                                        color: #494949;
+                                    }
+                                    color: var(--mute-color-100, #1c1c1c);
+
+                                    /* H6/Small Regular 14 */
+                                    font-family: Baloo Da 2;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 160%; /* 22.4px */
+                                }
+                                .admit_course_start_date {
+                                    color: var(--mute-color-100, #1c1c1c);
+
+                                    /* Body Regular 16 */
+                                    font-family: Baloo Da 2;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 160%; /* 25.6px */
+                                }
+                            }
+                            .admit_course_line {
+                                padding: 1px;
+                                background-color: #bdbdbd;
+                                width: 1px;
+                                height: 36px;
+                                margin: 15px 20px;
+                            }
+                            .admit_course_deadline {
+                                margin: 8px 7px;
+                                .admit_course_deadline_title {
+                                    display: flex;
+                                    align-items: center;
+                                    i {
+                                        font-size: 16px;
+                                        margin-right: 4px;
+                                        color: #494949;
+                                    }
+                                    color: var(--mute-color-100, #1c1c1c);
+
+                                    /* H6/Small Regular 14 */
+                                    font-family: Baloo Da 2;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 160%; /* 22.4px */
+                                }
+                                .admit_course_deadline_date {
+                                    color: var(--mute-color-100, #1c1c1c);
+
+                                    /* Body Regular 16 */
+                                    font-family: Baloo Da 2;
+                                    font-size: 16px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 160%; /* 25.6px */
+                                }
+                            }
+                        }
+                    }
+                    .admit_course_batch_details {
+                        margin: 12px 16px;
+                        .admit_course_orientation {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 160%; /* 25.6px */
+                            margin-bottom: 12px;
+                        }
+                        .admit_course_class_date {
+                            color: var(--mute-color-80, #494949);
+
+                            /* Body Regular 16 */
+                            font-family: Baloo Da 2;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%; /* 25.6px */
+                            margin-bottom: 12px;
+                        }
+                        .admit_course_class_time {
+                            color: var(--mute-color-100, #1c1c1c);
+
+                            /* Body Regular 16 */
+                            font-family: Baloo Da 2;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%;
+                        }
+                        i {
+                            width: 16px;
+                            margin-right: 6px;
+                            color: #494949;
+                        }
+                    }
+                }
+            }
+            .course_needed {
+                margin-top: 24px;
+                border-top: 1px solid #e0e0e0;
+                .course_needed_title {
+                    color: var(--mute-color-100, #1c1c1c);
+                    font-family: Baloo Da 2;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 39px */
+                    padding-top: 24px;
+                }
+                .course_needed_internet {
+                    color: var(--mute-color-100, #1c1c1c);
+                    font-family: Baloo Da 2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 150%; /* 24px */
+                    padding-top: 10px;
+                    margin-bottom: 32px;
+                    i {
+                        padding-right: 6px;
+                    }
+                }
+                .course_hotline_and_schedule {
+                    border-radius: 8px;
+                    background: var(--secondary-20, #f3f4f6);
+                    .course_hotline {
+                        padding-top: 26px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        .course_hotline_title {
+                            color: var(--mute-color-80, #494949);
+                            text-align: center;
+                            font-family: Baloo Da 2;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 160%; /* 25.6px */
+                        }
+                        i {
+                            color: #494949;
+                            padding: 0px 6px;
+                        }
+                        .course_hotline_number {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 30px */
+                        }
+                    }
+                    .course_schedule {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H6/Small Regular 14 */
+                        font-family: Baloo Da 2;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 22.4px */
+                        margin-top: 8px;
+                        padding-bottom: 24px;
+                    }
                 }
             }
         }
@@ -671,11 +864,11 @@
             .general_question_all {
                 margin-top: 42px;
                 .general_question {
-                    background-color: #f3f4f6;
+                    // background-color: #f3f4f6;
                     border-radius: 8px;
                     li {
                         margin: 14px 16px;
-                        padding: 12px 0;
+                        // padding: 12px 0;
                         border-bottom: 1px solid #d2d2d2;
 
                         .general_question_title_and_icon {
