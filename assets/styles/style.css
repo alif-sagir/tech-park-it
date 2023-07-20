@@ -3838,4 +3838,148 @@ html ::-webkit-scrollbar-thumb:hover {
   cursor: not-allowed;
 }
 
+.my_courses_area .my_courses {
+  margin-top: 100px;
+}
+.my_courses_area .my_courses .my_courses_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H2/Semibold 41p */
+  font-family: Baloo Da 2;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 61.5px */
+}
+.my_courses_area .my_courses .my_all_courses {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my_courses_area .my_courses .my_all_courses .complete_course {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--secondary-20, #f3f4f6);
+  padding: 32px 24px;
+  margin-top: 40px;
+  width: 411px;
+}
+.my_courses_area .my_courses .my_all_courses .complete_course .complete_courses_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #d5f4e2;
+  border-radius: 6px;
+}
+.my_courses_area .my_courses .my_all_courses .complete_course .complete_courses_icon i {
+  font-size: 60px;
+  color: #219653;
+}
+.my_courses_area .my_courses .my_all_courses .complete_course .complete_courses_info {
+  margin-left: 24px;
+}
+.my_courses_area .my_courses .my_all_courses .complete_course .complete_courses_info .complete_courses_title {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 39px */
+}
+.my_courses_area .my_courses .my_all_courses .complete_course .complete_courses_info .complete_courses_total {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  margin-top: 16px;
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--secondary-20, #f3f4f6);
+  padding: 32px 24px;
+  margin-top: 40px;
+  width: 411px;
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #DCEBFF;
+  border-radius: 6px;
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_icon i {
+  font-size: 60px;
+  color: #2F80ED;
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_info {
+  margin-left: 24px;
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_info .contunued_courses_title {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 39px */
+}
+.my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_info .contunued_courses_total {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  margin-top: 16px;
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course {
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  background: var(--secondary-20, #f3f4f6);
+  padding: 32px 24px;
+  margin-top: 40px;
+  width: 411px;
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: #FEE2E2;
+  border-radius: 6px;
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_icon i {
+  font-size: 60px;
+  color: #DC2626;
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_info {
+  margin-left: 24px;
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_info .incomplete_courses_title {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 39px */
+}
+.my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_info .incomplete_courses_total {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  margin-top: 16px;
+}
+
 /*# sourceMappingURL=style.css.map */
