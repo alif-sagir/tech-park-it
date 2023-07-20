@@ -114,88 +114,89 @@
         }
         .class_routine_table {
             // border-radius: 12px;
-           .table_div{
-            border: 1px solid #e5e7eb;
-            border-radius: 12px;
-            margin-top: 12px;
-            table {
-                width: 100%;
-                thead {
-                    border-radius: 12px 12px 0px 0px;
-                    background: var(--secondary-20, #f3f4f6);
-                    tr {
-                        // border-radius: 12px;
-                        td {
-                            // border: 1px solid #e5e7eb;
-                            text-align: center;
-                            color: var(--mute-color-100, #1c1c1c);
-                            font-family: Baloo Da 2;
-                            font-size: 32px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: 150%; /* 48px */
-                            border-right:  1px solid #e5e7eb;
-                            padding-top: 14px;
-                            &:first-child{
-                                border-radius: 12px 0px 0px 0px;
-                            }
-                            &:last-child{
-                                border-radius: 0px 12px 0px 0px;
-                                border-right: 0px;
+            .table_div {
+                border: 1px solid #e5e7eb;
+                border-radius: 12px;
+                margin-top: 12px;
+                table {
+                    width: 100%;
+                    thead {
+                        border-radius: 12px 12px 0px 0px;
+                        background: var(--secondary-20, #f3f4f6);
+                        tr {
+                            // border-radius: 12px;
+                            td {
+                                // border: 1px solid #e5e7eb;
+                                text-align: center;
+                                color: var(--mute-color-100, #1c1c1c);
+                                font-family: Baloo Da 2;
+                                font-size: 32px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%; /* 48px */
+                                border-right: 1px solid #e5e7eb;
+                                padding-top: 14px;
+                                &:first-child {
+                                    border-radius: 12px 0px 0px 0px;
+                                }
+                                &:last-child {
+                                    border-radius: 0px 12px 0px 0px;
+                                    border-right: 0px;
+                                }
                             }
                         }
                     }
-                }
-                tbody {
-                    tr {
-                        td {
-                            border: 1px solid #e5e7eb;
-                            text-align: center;
-                            color: var(--mute-color-100, #1c1c1c);
-                            text-align: center;
-                            font-family: Baloo Da 2;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: 150%; 
-                            padding: 20px;
-                            &:first-child{
-                                border-left: 0px;
+                    tbody {
+                        tr {
+                            td {
+                                border: 1px solid #e5e7eb;
+                                text-align: center;
+                                color: var(--mute-color-100, #1c1c1c);
+                                text-align: center;
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%;
+                                padding: 20px;
+                                &:first-child {
+                                    border-left: 0px;
+                                }
+                                &:last-child:last-child {
+                                    border-right: 0px;
+                                }
                             }
-                            &:last-child:last-child{
-                                border-right: 0px;
+                            &:last-child {
+                                td {
+                                    border-bottom: 0px;
+                                    &:first-child {
+                                        border-radius: 0px 0px 0px 12px;
+                                        // background-color: red;
+                                        border-left: 0;
+                                    }
+                                    &:last-child {
+                                        border-radius: 0px 0px 12px 0px;
+                                        // background-color: red;
+                                    }
+                                }
                             }
                         }
-                       &:last-child{
-                        td{
-                            border-bottom: 0px;
-                            &:first-child{
-                                border-radius: 0px 0px 0px 12px;
-                                // background-color: red;
-                                border-left: 0;
-                            }
-                            &:last-child{
-                                border-radius: 0px 0px 12px 0px;
-                                // background-color: red;
-                            }
-                        }
-                       }
                     }
                 }
             }
-           }
         }
     }
 }
-.course_quize_and_module_part{
+.course_quize_and_module_part {
     margin-top: 100px;
-    .mearn_course_detail_module{
+    .mearn_course_detail_module {
+        display: flex;
         .class_module_details {
             width: 411px;
             .class_module_features {
-                margin-top: 24px;
                 border-radius: 8px;
                 border: 1px solid #d2d2d2;
+                margin-bottom: 16px;
                 li {
                     .class_module_title {
                         display: flex;
@@ -203,6 +204,7 @@
                         align-items: center;
                         padding: 24px 0px;
                         margin: 0px 17px;
+                        // margin-bottom: 16px;
                         border-bottom: 1px solid rgb(217, 214, 214);
                         .class_module_title_and_number {
                             display: flex;
@@ -230,7 +232,7 @@
                                 // margin-left: 43px;
                                 .title {
                                     color: var(--mute-color-100, #1c1c1c);
-        
+
                                     /* H4/Semibold 26 */
                                     font-family: Baloo Da 2;
                                     font-size: 20px;
@@ -282,7 +284,7 @@
                                 border-top: 1px solid #d2d2d2;
                                 .class_module_class_no {
                                     color: var(--mute-color-100, #1c1c1c);
-        
+
                                     /* H6/Medium 16 */
                                     font-family: Baloo Da 2;
                                     font-size: 16px;
@@ -304,7 +306,7 @@
                                     .class_module_live_class {
                                         margin-left: 8px;
                                         color: var(--mute-color-80, #494949);
-        
+
                                         /* Body Regular 16 */
                                         font-family: Baloo Da 2;
                                         font-size: 16px;
@@ -314,7 +316,7 @@
                                     }
                                     .class_module_topic {
                                         color: var(--mute-color-80, #494949);
-        
+
                                         /* Body Regular 16 */
                                         font-family: Baloo Da 2;
                                         font-size: 16px;
@@ -336,7 +338,7 @@
                                     }
                                     .quiz {
                                         color: var(--mute-color-80, #494949);
-        
+
                                         /* Body Regular 16 */
                                         font-family: Baloo Da 2;
                                         font-size: 16px;
@@ -346,7 +348,7 @@
                                     }
                                     .mcq {
                                         color: var(--mute-color-80, #494949);
-        
+
                                         /* Body Regular 16 */
                                         font-family: Baloo Da 2;
                                         font-size: 16px;
@@ -359,6 +361,120 @@
                             }
                         }
                     }
+                }
+            }
+        }
+        .mearn_course_quiz_part {
+            flex: 1;
+            margin-left: 24px;
+            .mearn_course_quiz_and_submit {
+                border-radius: 12px;
+                padding-bottom: 32px;
+                background: var(--secondary-20, #f3f4f6);
+                .course_quiz_question {
+                    padding-top: 32px;
+                    margin-left: 24px;
+                    .course_quiz_question_title {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 30px */
+                        margin-bottom: 17px;
+                    }
+                    li {
+                        margin-top: 12px;
+                        display: flex;
+                        align-items: center;
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 25.6px */
+                        i {
+                            margin-right: 4px;
+                            padding-bottom: 3px;
+                        }
+                        span {
+                            margin-left: 15px;
+                        }
+                    }
+                }
+                .quiz_submit_btn {
+                    margin-left: 24px;
+                    margin-top: 16px;
+                    padding-bottom: 32px;
+                    display: flex;
+                    width: 198px;
+                    height: 56px;
+                    padding: 12px 24px 11px 24px;
+                    justify-content: center;
+                    align-items: center;
+                    // border: 1px solid red;
+                    background-color: #dc2626;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    button {
+                        color: #fff;
+                        text-align: center;
+                        font-family: Baloo Da 2;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        background-color: #dc2626;
+                        border: none;
+                        padding: 12px;
+                    }
+                }
+            }
+            .mearn_course_previos_and_next_button {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 32px;
+                .previous_btn {
+                    display: flex;
+                    width: 208px;
+                    height: 56px;
+                    padding: 12px 24px 11px 24px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex-shrink: 0;
+                    border-radius: 8px;
+                    border: 1px solid var(--secondary-60, #6b7280);
+                    background: var(--white-100, #fff);
+                    color: var(--mute-color-100, #1c1c1c);
+                    text-align: center;
+                    font-family: Baloo Da 2;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    cursor: pointer;
+                }
+                .next_btn {
+                    display: flex;
+                    width: 208px;
+                    height: 56px;
+                    padding: 12px 24px 11px 24px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    flex-shrink: 0;
+                    border-radius: 8px;
+                    background: var(--mute-color-20, #d2d2d2);
+                    color: #fff;
+                    text-align: center;
+                    font-family: Baloo Da 2;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    // line-height: normal;
+                    cursor:not-allowed;
                 }
             }
         }

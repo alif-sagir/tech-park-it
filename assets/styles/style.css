@@ -3570,13 +3570,16 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_quize_and_module_part {
   margin-top: 100px;
 }
+.course_quize_and_module_part .mearn_course_detail_module {
+  display: flex;
+}
 .course_quize_and_module_part .mearn_course_detail_module .class_module_details {
   width: 411px;
 }
 .course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features {
-  margin-top: 24px;
   border-radius: 8px;
   border: 1px solid #d2d2d2;
+  margin-bottom: 16px;
 }
 .course_quize_and_module_part .mearn_course_detail_module .class_module_details .class_module_features li .class_module_title {
   display: flex;
@@ -3721,6 +3724,118 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 160%; /* 25.6px */
   margin-left: 5px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part {
+  flex: 1;
+  margin-left: 24px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit {
+  border-radius: 12px;
+  padding-bottom: 32px;
+  background: var(--secondary-20, #f3f4f6);
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .course_quiz_question {
+  padding-top: 32px;
+  margin-left: 24px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .course_quiz_question .course_quiz_question_title {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  margin-bottom: 17px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .course_quiz_question li {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .course_quiz_question li i {
+  margin-right: 4px;
+  padding-bottom: 3px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .course_quiz_question li span {
+  margin-left: 15px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .quiz_submit_btn {
+  margin-left: 24px;
+  margin-top: 16px;
+  padding-bottom: 32px;
+  display: flex;
+  width: 198px;
+  height: 56px;
+  padding: 12px 24px 11px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #dc2626;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_quiz_and_submit .quiz_submit_btn button {
+  color: #fff;
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: #dc2626;
+  border: none;
+  padding: 12px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_previos_and_next_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_previos_and_next_button .previous_btn {
+  display: flex;
+  width: 208px;
+  height: 56px;
+  padding: 12px 24px 11px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-60, #6b7280);
+  background: var(--white-100, #fff);
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+.course_quize_and_module_part .mearn_course_detail_module .mearn_course_quiz_part .mearn_course_previos_and_next_button .next_btn {
+  display: flex;
+  width: 208px;
+  height: 56px;
+  padding: 12px 24px 11px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--mute-color-20, #d2d2d2);
+  color: #fff;
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  cursor: not-allowed;
 }
 
 /*# sourceMappingURL=style.css.map */
