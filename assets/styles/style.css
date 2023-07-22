@@ -3508,6 +3508,18 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_quiz_area .class_routine .class_routine_title_and_details .class_routine_details i {
   padding-left: 8px;
 }
+.course_details_quiz_area .class_routine .class_routine_table .class_routine_month {
+  text-align: center;
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 39px */
+  margin-top: 32px;
+  margin-bottom: 15px;
+}
 .course_details_quiz_area .class_routine .class_routine_table .table_div {
   border: 1px solid #e5e7eb;
   border-radius: 12px;

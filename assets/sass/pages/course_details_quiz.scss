@@ -114,6 +114,18 @@
         }
         .class_routine_table {
             // border-radius: 12px;
+            .class_routine_month {
+                text-align: center;
+                color: var(--mute-color-100, #1c1c1c);
+                text-align: center;
+                font-family: Baloo Da 2;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 150%; /* 39px */
+                margin-top: 32px;
+                margin-bottom: 15px;
+            }
             .table_div {
                 border: 1px solid #e5e7eb;
                 border-radius: 12px;
@@ -470,11 +482,11 @@
                     color: #fff;
                     text-align: center;
                     font-family: Baloo Da 2;
-                    font-size: 18px; 
+                    font-size: 18px;
                     font-style: normal;
                     font-weight: 600;
                     // line-height: normal;
-                    cursor:not-allowed;
+                    cursor: not-allowed;
                 }
             }
         }
