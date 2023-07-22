@@ -3849,6 +3849,66 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   cursor: not-allowed;
 }
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn {
+  margin-left: 24px;
+  flex-direction: column;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video {
+  position: relative;
+  cursor: pointer;
+  border-radius: 23px;
+  height: 480px;
+  border: 1px solid red;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum {
+  width: 858px;
+  height: 480px;
+  border-radius: 23px;
+  height: 480px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum img {
+  width: 858px;
+  height: 480px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video:hover .course_lession_video_icon {
+  background-color: rgba(36, 22, 1, 0.342);
+  width: 858px;
+  height: 480px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_icon {
+  width: 858px;
+  height: 480px;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 23px;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video_next_btn {
+  display: flex;
+  justify-content: end;
+}
+.course_quize_and_module_part .mearn_course_detail_module .course_lession_video_btn .course_lession_video_next_btn .next_btn {
+  display: flex;
+  margin-top: 31px;
+  width: 208px;
+  height: 56px;
+  padding: 12px 24px 11px 24px;
+  justify-content: center;
+  align-items: center;
+  background-color: #DC2626;
+  gap: 10px;
+  color: #FFF;
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
 .my_courses_area .my_courses {
   margin-top: 100px;

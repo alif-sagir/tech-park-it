@@ -203,6 +203,7 @@
     margin-top: 100px;
     .mearn_course_detail_module {
         display: flex;
+        
         .class_module_details {
             width: 411px;
             .class_module_features {
@@ -490,5 +491,72 @@
                 }
             }
         }
+        .course_lession_video_btn {
+            margin-left: 24px;
+            flex-direction: column;
+            .course_lession_video {
+                // width: 844px;
+
+                position: relative;
+                cursor: pointer;
+                border-radius: 23px;
+                height: 480px;
+                border: 1px solid red;
+                .course_lession_video_thum {
+                    width: 858px;
+                    height: 480px;
+                    // background-color: olive;
+                    border-radius: 23px;
+                    // width: 100%;
+                    height: 480px;
+                    img {
+                        width: 858px;
+                        height: 480px;
+                    }
+                }
+                &:hover .course_lession_video_icon {
+                    background-color: rgba(36, 22, 1, 0.342);
+                    width: 858px;
+                    height: 480px;
+                }
+                .course_lession_video_icon {
+                    width: 858px;
+                    height: 480px;
+                    position: absolute;
+                    top: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    // background-color: rgba(77, 76, 76, 0.562);
+                    border-radius: 23px;
+                }
+            }
+            .course_lession_video_next_btn {
+                display: flex;
+                justify-content: end;
+                .next_btn{
+                    display: flex;
+                    margin-top: 31px;
+                width: 208px;
+                height: 56px;
+                padding: 12px 24px 11px 24px;
+                justify-content: center;
+                align-items: center;
+                background-color: #DC2626;
+                gap: 10px;
+                color: #FFF;
+                text-align: center;
+                font-family: Baloo Da 2;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                border-radius: 8px;
+                cursor: pointer;
+                }
+                
+            }
+        }
     }
+   
 }
