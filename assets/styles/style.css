@@ -3912,12 +3912,12 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   width: 120px;
   height: 120px;
-  background-color: #DCEBFF;
+  background-color: #dcebff;
   border-radius: 6px;
 }
 .my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_icon i {
   font-size: 60px;
-  color: #2F80ED;
+  color: #2f80ed;
 }
 .my_courses_area .my_courses .my_all_courses .contunued_course .contunued_courses_info {
   margin-left: 24px;
@@ -3954,12 +3954,12 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   width: 120px;
   height: 120px;
-  background-color: #FEE2E2;
+  background-color: #fee2e2;
   border-radius: 6px;
 }
 .my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_icon i {
   font-size: 60px;
-  color: #DC2626;
+  color: #dc2626;
 }
 .my_courses_area .my_courses .my_all_courses .incomplete_course .incomplete_courses_info {
   margin-left: 24px;
@@ -3980,6 +3980,247 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 48px */
   margin-top: 16px;
+}
+.my_courses_area .my_contunued_courses {
+  margin-top: 100px;
+}
+.my_courses_area .my_contunued_courses .my_contunued_courses_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H4/Semibold 26 */
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 39px */
+}
+.my_courses_area .my_contunued_courses .contunued_courses_border {
+  border-bottom: 1px solid #D2D2D2;
+  margin-top: 12px;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses {
+  margin-top: 32px;
+  display: grid;
+  gap: 32px;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card {
+  border: 1px solid rgb(228, 227, 227);
+  display: grid;
+  align-content: space-between;
+  background-color: #ffffff;
+  margin-bottom: 49px;
+  border-radius: 8px 8px 0px;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card {
+    margin: 20px 20px 0px 20px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card:hover .card_title_area .card_title .title_text {
+  color: #dc2626;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card:hover .card_title_area .amount_and_button_area .button_all {
+  background-color: #dc2626;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card:hover .card_title_area .amount_and_button_area .button_all .btn-text {
+  color: #ffffff;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card:hover .card_title_area .amount_and_button_area .button_all .btn_icon i {
+  color: #ffffff;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card:hover .card_img_area .card_img img {
+  transform: scale(0.9);
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area {
+  border: 0px solid red;
+  justify-content: center;
+  display: flex;
+  padding: 24px 72px;
+  height: 250px;
+  border-bottom: 2px solid #e0e0e0;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area {
+    padding: unset;
+    height: 190px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area .card_img {
+  border: 0px solid red;
+  width: 200px;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area .card_img {
+    width: 170px;
+    align-content: center;
+    display: grid;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_img_area .card_img img {
+  border: 0px solid red;
+  width: 100%;
+  transition-duration: 0.4s;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area {
+  padding-top: 17px;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title {
+  border: 0px solid red;
+  padding-bottom: 14px;
+  margin-left: 16px;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title {
+    margin: 0px 5px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title .title_text {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  transition-duration: 0.4s;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .card_title .title_text {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area {
+  border: 0px solid red;
+  display: flex;
+  padding-bottom: 14px;
+  margin-left: 19px;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area {
+    margin: 0px 5px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area {
+  margin-right: 12px;
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Medium";
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_icon {
+  border: 0px solid red;
+  padding-right: 8px;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_icon img {
+  border: 0px solid red;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .day_area .day_tex {
+  border: 0px solid red;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .boking_area {
+  border: 0px solid red;
+  font-size: 12px;
+  line-height: 15px;
+  font-family: "Medium";
+  border: 3px solid #dc2626;
+  margin-right: 16px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding-top: 10px;
+  text-align: center;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .day_and_boking_area .boking_area .boking_text {
+  border: 0px solid red;
+  display: block;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area {
+  border: 0px solid red;
+  border-top: 1px solid #fef2f2;
+  width: 100%;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area {
+    display: block;
+    text-align: center;
+    margin: 0px 5px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area {
+  border: 0px solid red;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "SemiBold";
+  color: #dc2626;
+  padding-right: 6px;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .previous_amount_area .previous_amount .taka {
+  border: 0px solid red;
+  text-decoration: line-through;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area {
+  border: 0px solid red;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "SemiBold";
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .all_amount .current_amount_area .current_amount .taka {
+  border: 0px solid red;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all {
+  font-size: 16px;
+  line-height: 14px;
+  font-family: "Medium";
+  padding: 17px 25px;
+  border-radius: 6px;
+  border: 1px solid #dc2626;
+  width: 100%;
+  color: #dc2626;
+  transition-duration: 0.7s;
+}
+@media screen and (max-width: 575.9px) {
+  .my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all {
+    margin: 10px 0px;
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn-text {
+  border: 0px solid red;
+  padding-right: 8px;
+  transition-duration: 0.4s;
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn_icon {
+  border: 0px solid red;
+  animation: right_animation 2s linear infinite;
+}
+@keyframes right_animation {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(10px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.my_courses_area .my_contunued_courses .my_contunued_all_courses .c_card .card_title_area .amount_and_button_area .button_all .btn_icon i {
+  border: 0px solid red;
+  font-size: 16px;
+  color: #dc2626;
+  transition-duration: 0.4s;
 }
 
 /*# sourceMappingURL=style.css.map */

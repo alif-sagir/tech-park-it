@@ -71,11 +71,11 @@
                     align-items: center;
                     width: 120px;
                     height: 120px;
-                    background-color: #DCEBFF;
+                    background-color: #dcebff;
                     border-radius: 6px;
                     i {
                         font-size: 60px;
-                        color: #2F80ED;
+                        color: #2f80ed;
                     }
                 }
                 .contunued_courses_info {
@@ -113,11 +113,11 @@
                     align-items: center;
                     width: 120px;
                     height: 120px;
-                    background-color: #FEE2E2;
+                    background-color: #fee2e2;
                     border-radius: 6px;
                     i {
                         font-size: 60px;
-                        color: #DC2626;
+                        color: #dc2626;
                     }
                 }
                 .incomplete_courses_info {
@@ -140,6 +140,276 @@
                         margin-top: 16px;
                     }
                 }
+            }
+        }
+    }
+    .my_contunued_courses {
+        margin-top: 100px;
+        .my_contunued_courses_title {
+            color: var(--mute-color-100, #1c1c1c);
+
+            /* H4/Semibold 26 */
+            font-family: Baloo Da 2;
+            font-size: 26px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 39px */
+        }
+        .contunued_courses_border{
+            border-bottom: 1px solid #D2D2D2;
+            margin-top: 12px;
+        }
+        .my_contunued_all_courses {
+            margin-top: 32px;
+            display: grid;
+            gap: 32px;
+            justify-content: center;
+            grid-template-columns: repeat(3, 1fr);
+            .c_card {
+                border: 1px solid rgb(228, 227, 227);
+                display: grid;
+                align-content: space-between;
+                background-color: $white;
+                margin-bottom: 49px;
+                border-radius: 8px 8px 0px;
+                @include xs() {
+                    margin: 20px 20px 0px 20px;
+                }
+
+                &:hover {
+                    .card_title_area {
+                        .card_title {
+                            .title_text {
+                                color: $primary_color;
+                            }
+                        }
+                        .amount_and_button_area {
+                            .button_all {
+                                background-color: $primary_color;
+                                .btn-text {
+                                    color: $white;
+                                }
+                                .btn_icon {
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .card_img_area {
+                        .card_img {
+                            img {
+                                transform: scale(0.9);
+                            }
+                        }
+                    }
+                }
+
+                .card_img_area {
+                    border: $border;
+                    justify-content: center;
+                    display: flex;
+                    padding: 24px 72px;
+                    height: 250px;
+                    border-bottom: 2px solid #e0e0e0;
+                    @include xs() {
+                        padding: unset;
+                        height: 190px;
+                    }
+                    // height: 225px;
+                    // align-items: center;
+                    // display: grid;
+                    .card_img {
+                        border: $border;
+                        width: 200px;
+                        @include xs() {
+                            width: 170px;
+                            align-content: center;
+                            display: grid;
+                        }
+                        // justify-content: center;
+                        // display: flex;
+                        // padding: 24px 72px;
+                        img {
+                            border: $border;
+                            width: 100%;
+                            transition-duration: 0.4s;
+                        }
+                    }
+                }
+                // card_title_area start
+                .card_title_area {
+                    // border-top: 2px solid #e0e0e0;
+                    padding-top: 17px;
+                    .card_title {
+                        border: $border;
+                        padding-bottom: 14px;
+                        margin-left: 16px;
+                        @include xs() {
+                            margin: 0px 5px;
+                        }
+                        .title_text {
+                            border: $border;
+                            font-size: 20px;
+                            line-height: 30px;
+                            font-family: $font_semibold;
+                            color: $mute_1;
+                            transition-duration: 0.4s;
+                            @include xs() {
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                    .day_and_boking_area {
+                        border: $border;
+                        display: flex;
+                        // justify-content: space-between;
+                        padding-bottom: 14px;
+                        margin-left: 19px;
+                        @include xs() {
+                            margin: 0px 5px;
+                        }
+                        .day_area {
+                            margin-right: 12px;
+                            border: $border;
+                            align-items: center;
+                            display: flex;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: $font_medium;
+                            .day_icon {
+                                border: $border;
+                                padding-right: 8px;
+                                img {
+                                    border: $border;
+                                }
+                            }
+                            .day_tex {
+                                border: $border;
+                            }
+                        }
+                        .boking_area {
+                            border: $border;
+                            font-size: 12px;
+                            line-height: 15px;
+                            font-family: $font_medium;
+                            border: 3px solid $primary_color;
+                            margin-right: 16px;
+
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+
+                            // align-items: center;
+                            // display: grid;
+                            // justify-content: center;
+                            padding-top: 10px;
+                            text-align: center;
+
+                            .boking_text {
+                                border: $border;
+                                display: block;
+                            }
+                        }
+                    }
+                    .amount_and_button_area {
+                        border: $border;
+                        // display: flex;
+                        // justify-content: space-between;
+                        border-top: 1px solid $off_orange;
+                        // margin-left: 16px;
+                        width: 100%;
+                        @include xs() {
+                            display: block;
+                            text-align: center;
+                            margin: 0px 5px;
+                        }
+                        .all_amount {
+                            border: $border;
+                            display: flex;
+                            align-items: center;
+
+                            .previous_amount_area {
+                                border: $border;
+                                .previous_amount {
+                                    border: $border;
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                    font-family: $font_semibold;
+                                    color: $primary_color;
+                                    padding-right: 6px;
+                                    .taka {
+                                        border: $border;
+                                        text-decoration: line-through;
+                                    }
+                                }
+                            }
+                            .current_amount_area {
+                                border: $border;
+                                .current_amount {
+                                    border: $border;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    font-family: $font_semibold;
+                                    .taka {
+                                        border: $border;
+                                    }
+                                }
+                            }
+                        }
+                        .button_all {
+                            // border: $border;
+                            font-size: 16px;
+                            line-height: 14px;
+                            font-family: $font_medium;
+                            padding: 17px 25px;
+                            border-radius: 6px;
+                            border: 1px solid $primary_color;
+                            // background-color: $primary_color;
+                            width: 100%;
+                            color: $primary_color;
+                            transition-duration: 0.7s;
+                            // border: transparent;
+                            @include xs() {
+                                margin: 10px 0px;
+                            }
+                            .btn-text {
+                                border: $border;
+                                padding-right: 8px;
+                                transition-duration: 0.4s;
+                            }
+                            .btn_icon {
+                                border: $border;
+                                @keyframes right_animation {
+                                    0% {
+                                        transform: translate(0px);
+                                    }
+
+                                    50% {
+                                        transform: translate(10px);
+                                    }
+
+                                    100% {
+                                        transform: translate(0px);
+                                    }
+                                }
+                                animation: right_animation 2s linear infinite;
+                                i {
+                                    border: $border;
+                                    font-size: 16px;
+                                    color: $primary_color;
+                                    transition-duration: 0.4s;
+                                }
+                                // img {
+                                //     border: $border;
+                                // }
+                            }
+                        }
+                    }
+                }
+                // card_title_area end
             }
         }
     }
