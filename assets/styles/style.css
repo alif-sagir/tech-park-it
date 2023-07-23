@@ -4564,6 +4564,9 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   align-items: center;
 }
+.login_by_password_area .container p {
+  margin-bottom: 16px;
+}
 .login_by_password_area .changed_password_title {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
