@@ -4751,7 +4751,7 @@ html ::-webkit-scrollbar-thumb:hover {
   width: 410px;
   background-color: #ffffff;
   border-radius: 16px;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #d1d5db;
 }
 .our_it_services_area .my_it_service_area_content .service_area .service .service_logo {
   border: 0px solid red;
@@ -4807,6 +4807,185 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 26px;
   font-family: "Regular";
   color: #494949;
+}
+
+.our_services_achivement_area {
+  background: var(--secondary-20, #f3f4f6);
+}
+.our_services_achivement_area .our_services_achivement_and_ratings {
+  display: flex;
+  padding-top: 100px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement {
+  flex: 1;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .achivement_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H3/Semibold 32 */
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 48px */
+  margin-top: 40px;
+  padding-right: 30px;
+  margin-right: 13px;
+  width: 619px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement {
+  margin-top: 48px;
+  display: flex;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients {
+  display: flex;
+  flex-direction: column;
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin-right: 64px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients span {
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  /* H3/Bold 32 */
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects {
+  display: flex;
+  flex-direction: column;
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin-right: 64px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects span {
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  /* H3/Bold 32 */
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings {
+  display: flex;
+  flex-direction: column;
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 180%;
+  margin-right: 64px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings span {
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  /* H3/Bold 32 */
+  font-family: Baloo Da 2;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 48px */
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings {
+  position: relative;
+  border-radius: 8px;
+  background: var(--white-100, #fff);
+  width: 628px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star i {
+  color: #f2994a;
+  font-size: 24px;
+  background-color: rgb(238, 237, 237);
+  padding: 6px;
+  margin-right: 6px;
+  border-radius: 5px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H4/Semibold 26 */
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 39px */
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_info {
+  color: var(--mute-color-80, #494949);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-top: 8px;
+  width: 417px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
+  margin-left: 32px;
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_name {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H5/Bold 20 */
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 150%; /* 30px */
+}
+.our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_company {
+  color: var(--mute-color-100, #1c1c1c);
+  /* Body Regular 16 */
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-top: 6px;
+}
+.our_services_achivement_area .aboutus_partner {
+  margin-top: 64px;
+}
+.our_services_achivement_area .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
+  font-weight: 600px;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1c1c1c;
+}
+.our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items {
+  margin-top: 42px;
+  display: flex;
+}
+.our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item {
+  margin-right: 48px;
+}
+.our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item img {
+  width: 120px;
+  object-fit: contain;
+  object-position: left;
 }
 
 .hire_area .hire_details .hire_content_and_btn {

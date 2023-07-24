@@ -49,7 +49,7 @@
                 // border-radius: 16px;
                 background-color: $white;
                 border-radius: 16px;
-                border: 1px solid #D1D5DB;
+                border: 1px solid #d1d5db;
                 .service_logo {
                     border: $border;
                     text-align: center;
@@ -125,8 +125,209 @@
     }
 }
 // my_it_service_area end
+
+// our services achivement and ratings start
+.our_services_achivement_area {
+    background: var(--secondary-20, #f3f4f6);
+    .our_services_achivement_and_ratings {
+        display: flex;
+        padding-top: 100px;
+        .our_services_achivement {
+            flex: 1;
+            // border: 1px solid red;
+            .achivement_title {
+                color: var(--mute-color-100, #1c1c1c);
+
+                /* H3/Semibold 32 */
+                font-family: Baloo Da 2;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 48px */
+                // border: 1px solid red;
+                margin-top: 40px;
+                padding-right: 30px;
+                margin-right: 13px;
+                width: 619px;
+            }
+            .client_project_ratings_achivement {
+                margin-top: 48px;
+                display: flex;
+                .clients {
+                    display: flex;
+                    flex-direction: column;
+                    color: var(--mute-color-80, #494949);
+                    font-family: Baloo Da 2;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 180%;
+                    margin-right: 64px;
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        text-align: center;
+
+                        /* H3/Bold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 150%; /* 48px */
+                    }
+                }
+                .projects {
+                    display: flex;
+                    flex-direction: column;
+                    color: var(--mute-color-80, #494949);
+                    font-family: Baloo Da 2;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 180%;
+                    margin-right: 64px;
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        text-align: center;
+
+                        /* H3/Bold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 150%; /* 48px */
+                    }
+                }
+                .ratings {
+                    display: flex;
+                    flex-direction: column;
+                    color: var(--mute-color-80, #494949);
+                    font-family: Baloo Da 2;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 180%;
+                    margin-right: 64px;
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        text-align: center;
+
+                        /* H3/Bold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 150%; /* 48px */
+                    }
+                }
+            }
+        }
+        .our_services_ratings {
+            position: relative;
+            // border: 1px solid red;
+            border-radius: 8px;
+            background: var(--white-100, #fff);
+            width: 628px;
+            .rating_star {
+                margin-top: 32px;
+                    margin-left: 32px;
+                i {
+                    color: #f2994a;
+                    font-size: 24px;
+                    background-color: rgb(238, 237, 237);
+                    padding: 6px;
+                    margin-right: 6px;
+                    border-radius: 5px;
+                    
+                }
+            }
+            .rating_content {
+                margin-top: 32px;
+                    margin-left: 32px;
+                .rating_title {
+                    color: var(--mute-color-100, #1c1c1c);
+
+                    /* H4/Semibold 26 */
+                    font-family: Baloo Da 2;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 39px */
+                }
+                .rating_info {
+                    color: var(--mute-color-80, #494949);
+
+                    /* Body Regular 16 */
+                    font-family: Baloo Da 2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 25.6px */
+                    margin-top: 8px;
+                    width: 417px;
+                }
+            }
+            .rating_client {
+                position: absolute;
+                bottom: 0;
+                margin-bottom: 32px;
+                    margin-left: 32px;
+                .rating_client_name {
+                    color: var(--mute-color-100, #1c1c1c);
+
+                    /* H5/Bold 20 */
+                    font-family: Baloo Da 2;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 900;
+                    line-height: 150%; /* 30px */
+                }
+                .rating_client_company {
+                    color: var(--mute-color-100, #1c1c1c);
+
+                    /* Body Regular 16 */
+                    font-family: Baloo Da 2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 25.6px */
+                    margin-top: 6px;
+                }
+            }
+        }
+    }
+    
+        .aboutus_partner {
+            margin-top: 64px;
+            .aboutus_partner_title {
+                .aboutus_partner_title_text {
+                    font-weight: 600px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    color: #1c1c1c;
+                }
+            }
+            .aboutus_partner_items_container {
+                .items {
+                    margin-top: 42px;
+                    display: flex;
+                    .item {
+                        margin-right: 48px;
+                        img {
+                            width: 120px;
+                            // height: 90.82px;
+                            object-fit: contain;
+                            object-position: left;
+                        }
+                    }
+                }
+            }
+      
+    }
+}
+// our services achivement and ratings end
+
 .hire_area {
-    .hire_details{
+    .hire_details {
         // border: 1px solid red;
         .hire_content_and_btn {
             // margin-bottom: 64px;
