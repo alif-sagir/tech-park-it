@@ -1,0 +1,77 @@
+.wordpress_site_development {
+    margin-top: 100px;
+    .wordpress_site_title {
+        color: var(--mute-color-100, #1c1c1c);
+
+        /* H2/Bold 41p */
+        font-family: Baloo Da 2;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 61.5px */
+    }
+    .wordpress_site_price_and_logo {
+        display: flex;
+        margin-top: 32px;
+        .wordpress_logo_and_services {
+            flex: 1;
+            .wordpress_logo {
+                display: flex;
+                justify-content: center;
+                border-radius: 16px;
+                background: #e6f1f8;
+                img {
+                    width: 412px;
+                    height: 412px;
+                    margin: 34px 0px;
+                }
+            }
+        }
+        .wordpress_site_costing {
+            width: 411px;
+            margin-left: 24px;
+            border-radius: 12px;
+            border: 1px solid var(--mute-color-20, #d2d2d2);
+            table {
+                width: 100%;
+                thead {
+                    tr {
+
+                        th {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 30px */
+                            padding-top: 16px;
+                            padding-left:24px;
+                            padding-bottom: 12px;
+                            padding-right: 24px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        th {
+                            color: var(--mute-color-100, #1c1c1c);
+
+                            /* H5/Semibold 20 */
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 150%; /* 30px */
+                            padding-top: 16px;
+                            padding-left: 28px;
+                            padding-right: 28px;
+                            padding-bottom: 25px;
+                            border: 1px solid var(--mute-color-20, #d2d2d2);
+                          
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
