@@ -4704,4 +4704,144 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 4px;
 }
 
+.our_it_services_area {
+  border: 0px solid red;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.our_it_services_area .my_it_service_area_content {
+  border: 0px solid red;
+}
+.our_it_services_area .my_it_service_area_content .our_it_services_heading_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_title {
+  border: 0px solid red;
+  text-align: center;
+}
+.our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_title .area_title {
+  border: 0px solid red;
+  color: #1c1c1c;
+  padding-top: 80px;
+}
+.our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title {
+  border: 0px solid red;
+  text-align: center;
+  margin: 4px 0px 48px 0px;
+  width: 774px;
+}
+.our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title .sub_title {
+  border: 0px solid red;
+  color: #494949;
+}
+.our_it_services_area .my_it_service_area_content .service_area {
+  border: 0px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service {
+  border: 0px solid red;
+  width: 410px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #D1D5DB;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service .service_logo {
+  border: 0px solid red;
+  text-align: center;
+  height: 220px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px 16px 0px 0px;
+}
+.our_it_services_area .my_it_service_area_content .service_area .wordpress .service_logo {
+  background-color: #e6f1f8;
+}
+.our_it_services_area .my_it_service_area_content .service_area .react .service_logo {
+  background-color: #e6fbff;
+}
+.our_it_services_area .my_it_service_area_content .service_area .e_commers .service_logo {
+  background-color: #fef2f2;
+}
+.our_it_services_area .my_it_service_area_content .service_area .psd .service_logo {
+  background-color: #fef2f2;
+}
+.our_it_services_area .my_it_service_area_content .service_area .vue .service_logo {
+  background-color: #ecf8f3;
+}
+.our_it_services_area .my_it_service_area_content .service_area .server .service_logo {
+  background-color: #fef2f2;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service_title_and_description {
+  border: 0px solid red;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 0px 16px 16px;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .title {
+  border: 0px solid red;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .title .title_text {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 40px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  padding: 20px 0px 8px 0px;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .description {
+  border: 0px solid red;
+  padding-bottom: 8px;
+}
+.our_it_services_area .my_it_service_area_content .service_area .service_title_and_description .description .description_text {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Regular";
+  color: #494949;
+}
+
+.hire_area .hire_details .hire_content_and_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 12px;
+  padding: 55px 79px;
+}
+.hire_area .hire_details .hire_content_and_btn .hire_title {
+  text-align: center;
+}
+.hire_area .hire_details .hire_content_and_btn .hire_title .hire_title_bangla {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+}
+.hire_area .hire_details .hire_content_and_btn .hire_title p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.hire_area .hire_details .hire_content_and_btn .hire_btn {
+  width: 195px;
+  height: 56px;
+  background-color: #dc2626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  margin-top: 32px;
+}
+
 /*# sourceMappingURL=style.css.map */
