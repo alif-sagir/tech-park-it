@@ -5004,9 +5004,18 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .our_complete_client_projects .our_client_projects {
   display: flex;
+  gap: 10px;
 }
-.our_complete_client_projects .our_client_projects .our_client_project div {
-  margin-left: 10px;
+.our_complete_client_projects .our_client_projects .our_client_project .client_project_img {
+  border-radius: 5px;
+}
+.our_complete_client_projects .our_client_projects .our_client_project .client_project_name {
+  padding-left: 10px;
+  margin-top: 16px;
+}
+.our_complete_client_projects .our_client_projects .our_client_project:hover .client_project_img {
+  box-shadow: 2px 2px 15px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .hire_area .hire_details .hire_content_and_btn {

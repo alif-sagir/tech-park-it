@@ -341,9 +341,25 @@
     }
     .our_client_projects{
         display: flex;
+        gap: 10px;
         .our_client_project{
-            div{
-                margin-left: 10px;
+            // border: 1px solid red;
+            .client_project_img{
+                // border: 1px solid red;
+                // box-shadow: 2px 2px 15px -5px  rgba(0, 0, 0, 0.5);
+                border-radius: 5px;
+            }
+            .client_project_name{
+                padding-left: 10px;
+                margin-top: 16px;
+                // border: 1px solid red;
+            }
+            &:hover{
+                .client_project_img{
+                    // border: 1px solid red;
+                    box-shadow: 2px 2px 15px -5px  rgba(0, 0, 0, 0.5);
+                    border-radius: 5px;
+                }
             }
             
         }
