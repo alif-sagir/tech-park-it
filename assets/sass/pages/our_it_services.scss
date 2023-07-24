@@ -229,7 +229,7 @@
             width: 628px;
             .rating_star {
                 margin-top: 32px;
-                    margin-left: 32px;
+                margin-left: 32px;
                 i {
                     color: #f2994a;
                     font-size: 24px;
@@ -237,12 +237,11 @@
                     padding: 6px;
                     margin-right: 6px;
                     border-radius: 5px;
-                    
                 }
             }
             .rating_content {
                 margin-top: 32px;
-                    margin-left: 32px;
+                margin-left: 32px;
                 .rating_title {
                     color: var(--mute-color-100, #1c1c1c);
 
@@ -270,7 +269,7 @@
                 position: absolute;
                 bottom: 0;
                 margin-bottom: 32px;
-                    margin-left: 32px;
+                margin-left: 32px;
                 .rating_client_name {
                     color: var(--mute-color-100, #1c1c1c);
 
@@ -295,36 +294,62 @@
             }
         }
     }
-    
-        .aboutus_partner {
-            margin-top: 64px;
-            .aboutus_partner_title {
-                .aboutus_partner_title_text {
-                    font-weight: 600px;
-                    font-size: 32px;
-                    line-height: 48px;
-                    color: #1c1c1c;
-                }
+
+    .aboutus_partner {
+        margin-top: 64px;
+        padding-bottom: 100px;
+        .aboutus_partner_title {
+            .aboutus_partner_title_text {
+                font-weight: 600px;
+                font-size: 32px;
+                line-height: 48px;
+                color: #1c1c1c;
             }
-            .aboutus_partner_items_container {
-                .items {
-                    margin-top: 42px;
-                    display: flex;
-                    .item {
-                        margin-right: 48px;
-                        img {
-                            width: 120px;
-                            // height: 90.82px;
-                            object-fit: contain;
-                            object-position: left;
-                        }
+        }
+        .aboutus_partner_items_container {
+            .items {
+                margin-top: 42px;
+                display: flex;
+                .item {
+                    margin-right: 48px;
+                    img {
+                        width: 120px;
+                        // height: 90.82px;
+                        object-fit: contain;
+                        object-position: left;
                     }
                 }
             }
-      
+        }
     }
 }
 // our services achivement and ratings end
+
+// our complete client projects starts
+.our_complete_client_projects {
+    margin-top: 120px;
+    .client_project_title {
+        color: var(--mute-color-100, #1c1c1c);
+
+        /* H2/Semibold 41p */
+        font-family: Baloo Da 2;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 61.5px */
+        margin-bottom: 32px;
+    }
+    .our_client_projects{
+        display: flex;
+        .our_client_project{
+            div{
+                margin-left: 10px;
+            }
+            
+        }
+    }
+}
+// our complete client projects end
 
 .hire_area {
     .hire_details {
@@ -339,17 +364,20 @@
             border: 1px solid red;
             border-radius: 12px;
             padding: 55px 79px;
+            background-color: #374151;
             .hire_title {
                 text-align: center;
                 .hire_title_bangla {
                     font-weight: 500;
                     font-size: 32px;
                     line-height: 48px;
+                    color: white;
                 }
                 p {
                     margin-top: 10px;
                     font-size: 16px;
                     line-height: 24px;
+                    color: white;
                 }
             }
             .hire_btn {

@@ -4968,6 +4968,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .our_services_achivement_area .aboutus_partner {
   margin-top: 64px;
+  padding-bottom: 100px;
 }
 .our_services_achivement_area .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
   font-weight: 600px;
@@ -4988,6 +4989,26 @@ html ::-webkit-scrollbar-thumb:hover {
   object-position: left;
 }
 
+.our_complete_client_projects {
+  margin-top: 120px;
+}
+.our_complete_client_projects .client_project_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H2/Semibold 41p */
+  font-family: Baloo Da 2;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 61.5px */
+  margin-bottom: 32px;
+}
+.our_complete_client_projects .our_client_projects {
+  display: flex;
+}
+.our_complete_client_projects .our_client_projects .our_client_project div {
+  margin-left: 10px;
+}
+
 .hire_area .hire_details .hire_content_and_btn {
   display: flex;
   flex-direction: column;
@@ -4996,6 +5017,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 1px solid red;
   border-radius: 12px;
   padding: 55px 79px;
+  background-color: #374151;
 }
 .hire_area .hire_details .hire_content_and_btn .hire_title {
   text-align: center;
@@ -5004,11 +5026,13 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   font-size: 32px;
   line-height: 48px;
+  color: white;
 }
 .hire_area .hire_details .hire_content_and_btn .hire_title p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 24px;
+  color: white;
 }
 .hire_area .hire_details .hire_content_and_btn .hire_btn {
   width: 195px;
