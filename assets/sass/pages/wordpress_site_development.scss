@@ -102,6 +102,11 @@
                     }
                     .package_list {
                         ul {
+                            .active{
+                                i{
+                                    color: #219653;
+                                }
+                            }
                             li {
                                 color: var(--mute-color-80, #494949);
                                 font-family: Baloo Da 2;
@@ -114,6 +119,7 @@
                                 text-align: center;
                                 i {
                                     text-align: center;
+                                    color: #E0E0E0;
                                 }
 
                                 &:nth-child(even) {

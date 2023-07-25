@@ -5152,6 +5152,9 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 39px */
 }
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul .active i {
+  color: #219653;
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -5165,6 +5168,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li i {
   text-align: center;
+  color: #E0E0E0;
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li:nth-child(even) {
   background-color: #f3f3f3;
