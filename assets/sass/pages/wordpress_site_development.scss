@@ -13,7 +13,7 @@
     .wordpress_site_price_and_logo {
         display: flex;
         margin-top: 32px;
-        .wordpress_logo_and_services {
+        .wordpress_logo_services_and_package {
             flex: 1;
             .wordpress_logo {
                 display: flex;
@@ -49,181 +49,262 @@
                         line-height: 150%; /* 30px */
                         display: flex;
                         align-items: center;
-                        i{
-                            color: #27AE60;
+                        i {
+                            color: #27ae60;
                             font-size: 24px;
                             margin-right: 8px;
                         }
                     }
                 }
             }
-        }
-       .wordpress_site_consting_and_info{
-        .wordpress_site_costing {
-            width: 411px;
-            margin-left: 24px;
-            border-radius: 12px;
-            border: 1px solid var(--mute-color-20, #d2d2d2);
-            table {
-                width: 100%;
-                thead {
-                    tr {
-                        th {
-                            color: var(--mute-color-80, #494949);
-                            font-family: Baloo Da 2;
-                            font-size: 20px;
-                            font-style: normal;
-                            font-weight: 500;
-                            line-height: 150%; /* 30px */
-                            padding-top: 16px;
-                            padding-left: 24px;
-                            padding-bottom: 12px;
-                            padding-right: 24px;
-                        }
-                    }
-                }
-                tbody {
-                    tr {
-                        th {
+            .service_package {
+                display: flex;
+                // justify-content: space-between;
+                // align-items: center;
+                width: 845px;
+                border: 2px solid red;
+                .service_package_details {
+                    flex: 1;
+                    .head {
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H3/Semibold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 48px */
+                        padding: 24px 16px;
+                        height: 182px;
+                        border: 1px solid red;
+                        // width: 177px;
+                        h2 {
                             color: var(--mute-color-100, #1c1c1c);
 
-                            /* H5/Semibold 20 */
+                            /* H3/Semibold 32 */
                             font-family: Baloo Da 2;
-                            font-size: 20px;
+                            font-size: 32px;
                             font-style: normal;
                             font-weight: 600;
-                            line-height: 150%; /* 30px */
-                            padding-top: 16px;
-                            padding-left: 28px;
-                            padding-right: 28px;
-                            padding-bottom: 25px;
-                            border: 1px solid var(--mute-color-20, #d2d2d2);
-                            &:first-child {
-                                border-left: none;
+                            line-height: 150%; /* 48px */
+                        }
+
+                        p {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 39px */
+                        }
+                    }
+                    .package_list {
+                        ul {
+                            li {
+                                color: var(--mute-color-80, #494949);
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%; /* 30px */
+                                padding: 16px 0px;
+                                padding-left: 24px;
+                                &:nth-child(even){
+                                    background-color: #c95454;
+                                    // background-color: #F9F9F9;
+                                }
                             }
-                            &:last-child {
-                                border-right: none;
-                            }
+                        }
+                    }
+                    .package_footer {
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H3/Semibold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 48px */
+                    }
+                    &:first-child {
+                        width: 291px;
+                        flex: unset;
+                        .head {
+                            border: 1px solid rgb(238, 169, 169);
+                            padding-left: 24px;
+                            display: flex;
+                            align-items: center;
                         }
                     }
                 }
             }
-            .wordpress_site_info {
+        }
+        .wordpress_site_consting_and_info {
+            .wordpress_site_costing {
+                width: 411px;
                 margin-left: 24px;
-                .wordpress_about_pricing_title {
-                    color: var(--mute-color-100, #1c1c1c);
-                    font-family: Baloo Da 2;
-                    font-size: 20px;
-                    font-style: normal;
-                    font-weight: 600;
-                    line-height: 150%; /* 30px */
-                    width: 258px;
-                    margin-top: 24px;
-                    margin-bottom: 16px;
-                }
-                .phone_number {
-                    display: flex;
-                    align-items: center;
-
-                    display: flex;
-                    // justify-content: center;
-                    align-items: center;
-                    margin: 16px 0px;
-                    i {
-                        margin-right: 6px;
-                        font-size: 26px;
-                        color: #1c1c1c;
+                border-radius: 12px;
+                border: 1px solid var(--mute-color-20, #d2d2d2);
+                table {
+                    width: 100%;
+                    thead {
+                        tr {
+                            th {
+                                color: var(--mute-color-80, #494949);
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%; /* 30px */
+                                padding-top: 16px;
+                                padding-left: 24px;
+                                padding-bottom: 12px;
+                                padding-right: 24px;
+                            }
+                        }
                     }
-                    span {
+                    tbody {
+                        tr {
+                            th {
+                                color: var(--mute-color-100, #1c1c1c);
+
+                                /* H5/Semibold 20 */
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 150%; /* 30px */
+                                padding-top: 16px;
+                                padding-left: 28px;
+                                padding-right: 28px;
+                                padding-bottom: 25px;
+                                border: 1px solid var(--mute-color-20, #d2d2d2);
+                                &:first-child {
+                                    border-left: none;
+                                }
+                                &:last-child {
+                                    border-right: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wordpress_site_info {
+                    margin-left: 24px;
+                    .wordpress_about_pricing_title {
                         color: var(--mute-color-100, #1c1c1c);
                         font-family: Baloo Da 2;
-                        font-size: 26px;
+                        font-size: 20px;
                         font-style: normal;
-                        font-weight: 400;
-                        line-height: 150%; /* 39px */
-                        text-decoration-line: underline;
+                        font-weight: 600;
+                        line-height: 150%; /* 30px */
+                        width: 258px;
+                        margin-top: 24px;
+                        margin-bottom: 16px;
                     }
-                }
-                .whatsup {
-                    display: flex;
-                    align-items: center;
+                    .phone_number {
+                        display: flex;
+                        align-items: center;
 
-                    display: flex;
-                    // justify-content: center;
-                    align-items: center;
-                    margin: 16px 0px;
-                    i {
-                        margin-right: 6px;
-                        font-size: 30px;
-                        color: #27ae60;
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 26px;
+                            color: #1c1c1c;
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                        }
                     }
-                    span {
-                        color: var(--mute-color-100, #1c1c1c);
-                        font-family: Baloo Da 2;
-                        font-size: 26px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 150%; /* 39px */
-                        text-decoration-line: underline;
-                    }
-                }
-                .telegram {
-                    display: flex;
-                    align-items: center;
+                    .whatsup {
+                        display: flex;
+                        align-items: center;
 
-                    display: flex;
-                    // justify-content: center;
-                    align-items: center;
-                    margin: 16px 0px;
-                    i {
-                        margin-right: 6px;
-                        font-size: 28px;
-                        color: #2aabee;
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 30px;
+                            color: #27ae60;
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                        }
                     }
-                    span {
-                        color: var(--mute-color-100, #1c1c1c);
-                        font-family: Baloo Da 2;
-                        font-size: 26px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 150%; /* 39px */
-                        text-decoration-line: underline;
-                    }
-                }
-                .email {
-                    display: flex;
-                    align-items: center;
+                    .telegram {
+                        display: flex;
+                        align-items: center;
 
-                    display: flex;
-                    // justify-content: center;
-                    align-items: center;
-                    margin: 16px 0px;
-                    i {
-                        margin-right: 6px;
-                        font-size: 26px;
-                        color: #1c1c1c;
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 28px;
+                            color: #2aabee;
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                        }
                     }
-                    span {
-                        color: var(--mute-color-100, #1c1c1c);
+                    .email {
+                        display: flex;
+                        align-items: center;
+
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 26px;
+                            color: #1c1c1c;
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                        }
+                    }
+                    .costing_special_note {
+                        color: var(--mute-color-80, #494949);
                         font-family: Baloo Da 2;
-                        font-size: 26px;
+                        font-size: 16px;
                         font-style: normal;
                         font-weight: 400;
-                        line-height: 150%; /* 39px */
-                        text-decoration-line: underline;
+                        line-height: 160%; /* 25.6px */
+                        margin-bottom: 24px;
                     }
-                }
-                .costing_special_note {
-                    color: var(--mute-color-80, #494949);
-                    font-family: Baloo Da 2;
-                    font-size: 16px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 160%; /* 25.6px */
-                    margin-bottom: 24px;
                 }
             }
         }
-       }
     }
 }
