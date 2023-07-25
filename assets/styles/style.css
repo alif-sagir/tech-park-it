@@ -5388,4 +5388,52 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-bottom: 24px;
 }
 
+.not_found_area_start {
+  margin-top: 140px;
+}
+.not_found_area_start .not_found_error_message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.not_found_area_start .not_found_error_message .error_img img {
+  width: 444px;
+  height: 200px;
+}
+.not_found_area_start .not_found_error_message .error_message {
+  color: var(--mute-color-80, #494949);
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px; /* 150% */
+  margin-top: 25px;
+}
+.not_found_area_start .not_found_error_message .back_btn {
+  display: flex;
+  justify-content: center;
+}
+.not_found_area_start .not_found_error_message .back_btn .btn {
+  text-align: center;
+  margin-top: 62px;
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  display: flex;
+  width: 182px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-60, #6B7280);
+  background: var(--white-100, #FFF);
+}
+
 /*# sourceMappingURL=style.css.map */
