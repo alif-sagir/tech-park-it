@@ -26,7 +26,39 @@
                     margin: 34px 0px;
                 }
             }
+            .wordpress_services {
+                .wordpress_services_title {
+                    color: var(--mute-color-100, #1c1c1c);
+                    /* H4/Semibold 26 */
+                    font-family: Baloo Da 2;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 39px */
+                    margin-top: 48px;
+                    margin-bottom: 24px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 20px;
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%; /* 30px */
+                        display: flex;
+                        align-items: center;
+                        i{
+                            color: #27AE60;
+                            font-size: 24px;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
         }
+       .wordpress_site_consting_and_info{
         .wordpress_site_costing {
             width: 411px;
             margin-left: 24px;
@@ -36,7 +68,6 @@
                 width: 100%;
                 thead {
                     tr {
-
                         th {
                             color: var(--mute-color-80, #494949);
                             font-family: Baloo Da 2;
@@ -45,7 +76,7 @@
                             font-weight: 500;
                             line-height: 150%; /* 30px */
                             padding-top: 16px;
-                            padding-left:24px;
+                            padding-left: 24px;
                             padding-bottom: 12px;
                             padding-right: 24px;
                         }
@@ -67,11 +98,132 @@
                             padding-right: 28px;
                             padding-bottom: 25px;
                             border: 1px solid var(--mute-color-20, #d2d2d2);
-                          
+                            &:first-child {
+                                border-left: none;
+                            }
+                            &:last-child {
+                                border-right: none;
+                            }
                         }
                     }
                 }
             }
+            .wordpress_site_info {
+                margin-left: 24px;
+                .wordpress_about_pricing_title {
+                    color: var(--mute-color-100, #1c1c1c);
+                    font-family: Baloo Da 2;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 30px */
+                    width: 258px;
+                    margin-top: 24px;
+                    margin-bottom: 16px;
+                }
+                .phone_number {
+                    display: flex;
+                    align-items: center;
+
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    margin: 16px 0px;
+                    i {
+                        margin-right: 6px;
+                        font-size: 26px;
+                        color: #1c1c1c;
+                    }
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 39px */
+                        text-decoration-line: underline;
+                    }
+                }
+                .whatsup {
+                    display: flex;
+                    align-items: center;
+
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    margin: 16px 0px;
+                    i {
+                        margin-right: 6px;
+                        font-size: 30px;
+                        color: #27ae60;
+                    }
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 39px */
+                        text-decoration-line: underline;
+                    }
+                }
+                .telegram {
+                    display: flex;
+                    align-items: center;
+
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    margin: 16px 0px;
+                    i {
+                        margin-right: 6px;
+                        font-size: 28px;
+                        color: #2aabee;
+                    }
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 39px */
+                        text-decoration-line: underline;
+                    }
+                }
+                .email {
+                    display: flex;
+                    align-items: center;
+
+                    display: flex;
+                    // justify-content: center;
+                    align-items: center;
+                    margin: 16px 0px;
+                    i {
+                        margin-right: 6px;
+                        font-size: 26px;
+                        color: #1c1c1c;
+                    }
+                    span {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 150%; /* 39px */
+                        text-decoration-line: underline;
+                    }
+                }
+                .costing_special_note {
+                    color: var(--mute-color-80, #494949);
+                    font-family: Baloo Da 2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 160%; /* 25.6px */
+                    margin-bottom: 24px;
+                }
+            }
         }
+       }
     }
 }

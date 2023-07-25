@@ -5086,16 +5086,43 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 412px;
   margin: 34px 0px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_costing {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_and_services .wordpress_services .wordpress_services_title {
+  color: var(--mute-color-100, #1c1c1c);
+  /* H4/Semibold 26 */
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 39px */
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_and_services .wordpress_services ul li {
+  margin-bottom: 20px;
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+  display: flex;
+  align-items: center;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_and_services .wordpress_services ul li i {
+  color: #27AE60;
+  font-size: 24px;
+  margin-right: 8px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
   width: 411px;
   margin-left: 24px;
   border-radius: 12px;
   border: 1px solid var(--mute-color-20, #d2d2d2);
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_costing table {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table {
   width: 100%;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_costing table thead tr th {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table thead tr th {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
   font-size: 20px;
@@ -5107,7 +5134,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-bottom: 12px;
   padding-right: 24px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_costing table tbody tr th {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th {
   color: var(--mute-color-100, #1c1c1c);
   /* H5/Semibold 20 */
   font-family: Baloo Da 2;
@@ -5120,6 +5147,119 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-right: 28px;
   padding-bottom: 25px;
   border: 1px solid var(--mute-color-20, #d2d2d2);
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th:first-child {
+  border-left: none;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th:last-child {
+  border-right: none;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info {
+  margin-left: 24px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .wordpress_about_pricing_title {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  width: 258px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number i {
+  margin-right: 6px;
+  font-size: 26px;
+  color: #1c1c1c;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number span {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+  text-decoration-line: underline;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup i {
+  margin-right: 6px;
+  font-size: 30px;
+  color: #27ae60;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup span {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+  text-decoration-line: underline;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram i {
+  margin-right: 6px;
+  font-size: 28px;
+  color: #2aabee;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram span {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+  text-decoration-line: underline;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email {
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  margin: 16px 0px;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email i {
+  margin-right: 6px;
+  font-size: 26px;
+  color: #1c1c1c;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email span {
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 39px */
+  text-decoration-line: underline;
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .costing_special_note {
+  color: var(--mute-color-80, #494949);
+  font-family: Baloo Da 2;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  margin-bottom: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
