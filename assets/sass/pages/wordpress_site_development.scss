@@ -62,9 +62,12 @@
                 // justify-content: space-between;
                 // align-items: center;
                 width: 845px;
-                border: 2px solid red;
+                border-radius: 12px;
+                border: 1px solid #e5e5e5;
+                margin-top: 51px;
                 .service_package_details {
                     flex: 1;
+                    border-left: 1px solid #e5e5e5;
                     .head {
                         color: var(--mute-color-100, #1c1c1c);
 
@@ -76,7 +79,6 @@
                         line-height: 150%; /* 48px */
                         padding: 24px 16px;
                         height: 182px;
-                        border: 1px solid red;
                         // width: 177px;
                         h2 {
                             color: var(--mute-color-100, #1c1c1c);
@@ -109,10 +111,39 @@
                                 line-height: 150%; /* 30px */
                                 padding: 16px 0px;
                                 padding-left: 24px;
-                                &:nth-child(even){
-                                    background-color: #c95454;
+                                text-align: center;
+                                i {
+                                    text-align: center;
+                                }
+
+                                &:nth-child(even) {
+                                    background-color: #f3f3f3;
                                     // background-color: #F9F9F9;
                                 }
+                            }
+                        }
+                    }
+                    &:first-child {
+                        width: 291px;
+                        flex: unset;
+                        border-left: none;
+                        .head {
+                            padding-left: 24px;
+                            display: flex;
+                            align-items: center;
+                        }
+                        .package_list {
+                            ul {
+                                li {
+                                    text-align: start;
+                                }
+                            }
+                        }
+                        .package_footer {
+                            padding-left: 24px;
+                            height: 128px;
+                            h4 {
+                                text-align: start;
                             }
                         }
                     }
@@ -125,15 +156,44 @@
                         font-style: normal;
                         font-weight: 600;
                         line-height: 150%; /* 48px */
-                    }
-                    &:first-child {
-                        width: 291px;
-                        flex: unset;
-                        .head {
-                            border: 1px solid rgb(238, 169, 169);
-                            padding-left: 24px;
-                            display: flex;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        // border: 1px solid red;
+                        padding-left: 16px;
+                        padding-top: 12px;
+                        padding-bottom: 16px;
+                        padding-right: 16px;
+                        h4 {
+                            color: var(--mute-color-100, #1c1c1c);
+
+                            /* H4/Semibold 26 */
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: 150%; /* 39px */
+                            text-align: center;
+                        }
+                        a {
+                            display: inline-flex;
+                            height: 48px;
+                            padding: 12px 24px 11px 24px;
+                            justify-content: center;
                             align-items: center;
+                            gap: 10px;
+                            flex-shrink: 0;
+                            color: var(--mute-color-100, #1c1c1c);
+                            text-align: center;
+                            font-family: Baloo Da 2;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                            border-radius: 8px;
+                            border: 1px solid var(--secondary-60, #6b7280);
+                            background: var(--white-100, #fff);
+                            margin-top: 9px;
                         }
                     }
                 }
