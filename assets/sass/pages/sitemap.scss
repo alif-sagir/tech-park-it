@@ -1,0 +1,76 @@
+.sitemap_area {
+    margin-top: 100px;
+    .sitemap_heading {
+        color: var(--mute-color-100, #1c1c1c);
+        font-family: Baloo Da 2;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 61.5px */
+        // margin-bottom: 32px;
+    }
+    .sitemap_details {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        .sitemap_info {
+            .info_title {
+                color: var(--mute-color-100, #1c1c1c);
+                font-family: Baloo Da 2;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 39px */
+                margin-bottom: 12px;
+                margin-top: 40px;
+            }
+            ul {
+                padding-left: 30px;
+                color: var(--mute-color-80, #494949);
+                font-family: Baloo Da 2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%; /* 24px */
+                a {
+                    color: var(--mute-color-80, #494949);
+                }
+                li {
+                    list-style: disc;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .student_panel {
+        margin-top: 72px;
+        .student_panel_heading{
+            display: flex;
+            align-items: center;
+            .student_panel_title {
+                color: var(--mute-color-100, #1c1c1c);
+                font-family: Baloo Da 2;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 48px */
+            }
+            .student_panel_border{
+                width: 1064px;
+                border: 1px solid #D2D2D2;
+                margin-left: 30px;
+            }
+        }
+        .sitemap_info{
+            .continue_info_title{
+                color: var(--mute-color-100, #1c1c1c);
+                font-family: Baloo Da 2;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 150%; /* 39px */
+                margin-bottom: 12px;
+                margin-top: 30px;
+            }
+        }
+    }
+}
