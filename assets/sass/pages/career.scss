@@ -1,0 +1,35 @@
+.career_banner_area {
+    background: var(--secondary-20, #F3F4F6);
+    .career_banner_details {
+        padding: 70px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .career_banner_description {
+            
+            .banner_title {
+                color: var(--mute-color-100, #1c1c1c);
+
+                /* H2/Semibold 41p */
+                font-family: Baloo Da 2;
+                font-size: 41px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 61.5px */
+                width: 337px;
+            }
+            .banner_info {
+                color: var(--mute-color-80, #494949);
+
+                /* Body Regular 16 */
+                font-family: Baloo Da 2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 160%; /* 25.6px */
+                width: 519px;
+                margin-top: 24px;
+            }
+        }
+    }
+}
