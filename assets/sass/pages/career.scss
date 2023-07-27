@@ -1,12 +1,11 @@
 .career_banner_area {
-    background: var(--secondary-20, #F3F4F6);
+    background: var(--secondary-20, #f3f4f6);
     .career_banner_details {
         padding: 70px 0px;
         display: flex;
         align-items: center;
         justify-content: space-between;
         .career_banner_description {
-            
             .banner_title {
                 color: var(--mute-color-100, #1c1c1c);
 
@@ -29,6 +28,56 @@
                 line-height: 160%; /* 25.6px */
                 width: 519px;
                 margin-top: 24px;
+            }
+        }
+    }
+}
+.techpart_benefits_area {
+    margin-top: 120px;
+    .benefiits_title{
+        color: var(--mute-color-100, #1C1C1C);
+text-align: center;
+
+/* H2/Semibold 41p */
+font-family: Baloo Da 2;
+font-size: 41px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 61.5px */
+margin-bottom: 56px;
+    }
+    .benefits_types {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        .well_culture {
+            width: 302px;
+            // height: 245px;
+            border-radius: 12px;
+            border: 1px solid var(--mute-color-20, #d2d2d2);
+            background: var(--secondary-20, #f3f4f6);
+            .well_culture_img {
+                border-radius: 12px 12px 0px 0px;
+                border: 1px solid var(--mute-color-20, #d2d2d2);
+                background: var(--secondary-10, #f9fafb);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 36px 65px;
+                img {
+                    width: 172px;
+                    height: 172px;
+                }
+            }
+            .well_culture_title {
+                color: var(--mute-color-100, #1c1c1c);
+                text-align: center;
+                font-family: Baloo Da 2;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 39px */
+                padding: 15px 50px;
             }
         }
     }
