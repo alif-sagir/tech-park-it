@@ -2293,17 +2293,24 @@ html ::-webkit-scrollbar-thumb:hover {
   transition-duration: 0.4s;
 }
 
-.aboutus_part {
-  margin-bottom: 150px;
-}
 .aboutus_part .aboutus_title .aboutus_title_bangla {
   font-size: 41px;
   font-weight: 700;
   line-height: 61.5px;
 }
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_title .aboutus_title_bangla {
+    font-size: 32px;
+  }
+}
 .aboutus_part .aboutus_relation_description {
   width: 1063px;
   margin-top: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_relation_description {
+    width: 100%;
+  }
 }
 .aboutus_part .aboutus_relation_description .aboutus_info {
   font-size: 16px;
@@ -2327,6 +2334,16 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 42px;
   display: flex;
 }
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item {
   margin-right: 48px;
 }
@@ -2336,6 +2353,14 @@ html ::-webkit-scrollbar-thumb:hover {
   object-position: left;
 }
 
+.motivation_part {
+  margin-top: 150px;
+}
+@media screen and (max-width: 575.9px) {
+  .motivation_part {
+    margin-top: 80px;
+  }
+}
 .motivation_part .motivation_title {
   text-align: center;
 }
@@ -2348,30 +2373,70 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 700;
   line-height: 61.5px;
 }
+@media screen and (max-width: 575.9px) {
+  .motivation_part .motivation_title .motivation_title_bangla {
+    font-size: 32px;
+  }
+}
 .motivation_part .motivation_title .motivation_title_english {
   font-size: 41px;
   font-weight: 500;
   line-height: 61.5px;
 }
+@media screen and (max-width: 575.9px) {
+  .motivation_part .motivation_title .motivation_title_english {
+    font-size: 32px;
+  }
+}
 
 .mission_part {
   margin-top: 155px;
+}
+@media screen and (max-width: 575.9px) {
+  .mission_part {
+    margin-top: 50px;
+  }
 }
 .mission_part .mission_part_details {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details {
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .mission_part .mission_part_details .mission_part_image {
   margin-right: 200px;
+}
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_image {
+    margin-right: 0px;
+  }
 }
 .mission_part .mission_part_details .mission_part_image img {
   width: 409px;
   height: 367px;
   object-fit: contain;
 }
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_image img {
+    width: 100%;
+    padding: 20px;
+  }
+}
 .mission_part .mission_part_details .mission_part_description {
   width: 495px;
+}
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_description {
+    width: 100%;
+  }
 }
 .mission_part .mission_part_details .mission_part_description .mission_part_title {
   margin-bottom: 24px;
@@ -2395,21 +2460,52 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 150px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 575.9px) {
+  .vision_part {
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+}
 .vision_part .vision_part_details {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .vision_part .vision_part_details .vision_part_image {
   margin-left: 200px;
+}
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_image {
+    margin-left: 0px;
+  }
 }
 .vision_part .vision_part_details .vision_part_image img {
   width: 596px;
   height: 367px;
   object-fit: contain;
 }
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_image img {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+}
 .vision_part .vision_part_details .vision_part_description {
   width: 495px;
+}
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_description {
+    width: 100%;
+  }
 }
 .vision_part .vision_part_details .vision_part_description .vision_part_title {
   margin-bottom: 24px;
@@ -2449,6 +2545,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .team_area {
   margin-top: 120px;
 }
+@media screen and (max-width: 575.9px) {
+  .team_area {
+    margin-top: 30px;
+  }
+}
 .team_area .team_area_details {
   margin-bottom: 64px;
   text-align: center;
@@ -2461,25 +2562,58 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-bottom: 64px;
   width: 981px;
 }
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_title {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+}
 .team_area .team_area_details .team_area_title .team_area_title_bangla {
   font-weight: 700;
   font-size: 41px;
   line-height: 61.5px;
+}
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_title .team_area_title_bangla {
+    font-size: 30px;
+  }
 }
 .team_area .team_area_details .team_area_title p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 25.6px;
 }
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_title p {
+    font-size: 14px;
+  }
+}
 .team_area .team_area_details .team_area_carousel {
   text-align: center;
+}
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_image {
+    width: 100%;
+  }
 }
 .team_area .team_area_details .team_area_carousel .carousel_image img {
   width: 1062px;
   height: 657px;
 }
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_image img {
+    width: 100%;
+    height: 130px;
+  }
+}
 .team_area .team_area_details .team_area_carousel .carousel_images {
   display: flex;
+}
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_images {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .team_area .team_area_details .team_area_carousel .carousel_images .single_image {
   border-radius: 8px;
@@ -2488,6 +2622,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .team_area .team_area_details .team_area_carousel .carousel_images .single_image:last-child {
   margin-right: 0px;
+}
+@media screen and (max-width: 575.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_images .single_image:last-child {
+    margin-right: 16px;
+  }
 }
 
 .trainers_area .trainers_description .trainers_title {
@@ -2503,8 +2642,21 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   gap: 40px;
 }
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .trainers_area .trainers_description .trainers_details .trainer_details {
   width: 411px;
+}
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details {
+    margin-bottom: 20px;
+  }
 }
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images {
   display: flex;
@@ -2521,7 +2673,7 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 30px;
   margin-top: 14px;
   font-weight: 700;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info p {
   font-size: 16px;
@@ -2581,7 +2733,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .hire_area .hire_details .hire_btn {
   width: 195px;
   height: 56px;
-  background-color: #DC2626;
+  background-color: #dc2626;
   display: flex;
   justify-content: center;
   align-items: center;

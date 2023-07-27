@@ -1,15 +1,25 @@
 .aboutus_part {
-    margin-bottom: 150px;
     .aboutus_title {
         .aboutus_title_bangla {
             font-size: 41px;
             font-weight: 700;
             line-height: 61.5px;
+            @include xs() {
+                font-size: 32px;
+                // margin: 0px 5px;
+            }
         }
     }
     .aboutus_relation_description {
         width: 1063px;
         margin-top: 24px;
+        @include xs() {
+            width: 100%;
+            // border: 1px solid red;
+            // margin:0px 5px;
+        }
+        @include lg() {
+        }
         .aboutus_info {
             font-size: 16px;
             font-weight: 400;
@@ -34,6 +44,14 @@
             .items {
                 margin-top: 42px;
                 display: flex;
+                @include xs() {
+                    margin-top: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                }
                 .item {
                     margin-right: 48px;
                     img {
@@ -48,7 +66,10 @@
     }
 }
 .motivation_part {
-    // margin-top: 150px;
+    margin-top: 150px;
+    @include xs() {
+        margin-top: 80px;
+    }
     .motivation_title {
         text-align: center;
         h2 {
@@ -59,31 +80,57 @@
             font-size: 41px;
             font-weight: 700;
             line-height: 61.5px;
+            @include xs() {
+                font-size: 32px;
+            }
         }
         .motivation_title_english {
             font-size: 41px;
             font-weight: 500;
             line-height: 61.5px;
+            @include xs() {
+                font-size: 32px;
+            }
         }
     }
 }
 .mission_part {
     margin-top: 155px;
+    @include xs() {
+        margin-top: 50px;
+    }
     .mission_part_details {
         display: flex;
         justify-content: center;
         align-items: center;
+        @include xs() {
+            font-size: 32px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .mission_part_image {
             margin-right: 200px;
             // margin-right: 5px;
+            @include xs(){
+                margin-right: 0px;
+            }
             img {
                 width: 409px;
                 height: 367px;
                 object-fit: contain;
+                @include xs(){
+                    width: 100%;
+                    padding: 20px;
+                }
             }
         }
         .mission_part_description {
             width: 495px;
+            @include xs(){
+                width: 100%;
+            }
             .mission_part_title {
                 margin-bottom: 24px;
                 .mission_title_bangla {
@@ -109,20 +156,42 @@
 .vision_part {
     margin-top: 150px;
     margin-bottom: 50px;
+    @include xs(){
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
     .vision_part_details {
         display: flex;
         justify-content: center;
         align-items: center;
+        @include xs(){
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        }
         .vision_part_image {
             margin-left: 200px;
+            @include xs(){
+                margin-left: 0px;
+                
+            }
             img {
                 width: 596px;
                 height: 367px;
                 object-fit: contain;
+                @include xs(){
+                    width: 100%;
+                    padding: 20px;
+                    padding-bottom: 0px;
+                }
             }
         }
         .vision_part_description {
             width: 495px;
+            @include xs(){
+                width: 100%;
+            }
             .vision_part_title {
                 margin-bottom: 24px;
                 .vision_title_bangla {
@@ -145,18 +214,19 @@
         }
     }
 }
-.course_item{
+.course_item {
+    // display: none;
     // margin-top: 120px;
-    .training_details{
+    .training_details {
         margin-bottom: 64px;
-        .training_title{
+        .training_title {
             text-align: center;
-            .training_title_bangla{
+            .training_title_bangla {
                 font-weight: 700;
                 font-size: 41px;
                 line-height: 61.5px;
             }
-            p{
+            p {
                 margin-top: 10px;
                 font-size: 16px;
                 line-height: 25.6px;
@@ -164,47 +234,74 @@
         }
     }
 }
-.team_area{
+.team_area {
+    // display: none;
     margin-top: 120px;
     // text-align: center;
-    .team_area_details{
+    @include xs(){
+        margin-top: 30px;
+    }
+    .team_area_details {
         margin-bottom: 64px;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .team_area_title{
+        .team_area_title {
             margin-bottom: 64px;
             width: 981px;
-            .team_area_title_bangla{
+            @include xs(){
+                width: 80%;
+                margin-bottom: 30px;
+            }
+            .team_area_title_bangla {
                 font-weight: 700;
                 font-size: 41px;
                 line-height: 61.5px;
+                @include xs(){
+                    font-size: 30px;
+                }
             }
-            p{
+            p {
                 margin-top: 10px;
                 font-size: 16px;
                 line-height: 25.6px;
+                @include xs(){
+                    font-size: 14px;
+                }
             }
         }
-        .team_area_carousel{
+        .team_area_carousel {
             text-align: center;
-            .carousel_image{
-                img{
+            .carousel_image {
+                @include xs(){
+                    width: 100%;
+                }
+                img {
                     width: 1062px;
                     height: 657px;
+                    @include xs(){
+                       width: 100%;
+                       height: 130px;
+                    }
                 }
-
             }
-            .carousel_images{
+            .carousel_images {
                 display: flex;
-                .single_image{
+                @include xs(){
+                    display: flex;
+                    flex-direction: column;
+                }
+                .single_image {
                     border-radius: 8px;
                     margin-top: 24px;
                     margin-right: 16px;
-                    &:last-child{
+                    &:last-child {
                         margin-right: 0px;
+                        @include xs(){
+                            margin-right: 16px;
+                        }
                     }
                 }
             }
@@ -212,110 +309,119 @@
     }
 }
 
-.trainers_area{
-    .trainers_description{
-        .trainers_title{
+.trainers_area {
+    // display: none;
+    .trainers_description {
+        .trainers_title {
             margin-bottom: 47px;
-            .trainers_title_bangla{
+            .trainers_title_bangla {
                 text-align: center;
                 font-weight: 700;
                 font-size: 41px;
                 line-height: 61.5px;
             }
         }
-        .trainers_details{
+        .trainers_details {
             display: flex;
             gap: 40px;
-           .trainer_details{
-            width: 411px;
-            .trainer_images{
+            @include xs(){
                 display: flex;
-                .image{
-                    img{
-                        width: 139px;
-                        height: 139px;
-                    }
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .trainer_details {
+                width: 411px;
+                @include xs() {
+                    margin-bottom: 20px;
                 }
-                .trainer_info{
-                    margin-left: 16px;
-                    .trainer_name{
-                        font-size: 20px;
-                        line-height: 30px;
-                        margin-top: 14px;
-                        font-weight: 700;
-                        color: #1C1C1C;
+                .trainer_images {
+                    display: flex;
+                    .image {
+                        img {
+                            width: 139px;
+                            height: 139px;
+                        }
                     }
-                    p{
-                        font-size: 16px;
-                        line-height: 25.6px;
-                        color: #494949;
-                    }
-                    .trainer_link{
-                        // margin-top: 16px;
-                        i{
-                            width: 24px;
-                            height: 24px;
-                            font-size: 24px;
-                            border-radius: 4px;
-                            margin-right: 16px;
-                            margin-top: 16px;
-                            color: rgb(73, 73, 241);
-                            cursor: pointer;
-                            &:last-child{
-                                margin-right: 0px;
-                            }
-                            &.tw{
-                                color: rgb(121, 121, 248);
-                            }
-                            &.fb{
-                                color: rgb(84, 84, 250);
-                            }
-                            &.ld{
-                                color: rgb(40, 40, 240);
-                            }
-                            &.in{
-                                color: rgb(253, 85, 24);
+                    .trainer_info {
+                        margin-left: 16px;
+                        .trainer_name {
+                            font-size: 20px;
+                            line-height: 30px;
+                            margin-top: 14px;
+                            font-weight: 700;
+                            color: #1c1c1c;
+                        }
+                        p {
+                            font-size: 16px;
+                            line-height: 25.6px;
+                            color: #494949;
+                        }
+                        .trainer_link {
+                            // margin-top: 16px;
+                            i {
+                                width: 24px;
+                                height: 24px;
+                                font-size: 24px;
+                                border-radius: 4px;
+                                margin-right: 16px;
+                                margin-top: 16px;
+                                color: rgb(73, 73, 241);
+                                cursor: pointer;
+                                &:last-child {
+                                    margin-right: 0px;
+                                }
+                                &.tw {
+                                    color: rgb(121, 121, 248);
+                                }
+                                &.fb {
+                                    color: rgb(84, 84, 250);
+                                }
+                                &.ld {
+                                    color: rgb(40, 40, 240);
+                                }
+                                &.in {
+                                    color: rgb(253, 85, 24);
+                                }
                             }
                         }
-                       
+                    }
+                }
+                .trainer_descrip {
+                    p {
+                        margin-top: 23px;
                     }
                 }
             }
-            .trainer_descrip{
-                p{
-                    margin-top: 23px;
-                }
-            }
-           }
-           
         }
     }
 }
-.hire_area{
-    .hire_details{
+.hire_area {
+    // display: none;
+    .hire_details {
         margin-bottom: 64px;
         margin-top: 140px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        .hire_title{
+        .hire_title {
             text-align: center;
-            .hire_title_bangla{
+            .hire_title_bangla {
                 font-weight: 500;
                 font-size: 32px;
                 line-height: 48px;
             }
-            p{
+            p {
                 margin-top: 10px;
                 font-size: 16px;
                 line-height: 24px;
             }
         }
-        .hire_btn{
+        .hire_btn {
             width: 195px;
             height: 56px;
-            background-color: #DC2626;
+            background-color: #dc2626;
             display: flex;
             justify-content: center;
             align-items: center;
