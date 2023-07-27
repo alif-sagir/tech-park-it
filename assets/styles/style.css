@@ -2303,11 +2303,21 @@ html ::-webkit-scrollbar-thumb:hover {
     font-size: 32px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .aboutus_part .aboutus_title .aboutus_title_bangla {
+    font-size: 38px;
+  }
+}
 .aboutus_part .aboutus_relation_description {
   width: 1063px;
   margin-top: 24px;
 }
 @media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_relation_description {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
   .aboutus_part .aboutus_relation_description {
     width: 100%;
   }
@@ -2344,6 +2354,16 @@ html ::-webkit-scrollbar-thumb:hover {
     gap: 30px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+}
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item {
   margin-right: 48px;
 }
@@ -2359,6 +2379,11 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .motivation_part {
     margin-top: 80px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .motivation_part {
+    margin-top: 120px;
   }
 }
 .motivation_part .motivation_title {
@@ -2397,6 +2422,11 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-top: 50px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .mission_part {
+    margin-top: 110px;
+  }
+}
 .mission_part .mission_part_details {
   display: flex;
   justify-content: center;
@@ -2419,12 +2449,23 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-right: 0px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .mission_part .mission_part_details .mission_part_image {
+    margin-right: 100px;
+  }
+}
 .mission_part .mission_part_details .mission_part_image img {
   width: 409px;
   height: 367px;
   object-fit: contain;
 }
 @media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_image img {
+    width: 100%;
+    padding: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
   .mission_part .mission_part_details .mission_part_image img {
     width: 100%;
     padding: 20px;
@@ -2466,6 +2507,12 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-bottom: 0px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .vision_part {
+    margin-top: 80px;
+    margin-bottom: 0px;
+  }
+}
 .vision_part .vision_part_details {
   display: flex;
   justify-content: center;
@@ -2487,12 +2534,24 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-left: 0px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .vision_part .vision_part_details .vision_part_image {
+    margin-left: 0px;
+  }
+}
 .vision_part .vision_part_details .vision_part_image img {
   width: 596px;
   height: 367px;
   object-fit: contain;
 }
 @media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_image img {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
   .vision_part .vision_part_details .vision_part_image img {
     width: 100%;
     padding: 20px;
@@ -2550,6 +2609,11 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-top: 30px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .team_area {
+    margin-top: 80px;
+  }
+}
 .team_area .team_area_details {
   margin-bottom: 64px;
   text-align: center;
@@ -2566,6 +2630,12 @@ html ::-webkit-scrollbar-thumb:hover {
   .team_area .team_area_details .team_area_title {
     width: 80%;
     margin-bottom: 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .team_area .team_area_details .team_area_title {
+    width: 80%;
+    margin-bottom: 50px;
   }
 }
 .team_area .team_area_details .team_area_title .team_area_title_bangla {
@@ -2596,6 +2666,11 @@ html ::-webkit-scrollbar-thumb:hover {
     width: 100%;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_image {
+    width: 100%;
+  }
+}
 .team_area .team_area_details .team_area_carousel .carousel_image img {
   width: 1062px;
   height: 657px;
@@ -2606,6 +2681,11 @@ html ::-webkit-scrollbar-thumb:hover {
     height: 130px;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_image img {
+    width: 80%;
+  }
+}
 .team_area .team_area_details .team_area_carousel .carousel_images {
   display: flex;
 }
@@ -2613,6 +2693,12 @@ html ::-webkit-scrollbar-thumb:hover {
   .team_area .team_area_details .team_area_carousel .carousel_images {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .team_area .team_area_details .team_area_carousel .carousel_images {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 .team_area .team_area_details .team_area_carousel .carousel_images .single_image {
@@ -2650,10 +2736,23 @@ html ::-webkit-scrollbar-thumb:hover {
     align-items: center;
   }
 }
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .trainers_area .trainers_description .trainers_details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
 .trainers_area .trainers_description .trainers_details .trainer_details {
   width: 411px;
 }
 @media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
   .trainers_area .trainers_description .trainers_details .trainer_details {
     margin-bottom: 20px;
   }
@@ -2717,6 +2816,12 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details {
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+}
 .hire_area .hire_details .hire_title {
   text-align: center;
 }
@@ -2725,10 +2830,21 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 32px;
   line-height: 48px;
 }
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_title .hire_title_bangla {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
 .hire_area .hire_details .hire_title p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_title p {
+    font-size: 14px;
+  }
 }
 .hire_area .hire_details .hire_btn {
   width: 195px;
@@ -2741,6 +2857,11 @@ html ::-webkit-scrollbar-thumb:hover {
   color: white;
   font-size: 18px;
   margin-top: 32px;
+}
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_btn {
+    margin-top: 20px;
+  }
 }
 
 .course_details_area .course_details_part {
