@@ -139,6 +139,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .header_area {
+  display: none;
   border: 0px solid red;
   position: sticky;
   top: 0px;
@@ -1916,6 +1917,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .footer_area_start {
+  display: none;
   border: 0px solid red;
   padding-top: 120px;
 }
@@ -2207,6 +2209,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .chating_and_go_to_top_area {
+  display: none;
   border: 0px solid red;
   position: fixed;
   right: 37px;
@@ -4978,6 +4981,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .our_it_services_area {
+  display: none;
   border: 0px solid red;
   background-repeat: no-repeat;
   background-position: center;
@@ -5007,6 +5011,11 @@ html ::-webkit-scrollbar-thumb:hover {
   text-align: center;
   margin: 4px 0px 48px 0px;
   width: 774px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title {
+    width: 100%;
+  }
 }
 .our_it_services_area .my_it_service_area_content .our_it_services_heading_content .my_it_service_area_sub_title .sub_title {
   border: 0px solid red;
@@ -5089,8 +5098,19 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   padding-top: 100px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement {
   flex: 1;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement {
+    width: 100%;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .achivement_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -5104,6 +5124,12 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-right: 30px;
   margin-right: 13px;
   width: 619px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .achivement_title {
+    font-size: 24px;
+    width: 100%;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement {
   margin-top: 48px;
@@ -5178,6 +5204,11 @@ html ::-webkit-scrollbar-thumb:hover {
   background: var(--white-100, #fff);
   width: 628px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings {
+    width: 100%;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star {
   margin-top: 32px;
   margin-left: 32px;
@@ -5189,6 +5220,15 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 6px;
   margin-right: 6px;
   border-radius: 5px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star i {
+    font-size: 18px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content {
   margin-top: 32px;
@@ -5212,13 +5252,22 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 160%; /* 25.6px */
   margin-top: 8px;
-  width: 417px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_info {
+    width: 100%;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client {
   position: absolute;
   bottom: 0;
   margin-bottom: 32px;
   margin-left: 32px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client {
+    position: unset;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_name {
   color: var(--mute-color-100, #1c1c1c);
@@ -5253,6 +5302,15 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 42px;
   display: flex;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
 .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item {
   margin-right: 48px;
 }
@@ -5265,6 +5323,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .our_complete_client_projects {
   margin-top: 120px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_complete_client_projects {
+    margin-top: 50px;
+  }
+}
 .our_complete_client_projects .client_project_title {
   color: var(--mute-color-100, #1c1c1c);
   /* H2/Semibold 41p */
@@ -5275,9 +5338,22 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 61.5px */
   margin-bottom: 32px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_complete_client_projects .client_project_title {
+    font-size: 24px;
+  }
+}
 .our_complete_client_projects .our_client_projects {
   display: flex;
   gap: 10px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_complete_client_projects .our_client_projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .our_complete_client_projects .our_client_projects .our_client_project .client_project_img {
   border-radius: 5px;
