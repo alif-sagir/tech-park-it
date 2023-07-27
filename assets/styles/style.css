@@ -5534,12 +5534,15 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
-.sitemap_area .sitemap_details .sitemap_info ul a {
-  color: var(--mute-color-80, #494949);
-}
 .sitemap_area .sitemap_details .sitemap_info ul li {
   list-style: disc;
   margin-bottom: 10px;
+}
+.sitemap_area .sitemap_details .sitemap_info ul li a {
+  color: var(--mute-color-80, #494949);
+}
+.sitemap_area .sitemap_details .sitemap_info ul li:hover a {
+  color: blue;
 }
 .sitemap_area .student_panel {
   margin-top: 72px;

@@ -31,12 +31,18 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%; /* 24px */
-                a {
-                    color: var(--mute-color-80, #494949);
-                }
+                
                 li {
                     list-style: disc;
                     margin-bottom: 10px;
+                    a {
+                        color: var(--mute-color-80, #494949);
+                    }
+                    &:hover{
+                        a{
+                            color: blue;
+                        }
+                    }
                 }
             }
         }
