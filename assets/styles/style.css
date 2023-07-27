@@ -5607,7 +5607,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 120px;
 }
 .techpart_benefits_area .benefiits_title {
-  color: var(--mute-color-100, #1C1C1C);
+  color: var(--mute-color-100, #1c1c1c);
   text-align: center;
   /* H2/Semibold 41p */
   font-family: Baloo Da 2;
@@ -5650,6 +5650,61 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 39px */
   padding: 15px 50px;
+}
+
+.present_job_possiton_area {
+  margin-top: 120px;
+}
+.present_job_possiton_area .job_possition_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.present_job_possiton_area .job_possition_area .job_possition_title {
+  margin-bottom: 56px;
+}
+.present_job_possiton_area .job_possition_area .data_science_specialist {
+  width: 845px;
+  border-radius: 12px;
+  border: 1px solid var(--mute-color-40, #a4a4a4);
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.present_job_possiton_area .job_possition_area .data_science_specialist .specialist_title {
+  padding: 16px 25px;
+  color: var(--mute-color-100, #1c1c1c);
+  font-family: Baloo Da 2;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 30px */
+}
+.present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn {
+  display: flex;
+  width: 167px;
+  height: 56px;
+  padding: 12px 24px 11px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--mute-color-40, #a4a4a4);
+  background: var(--white-100, #fff);
+  margin: 12px;
+}
+.present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn span {
+  color: var(--mute-color-100, #1c1c1c);
+  text-align: center;
+  font-family: Baloo Da 2;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /*# sourceMappingURL=style.css.map */
