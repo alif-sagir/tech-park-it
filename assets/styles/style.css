@@ -3195,6 +3195,11 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 8px;
   border: 1px solid #d2d2d2;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features {
+    padding-top: 5px;
+  }
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title {
   display: flex;
   justify-content: space-between;
