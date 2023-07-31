@@ -1,22 +1,22 @@
 .course_details_area {
     .course_details_part {
-        border: 1px solid red;
+        // border: 1px solid red;
         display: flex;
         margin-top: 80px;
         @include xs() {
             flex-direction: column;
         }
         .course_details {
-            border: 1px solid red;
+            // border: 1px solid red;
             flex: 1;
             margin-right: 18px;
             // order: 2;
             @include xs() {
                 order: 2;
-                margin-right: 0px;
+                margin-right: 10px;
             }
             .course_title {
-                border: 1px solid red; 
+                // border: 1px solid red; 
                 .course_title_text {
                     font-weight: 700;
                     font-size: 41px;
@@ -24,12 +24,12 @@
                     @include xs() {
                         font-size: 18px;
                         margin-top: 40px;
-                        line-height: 0px;
+                        line-height: 30px;
                     }
                 }
             }
             .what_is_course {
-                border: 1px solid red;
+                // border: 1px solid red;
                 .what_is_course_title {
                     font-size: 26px;
                     line-height: 39px;
@@ -51,7 +51,7 @@
                 }
             }
             .why_learn_this_course {
-                border: 1px solid red;
+                // border: 1px solid red;
 
                 .why_learn_this_course_title {
                     font-size: 26px;
@@ -74,14 +74,14 @@
                 }
             }
             .job_possition_and_freelancing {
-                border: 1px solid red;
+                // border: 1px solid red;
                 margin-top: 34px;
                 display: flex;
                 @include xs() {
                     flex-direction: column;
                 }
                 .job_possition {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     flex: 1;
                     // border: 1px solid red;
                     background-color: #f3f4f6;
@@ -89,6 +89,7 @@
                     margin-right: 22px;
                     @include xs() {
                         width: 100%;
+                        margin-right: 10px;
                     }
                     .job_possition_title {
                         font-size: 20px;
@@ -96,10 +97,16 @@
                         font-weight: 600;
                         margin-top: 24px;
                         margin-left: 24px;
+                        @include xs() {
+                            margin-left: 10px;
+                        }
                     }
                     .job_categories {
                         margin-top: 18px;
                         margin-left: 24px;
+                        @include xs() {
+                            margin-left: 10px;
+                        }
                         .job_categorie {
                             margin-bottom: 16px;
                             display: flex;
@@ -116,7 +123,7 @@
                     }
                 }
                 .freelancing_project {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     flex: 1;
                     background-color: #f3f4f6;
                     border-radius: 8px;
@@ -131,10 +138,16 @@
                         font-weight: 600;
                         margin-top: 24px;
                         margin-left: 24px;
+                        @include xs() {
+                            margin-left: 15px;
+                        }
                     }
                     .freelancing_categories {
                         margin-top: 18px;
                         margin-left: 24px;
+                        @include xs() {
+                            margin-left: 15px;
+                        }
                         .freelancing_categorie {
                             margin-bottom: 16px;
                             display: flex;
@@ -153,7 +166,7 @@
             }
             .course_feature_part {
                 margin-top: 48px;
-                border: 1px solid red;
+                // border: 1px solid red;
                 .course_features {
 
                     border-radius: 8px;
@@ -169,7 +182,7 @@
                             border-bottom: 1px solid rgb(217, 214, 214);
                            @include xs(){
                             padding: 10px 0px;
-                            margin: 0px 9px;
+                            margin: 0px 10px;
                             border-bottom: 1px solid rgb(217, 214, 214);
                            }
 
@@ -210,6 +223,8 @@
                                 width: 450px;
                                 @include xs(){
                                     column-count: 1;
+                                    margin-left: 15px;
+                                    width: 100%;
                                 }
                                 li {
                                     display: flex;
@@ -238,7 +253,7 @@
                     margin-top: 40px;
                 }
                 .class_module_head {
-                    border: 1px solid red;
+                    // border: 1px solid red;
                     align-items: center;
                     display: flex;
                     background-color: #f3f4f6;
@@ -246,6 +261,7 @@
                     @include xs(){
                         flex-direction: column;
                         width: 100%;
+                        padding-bottom: 15px;
                     }
                     .class_module_title {
                         color: var(--mute-color-100, #1c1c1c);
@@ -257,6 +273,12 @@
                         font-weight: 600;
                         line-height: 48px;
                         margin: 15px 24px;
+                        @include xs() {
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            font-size: 22px;
+                            line-height: 34px;
+                        }
                     }
                     .class_module_content {
                         display: flex;
@@ -272,6 +294,9 @@
                             font-weight: 500;
                             line-height: 150%; /* 24px */
                             margin: 0px 12px;
+                            @include xs() {
+                                margin:0px 5px;
+                            }
                         }
                     }
                 }
@@ -293,7 +318,7 @@
                                 border-bottom: 1px solid rgb(217, 214, 214);
                                 @include xs(){
                                     justify-content: space-between;
-                                    margin: 0px;
+                                    margin: 0px 10px;
                                     padding: 0px 10px;
                                 }
                                 .class_module_title_and_number {
@@ -323,12 +348,16 @@
                                             font-weight: 600;
                                             line-height: 120%;
                                             margin-left: 10px;
+                                            @include xs() {
+                                                margin-left: 4px;
+                                                font-size: 16px;
+                                            }
                                         }
                                     }
                                     .class_module_title_details {
                                         margin-left: 43px;
                                         @include xs(){
-                                            margin-left: 0px;
+                                            margin-left: 20px;
                                         }
                                         .title {
                                             color: var(--mute-color-100, #1c1c1c);
@@ -339,6 +368,7 @@
                                             line-height: 150%;
                                             @include xs(){
                                                 font-size: 18px;
+                                                text-align: center;
                                             } 
                                         }
                                         .details {
@@ -351,6 +381,9 @@
                                             display: flex;
                                             li {
                                                 margin: 0px 10px;
+                                                @include xs() {
+                                                    margin:0px 5px;
+                                                }
                                                 &:first-child {
                                                     margin-left: 0;
                                                 }
@@ -408,6 +441,9 @@
                                         margin: 0px 17px;
                                         padding: 8px 0px;
                                         border-top: 1px solid #d2d2d2;
+                                        @include xs() {
+                                            margin: 0px 10px;;
+                                        }
                                         .class_module_class_no {
                                             color: var(--mute-color-100, #1c1c1c);
 
@@ -439,6 +475,9 @@
                                                 font-style: normal;
                                                 font-weight: 400;
                                                 line-height: 160%; /* 25.6px */
+                                                @include xs(){
+                                                    margin-left: 3px;
+                                                }
                                             }
                                             .class_module_topic {
                                                 color: var(--mute-color-80, #494949);
@@ -450,11 +489,17 @@
                                                 font-weight: 400;
                                                 line-height: 160%; /* 25.6px */
                                                 margin-left: 5px;
+                                                @include xs(){
+                                                    margin-left: 2px;
+                                                }
                                             }
                                         }
                                         .quiz_and_mcq {
                                             display: flex;
                                             margin-left: 5px;
+                                            @include xs(){
+                                                margin-left: 0px;
+                                            }
                                             .quiz_icon {
                                                 i {
                                                     width: 24px;
@@ -482,6 +527,9 @@
                                                 font-weight: 400;
                                                 line-height: 160%; /* 25.6px */
                                                 margin-left: 5px;
+                                                @include xs(){
+                                                    margin-left: 2px;
+                                                }
                                             }
                                         }
                                     }
@@ -504,6 +552,10 @@
                             font-style: normal;
                             font-weight: 600;
                             line-height: 150%; /* 39px */
+                            @include xs(){
+                                font-size: 18px;
+                                text-align: center;
+                            }
                         }
                     }
                     .trainers_details {
@@ -515,22 +567,38 @@
                             background-color: #f3f4f6;
                             padding: 12px;
                             border-radius: 8px;
+                            @include xs(){
+                                width: 100%;
+                                padding: 5px;
+                            }
                             .trainer_images {
                                 display: flex;
+                                align-items: center;
                                 .image {
                                     img {
                                         width: 139px;
                                         height: 139px;
+                                        @include xs(){
+                                            width: 80px;
+                                            height: 80px;
+                                        }
                                     }
                                 }
                                 .trainer_info {
                                     margin-left: 16px;
+                                    @include xs(){
+                                        margin-left: 5px;
+                                    }
                                     .trainer_name {
                                         font-size: 20px;
                                         line-height: 30px;
                                         margin-top: 14px;
                                         font-weight: 700;
                                         color: #1c1c1c;
+                                        @include xs(){
+                                            margin-top: 0px;
+                                            font-size: 16px;
+                                        }
                                     }
                                     p {
                                         font-size: 16px;
@@ -548,6 +616,10 @@
                                             margin-top: 16px;
                                             color: rgb(73, 73, 241);
                                             cursor: pointer;
+                                            @include xs(){
+                                                margin-right: 8px;
+                                                margin-top: 2px;
+                                            }
                                             &:last-child {
                                                 margin-right: 0px;
                                             }
@@ -644,6 +716,9 @@
                     // margin: 16px;
                     .time_have {
                         margin: 16px;
+                        @include xs(){
+                            margin: 6px;
+                        }
                         .time_have_title {
                             color: var(--mute-color-100, #1c1c1c);
                             text-align: left;
@@ -669,6 +744,7 @@
                                 margin-left: 5px;
                                 @include xs() {
                                     font-size: 16px;
+                                    margin-left: 2px;
                                 }
                                 span {
                                     color: var(--mute-color-80, #494949);
@@ -679,6 +755,9 @@
                                     font-weight: 400;
                                     line-height: 160%; /* 22.4px */
                                     margin: 0px 5px;
+                                    @include xs(){
+                                        margin: 0px 2px;
+                                    }
                                 }
                             }
                         }
@@ -695,6 +774,9 @@
                         align-items: center;
                         justify-content: center;
                         margin-right: 16px;
+                        @include xs(){
+                            margin-right: 8px;
+                        }
                         div {
                             font-size: 12px;
                             font-weight: 900;
@@ -706,6 +788,9 @@
                     align-items: center;
                     margin: 16px;
                     // justify-content: center;
+                    @include xs(){
+                        margin: 6px;
+                    }
                     .twenty_thousand {
                         color: var(--primary-color-100, #dc2626);
                         text-align: center;
@@ -718,6 +803,7 @@
                         margin-right: 9px;
                         @include xs() {
                             font-size: 16px;
+                            margin-right: 4px;
                         }
                     }
                     .ten_thousand {
@@ -751,6 +837,9 @@
                             font-weight: 600;
                             line-height: normal;
                             margin-right: 10px;
+                            @include xs(){
+                                margin-right: 4px;
+                            }
                         }
                         .admit_course_icon {
                             width: 24px;
@@ -769,11 +858,17 @@
                             font-weight: 500;
                             line-height: 150%; /* 30px */
                             margin: 19px 15px;
+                            @include xs(){
+                                margin: 10px 7px;
+                            }
                         }
                         .admit_course_start_and_deadline {
                             display: flex;
                             .admit_course_start {
                                 margin: 8px 7px;
+                                @include xs(){
+                                    margin: 5px 3px;
+                                }
                                 .admit_course_start_title {
                                     display: flex;
                                     align-items: center;
@@ -808,9 +903,15 @@
                                 width: 1px;
                                 height: 36px;
                                 margin: 15px 20px;
+                                @include xs(){
+                                    margin: 10px 10px;
+                                }
                             }
                             .admit_course_deadline {
                                 margin: 8px 7px;
+                                @include xs(){
+                                    margin: 4px 3px;
+                                }
                                 .admit_course_deadline_title {
                                     display: flex;
                                     align-items: center;
@@ -852,6 +953,9 @@
                     }
                     .admit_course_batch_details {
                         margin: 12px 16px;
+                        @include xs(){
+                            margin: 4px 2px;
+                        }
                         .admit_course_orientation {
                             color: var(--mute-color-80, #494949);
                             font-family: Baloo Da 2;
@@ -1032,6 +1136,9 @@
                     border-radius: 8px;
                     li {
                         margin: 14px 16px;
+                        @include xs(){
+                            margin: 7px 2px;
+                        }
                         // padding: 12px 0;
                         border-bottom: 1px solid #d2d2d2;
 
