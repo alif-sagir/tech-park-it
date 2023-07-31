@@ -1,59 +1,95 @@
 .course_details_area {
     .course_details_part {
+        border: 1px solid red;
         display: flex;
         margin-top: 80px;
-        @include xs(){
+        @include xs() {
             flex-direction: column;
         }
         .course_details {
-            // border: 1px solid red;
+            border: 1px solid red;
             flex: 1;
             margin-right: 18px;
-            order: 2;
+            // order: 2;
+            @include xs() {
+                order: 2;
+                margin-right: 0px;
+            }
             .course_title {
+                border: 1px solid red; 
                 .course_title_text {
                     font-weight: 700;
                     font-size: 41px;
                     line-height: 61.5px;
+                    @include xs() {
+                        font-size: 18px;
+                        margin-top: 40px;
+                        line-height: 0px;
+                    }
                 }
             }
             .what_is_course {
+                border: 1px solid red;
                 .what_is_course_title {
                     font-size: 26px;
                     line-height: 39px;
                     font-weight: 600;
                     margin-top: 32px;
+                    @include xs() {
+                        font-size: 16px;
+                        line-height: 29px;
+                    }
                 }
                 .what_is_course_details {
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 25.6px;
                     margin-top: 8px;
+                    @include xs() {
+                        font-size: 14px;
+                    }
                 }
             }
             .why_learn_this_course {
+                border: 1px solid red;
+
                 .why_learn_this_course_title {
                     font-size: 26px;
                     line-height: 39px;
                     font-weight: 600;
                     margin-top: 32px;
+                    @include xs() {
+                        font-size: 16px;
+                        line-height: 29px;
+                    }
                 }
                 .why_learn_this_course_details {
                     font-weight: 400;
                     font-size: 16px;
                     line-height: 25.6px;
                     margin-top: 8px;
+                    @include xs() {
+                        font-size: 14px;
+                    }
                 }
             }
             .job_possition_and_freelancing {
+                border: 1px solid red;
                 margin-top: 34px;
                 display: flex;
+                @include xs() {
+                    flex-direction: column;
+                }
                 .job_possition {
+                    border: 1px solid red;
                     flex: 1;
                     // border: 1px solid red;
                     background-color: #f3f4f6;
                     border-radius: 8px;
                     margin-right: 22px;
+                    @include xs() {
+                        width: 100%;
+                    }
                     .job_possition_title {
                         font-size: 20px;
                         line-height: 30px;
@@ -80,10 +116,15 @@
                     }
                 }
                 .freelancing_project {
+                    border: 1px solid red;
                     flex: 1;
                     background-color: #f3f4f6;
                     border-radius: 8px;
                     // border: 1px solid red;
+                    @include xs() {
+                        width: 100%;
+                        margin-top: 20px;
+                    }
                     .freelancing_project_title {
                         font-size: 20px;
                         line-height: 30px;
@@ -112,10 +153,13 @@
             }
             .course_feature_part {
                 margin-top: 48px;
+                border: 1px solid red;
                 .course_features {
+
                     border-radius: 8px;
                     border: 1px solid #d2d2d2;
                     li {
+                        
                         .feature_title {
                             display: flex;
                             justify-content: space-between;
@@ -123,6 +167,11 @@
                             padding: 24px 0px;
                             margin: 0px 24px;
                             border-bottom: 1px solid rgb(217, 214, 214);
+                           @include xs(){
+                            padding: 10px 0px;
+                            margin: 0px 9px;
+                            border-bottom: 1px solid rgb(217, 214, 214);
+                           }
 
                             .feature_name {
                                 color: #1c1c1c;
@@ -131,6 +180,9 @@
                                 font-style: normal;
                                 font-weight: 600;
                                 line-height: 150%; /* 39px */
+                                @include xs(){
+                                    font-size: 18px;
+                                }
                             }
                         }
                         &.active {
@@ -156,6 +208,9 @@
                                 margin-left: 24px;
                                 column-count: 2;
                                 width: 450px;
+                                @include xs(){
+                                    column-count: 1;
+                                }
                                 li {
                                     display: flex;
                                     margin-bottom: 16px;
@@ -179,12 +234,19 @@
             }
             .class_module {
                 margin-top: 65px;
+                @include xs(){
+                    margin-top: 40px;
+                }
                 .class_module_head {
-                    // border: 1px solid red;
+                    border: 1px solid red;
                     align-items: center;
                     display: flex;
                     background-color: #f3f4f6;
                     border-radius: 8px;
+                    @include xs(){
+                        flex-direction: column;
+                        width: 100%;
+                    }
                     .class_module_title {
                         color: var(--mute-color-100, #1c1c1c);
 
@@ -198,6 +260,10 @@
                     }
                     .class_module_content {
                         display: flex;
+                        @include xs(){
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
                         li {
                             color: var(--mute-color-80, #494949);
                             font-family: Baloo Da 2;
@@ -210,6 +276,9 @@
                     }
                 }
                 .class_module_details {
+                    @include xs(){
+                        width: 100%;
+                    }
                     .class_module_features {
                         margin-top: 24px;
                         border-radius: 8px;
@@ -222,8 +291,18 @@
                                 padding: 24px 0px;
                                 margin: 0px 17px;
                                 border-bottom: 1px solid rgb(217, 214, 214);
+                                @include xs(){
+                                    justify-content: space-between;
+                                    margin: 0px;
+                                    padding: 0px 10px;
+                                }
                                 .class_module_title_and_number {
                                     display: flex;
+                                    @include xs(){
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                    }
                                     .class_module_number {
                                         color: var(--mute-color-80, #494949);
                                         font-family: Baloo Da 2;
@@ -233,6 +312,9 @@
                                         line-height: 140%; /* 28px */
                                         display: flex;
                                         align-items: center;
+                                        @include xs(){
+                                            font-size: 16px;
+                                        }
                                         span {
                                             color: var(--mute-color-80, #494949);
                                             font-family: Baloo Da 2;
@@ -245,15 +327,19 @@
                                     }
                                     .class_module_title_details {
                                         margin-left: 43px;
+                                        @include xs(){
+                                            margin-left: 0px;
+                                        }
                                         .title {
                                             color: var(--mute-color-100, #1c1c1c);
-
-                                            /* H4/Semibold 26 */
                                             font-family: Baloo Da 2;
                                             font-size: 26px;
                                             font-style: normal;
                                             font-weight: 600;
-                                            line-height: 150%; /* 39px */
+                                            line-height: 150%;
+                                            @include xs(){
+                                                font-size: 18px;
+                                            } 
                                         }
                                         .details {
                                             color: var(--mute-color-80, #494949);
@@ -492,11 +578,12 @@
             }
         }
         .course_info {
-            width: 411px;
+            // width: 411px;
             border-radius: 16px 16px 0px 0px;
-            order: 1;
-            @include xs(){
-                width: 100%;
+
+            @include xs() {
+                // width: 100%;
+                order: 1;
             }
             .course_info_div {
                 border: 1px solid #d2d2d2;
@@ -507,10 +594,9 @@
                     width: 411px;
                     height: 272px;
                     border-radius: 16px 16px 0px 0px;
-                    @include xs(){
+                    @include xs() {
                         width: 100%;
                         height: 272px;
-
                     }
                     .course_info_icon {
                         position: absolute;
@@ -522,7 +608,7 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        @include xs(){
+                        @include xs() {
                             width: 100%;
                             height: 272px;
                         }
@@ -532,7 +618,9 @@
                         border-radius: 16px 16px 0px 0px;
                         img {
                             transition: transform 0.4s ease-in-out;
-                            @include xs(){
+                        //     width: 411px;
+                        // height: 272px;
+                            @include xs() {
                                 width: 100%;
                                 height: 272px;
                             }
@@ -565,6 +653,9 @@
                             font-weight: 400;
                             line-height: 27px; /* 150% */
                             padding-bottom: 8px;
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         ul {
                             display: flex;
@@ -576,6 +667,9 @@
                                 font-weight: 600;
                                 line-height: 100%; /* 26px */
                                 margin-left: 5px;
+                                @include xs() {
+                                    font-size: 16px;
+                                }
                                 span {
                                     color: var(--mute-color-80, #494949);
                                     text-align: center;
@@ -622,6 +716,9 @@
                         line-height: 160%; /* 32px */
                         text-decoration-line: strikethrough;
                         margin-right: 9px;
+                        @include xs() {
+                            font-size: 16px;
+                        }
                     }
                     .ten_thousand {
                         color: var(--mute-color-100, #1c1c1c);
@@ -633,6 +730,9 @@
                         font-style: normal;
                         font-weight: 600;
                         line-height: 150%; /* 39px */
+                        @include xs() {
+                            font-size: 16px;
+                        }
                     }
                 }
                 .admit_course {
@@ -718,6 +818,9 @@
                                         font-size: 16px;
                                         margin-right: 4px;
                                         color: #494949;
+                                        @include xs() {
+                                            font-size: 14px;
+                                        }
                                     }
                                     color: var(--mute-color-100, #1c1c1c);
 
@@ -727,6 +830,9 @@
                                     font-style: normal;
                                     font-weight: 400;
                                     line-height: 160%; /* 22.4px */
+                                    @include xs() {
+                                        font-size: 14px;
+                                    }
                                 }
                                 .admit_course_deadline_date {
                                     color: var(--mute-color-100, #1c1c1c);
@@ -737,6 +843,9 @@
                                     font-style: normal;
                                     font-weight: 400;
                                     line-height: 160%; /* 25.6px */
+                                    @include xs() {
+                                        font-size: 14px;
+                                    }
                                 }
                             }
                         }
@@ -751,6 +860,9 @@
                             font-weight: 500;
                             line-height: 160%; /* 25.6px */
                             margin-bottom: 12px;
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         .admit_course_class_date {
                             color: var(--mute-color-80, #494949);
@@ -762,6 +874,9 @@
                             font-weight: 400;
                             line-height: 160%; /* 25.6px */
                             margin-bottom: 12px;
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         .admit_course_class_time {
                             color: var(--mute-color-100, #1c1c1c);
@@ -772,6 +887,9 @@
                             font-style: normal;
                             font-weight: 400;
                             line-height: 160%;
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         i {
                             width: 16px;
@@ -792,6 +910,9 @@
                     font-weight: 600;
                     line-height: 150%; /* 39px */
                     padding-top: 24px;
+                    @include xs() {
+                        font-size: 18px;
+                    }
                 }
                 .course_needed_internet {
                     color: var(--mute-color-100, #1c1c1c);
@@ -802,6 +923,9 @@
                     line-height: 150%; /* 24px */
                     padding-top: 10px;
                     margin-bottom: 32px;
+                    @include xs() {
+                        font-size: 14px;
+                    }
                     i {
                         padding-right: 6px;
                     }
@@ -822,6 +946,9 @@
                             font-style: normal;
                             font-weight: 400;
                             line-height: 160%; /* 25.6px */
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         i {
                             color: #494949;
@@ -834,6 +961,9 @@
                             font-style: normal;
                             font-weight: 500;
                             line-height: 150%; /* 30px */
+                            @include xs() {
+                                font-size: 16px;
+                            }
                         }
                     }
                     .course_schedule {
@@ -857,13 +987,20 @@
     }
 }
 .general_question_part {
+    display: none;
     margin-top: 115px;
+    @include xs() {
+        margin-top: 40px;
+    }
     .general_questions {
         display: flex;
         justify-content: center;
 
         .general_question_details {
-            width: 846px;
+            // width: 846px;
+            @include xs() {
+                width: 100%;
+            }
             .general_question_head {
                 .general_question_heading_title {
                     color: #1c1c1c;
@@ -872,6 +1009,9 @@
                     font-style: normal;
                     font-weight: 500;
                     line-height: 150%; /* 48px */
+                    @include xs() {
+                        font-size: 18px;
+                    }
                 }
                 .general_question_heading_brief {
                     color: var(--mute-color-80, #494949);
@@ -880,6 +1020,9 @@
                     font-style: normal;
                     font-weight: 400;
                     line-height: 150%; /* 30px */
+                    @include xs() {
+                        font-size: 16px;
+                    }
                 }
             }
             .general_question_all {
@@ -903,11 +1046,17 @@
                                 font-style: normal;
                                 font-weight: 500;
                                 line-height: 150%; /* 30px */
+                                @include xs() {
+                                    font-size: 16px;
+                                }
                             }
                         }
                         .general_question_content {
                             margin-top: 33px;
                             display: none;
+                            @include xs() {
+                                font-size: 14px;
+                            }
                         }
                         &:last-child {
                             border-bottom: none;

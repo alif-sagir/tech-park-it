@@ -2868,6 +2868,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .course_details_area .course_details_part {
+  border: 1px solid red;
   display: flex;
   margin-top: 80px;
 }
@@ -2877,14 +2878,33 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .course_details_area .course_details_part .course_details {
+  border: 1px solid red;
   flex: 1;
   margin-right: 18px;
-  order: 2;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details {
+    order: 2;
+    margin-right: 0px;
+  }
+}
+.course_details_area .course_details_part .course_details .course_title {
+  border: 1px solid red;
 }
 .course_details_area .course_details_part .course_details .course_title .course_title_text {
   font-weight: 700;
   font-size: 41px;
   line-height: 61.5px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_title .course_title_text {
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 0px;
+  }
+}
+.course_details_area .course_details_part .course_details .what_is_course {
+  border: 1px solid red;
 }
 .course_details_area .course_details_part .course_details .what_is_course .what_is_course_title {
   font-size: 26px;
@@ -2892,11 +2912,25 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   margin-top: 32px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .what_is_course .what_is_course_title {
+    font-size: 16px;
+    line-height: 29px;
+  }
+}
 .course_details_area .course_details_part .course_details .what_is_course .what_is_course_details {
   font-weight: 400;
   font-size: 16px;
   line-height: 25.6px;
   margin-top: 8px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .what_is_course .what_is_course_details {
+    font-size: 14px;
+  }
+}
+.course_details_area .course_details_part .course_details .why_learn_this_course {
+  border: 1px solid red;
 }
 .course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_title {
   font-size: 26px;
@@ -2904,21 +2938,44 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   margin-top: 32px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_title {
+    font-size: 16px;
+    line-height: 29px;
+  }
+}
 .course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_details {
   font-weight: 400;
   font-size: 16px;
   line-height: 25.6px;
   margin-top: 8px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .why_learn_this_course .why_learn_this_course_details {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing {
+  border: 1px solid red;
   margin-top: 34px;
   display: flex;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .job_possition_and_freelancing {
+    flex-direction: column;
+  }
+}
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition {
+  border: 1px solid red;
   flex: 1;
   background-color: #f3f4f6;
   border-radius: 8px;
   margin-right: 22px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition {
+    width: 100%;
+  }
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_possition_title {
   font-size: 20px;
@@ -2945,9 +3002,16 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project {
+  border: 1px solid red;
   flex: 1;
   background-color: #f3f4f6;
   border-radius: 8px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project {
+    width: 100%;
+    margin-top: 20px;
+  }
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_project_title {
   font-size: 20px;
@@ -2975,6 +3039,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .course_details_area .course_details_part .course_details .course_feature_part {
   margin-top: 48px;
+  border: 1px solid red;
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features {
   border-radius: 8px;
@@ -2988,6 +3053,13 @@ html ::-webkit-scrollbar-thumb:hover {
   margin: 0px 24px;
   border-bottom: 1px solid rgb(217, 214, 214);
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_title {
+    padding: 10px 0px;
+    margin: 0px 9px;
+    border-bottom: 1px solid rgb(217, 214, 214);
+  }
+}
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_title .feature_name {
   color: #1c1c1c;
   font-family: Baloo Da 2;
@@ -2995,6 +3067,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 39px */
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_title .feature_name {
+    font-size: 18px;
+  }
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li.active .feature_title {
   border-bottom: 0;
@@ -3017,6 +3094,11 @@ html ::-webkit-scrollbar-thumb:hover {
   column-count: 2;
   width: 450px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul {
+    column-count: 1;
+  }
+}
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li {
   display: flex;
   margin-bottom: 16px;
@@ -3036,11 +3118,23 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module {
   margin-top: 65px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module {
+    margin-top: 40px;
+  }
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_head {
+  border: 1px solid red;
   align-items: center;
   display: flex;
   background-color: #f3f4f6;
   border-radius: 8px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_head {
+    flex-direction: column;
+    width: 100%;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -3055,6 +3149,12 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_content {
   display: flex;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_head .class_module_content li {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -3063,6 +3163,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 24px */
   margin: 0px 12px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details {
+    width: 100%;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features {
   margin-top: 24px;
@@ -3077,8 +3182,22 @@ html ::-webkit-scrollbar-thumb:hover {
   margin: 0px 17px;
   border-bottom: 1px solid rgb(217, 214, 214);
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title {
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px 10px;
+  }
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number {
   display: flex;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number {
   color: var(--mute-color-80, #494949);
@@ -3089,6 +3208,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 140%; /* 28px */
   display: flex;
   align-items: center;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number {
+    font-size: 16px;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_number span {
   color: var(--mute-color-80, #494949);
@@ -3102,14 +3226,23 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details {
   margin-left: 43px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details {
+    margin-left: 0px;
+  }
+}
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .title {
   color: var(--mute-color-100, #1c1c1c);
-  /* H4/Semibold 26 */
   font-family: Baloo Da 2;
   font-size: 26px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 39px */
+  line-height: 150%;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .title {
+    font-size: 18px;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module .class_module_details .class_module_features li .class_module_title .class_module_title_and_number .class_module_title_details .details {
   color: var(--mute-color-80, #494949);
@@ -3290,13 +3423,11 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 23px;
 }
 .course_details_area .course_details_part .course_info {
-  width: 411px;
   border-radius: 16px 16px 0px 0px;
-  order: 1;
 }
 @media screen and (max-width: 575.9px) {
   .course_details_area .course_details_part .course_info {
-    width: 100%;
+    order: 1;
   }
 }
 .course_details_area .course_details_part .course_info .course_info_div {
@@ -3370,6 +3501,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 27px; /* 150% */
   padding-bottom: 8px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_info_time .time_have .time_have_title {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .course_info_time .time_have ul {
   display: flex;
 }
@@ -3381,6 +3517,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 100%; /* 26px */
   margin-left: 5px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_info_time .time_have ul li {
+    font-size: 16px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div .course_info_time .time_have ul li span {
   color: var(--mute-color-80, #494949);
@@ -3423,6 +3564,11 @@ html ::-webkit-scrollbar-thumb:hover {
   text-decoration-line: strikethrough;
   margin-right: 9px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_fee .twenty_thousand {
+    font-size: 16px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .course_fee .ten_thousand {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -3432,6 +3578,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 39px */
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_fee .ten_thousand {
+    font-size: 16px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_title_and_icon {
   display: flex;
@@ -3525,6 +3676,16 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-right: 4px;
   color: #494949;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch .admit_course_start_and_deadline .admit_course_deadline .admit_course_deadline_title i {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch .admit_course_start_and_deadline .admit_course_deadline .admit_course_deadline_title {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch .admit_course_start_and_deadline .admit_course_deadline .admit_course_deadline_date {
   color: var(--mute-color-100, #1c1c1c);
   /* Body Regular 16 */
@@ -3533,6 +3694,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 25.6px */
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch .admit_course_start_and_deadline .admit_course_deadline .admit_course_deadline_date {
+    font-size: 14px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details {
   margin: 12px 16px;
@@ -3546,6 +3712,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 160%; /* 25.6px */
   margin-bottom: 12px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details .admit_course_orientation {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details .admit_course_class_date {
   color: var(--mute-color-80, #494949);
   /* Body Regular 16 */
@@ -3556,6 +3727,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 160%; /* 25.6px */
   margin-bottom: 12px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details .admit_course_class_date {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details .admit_course_class_time {
   color: var(--mute-color-100, #1c1c1c);
   /* Body Regular 16 */
@@ -3564,6 +3740,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details .admit_course_class_time {
+    font-size: 14px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch_details i {
   width: 16px;
@@ -3583,6 +3764,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   padding-top: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_needed .course_needed_title {
+    font-size: 18px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_needed .course_needed_internet {
   color: var(--mute-color-100, #1c1c1c);
   font-family: Baloo Da 2;
@@ -3592,6 +3778,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 24px */
   padding-top: 10px;
   margin-bottom: 32px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_needed .course_needed_internet {
+    font-size: 14px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_needed .course_needed_internet i {
   padding-right: 6px;
@@ -3615,6 +3806,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 160%; /* 25.6px */
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_needed .course_hotline_and_schedule .course_hotline .course_hotline_title {
+    font-size: 14px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_needed .course_hotline_and_schedule .course_hotline i {
   color: #494949;
   padding: 0px 6px;
@@ -3626,6 +3822,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 30px */
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_needed .course_hotline_and_schedule .course_hotline .course_hotline_number {
+    font-size: 16px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_needed .course_hotline_and_schedule .course_schedule {
   display: flex;
@@ -3643,14 +3844,22 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 
 .general_question_part {
+  display: none;
   margin-top: 115px;
+}
+@media screen and (max-width: 575.9px) {
+  .general_question_part {
+    margin-top: 40px;
+  }
 }
 .general_question_part .general_questions {
   display: flex;
   justify-content: center;
 }
-.general_question_part .general_questions .general_question_details {
-  width: 846px;
+@media screen and (max-width: 575.9px) {
+  .general_question_part .general_questions .general_question_details {
+    width: 100%;
+  }
 }
 .general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_title {
   color: #1c1c1c;
@@ -3660,6 +3869,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 48px */
 }
+@media screen and (max-width: 575.9px) {
+  .general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_title {
+    font-size: 18px;
+  }
+}
 .general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_brief {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -3667,6 +3881,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 30px */
+}
+@media screen and (max-width: 575.9px) {
+  .general_question_part .general_questions .general_question_details .general_question_head .general_question_heading_brief {
+    font-size: 16px;
+  }
 }
 .general_question_part .general_questions .general_question_details .general_question_all {
   margin-top: 42px;
@@ -3691,9 +3910,19 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 30px */
 }
+@media screen and (max-width: 575.9px) {
+  .general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_title_and_icon .general_question_title {
+    font-size: 16px;
+  }
+}
 .general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_content {
   margin-top: 33px;
   display: none;
+}
+@media screen and (max-width: 575.9px) {
+  .general_question_part .general_questions .general_question_details .general_question_all .general_question li .general_question_content {
+    font-size: 14px;
+  }
 }
 .general_question_part .general_questions .general_question_details .general_question_all .general_question li:last-child {
   border-bottom: none;
