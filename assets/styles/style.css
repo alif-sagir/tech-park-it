@@ -2871,9 +2871,15 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   margin-top: 80px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part {
+    flex-direction: column;
+  }
+}
 .course_details_area .course_details_part .course_details {
   flex: 1;
   margin-right: 18px;
+  order: 2;
 }
 .course_details_area .course_details_part .course_details .course_title .course_title_text {
   font-weight: 700;
@@ -3286,6 +3292,12 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_info {
   width: 411px;
   border-radius: 16px 16px 0px 0px;
+  order: 1;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info {
+    width: 100%;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div {
   border: 1px solid #d2d2d2;
@@ -3297,6 +3309,12 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 272px;
   border-radius: 16px 16px 0px 0px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon {
+    width: 100%;
+    height: 272px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon .course_info_icon {
   position: absolute;
   top: 0;
@@ -3307,12 +3325,24 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon .course_info_icon {
+    width: 100%;
+    height: 272px;
+  }
+}
 .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon .course_info_thubnail {
   overflow: hidden;
   border-radius: 16px 16px 0px 0px;
 }
 .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon .course_info_thubnail img {
   transition: transform 0.4s ease-in-out;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon .course_info_thubnail img {
+    width: 100%;
+    height: 272px;
+  }
 }
 .course_details_area .course_details_part .course_info .course_info_div .course_info_thubnail_and_icon:hover .course_info_thubnail {
   border-radius: 16px 16px 0px 0px;
@@ -5421,6 +5451,11 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   margin-top: 32px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo {
+    flex-direction: column;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package {
   flex: 1;
 }
@@ -5462,18 +5497,23 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 24px;
   margin-right: 8px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package {
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage {
+    overflow-x: scroll;
+  }
+}
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package {
   display: flex;
   width: 845px;
   border-radius: 12px;
   border: 1px solid #e5e5e5;
   margin-top: 51px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details {
   flex: 1;
   border-left: 1px solid #e5e5e5;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .head {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
   font-family: Baloo Da 2;
@@ -5484,7 +5524,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 24px 16px;
   height: 182px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .head h2 {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head h2 {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
   font-family: Baloo Da 2;
@@ -5493,7 +5533,7 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 48px */
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .head p {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head p {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
   font-size: 26px;
@@ -5501,10 +5541,10 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 39px */
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul .active i {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul .active i {
   color: #219653;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul li {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
   font-size: 20px;
@@ -5515,34 +5555,34 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-left: 24px;
   text-align: center;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li i {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul li i {
   text-align: center;
   color: #E0E0E0;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_list ul li:nth-child(even) {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul li:nth-child(even) {
   background-color: #f3f3f3;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details:first-child {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details:first-child {
   width: 291px;
   flex: unset;
   border-left: none;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details:first-child .head {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details:first-child .head {
   padding-left: 24px;
   display: flex;
   align-items: center;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details:first-child .package_list ul li {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details:first-child .package_list ul li {
   text-align: start;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details:first-child .package_footer {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details:first-child .package_footer {
   padding-left: 24px;
   height: 128px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details:first-child .package_footer h4 {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details:first-child .package_footer h4 {
   text-align: start;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_footer {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
   font-family: Baloo Da 2;
@@ -5558,7 +5598,7 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-bottom: 16px;
   padding-right: 16px;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_footer h4 {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer h4 {
   color: var(--mute-color-100, #1c1c1c);
   /* H4/Semibold 26 */
   font-family: Baloo Da 2;
@@ -5568,7 +5608,7 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   text-align: center;
 }
-.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_package .service_package_details .package_footer a {
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer a {
   display: inline-flex;
   height: 48px;
   padding: 12px 24px 11px 24px;
@@ -5593,6 +5633,11 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-left: 24px;
   border-radius: 12px;
   border: 1px solid var(--mute-color-20, #d2d2d2);
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
+    margin-top: 50px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table {
   width: 100%;

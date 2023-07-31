@@ -2,10 +2,14 @@
     .course_details_part {
         display: flex;
         margin-top: 80px;
+        @include xs(){
+            flex-direction: column;
+        }
         .course_details {
             // border: 1px solid red;
             flex: 1;
             margin-right: 18px;
+            order: 2;
             .course_title {
                 .course_title_text {
                     font-weight: 700;
@@ -490,6 +494,10 @@
         .course_info {
             width: 411px;
             border-radius: 16px 16px 0px 0px;
+            order: 1;
+            @include xs(){
+                width: 100%;
+            }
             .course_info_div {
                 border: 1px solid #d2d2d2;
                 border-radius: 16px;
@@ -499,6 +507,11 @@
                     width: 411px;
                     height: 272px;
                     border-radius: 16px 16px 0px 0px;
+                    @include xs(){
+                        width: 100%;
+                        height: 272px;
+
+                    }
                     .course_info_icon {
                         position: absolute;
                         top: 0;
@@ -509,12 +522,20 @@
                         display: flex;
                         justify-content: center;
                         align-items: center;
+                        @include xs(){
+                            width: 100%;
+                            height: 272px;
+                        }
                     }
                     .course_info_thubnail {
                         overflow: hidden;
                         border-radius: 16px 16px 0px 0px;
                         img {
                             transition: transform 0.4s ease-in-out;
+                            @include xs(){
+                                width: 100%;
+                                height: 272px;
+                            }
                         }
                     }
                     &:hover {
