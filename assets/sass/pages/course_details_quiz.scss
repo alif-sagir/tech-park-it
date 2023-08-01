@@ -605,34 +605,47 @@
             .course_lession_video_btn {
                 margin-left: 24px;
                 flex-direction: column;
+                @include xs(){
+                    margin-left: 0px;
+                }
                 .course_lession_video {
                     // width: 844px;
 
                     position: relative;
                     cursor: pointer;
                     border-radius: 23px;
-                    height: 480px;
-                    border: 1px solid red;
+                    // height: 480px;
+                    // border: 1px solid red;
                     .course_lession_video_thum {
                         width: 858px;
-                        height: 480px;
+                        // height: 480px;
                         // background-color: olive;
                         border-radius: 23px;
                         // width: 100%;
-                        height: 480px;
+                        // height: 480px;
+                        @include xs(){
+                            width: 100%;
+                        }
                         img {
                             width: 858px;
-                            height: 480px;
+                            // height: 480px;
+                            @include xs(){
+                                width: 100%;
+                            }
                         }
                     }
                     &:hover .course_lession_video_icon {
                         background-color: rgba(36, 22, 1, 0.342);
                         width: 858px;
-                        height: 480px;
+                        @include xs(){
+                            width: 100%;
+                        }
+                        // height: 480px;
                     }
                     .course_lession_video_icon {
                         width: 858px;
-                        height: 480px;
+                        // height: 480px;
+                        height: 100%;
                         position: absolute;
                         top: 0;
                         display: flex;
@@ -640,6 +653,14 @@
                         justify-content: center;
                         // background-color: rgba(77, 76, 76, 0.562);
                         border-radius: 23px;
+                        @include xs(){
+                            width: 100%;
+                        }
+                        img{
+                            @include xs(){
+                                width: 20%;
+                            }
+                        }
                     }
                 }
                 .course_lession_video_next_btn {
@@ -648,9 +669,9 @@
                     .next_btn {
                         display: flex;
                         margin-top: 31px;
-                        width: 208px;
-                        height: 56px;
-                        padding: 12px 24px 11px 24px;
+                        // width: 208px;
+                        // height: 56px;
+                        padding: 15px 54px 14px 54px;
                         justify-content: center;
                         align-items: center;
                         background-color: #dc2626;
@@ -664,6 +685,10 @@
                         line-height: normal;
                         border-radius: 8px;
                         cursor: pointer;
+                        @include xs(){
+                            padding: 10px 15px;
+                            font-size: 14px;
+                        }
                     }
                 }
             }

@@ -4718,37 +4718,61 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-left: 24px;
   flex-direction: column;
 }
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn {
+    margin-left: 0px;
+  }
+}
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video {
   position: relative;
   cursor: pointer;
   border-radius: 23px;
-  height: 480px;
-  border: 1px solid red;
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum {
   width: 858px;
-  height: 480px;
   border-radius: 23px;
-  height: 480px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum {
+    width: 100%;
+  }
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum img {
   width: 858px;
-  height: 480px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_thum img {
+    width: 100%;
+  }
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video:hover .course_lession_video_icon {
   background-color: rgba(36, 22, 1, 0.342);
   width: 858px;
-  height: 480px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video:hover .course_lession_video_icon {
+    width: 100%;
+  }
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_icon {
   width: 858px;
-  height: 480px;
+  height: 100%;
   position: absolute;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 23px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_icon {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video .course_lession_video_icon img {
+    width: 20%;
+  }
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video_next_btn {
   display: flex;
@@ -4757,9 +4781,7 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video_next_btn .next_btn {
   display: flex;
   margin-top: 31px;
-  width: 208px;
-  height: 56px;
-  padding: 12px 24px 11px 24px;
+  padding: 15px 54px 14px 54px;
   justify-content: center;
   align-items: center;
   background-color: #dc2626;
@@ -4773,6 +4795,12 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: normal;
   border-radius: 8px;
   cursor: pointer;
+}
+@media screen and (max-width: 575.9px) {
+  .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .mearn_course_detail_module .course_lession_video_btn .course_lession_video_next_btn .next_btn {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
 }
 .course_quize_and_module_part .mearn_course_detail_module_and_bootstrap_quiz .bootstrap_grid_quiz_part {
   display: flex;
