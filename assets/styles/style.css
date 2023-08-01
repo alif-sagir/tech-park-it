@@ -6355,6 +6355,17 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 575.9px) {
+  .career_banner_area .career_banner_details {
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .career_banner_area .career_banner_details .career_banner_description {
+    order: 2;
+  }
+}
 .career_banner_area .career_banner_details .career_banner_description .banner_title {
   color: var(--mute-color-100, #1c1c1c);
   /* H2/Semibold 41p */
@@ -6364,6 +6375,13 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 61.5px */
   width: 337px;
+}
+@media screen and (max-width: 575.9px) {
+  .career_banner_area .career_banner_details .career_banner_description .banner_title {
+    width: 100%;
+    font-size: 18px;
+    padding-top: 30px;
+  }
 }
 .career_banner_area .career_banner_details .career_banner_description .banner_info {
   color: var(--mute-color-80, #494949);
@@ -6376,9 +6394,29 @@ html ::-webkit-scrollbar-thumb:hover {
   width: 519px;
   margin-top: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .career_banner_area .career_banner_details .career_banner_description .banner_info {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .career_banner_area .career_banner_details .career_banner_thumbnail {
+    order: 1;
+  }
+  .career_banner_area .career_banner_details .career_banner_thumbnail img {
+    width: 100%;
+  }
+}
 
 .techpart_benefits_area {
   margin-top: 120px;
+}
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area {
+    margin-top: 30px;
+  }
 }
 .techpart_benefits_area .benefiits_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -6391,16 +6429,32 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 61.5px */
   margin-bottom: 56px;
 }
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area .benefiits_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
 .techpart_benefits_area .benefits_types {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area .benefits_types {
+    flex-direction: column;
+  }
 }
 .techpart_benefits_area .benefits_types .well_culture {
   width: 302px;
   border-radius: 12px;
   border: 1px solid var(--mute-color-20, #d2d2d2);
   background: var(--secondary-20, #f3f4f6);
+}
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area .benefits_types .well_culture {
+    width: 100%;
+  }
 }
 .techpart_benefits_area .benefits_types .well_culture .well_culture_img {
   border-radius: 12px 12px 0px 0px;
@@ -6415,6 +6469,12 @@ html ::-webkit-scrollbar-thumb:hover {
   width: 172px;
   height: 172px;
 }
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area .benefits_types .well_culture .well_culture_img img {
+    width: 100%;
+    height: 100%;
+  }
+}
 .techpart_benefits_area .benefits_types .well_culture .well_culture_title {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -6425,9 +6485,19 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   padding: 15px 50px;
 }
+@media screen and (max-width: 575.9px) {
+  .techpart_benefits_area .benefits_types .well_culture .well_culture_title {
+    font-size: 16px;
+  }
+}
 
 .present_job_possiton_area {
   margin-top: 120px;
+}
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area {
+    margin-top: 30px;
+  }
 }
 .present_job_possiton_area .job_possition_area {
   display: flex;
@@ -6437,6 +6507,12 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .present_job_possiton_area .job_possition_area .job_possition_title {
   margin-bottom: 56px;
+}
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area .job_possition_area .job_possition_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 }
 .present_job_possiton_area .job_possition_area .data_science_specialist {
   width: 845px;
@@ -6448,6 +6524,11 @@ html ::-webkit-scrollbar-thumb:hover {
   align-items: center;
   margin-bottom: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area .job_possition_area .data_science_specialist {
+    width: 100%;
+  }
+}
 .present_job_possiton_area .job_possition_area .data_science_specialist .specialist_title {
   padding: 16px 25px;
   color: var(--mute-color-100, #1c1c1c);
@@ -6457,10 +6538,14 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 500;
   line-height: 150%; /* 30px */
 }
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area .job_possition_area .data_science_specialist .specialist_title {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
 .present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn {
   display: flex;
-  width: 167px;
-  height: 56px;
   padding: 12px 24px 11px 24px;
   justify-content: center;
   align-items: center;
@@ -6471,6 +6556,12 @@ html ::-webkit-scrollbar-thumb:hover {
   background: var(--white-100, #fff);
   margin: 12px;
 }
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn {
+    margin: 5px;
+    padding: 10px 15px;
+  }
+}
 .present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn span {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -6479,6 +6570,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+@media screen and (max-width: 575.9px) {
+  .present_job_possiton_area .job_possition_area .data_science_specialist .job_apply_btn span {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
