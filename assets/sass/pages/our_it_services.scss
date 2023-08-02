@@ -388,7 +388,7 @@
         line-height: 150%; /* 61.5px */
         margin-bottom: 32px;
         @include xs(){
-           font-size: 24px;
+           font-size: 18px;
         }
     }
     .our_client_projects{
@@ -406,6 +406,9 @@
                 // border: 1px solid red;
                 // box-shadow: 2px 2px 15px -5px  rgba(0, 0, 0, 0.5);
                 border-radius: 5px;
+                img{
+                    width: 100%;
+                }
             }
             .client_project_name{
                 padding-left: 10px;
@@ -440,6 +443,9 @@
             border-radius: 12px;
             padding: 55px 79px;
             background-color: #374151;
+            @include xs(){
+                padding: 25px 30px;
+            }
             .hire_title {
                 text-align: center;
                 .hire_title_bangla {
@@ -447,18 +453,25 @@
                     font-size: 32px;
                     line-height: 48px;
                     color: white;
+                    @include xs(){
+                        font-size: 16px;
+                        line-height: 160%;
+                    }
                 }
                 p {
                     margin-top: 10px;
                     font-size: 16px;
                     line-height: 24px;
                     color: white;
+                    @include xs(){
+                        font-size: 14px;
+                        margin-top: 20px;
+                    }
                 }
             }
             .hire_btn {
-                width: 195px;
-                height: 56px;
                 background-color: #dc2626;
+                padding: 12px 54px 11px 54px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -466,6 +479,10 @@
                 color: white;
                 font-size: 18px;
                 margin-top: 32px;
+                @include xs(){
+                    font-size: 14px;
+                    padding: 8px 24px 7px 24px;
+                }
             }
         }
     }

@@ -6220,7 +6220,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .our_complete_client_projects .client_project_title {
-    font-size: 24px;
+    font-size: 18px;
   }
 }
 .our_complete_client_projects .our_client_projects {
@@ -6237,6 +6237,9 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .our_complete_client_projects .our_client_projects .our_client_project .client_project_img {
   border-radius: 5px;
+}
+.our_complete_client_projects .our_client_projects .our_client_project .client_project_img img {
+  width: 100%;
 }
 .our_complete_client_projects .our_client_projects .our_client_project .client_project_name {
   padding-left: 10px;
@@ -6257,6 +6260,11 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 55px 79px;
   background-color: #374151;
 }
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_content_and_btn {
+    padding: 25px 30px;
+  }
+}
 .hire_area .hire_details .hire_content_and_btn .hire_title {
   text-align: center;
 }
@@ -6266,16 +6274,27 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 48px;
   color: white;
 }
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_content_and_btn .hire_title .hire_title_bangla {
+    font-size: 16px;
+    line-height: 160%;
+  }
+}
 .hire_area .hire_details .hire_content_and_btn .hire_title p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 24px;
   color: white;
 }
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_content_and_btn .hire_title p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
 .hire_area .hire_details .hire_content_and_btn .hire_btn {
-  width: 195px;
-  height: 56px;
   background-color: #dc2626;
+  padding: 12px 54px 11px 54px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6283,6 +6302,12 @@ html ::-webkit-scrollbar-thumb:hover {
   color: white;
   font-size: 18px;
   margin-top: 32px;
+}
+@media screen and (max-width: 575.9px) {
+  .hire_area .hire_details .hire_content_and_btn .hire_btn {
+    font-size: 14px;
+    padding: 8px 24px 7px 24px;
+  }
 }
 
 .wordpress_site_development {
