@@ -5695,6 +5695,7 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .password_changed_area .changed_password_form form .confirm_btn input {
     width: 100%;
+    font-size: 14px;
   }
 }
 .password_changed_area .changed_password_form form label {
@@ -5736,13 +5737,25 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_title {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+}
 .login_by_password_area .changed_password_title i {
   margin-right: 16px;
 }
 .login_by_password_area .changed_password_form {
   display: flex;
-  text-align: center;
   justify-content: center;
+  text-align: center;
+}
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form {
+    width: 100%;
+  }
 }
 .login_by_password_area .changed_password_form form {
   width: 628px;
@@ -5755,11 +5768,22 @@ html ::-webkit-scrollbar-thumb:hover {
   box-shadow: 0px 1px 2px 1px rgba(82, 82, 82, 0.15);
   padding-bottom: 26px;
 }
-.login_by_password_area .changed_password_form form .pre_password {
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form {
+    width: 100%;
+    padding: 5px 5px;
+  }
+}
+.login_by_password_area .changed_password_form form .password_input {
   position: relative;
   margin-top: 24px;
 }
-.login_by_password_area .changed_password_form form .pre_password input {
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form .password_input {
+    margin-top: 10px;
+  }
+}
+.login_by_password_area .changed_password_form form .password_input input {
   width: 580px;
   display: inline-flex;
   padding: 13px 16px 11px 13px;
@@ -5771,53 +5795,23 @@ html ::-webkit-scrollbar-thumb:hover {
   background: #fff;
   color: #494949;
 }
-.login_by_password_area .changed_password_form form .pre_password i {
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form .password_input input {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+.login_by_password_area .changed_password_form form .password_input i {
   position: absolute;
   top: 15px;
   right: 35px;
   color: #777777;
 }
-.login_by_password_area .changed_password_form form .new_password {
-  position: relative;
-  margin-top: 24px;
-}
-.login_by_password_area .changed_password_form form .new_password input {
-  width: 580px;
-  display: inline-flex;
-  padding: 13px 16px 11px 13px;
-  justify-content: center;
-  align-items: center;
-  gap: 481.3px;
-  border-radius: 8px;
-  border: 1px solid var(--mute-color-40, #a4a4a4);
-  background: #fff;
-}
-.login_by_password_area .changed_password_form form .new_password i {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #777777;
-}
-.login_by_password_area .changed_password_form form .re_password {
-  position: relative;
-  margin-top: 24px;
-}
-.login_by_password_area .changed_password_form form .re_password input {
-  width: 580px;
-  display: inline-flex;
-  padding: 13px 16px 11px 13px;
-  justify-content: center;
-  align-items: center;
-  gap: 481.3px;
-  border-radius: 8px;
-  border: 1px solid var(--mute-color-40, #a4a4a4);
-  background: #fff;
-}
-.login_by_password_area .changed_password_form form .re_password i {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #777777;
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form .password_input i {
+    right: 15px;
+    font-size: 14px;
+  }
 }
 .login_by_password_area .changed_password_form form .confirm_btn {
   position: relative;
@@ -5841,10 +5835,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: normal;
 }
-.login_by_password_area .changed_password_form form .confirm_btn i {
-  position: absolute;
-  top: 15px;
-  right: 35px;
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form .confirm_btn input {
+    width: 100%;
+    font-size: 14px;
+  }
 }
 .login_by_password_area .changed_password_form form label {
   display: flex;
@@ -5857,7 +5852,7 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 19.2px */
-  margin-top: 4px;
+  margin-top: 14px;
 }
 
 .our_it_services_area {
