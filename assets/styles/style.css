@@ -2303,7 +2303,9 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .aboutus_part .aboutus_title .aboutus_title_bangla {
-    font-size: 32px;
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2318,6 +2320,8 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .aboutus_part .aboutus_relation_description {
     width: 100%;
+    margin-top: 15px;
+    font-size: 14px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2337,11 +2341,23 @@ html ::-webkit-scrollbar-thumb:hover {
 .aboutus_part .aboutus_partner {
   margin-top: 64px;
 }
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_partner {
+    margin-top: 20px;
+  }
+}
 .aboutus_part .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
   font-weight: 600px;
   font-size: 32px;
   line-height: 48px;
   color: #1c1c1c;
+}
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
 }
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
   margin-top: 42px;
@@ -2349,12 +2365,12 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .aboutus_part .aboutus_partner .aboutus_partner_items_container .items {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2370,10 +2386,21 @@ html ::-webkit-scrollbar-thumb:hover {
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item {
   margin-right: 48px;
 }
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item {
+    margin-right: 0px;
+  }
+}
 .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item img {
   width: 120px;
   object-fit: contain;
   object-position: left;
+}
+@media screen and (max-width: 575.9px) {
+  .aboutus_part .aboutus_partner .aboutus_partner_items_container .items .item img {
+    width: 70%;
+    height: 30px;
+  }
 }
 
 .motivation_part {
@@ -2381,7 +2408,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .motivation_part {
-    margin-top: 80px;
+    margin-top: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2403,7 +2430,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .motivation_part .motivation_title .motivation_title_bangla {
-    font-size: 32px;
+    font-size: 20px;
   }
 }
 .motivation_part .motivation_title .motivation_title_english {
@@ -2413,7 +2440,8 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .motivation_part .motivation_title .motivation_title_english {
-    font-size: 32px;
+    font-size: 18px;
+    line-height: 150%;
   }
 }
 
@@ -2422,7 +2450,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .mission_part {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2437,7 +2465,6 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .mission_part .mission_part_details {
-    font-size: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2465,7 +2492,8 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .mission_part .mission_part_details .mission_part_image img {
     width: 100%;
-    padding: 20px;
+    padding: 30px 30px;
+    height: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1199.9px) {
@@ -2485,16 +2513,32 @@ html ::-webkit-scrollbar-thumb:hover {
 .mission_part .mission_part_details .mission_part_description .mission_part_title {
   margin-bottom: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_description .mission_part_title {
+    margin-bottom: 10px;
+  }
+}
 .mission_part .mission_part_details .mission_part_description .mission_part_title .mission_title_bangla {
   font-size: 41px;
   font-weight: 700;
   line-height: 61.5px;
+}
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_description .mission_part_title .mission_title_bangla {
+    font-size: 20px;
+    line-height: 150%;
+  }
 }
 .mission_part .mission_part_details .mission_part_description .mission_part_info p {
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
   color: #494949;
+}
+@media screen and (max-width: 575.9px) {
+  .mission_part .mission_part_details .mission_part_description .mission_part_info p {
+    font-size: 14px;
+  }
 }
 .mission_part .mission_part_details .mission_part_description .mission_part_info p:last-child {
   margin-top: 20px;
@@ -2506,7 +2550,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .vision_part {
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 0px;
   }
 }
@@ -2550,6 +2594,7 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .vision_part .vision_part_details .vision_part_image img {
     width: 100%;
+    height: 100%;
     padding: 20px;
     padding-bottom: 0px;
   }
@@ -2572,16 +2617,32 @@ html ::-webkit-scrollbar-thumb:hover {
 .vision_part .vision_part_details .vision_part_description .vision_part_title {
   margin-bottom: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_description .vision_part_title {
+    margin-bottom: 10px;
+  }
+}
 .vision_part .vision_part_details .vision_part_description .vision_part_title .vision_title_bangla {
   font-size: 41px;
   font-weight: 700;
   line-height: 61.5px;
+}
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_description .vision_part_title .vision_title_bangla {
+    font-size: 20px;
+    line-height: 150%;
+  }
 }
 .vision_part .vision_part_details .vision_part_description .vision_part_info p {
   font-size: 16px;
   font-weight: 400;
   line-height: 25.6px;
   color: #494949;
+}
+@media screen and (max-width: 575.9px) {
+  .vision_part .vision_part_details .vision_part_description .vision_part_info p {
+    font-size: 14px;
+  }
 }
 .vision_part .vision_part_details .vision_part_description .vision_part_info p:last-child {
   margin-top: 20px;
@@ -2598,10 +2659,21 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 41px;
   line-height: 61.5px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_item .training_details .training_title .training_title_bangla {
+    font-size: 20px;
+    line-height: 150%;
+  }
+}
 .course_item .training_details .training_title p {
   margin-top: 10px;
   font-size: 16px;
   line-height: 25.6px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_item .training_details .training_title p {
+    font-size: 14px;
+  }
 }
 
 .team_area {
@@ -2631,7 +2703,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .team_area .team_area_details .team_area_title {
-    width: 80%;
+    width: 100%;
     margin-bottom: 30px;
   }
 }
@@ -2648,7 +2720,8 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .team_area .team_area_details .team_area_title .team_area_title_bangla {
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 150%;
   }
 }
 .team_area .team_area_details .team_area_title p {
@@ -2721,11 +2794,22 @@ html ::-webkit-scrollbar-thumb:hover {
 .trainers_area .trainers_description .trainers_title {
   margin-bottom: 47px;
 }
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_title {
+    margin-bottom: 20px;
+  }
+}
 .trainers_area .trainers_description .trainers_title .trainers_title_bangla {
   text-align: center;
   font-weight: 700;
   font-size: 41px;
   line-height: 61.5px;
+}
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_title .trainers_title_bangla {
+    font-size: 20px;
+    line-height: 160%;
+  }
 }
 .trainers_area .trainers_description .trainers_details {
   display: flex;
@@ -2767,6 +2851,12 @@ html ::-webkit-scrollbar-thumb:hover {
   width: 139px;
   height: 139px;
 }
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .image img {
+    width: 100%;
+    height: 90%;
+  }
+}
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info {
   margin-left: 16px;
 }
@@ -2777,10 +2867,22 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 700;
   color: #1c1c1c;
 }
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info .trainer_name {
+    margin-top: 0px;
+    font-size: 18px;
+  }
+}
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info p {
   font-size: 16px;
   line-height: 25.6px;
   color: #494949;
+}
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info p {
+    font-size: 14px;
+    line-height: 150%;
+  }
 }
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info .trainer_link i {
   width: 24px;
@@ -2791,6 +2893,14 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 16px;
   color: rgb(73, 73, 241);
   cursor: pointer;
+}
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info .trainer_link i {
+    font-size: 20px;
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
 }
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_images .trainer_info .trainer_link i:last-child {
   margin-right: 0px;
@@ -2810,6 +2920,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .trainers_area .trainers_description .trainers_details .trainer_details .trainer_descrip p {
   margin-top: 23px;
 }
+@media screen and (max-width: 575.9px) {
+  .trainers_area .trainers_description .trainers_details .trainer_details .trainer_descrip p {
+    font-size: 14px;
+  }
+}
 
 .hire_area .hire_details {
   margin-bottom: 64px;
@@ -2822,7 +2937,7 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .hire_area .hire_details {
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
 .hire_area .hire_details .hire_title {
@@ -2835,7 +2950,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .hire_area .hire_details .hire_title .hire_title_bangla {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 32px;
   }
 }
@@ -2850,20 +2965,21 @@ html ::-webkit-scrollbar-thumb:hover {
   }
 }
 .hire_area .hire_details .hire_btn {
-  width: 195px;
-  height: 56px;
   background-color: #dc2626;
   display: flex;
+  padding: 12px 54px 11px 54px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
   color: white;
   font-size: 18px;
   margin-top: 32px;
+  cursor: pointer;
 }
 @media screen and (max-width: 575.9px) {
   .hire_area .hire_details .hire_btn {
     margin-top: 20px;
+    padding: 8px 24px 7px 24px;
   }
 }
 
