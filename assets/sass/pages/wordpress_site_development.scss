@@ -1,5 +1,8 @@
 .wordpress_site_development {
     margin-top: 100px;
+    @include xs(){
+        margin-top: 30px;
+    }
     .wordpress_site_title {
         color: var(--mute-color-100, #1c1c1c);
 
@@ -9,6 +12,9 @@
         font-style: normal;
         font-weight: 700;
         line-height: 150%; /* 61.5px */
+        @include xs(){
+            font-size: 18px;
+        }
     }
     .wordpress_site_price_and_logo {
         display: flex;
@@ -27,6 +33,11 @@
                     width: 412px;
                     height: 412px;
                     margin: 34px 0px;
+                    @include xs(){
+                        width: 100%;
+                        height: 100%;
+                        margin: 10px 0px;
+                    }
                 }
             }
             .wordpress_services {
@@ -40,6 +51,11 @@
                     line-height: 150%; /* 39px */
                     margin-top: 48px;
                     margin-bottom: 24px;
+                    @include xs(){
+                        font-size: 18px;
+                        margin-top: 30px;
+                        margin-bottom: 10px;
+                    }
                 }
                 ul {
                     li {
@@ -52,10 +68,18 @@
                         line-height: 150%; /* 30px */
                         display: flex;
                         align-items: center;
+                        @include xs(){
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
                         i {
                             color: #27ae60;
                             font-size: 24px;
                             margin-right: 8px;
+                            @include xs(){
+                                font-size: 16px;
+                                margin-right: 4px;
+                            }
                         }
                     }
                 }
@@ -88,7 +112,9 @@
                             line-height: 150%; /* 48px */
                             padding: 24px 16px;
                             height: 182px;
-                            // width: 177px;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                             h2 {
                                 color: var(--mute-color-100, #1c1c1c);
     
@@ -98,6 +124,9 @@
                                 font-style: normal;
                                 font-weight: 600;
                                 line-height: 150%; /* 48px */
+                                @include xs(){
+                                    font-size: 18px;
+                                }
                             }
     
                             p {
@@ -107,6 +136,9 @@
                                 font-style: normal;
                                 font-weight: 500;
                                 line-height: 150%; /* 39px */
+                                @include xs(){
+                                    font-size: 18px;
+                                }
                             }
                         }
                         .package_list {
@@ -126,6 +158,11 @@
                                     padding: 16px 0px;
                                     padding-left: 24px;
                                     text-align: center;
+                                    @include xs(){
+                                        font-size: 16px;
+                                        padding: 8px 0px;
+                                        padding-left: 10px;
+                                    }
                                     i {
                                         text-align: center;
                                         color: #E0E0E0;
@@ -142,6 +179,8 @@
                             width: 291px;
                             flex: unset;
                             border-left: none;
+                            @include xs(){
+                            }
                             .head {
                                 padding-left: 24px;
                                 display: flex;
@@ -167,7 +206,6 @@
     
                             /* H3/Semibold 32 */
                             font-family: Baloo Da 2;
-                            font-size: 32px;
                             font-style: normal;
                             font-weight: 600;
                             line-height: 150%; /* 48px */
@@ -175,10 +213,13 @@
                             flex-direction: column;
                             justify-content: center;
                             // border: 1px solid red;
-                            padding-left: 16px;
-                            padding-top: 12px;
-                            padding-bottom: 16px;
-                            padding-right: 16px;
+                            // padding-left: 16px;
+                            // padding-top: 12px;
+                            // padding-bottom: 16px;
+                            // padding-right: 16px;
+                            @include xs(){
+                                
+                            }
                             h4 {
                                 color: var(--mute-color-100, #1c1c1c);
     
@@ -189,10 +230,14 @@
                                 font-weight: 600;
                                 line-height: 150%; /* 39px */
                                 text-align: center;
+                                @include xs(){
+                                    font-size: 18px;
+                                    margin-top: 10px;
+                                }
                             }
                             a {
                                 display: inline-flex;
-                                height: 48px;
+                                // height: 48px;
                                 padding: 12px 24px 11px 24px;
                                 justify-content: center;
                                 align-items: center;
@@ -208,7 +253,13 @@
                                 border-radius: 8px;
                                 border: 1px solid var(--secondary-60, #6b7280);
                                 background: var(--white-100, #fff);
-                                margin-top: 9px;
+                                // margin-top: 9px;
+                                margin: 10px;
+                                @include xs(){
+                                    font-size: 16px;
+                                    padding: 8px 14px 7px 14px;
+                                    margin: 15px;
+                                }
                             }
                         }
                     }
@@ -223,6 +274,8 @@
                 border: 1px solid var(--mute-color-20, #d2d2d2);
                 @include xs(){
                     margin-top: 50px;
+                    width: 100%;
+                    margin-left: 0px;
                 }
                 table {
                     width: 100%;
@@ -239,6 +292,10 @@
                                 padding-left: 24px;
                                 padding-bottom: 12px;
                                 padding-right: 24px;
+                                @include xs(){
+                                    font-size: 16px;
+                                    padding: 8px 10px;
+                                }
                             }
                         }
                     }
@@ -258,6 +315,10 @@
                                 padding-right: 28px;
                                 padding-bottom: 25px;
                                 border: 1px solid var(--mute-color-20, #d2d2d2);
+                                @include xs(){
+                                    font-size: 16px;
+                                    padding: 8px 10px;
+                                }
                                 &:first-child {
                                     border-left: none;
                                 }
@@ -280,6 +341,9 @@
                         width: 258px;
                         margin-top: 24px;
                         margin-bottom: 16px;
+                        @include xs(){
+                            font-size: 18px;
+                        }
                     }
                     .phone_number {
                         display: flex;
@@ -293,6 +357,9 @@
                             margin-right: 6px;
                             font-size: 26px;
                             color: #1c1c1c;
+                            @include xs(){
+                                font-size: 16px;
+                            }
                         }
                         span {
                             color: var(--mute-color-100, #1c1c1c);
@@ -302,6 +369,9 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                     }
                     .whatsup {
@@ -316,6 +386,9 @@
                             margin-right: 6px;
                             font-size: 30px;
                             color: #27ae60;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                         span {
                             color: var(--mute-color-100, #1c1c1c);
@@ -325,6 +398,9 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                     }
                     .telegram {
@@ -339,6 +415,9 @@
                             margin-right: 6px;
                             font-size: 28px;
                             color: #2aabee;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                         span {
                             color: var(--mute-color-100, #1c1c1c);
@@ -348,6 +427,9 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                     }
                     .email {
@@ -362,6 +444,9 @@
                             margin-right: 6px;
                             font-size: 26px;
                             color: #1c1c1c;
+                            @include xs(){
+                                font-size: 18px;
+                            }
                         }
                         span {
                             color: var(--mute-color-100, #1c1c1c);
@@ -371,6 +456,9 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
+                            @include xs(){
+                                font-size: 16px;
+                            }
                         }
                     }
                     .costing_special_note {
@@ -381,6 +469,9 @@
                         font-weight: 400;
                         line-height: 160%; /* 25.6px */
                         margin-bottom: 24px;
+                        @include xs(){
+                            font-size: 14px;
+                        }
                     }
                 }
             }

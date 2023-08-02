@@ -6288,6 +6288,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .wordpress_site_development {
   margin-top: 100px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development {
+    margin-top: 30px;
+  }
+}
 .wordpress_site_development .wordpress_site_title {
   color: var(--mute-color-100, #1c1c1c);
   /* H2/Bold 41p */
@@ -6296,6 +6301,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 61.5px */
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_title {
+    font-size: 18px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo {
   display: flex;
@@ -6320,6 +6330,13 @@ html ::-webkit-scrollbar-thumb:hover {
   height: 412px;
   margin: 34px 0px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_logo img {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services .wordpress_services_title {
   color: var(--mute-color-100, #1c1c1c);
   /* H4/Semibold 26 */
@@ -6330,6 +6347,13 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   margin-top: 48px;
   margin-bottom: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services .wordpress_services_title {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services ul li {
   margin-bottom: 20px;
@@ -6342,10 +6366,22 @@ html ::-webkit-scrollbar-thumb:hover {
   display: flex;
   align-items: center;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services ul li i {
   color: #27ae60;
   font-size: 24px;
   margin-right: 8px;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .wordpress_services ul li i {
+    font-size: 16px;
+    margin-right: 4px;
+  }
 }
 @media screen and (max-width: 575.9px) {
   .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage {
@@ -6374,6 +6410,11 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 24px 16px;
   height: 182px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head h2 {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
@@ -6383,6 +6424,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 48px */
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head h2 {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head p {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -6390,6 +6436,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 39px */
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .head p {
+    font-size: 18px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul .active i {
   color: #219653;
@@ -6404,6 +6455,13 @@ html ::-webkit-scrollbar-thumb:hover {
   padding: 16px 0px;
   padding-left: 24px;
   text-align: center;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul li {
+    font-size: 16px;
+    padding: 8px 0px;
+    padding-left: 10px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_list ul li i {
   text-align: center;
@@ -6436,17 +6494,12 @@ html ::-webkit-scrollbar-thumb:hover {
   color: var(--mute-color-100, #1c1c1c);
   /* H3/Semibold 32 */
   font-family: Baloo Da 2;
-  font-size: 32px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 48px */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 16px;
-  padding-top: 12px;
-  padding-bottom: 16px;
-  padding-right: 16px;
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer h4 {
   color: var(--mute-color-100, #1c1c1c);
@@ -6458,9 +6511,14 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   text-align: center;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer h4 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer a {
   display: inline-flex;
-  height: 48px;
   padding: 12px 24px 11px 24px;
   justify-content: center;
   align-items: center;
@@ -6476,7 +6534,14 @@ html ::-webkit-scrollbar-thumb:hover {
   border-radius: 8px;
   border: 1px solid var(--secondary-60, #6b7280);
   background: var(--white-100, #fff);
-  margin-top: 9px;
+  margin: 10px;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_logo_services_and_package .service_packagage .service_all_package .service_package_details .package_footer a {
+    font-size: 16px;
+    padding: 8px 14px 7px 14px;
+    margin: 15px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
   width: 411px;
@@ -6487,6 +6552,8 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
     margin-top: 50px;
+    width: 100%;
+    margin-left: 0px;
   }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table {
@@ -6504,6 +6571,12 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-bottom: 12px;
   padding-right: 24px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table thead tr th {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th {
   color: var(--mute-color-100, #1c1c1c);
   /* H5/Semibold 20 */
@@ -6517,6 +6590,12 @@ html ::-webkit-scrollbar-thumb:hover {
   padding-right: 28px;
   padding-bottom: 25px;
   border: 1px solid var(--mute-color-20, #d2d2d2);
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table tbody tr th:first-child {
   border-left: none;
@@ -6538,6 +6617,11 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 24px;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .wordpress_about_pricing_title {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number {
   display: flex;
   align-items: center;
@@ -6550,6 +6634,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 26px;
   color: #1c1c1c;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number i {
+    font-size: 16px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number span {
   color: var(--mute-color-100, #1c1c1c);
   font-family: Baloo Da 2;
@@ -6558,6 +6647,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%; /* 39px */
   text-decoration-line: underline;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .phone_number span {
+    font-size: 18px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup {
   display: flex;
@@ -6571,6 +6665,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 30px;
   color: #27ae60;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup i {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup span {
   color: var(--mute-color-100, #1c1c1c);
   font-family: Baloo Da 2;
@@ -6579,6 +6678,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%; /* 39px */
   text-decoration-line: underline;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .whatsup span {
+    font-size: 18px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram {
   display: flex;
@@ -6592,6 +6696,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 28px;
   color: #2aabee;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram i {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram span {
   color: var(--mute-color-100, #1c1c1c);
   font-family: Baloo Da 2;
@@ -6600,6 +6709,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%; /* 39px */
   text-decoration-line: underline;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .telegram span {
+    font-size: 18px;
+  }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email {
   display: flex;
@@ -6613,6 +6727,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-size: 26px;
   color: #1c1c1c;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email i {
+    font-size: 18px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email span {
   color: var(--mute-color-100, #1c1c1c);
   font-family: Baloo Da 2;
@@ -6622,6 +6741,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%; /* 39px */
   text-decoration-line: underline;
 }
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .email span {
+    font-size: 16px;
+  }
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .costing_special_note {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -6630,6 +6754,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 160%; /* 25.6px */
   margin-bottom: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing .wordpress_site_info .costing_special_note {
+    font-size: 14px;
+  }
 }
 
 .not_found_area_start {
