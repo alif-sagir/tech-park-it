@@ -5982,6 +5982,7 @@ html ::-webkit-scrollbar-thumb:hover {
   .our_services_achivement_area .our_services_achivement_and_ratings {
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
   }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement {
@@ -6007,13 +6008,18 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .achivement_title {
-    font-size: 24px;
+    font-size: 18px;
     width: 100%;
   }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement {
   margin-top: 48px;
   display: flex;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement {
+    margin-top: 20px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients {
   display: flex;
@@ -6026,6 +6032,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 180%;
   margin-right: 64px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients {
+    font-size: 14px;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients span {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -6035,6 +6046,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 48px */
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .clients span {
+    font-size: 18px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects {
   display: flex;
@@ -6047,6 +6063,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 180%;
   margin-right: 64px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects {
+    font-size: 14px;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects span {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -6056,6 +6077,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 48px */
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .projects span {
+    font-size: 18px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings {
   display: flex;
@@ -6068,6 +6094,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 180%;
   margin-right: 64px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings {
+    font-size: 14px;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings span {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
@@ -6077,6 +6108,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 150%; /* 48px */
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_achivement .client_project_ratings_achivement .ratings span {
+    font-size: 18px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings {
   position: relative;
@@ -6103,16 +6139,21 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 18px;
+    margin-bottom: 18px;
   }
   .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_star i {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content {
   margin-top: 32px;
   margin-left: 32px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content {
+    margin-top: 10px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -6122,6 +6163,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 39px */
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_title {
+    font-size: 18px;
+  }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_info {
   color: var(--mute-color-80, #494949);
@@ -6136,6 +6182,7 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_content .rating_info {
     width: 100%;
+    font-size: 14px;
   }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client {
@@ -6147,6 +6194,7 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client {
     position: unset;
+    margin-bottom: 10px;
   }
 }
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_name {
@@ -6158,6 +6206,13 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 900;
   line-height: 150%; /* 30px */
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_name {
+    font-size: 18px;
+    line-height: 100%;
+    padding-top: 20px;
+  }
+}
 .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_company {
   color: var(--mute-color-100, #1c1c1c);
   /* Body Regular 16 */
@@ -6168,9 +6223,18 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 160%; /* 25.6px */
   margin-top: 6px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .our_services_achivement_and_ratings .our_services_ratings .rating_client .rating_client_company {
+    font-size: 14px;
+  }
+}
 .our_services_achivement_area .aboutus_partner {
   margin-top: 64px;
-  padding-bottom: 100px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .aboutus_partner {
+    margin-top: 20px;
+  }
 }
 .our_services_achivement_area .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
   font-weight: 600px;
@@ -6178,26 +6242,58 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 48px;
   color: #1c1c1c;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .aboutus_partner .aboutus_partner_title .aboutus_partner_title_text {
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+  }
+}
+.our_services_achivement_area .aboutus_partner .aboutus_partner_items_container {
+  padding-bottom: 50px;
+}
 .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items {
   margin-top: 42px;
   display: flex;
 }
 @media screen and (max-width: 575.9px) {
   .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
   }
 }
 .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item {
   margin-right: 48px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item {
+    margin-right: 0px;
+  }
+}
 .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item img {
   width: 120px;
   object-fit: contain;
   object-position: left;
+}
+@media screen and (max-width: 575.9px) {
+  .our_services_achivement_area .aboutus_partner .aboutus_partner_items_container .items .item img {
+    width: 70%;
+    height: 30px;
+  }
 }
 
 .our_complete_client_projects {
@@ -6568,6 +6664,9 @@ html ::-webkit-scrollbar-thumb:hover {
     margin: 15px;
   }
 }
+.wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info {
+  flex: 1;
+}
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
   width: 411px;
   margin-left: 24px;
@@ -6579,6 +6678,11 @@ html ::-webkit-scrollbar-thumb:hover {
     margin-top: 50px;
     width: 100%;
     margin-left: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing {
+    width: 100%;
   }
 }
 .wordpress_site_development .wordpress_site_price_and_logo .wordpress_site_consting_and_info .wordpress_site_costing table {

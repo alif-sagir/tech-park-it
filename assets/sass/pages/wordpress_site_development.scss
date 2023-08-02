@@ -24,6 +24,9 @@
         }
         .wordpress_logo_services_and_package {
             flex: 1;
+            @include lg(){
+                // flex: unset;
+            }
             .wordpress_logo {
                 display: flex;
                 justify-content: center;
@@ -38,9 +41,13 @@
                         height: 100%;
                         margin: 10px 0px;
                     }
+                    @include lg(){
+                        
+                    }
                 }
             }
             .wordpress_services {
+                // display: none;
                 .wordpress_services_title {
                     color: var(--mute-color-100, #1c1c1c);
                     /* H4/Semibold 26 */
@@ -85,11 +92,13 @@
                 }
             }
             .service_packagage{
+                // display: none;
                 @include xs(){
                     // width: 400px;
                     // border: 2px solid red;
                     overflow-x: scroll;
                 }
+                
                 .service_all_package {
                     display: flex;
                     // justify-content: space-between;
@@ -98,6 +107,9 @@
                     border-radius: 12px;
                     border: 1px solid #e5e5e5;
                     margin-top: 51px;
+                    @include lg(){
+                        // overflow: x;
+                    }
                     .service_package_details {
                         flex: 1;
                         border-left: 1px solid #e5e5e5;
@@ -267,6 +279,7 @@
             }
         }
         .wordpress_site_consting_and_info {
+            flex: 1;
             .wordpress_site_costing {
                 width: 411px;
                 margin-left: 24px;
@@ -276,6 +289,9 @@
                     margin-top: 50px;
                     width: 100%;
                     margin-left: 0px;
+                }
+                @include lg(){
+                    width: 100%;
                 }
                 table {
                     width: 100%;
