@@ -716,10 +716,15 @@
         }
         .bootstrap_grid_quiz_part {
             display: flex;
+            @include xs(){
+                flex-direction: column;
+            }
             .bootstrap_grid_empty_space {
-                // border: 1px solid red;
                 width: 411px;
                 margin-right: 24px;
+                @include xs(){
+                    width: 100%;
+                }
             }
             .bootstrap_grid_quiz_space {
                 .bootstrap_grid_quiz {
@@ -738,8 +743,13 @@
                         line-height: 150%; /* 30px */
                         padding-top: 32px;
                         margin-left: 30px;
+                        @include xs(){
+                            font-size: 16px;
+                            margin-left: 16px;
+                        }
                     }
                     .bootstrap_grid_text_area {
+                        text-align: center;
                         textarea {
                             width: 800px;
                             height: 366px;
@@ -751,19 +761,27 @@
                             padding-top: 24px;
                             padding-left: 24px;
                             color: var(--mute-color-20, #d2d2d2);
-
-                            /* Body Regular 16 */
                             font-family: Baloo Da 2;
                             font-size: 16px;
                             font-style: normal;
                             font-weight: 400;
                             line-height: 160%; /* 25.6px */
+                            @include xs(){
+                                width: 90%;
+                                padding: 5px;
+                                margin: 10px;
+                                height: 100px;
+                                font-size: 14px;
+                            }
                         }
                     }
                     .character_length_and_submit_btn {
                         display: flex;
                         justify-content: space-between;
                         margin: 0px 30px;
+                        @include xs(){
+                            margin: 0px 15px;
+                        }
                         .character_length_title {
                             color: var(--mute-color-60, #777);
                             text-align: center;
@@ -778,9 +796,7 @@
                         }
                         .bootstrap_grid_submit_btn {
                             display: flex;
-                            width: 181px;
-                            height: 56px;
-                            padding: 12px 24px 11px 24px;
+                            padding: 12px 54px 11px 54px;
                             justify-content: center;
                             align-items: center;
                             gap: 10px;
@@ -796,6 +812,11 @@
                             cursor: pointer;
                             margin-top: 16px;
                             margin-bottom: 32px;
+                            @include xs(){
+                                padding: 8px 20px 7px 20px;
+                                font-size: 14px;
+                                margin-top: 0px;
+                            }
                         }
                     }
                 }
@@ -804,11 +825,14 @@
                     align-items: center;
                     justify-content: space-between;
                     margin-top: 32px;
+                    @include xs(){
+                        margin-top: 10px;
+                    }
                     .previous_btn {
                         display: flex;
                         // width: 208px;
                         // height: 56px;
-                        padding: 12px 24px 11px 24px;
+                        padding: 15px 54px 14px 54px;
                         justify-content: center;
                         align-items: center;
                         gap: 10px;
@@ -824,12 +848,14 @@
                         font-weight: 600;
                         line-height: normal;
                         cursor: pointer;
+                        @include xs(){
+                            font-size: 14px;
+                            padding: 10px 15px 9px 15px;
+                        }
                     }
                     .next_btn {
                         display: flex;
-                        width: 208px;
-                        height: 56px;
-                        padding: 12px 24px 11px 24px;
+                        padding: 15px 54px 14px 54px;
                         justify-content: center;
                         align-items: center;
                         gap: 10px;
@@ -844,6 +870,52 @@
                         font-weight: 600;
                         // line-height: normal;
                         cursor: not-allowed;
+                        @include xs(){
+                            font-size: 14px;
+                            padding: 11px 15px 10px 15px;
+                        }
+                    }
+                }
+            }
+            .course_lession_video_btn {
+                margin-left: 24px;
+                flex-direction: column;
+                @include xs(){
+                    margin-left: 0px;
+                }
+                .course_lession_video {
+                    // width: 844px;
+
+                    position: relative;
+                    cursor: pointer;
+                    border-radius: 23px;
+                    // height: 480px;
+                    // border: 1px solid red;
+                    .course_lession_video_thum {
+                        width: 858px;
+                        // height: 480px;
+                        // background-color: olive;
+                        border-radius: 23px;
+                        // width: 100%;
+                        // height: 480px;
+                        @include xs(){
+                            width: 100%;
+                        }
+                        img {
+                            width: 858px;
+                            // height: 480px;
+                            @include xs(){
+                                width: 100%;
+                            }
+                        }
+                    }
+                    &:hover .course_lession_video_icon {
+                        background-color: rgba(36, 22, 1, 0.342);
+                        width: 858px;
+                        @include xs(){
+                            width: 100%;
+                        }
+                        // height: 480px;
                     }
                 }
             }
