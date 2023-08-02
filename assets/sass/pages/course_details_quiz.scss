@@ -647,10 +647,16 @@
                         @include xs(){
                             width: 100%;
                         }
+                        @include lg(){
+                            width: 100%;
+                        }
                         img {
                             width: 858px;
                             // height: 480px;
                             @include xs(){
+                                width: 100%;
+                            }
+                            @include lg(){
                                 width: 100%;
                             }
                         }
@@ -659,6 +665,9 @@
                         background-color: rgba(36, 22, 1, 0.342);
                         width: 858px;
                         @include xs(){
+                            width: 100%;
+                        }
+                        @include lg(){
                             width: 100%;
                         }
                         // height: 480px;
@@ -675,6 +684,9 @@
                         // background-color: rgba(77, 76, 76, 0.562);
                         border-radius: 23px;
                         @include xs(){
+                            width: 100%;
+                        }
+                        @include lg(){
                             width: 100%;
                         }
                         img{
@@ -725,13 +737,24 @@
                 @include xs(){
                     width: 100%;
                 }
+                @include lg(){
+                    width: 0%;
+                    margin-right: 0px;
+                }
             }
             .bootstrap_grid_quiz_space {
+                @include lg(){
+                    // width: 100%;
+                }
                 .bootstrap_grid_quiz {
                     // border: 1px solid red;
                     flex: 1;
                     border-radius: 12px;
                     background: var(--secondary-20, #f3f4f6);
+                    @include lg(){
+                        width: 100%;
+                        flex: unset;
+                    }
                     .bootstrap_grid_quiz_question {
                         color: var(--mute-color-100, #1c1c1c);
 
@@ -772,6 +795,13 @@
                                 margin: 10px;
                                 height: 100px;
                                 font-size: 14px;
+                            }
+                            @include lg(){
+                                // width: 100%;
+                                // padding: 5px;
+                                // margin: 10px;
+                                // height: 100px;
+                                // font-size: 14px;
                             }
                         }
                     }
