@@ -5613,6 +5613,12 @@ html ::-webkit-scrollbar-thumb:hover {
 .password_changed_area .changed_password_form {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+@media screen and (max-width: 575.9px) {
+  .password_changed_area .changed_password_form {
+    width: 100%;
+  }
 }
 .password_changed_area .changed_password_form form {
   width: 628px;
@@ -5656,6 +5662,7 @@ html ::-webkit-scrollbar-thumb:hover {
   .password_changed_area .changed_password_form form .password_input input {
     width: 100%;
     font-size: 14px;
+    padding: 5px 12px 5px 12px;
   }
 }
 .password_changed_area .changed_password_form form .password_input i {
@@ -5668,11 +5675,17 @@ html ::-webkit-scrollbar-thumb:hover {
   .password_changed_area .changed_password_form form .password_input i {
     right: 15px;
     font-size: 14px;
+    top: 10px;
   }
 }
 .password_changed_area .changed_password_form form .confirm_btn {
   position: relative;
   margin-top: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .password_changed_area .changed_password_form form .confirm_btn {
+    margin-top: 15px;
+  }
 }
 .password_changed_area .changed_password_form form .confirm_btn input {
   width: 580px;
@@ -5696,12 +5709,13 @@ html ::-webkit-scrollbar-thumb:hover {
   .password_changed_area .changed_password_form form .confirm_btn input {
     width: 100%;
     font-size: 14px;
+    padding: 5px 12px 5px 12px;
   }
 }
 .password_changed_area .changed_password_form form label {
   display: flex;
-  justify-content: start;
-  margin-left: 24px;
+  justify-content: end;
+  margin-right: 24px;
   color: var(--mute-color-80, #494949);
   /* H6/Lebel Regular 12 */
   font-family: Baloo Da 2;
@@ -5709,11 +5723,22 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 19.2px */
-  margin-top: 4px;
+  margin-top: 14px;
+}
+@media screen and (max-width: 575.9px) {
+  .password_changed_area .changed_password_form form label {
+    margin-right: 5px;
+    margin-top: 8px;
+  }
 }
 
 .login_by_password_area {
   margin-top: 120px;
+}
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area {
+    margin-top: 40px;
+  }
 }
 .login_by_password_area .container {
   display: flex;
@@ -5799,6 +5824,7 @@ html ::-webkit-scrollbar-thumb:hover {
   .login_by_password_area .changed_password_form form .password_input input {
     width: 100%;
     font-size: 14px;
+    padding: 5px 12px 5px 12px;
   }
 }
 .login_by_password_area .changed_password_form form .password_input i {
@@ -5811,11 +5837,17 @@ html ::-webkit-scrollbar-thumb:hover {
   .login_by_password_area .changed_password_form form .password_input i {
     right: 15px;
     font-size: 14px;
+    top: 10px;
   }
 }
 .login_by_password_area .changed_password_form form .confirm_btn {
   position: relative;
   margin-top: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form .confirm_btn {
+    margin-top: 15px;
+  }
 }
 .login_by_password_area .changed_password_form form .confirm_btn input {
   width: 580px;
@@ -5839,6 +5871,7 @@ html ::-webkit-scrollbar-thumb:hover {
   .login_by_password_area .changed_password_form form .confirm_btn input {
     width: 100%;
     font-size: 14px;
+    padding: 5px 12px 5px 12px;
   }
 }
 .login_by_password_area .changed_password_form form label {
@@ -5853,6 +5886,12 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 160%; /* 19.2px */
   margin-top: 14px;
+}
+@media screen and (max-width: 575.9px) {
+  .login_by_password_area .changed_password_form form label {
+    margin-right: 5px;
+    margin-top: 8px;
+  }
 }
 
 .our_it_services_area {
@@ -6888,6 +6927,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .not_found_area_start {
   margin-top: 140px;
 }
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start {
+    margin-top: 40px;
+  }
+}
 .not_found_area_start .not_found_error_message {
   display: flex;
   flex-direction: column;
@@ -6898,6 +6942,14 @@ html ::-webkit-scrollbar-thumb:hover {
   width: 444px;
   height: 200px;
 }
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start .not_found_error_message .error_img img {
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px;
+    padding-bottom: 10px;
+  }
+}
 .not_found_area_start .not_found_error_message .error_message {
   color: var(--mute-color-80, #494949);
   font-family: Noto Sans;
@@ -6907,6 +6959,12 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 36px; /* 150% */
   margin-top: 25px;
 }
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start .not_found_error_message .error_message {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
 .not_found_area_start .not_found_error_message .back_btn {
   display: flex;
   justify-content: center;
@@ -6914,6 +6972,28 @@ html ::-webkit-scrollbar-thumb:hover {
 .not_found_area_start .not_found_error_message .back_btn .btn {
   text-align: center;
   margin-top: 62px;
+  display: flex;
+  padding: 12px 34px 11px 34px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--secondary-60, #6b7280);
+  background: var(--white-100, #fff);
+}
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start .not_found_error_message .back_btn .btn i {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start .not_found_error_message .back_btn .btn {
+    margin-top: 20px;
+    padding: 8px 12px 7px 12px;
+  }
+}
+.not_found_area_start .not_found_error_message .back_btn .btn a {
   color: var(--mute-color-100, #1c1c1c);
   text-align: center;
   font-family: Baloo Da 2;
@@ -6921,16 +7001,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 24px */
-  display: flex;
-  width: 182px;
-  height: 48px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  border: 1px solid var(--secondary-60, #6B7280);
-  background: var(--white-100, #FFF);
+}
+@media screen and (max-width: 575.9px) {
+  .not_found_area_start .not_found_error_message .back_btn .btn a {
+    font-size: 14px;
+  }
 }
 
 .our_refund_policy_area {
@@ -7008,17 +7083,23 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-  margin: 14px 0px 16px 36px;
+  margin: 14px 0px 16px 30px;
 }
 @media screen and (max-width: 575.9px) {
   .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul {
     font-size: 14px;
+    margin: 14px 0px 15px 20px;
   }
 }
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul li {
   list-style-type: disc;
   color: #494949;
-  margin-bottom: 16px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul li {
+    margin-bottom: 10px;
+  }
 }
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_footer {
   color: var(--mute-color-80, #494949);

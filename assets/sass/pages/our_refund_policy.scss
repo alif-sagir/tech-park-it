@@ -61,15 +61,20 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: 150%;
-                margin: 14px 0px 16px 36px;
+                margin: 14px 0px 16px 30px;
                 @include xs(){
                     font-size: 14px;
+                    margin: 14px 0px 15px 20px;
                 }
     
                 li {
                     list-style-type:disc;
+                    // list-style-position: inside;
                     color: #494949;
-                    margin-bottom: 16px;
+                    margin-bottom: 25px;
+                    @include xs(){
+                        margin-bottom: 10px;
+                    }
                 }
             }
             .description_footer {
