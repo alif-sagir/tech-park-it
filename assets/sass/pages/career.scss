@@ -5,11 +5,16 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        // gap: 20px;
         @include xs(){
             flex-direction: column;
             padding: 20px 0px;
         }
+        @include lg(){
+            gap: 40px;
+        }
         .career_banner_description {
+            // padding-right: 20px;
             @include xs(){
                 order: 2;
             }
@@ -52,6 +57,12 @@
         .career_banner_thumbnail{
             @include xs(){
                 order: 1;
+                img{
+                    width: 100%;
+                }
+            }
+            @include lg(){
+                
                 img{
                     width: 100%;
                 }
