@@ -6936,6 +6936,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .our_refund_policy_area {
   margin-top: 100px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area {
+    margin-top: 40px;
+  }
+}
 .our_refund_policy_area .our_refund_policy {
   display: flex;
   flex-direction: column;
@@ -6953,8 +6958,20 @@ html ::-webkit-scrollbar-thumb:hover {
   justify-content: start;
   width: 846px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .refund_policy_title {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+}
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description {
   width: 846px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description {
+    width: 100%;
+  }
 }
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -6965,6 +6982,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 39px */
 }
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_title {
+    font-size: 16px;
+  }
+}
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_header {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -6974,6 +6996,11 @@ html ::-webkit-scrollbar-thumb:hover {
   line-height: 150%;
   margin-top: 16px;
 }
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_header {
+    font-size: 14px;
+  }
+}
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul {
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
@@ -6982,6 +7009,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%;
   margin: 14px 0px 16px 36px;
+}
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul {
+    font-size: 14px;
+  }
 }
 .our_refund_policy_area .our_refund_policy .our_refund_policy_description ul li {
   list-style-type: disc;
@@ -6996,9 +7028,19 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%;
 }
+@media screen and (max-width: 575.9px) {
+  .our_refund_policy_area .our_refund_policy .our_refund_policy_description .description_footer {
+    font-size: 14px;
+  }
+}
 
 .sitemap_area {
   margin-top: 100px;
+}
+@media screen and (max-width: 575.9px) {
+  .sitemap_area {
+    margin-top: 40px;
+  }
 }
 .sitemap_area .sitemap_heading {
   color: var(--mute-color-100, #1c1c1c);
@@ -7008,9 +7050,20 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 600;
   line-height: 150%; /* 61.5px */
 }
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .sitemap_heading {
+    font-size: 20px;
+    line-height: 100%;
+  }
+}
 .sitemap_area .sitemap_details {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .sitemap_details {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 .sitemap_area .sitemap_details .sitemap_info .info_title {
   color: var(--mute-color-100, #1c1c1c);
@@ -7022,8 +7075,14 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-bottom: 12px;
   margin-top: 40px;
 }
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .sitemap_details .sitemap_info .info_title {
+    margin-top: 25px;
+    font-size: 16px;
+  }
+}
 .sitemap_area .sitemap_details .sitemap_info ul {
-  padding-left: 30px;
+  padding-left: 10px;
   color: var(--mute-color-80, #494949);
   font-family: Baloo Da 2;
   font-size: 16px;
@@ -7031,9 +7090,21 @@ html ::-webkit-scrollbar-thumb:hover {
   font-weight: 400;
   line-height: 150%; /* 24px */
 }
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .sitemap_details .sitemap_info ul {
+    font-size: 14px;
+    line-height: 120%;
+  }
+}
 .sitemap_area .sitemap_details .sitemap_info ul li {
   list-style: disc;
+  list-style-position: inside;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .sitemap_details .sitemap_info ul li {
+    margin-bottom: 8px;
+  }
 }
 .sitemap_area .sitemap_details .sitemap_info ul li a {
   color: var(--mute-color-80, #494949);
@@ -7043,6 +7114,11 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 .sitemap_area .student_panel {
   margin-top: 72px;
+}
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .student_panel {
+    margin-top: 40px;
+  }
 }
 .sitemap_area .student_panel .student_panel_heading {
   display: flex;
@@ -7055,6 +7131,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 48px */
+}
+@media screen and (max-width: 575.9px) {
+  .sitemap_area .student_panel .student_panel_heading .student_panel_title {
+    font-size: 20px;
+  }
 }
 .sitemap_area .student_panel .student_panel_heading .student_panel_border {
   width: 1064px;
