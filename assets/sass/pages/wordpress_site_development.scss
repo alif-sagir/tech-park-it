@@ -1,6 +1,6 @@
 .wordpress_site_development {
     margin-top: 100px;
-    @include xs(){
+    @include xs() {
         margin-top: 30px;
     }
     .wordpress_site_title {
@@ -12,20 +12,20 @@
         font-style: normal;
         font-weight: 700;
         line-height: 150%; /* 61.5px */
-        @include xs(){
+        @include xs() {
             font-size: 18px;
         }
     }
     .wordpress_site_price_and_logo {
         display: flex;
         margin-top: 32px;
-        @include xs(){
+        @include xs() {
             flex-direction: column;
         }
         .wordpress_logo_services_and_package {
             flex: 1;
-            @include lg(){
-                // flex: unset;
+            @include lg() {
+                flex: unset;
             }
             .wordpress_logo {
                 display: flex;
@@ -36,13 +36,13 @@
                     width: 412px;
                     height: 412px;
                     margin: 34px 0px;
-                    @include xs(){
+                    @include xs() {
                         width: 100%;
                         height: 100%;
                         margin: 10px 0px;
                     }
-                    @include lg(){
-                        
+                    @include lg() {
+
                     }
                 }
             }
@@ -58,7 +58,7 @@
                     line-height: 150%; /* 39px */
                     margin-top: 48px;
                     margin-bottom: 24px;
-                    @include xs(){
+                    @include xs() {
                         font-size: 18px;
                         margin-top: 30px;
                         margin-bottom: 10px;
@@ -75,7 +75,7 @@
                         line-height: 150%; /* 30px */
                         display: flex;
                         align-items: center;
-                        @include xs(){
+                        @include xs() {
                             font-size: 14px;
                             margin-bottom: 10px;
                         }
@@ -83,7 +83,7 @@
                             color: #27ae60;
                             font-size: 24px;
                             margin-right: 8px;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 16px;
                                 margin-right: 4px;
                             }
@@ -91,14 +91,14 @@
                     }
                 }
             }
-            .service_packagage{
+            .service_packagage {
                 // display: none;
-                @include xs(){
+                @include xs() {
                     // width: 400px;
                     // border: 2px solid red;
                     overflow-x: scroll;
                 }
-                
+
                 .service_all_package {
                     display: flex;
                     // justify-content: space-between;
@@ -107,15 +107,16 @@
                     border-radius: 12px;
                     border: 1px solid #e5e5e5;
                     margin-top: 51px;
-                    @include lg(){
+                    @include lg() {
                         // overflow: x;
+                        // width: 100%;
                     }
                     .service_package_details {
-                        flex: 1;
+                        // flex: 1;
                         border-left: 1px solid #e5e5e5;
                         .head {
                             color: var(--mute-color-100, #1c1c1c);
-    
+
                             /* H3/Semibold 32 */
                             font-family: Baloo Da 2;
                             font-size: 32px;
@@ -124,23 +125,23 @@
                             line-height: 150%; /* 48px */
                             padding: 24px 16px;
                             height: 182px;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                             h2 {
                                 color: var(--mute-color-100, #1c1c1c);
-    
+
                                 /* H3/Semibold 32 */
                                 font-family: Baloo Da 2;
                                 font-size: 32px;
                                 font-style: normal;
                                 font-weight: 600;
                                 line-height: 150%; /* 48px */
-                                @include xs(){
+                                @include xs() {
                                     font-size: 18px;
                                 }
                             }
-    
+
                             p {
                                 color: var(--mute-color-80, #494949);
                                 font-family: Baloo Da 2;
@@ -148,15 +149,15 @@
                                 font-style: normal;
                                 font-weight: 500;
                                 line-height: 150%; /* 39px */
-                                @include xs(){
+                                @include xs() {
                                     font-size: 18px;
                                 }
                             }
                         }
                         .package_list {
                             ul {
-                                .active{
-                                    i{
+                                .active {
+                                    i {
                                         color: #219653;
                                     }
                                 }
@@ -170,16 +171,16 @@
                                     padding: 16px 0px;
                                     padding-left: 24px;
                                     text-align: center;
-                                    @include xs(){
+                                    @include xs() {
                                         font-size: 16px;
                                         padding: 8px 0px;
                                         padding-left: 10px;
                                     }
                                     i {
                                         text-align: center;
-                                        color: #E0E0E0;
+                                        color: #e0e0e0;
                                     }
-    
+
                                     &:nth-child(even) {
                                         background-color: #f3f3f3;
                                         // background-color: #F9F9F9;
@@ -191,7 +192,7 @@
                             width: 291px;
                             flex: unset;
                             border-left: none;
-                            @include xs(){
+                            @include xs() {
                             }
                             .head {
                                 padding-left: 24px;
@@ -215,7 +216,7 @@
                         }
                         .package_footer {
                             color: var(--mute-color-100, #1c1c1c);
-    
+
                             /* H3/Semibold 32 */
                             font-family: Baloo Da 2;
                             font-style: normal;
@@ -229,12 +230,11 @@
                             // padding-top: 12px;
                             // padding-bottom: 16px;
                             // padding-right: 16px;
-                            @include xs(){
-                                
+                            @include xs() {
                             }
                             h4 {
                                 color: var(--mute-color-100, #1c1c1c);
-    
+
                                 /* H4/Semibold 26 */
                                 font-family: Baloo Da 2;
                                 font-size: 26px;
@@ -242,7 +242,7 @@
                                 font-weight: 600;
                                 line-height: 150%; /* 39px */
                                 text-align: center;
-                                @include xs(){
+                                @include xs() {
                                     font-size: 18px;
                                     margin-top: 10px;
                                 }
@@ -267,7 +267,7 @@
                                 background: var(--white-100, #fff);
                                 // margin-top: 9px;
                                 margin: 10px;
-                                @include xs(){
+                                @include xs() {
                                     font-size: 16px;
                                     padding: 8px 14px 7px 14px;
                                     margin: 15px;
@@ -285,12 +285,12 @@
                 margin-left: 24px;
                 border-radius: 12px;
                 border: 1px solid var(--mute-color-20, #d2d2d2);
-                @include xs(){
+                @include xs() {
                     margin-top: 50px;
                     width: 100%;
                     margin-left: 0px;
                 }
-                @include lg(){
+                @include lg() {
                     width: 100%;
                 }
                 table {
@@ -308,7 +308,7 @@
                                 padding-left: 24px;
                                 padding-bottom: 12px;
                                 padding-right: 24px;
-                                @include xs(){
+                                @include xs() {
                                     font-size: 16px;
                                     padding: 8px 10px;
                                 }
@@ -331,7 +331,7 @@
                                 padding-right: 28px;
                                 padding-bottom: 25px;
                                 border: 1px solid var(--mute-color-20, #d2d2d2);
-                                @include xs(){
+                                @include xs() {
                                     font-size: 16px;
                                     padding: 8px 10px;
                                 }
@@ -357,7 +357,7 @@
                         width: 258px;
                         margin-top: 24px;
                         margin-bottom: 16px;
-                        @include xs(){
+                        @include xs() {
                             font-size: 18px;
                         }
                     }
@@ -373,7 +373,7 @@
                             margin-right: 6px;
                             font-size: 26px;
                             color: #1c1c1c;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 16px;
                             }
                         }
@@ -385,7 +385,7 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -402,7 +402,7 @@
                             margin-right: 6px;
                             font-size: 30px;
                             color: #27ae60;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -414,7 +414,7 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -431,7 +431,7 @@
                             margin-right: 6px;
                             font-size: 28px;
                             color: #2aabee;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -443,7 +443,7 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -460,7 +460,7 @@
                             margin-right: 6px;
                             font-size: 26px;
                             color: #1c1c1c;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 18px;
                             }
                         }
@@ -472,7 +472,7 @@
                             font-weight: 400;
                             line-height: 150%; /* 39px */
                             text-decoration-line: underline;
-                            @include xs(){
+                            @include xs() {
                                 font-size: 16px;
                             }
                         }
@@ -485,7 +485,7 @@
                         font-weight: 400;
                         line-height: 160%; /* 25.6px */
                         margin-bottom: 24px;
-                        @include xs(){
+                        @include xs() {
                             font-size: 14px;
                         }
                     }

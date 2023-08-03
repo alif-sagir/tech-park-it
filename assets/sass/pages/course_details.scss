@@ -570,6 +570,7 @@
                             background-color: #f3f4f6;
                             padding: 12px;
                             border-radius: 8px;
+                            
                             @include xs(){
                                 width: 100%;
                                 padding: 5px;
@@ -582,8 +583,8 @@
                                         width: 139px;
                                         height: 139px;
                                         @include xs(){
-                                            width: 80px;
-                                            height: 80px;
+                                            width: 100%;
+                                            height: 90%;
                                         }
                                     }
                                 }
@@ -607,6 +608,10 @@
                                         font-size: 16px;
                                         line-height: 25.6px;
                                         color: #494949;
+                                        @include xs(){
+                                            font-size: 14px;
+                                            line-height: 150%;
+                                        }
                                     }
                                     .trainer_link {
                                         // margin-top: 16px;
@@ -620,8 +625,10 @@
                                             color: rgb(73, 73, 241);
                                             cursor: pointer;
                                             @include xs(){
+                                                font-size: 20px;
                                                 margin-right: 8px;
-                                                margin-top: 2px;
+                                                width: 20px;
+                                                height: 20px;
                                             }
                                             &:last-child {
                                                 margin-right: 0px;
@@ -645,6 +652,9 @@
                             .trainer_descrip {
                                 p {
                                     margin-top: 23px;
+                                    @include xs(){
+                                        font-size: 14px;
+                                    }
                                 }
                             }
                         }
@@ -1094,7 +1104,7 @@
     }
 }
 .general_question_part {
-    display: none;
+    // display: none;
     margin-top: 115px;
     @include xs() {
         margin-top: 40px;
@@ -1118,6 +1128,10 @@
                     line-height: 150%; /* 48px */
                     @include xs() {
                         font-size: 18px;
+                        text-align: center;
+                        margin-right: 20px;
+                        margin-bottom: 10px;
+                        font-weight: 600
                     }
                 }
                 .general_question_heading_brief {
@@ -1129,11 +1143,15 @@
                     line-height: 150%; /* 30px */
                     @include xs() {
                         font-size: 16px;
+                        font-weight: 500;
                     }
                 }
             }
             .general_question_all {
                 margin-top: 42px;
+                @include xs(){
+                    margin-top: 20px;
+                }
                 .general_question {
                     // background-color: #f3f4f6;
                     border-radius: 8px;
@@ -1157,7 +1175,7 @@
                                 font-weight: 500;
                                 line-height: 150%; /* 30px */
                                 @include xs() {
-                                    font-size: 16px;
+                                    font-size: 15px;
                                 }
                             }
                         }
