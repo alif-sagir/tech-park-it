@@ -3119,6 +3119,11 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-right: 6px;
   color: #27ae60;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories .job_categorie .job_categorie_icon {
+    font-size: small;
+  }
+}
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .job_possition .job_categories .job_categorie .job_categorie_title {
   font-size: 16px;
   line-height: 24px;
@@ -3177,6 +3182,11 @@ html ::-webkit-scrollbar-thumb:hover {
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie .freelancing_categorie_icon {
   margin-right: 6px;
   color: #27ae60;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie .freelancing_categorie_icon {
+    font-size: small;
+  }
 }
 .course_details_area .course_details_part .course_details .job_possition_and_freelancing .freelancing_project .freelancing_categories .freelancing_categorie .freelancing_categorie_title {
   font-size: 16px;
@@ -3239,7 +3249,6 @@ html ::-webkit-scrollbar-thumb:hover {
   display: none;
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul {
-  margin-top: 24px;
   margin-left: 24px;
   column-count: 2;
   width: 450px;
@@ -3249,16 +3258,27 @@ html ::-webkit-scrollbar-thumb:hover {
     column-count: 1;
     margin-left: 15px;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li {
   display: flex;
   margin-bottom: 16px;
 }
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li {
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li .cheak_icon {
   margin-right: 6px;
   color: #27ae60;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li .cheak_icon {
+    font-size: small;
+  }
 }
 .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li .feature_content_text {
   color: #1c1c1c;
@@ -3267,6 +3287,11 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_area .course_details_part .course_details .course_feature_part .course_features li .feature_content ul li .feature_content_text {
+    font-size: 14px;
+  }
 }
 .course_details_area .course_details_part .course_details .class_module {
   margin-top: 65px;
@@ -4437,7 +4462,7 @@ html ::-webkit-scrollbar-thumb:hover {
 }
 @media screen and (max-width: 575.9px) {
   .course_details_quiz_area .class_routine {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 .course_details_quiz_area .class_routine .class_routine_title_and_details {
@@ -4497,12 +4522,18 @@ html ::-webkit-scrollbar-thumb:hover {
 @media screen and (max-width: 575.9px) {
   .course_details_quiz_area .class_routine .class_routine_table .class_routine_month {
     font-size: 16px;
+    margin-top: 10px;
   }
 }
 .course_details_quiz_area .class_routine .class_routine_table .table_div {
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   margin-top: 12px;
+}
+@media screen and (max-width: 575.9px) {
+  .course_details_quiz_area .class_routine .class_routine_table .table_div {
+    margin-top: 1px;
+  }
 }
 .course_details_quiz_area .class_routine .class_routine_table .table_div table {
   width: 100%;

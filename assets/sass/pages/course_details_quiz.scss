@@ -130,7 +130,7 @@
     .class_routine {
         margin-top: 100px;
         @include xs() {
-            margin-top: 50px;
+            margin-top: 20px;
         }
         .class_routine_title_and_details {
             display: flex;
@@ -185,6 +185,7 @@
                 margin-bottom: 15px;
                 @include xs() {
                     font-size: 16px;
+                    margin-top: 10px;
                 }
             }
 
@@ -194,6 +195,7 @@
                 margin-top: 12px;
                 @include xs() {
                     // overflow-x: scroll;
+                    margin-top: 1px;
                 }
                 table {
                     width: 100%;
