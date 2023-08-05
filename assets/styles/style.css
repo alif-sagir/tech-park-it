@@ -145,6 +145,7 @@ html ::-webkit-scrollbar-thumb:hover {
   top: 0px;
   background-color: #ffffff;
   z-index: 999999;
+  box-shadow: 0px -6px 5px 10px #e2e3e5;
 }
 .header_area .header_area_content {
   border: 0px solid red;
@@ -837,6 +838,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   background-color: #f3f4f6;
   border-radius: 20px;
+  padding-bottom: 49px;
 }
 @media screen and (max-width: 575.9px) {
   .our_course_area .our_course_area_content {
@@ -1585,7 +1587,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area {
-  border: 1px solid #fca5a5;
+  border: 1px solid #fecaca;
   display: flex;
   background-color: #ffffff;
   border-radius: 12px;
@@ -1596,7 +1598,7 @@ html ::-webkit-scrollbar-thumb:hover {
   border: 0px solid red;
   text-align: center;
   padding: 10px 23px;
-  background-color: #fca5a5;
+  background-color: #fecaca;
   border-radius: 12px 0px 0px 12px;
 }
 .free_seminar_area .free_seminar_area_content .left_area .date_line_area .date .date_number {
@@ -1914,6 +1916,1181 @@ html ::-webkit-scrollbar-thumb:hover {
 .working_company_name_area .working_company_name_area_content .all_company_name ul .company_logo a img {
   border: 0px solid red;
   width: 100%;
+}
+
+.course_and_payment_area {
+  border: 0px solid red;
+  margin-top: 100px;
+}
+.course_and_payment_area .course_and_payment_area_content {
+  border: 0px solid red;
+  display: flex;
+  gap: 60px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area {
+  border: 0px solid red;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  background-color: #f3f4f6;
+  padding: 16px;
+  width: 630px;
+  height: 210px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area:hover .course_image {
+  transform: scale(0.9);
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_image {
+  border: 0px solid red;
+  width: 174px;
+  height: 174px;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid #eaeaea;
+  transition-duration: 0.4s;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_image img {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price {
+  border: 0px solid red;
+  align-items: center;
+  display: grid;
+  margin-left: 16px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_title .title {
+  border: 0px solid red;
+  font-family: "SemiBold";
+  font-size: 26px;
+  line-height: 40px;
+  color: #1c1c1c;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price {
+  border: 0px solid red;
+  margin-top: 16px;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .old_price {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Regular";
+  color: #dc2626;
+  text-decoration: line-through;
+}
+.course_and_payment_area .course_and_payment_area_content .course_area .course_title_and_price .course_price .update_price {
+  border: 0px solid red;
+  font-size: 26px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  margin-left: 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area {
+  border: 0px solid red;
+  width: 450px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form {
+  border: 0px solid red;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area {
+  border: 0px solid red;
+  border: 2px solid #d2d2d2;
+  border-radius: 6px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content {
+  border: 0px solid red;
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 0px;
+  margin: 0 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content label {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Regular";
+  align-items: center;
+  display: flex;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content label i {
+  margin-right: 5px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .form_content input {
+  border: 0px solid red;
+  outline: 0;
+  text-align: right;
+  font-size: 16px;
+  font-family: "Regular";
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_dash {
+  border-bottom: 1px dashed #a4a4a4;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_solid {
+  border-bottom: 1px solid #a4a4a4;
+  margin: 0px;
+  padding: 20px 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .form_area .border_solid input {
+  border: 1px solid #a4a4a4;
+  border-radius: 6px;
+  width: 270px;
+  height: 45px;
+  padding: 0px 10px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .button_all {
+  border: 0px solid red;
+  border: 1px solid #101727;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  width: 100%;
+  transition-duration: 0.4s;
+  margin-top: 20px;
+  padding: 16px 0px;
+}
+.course_and_payment_area .course_and_payment_area_content .payment_form_area form .button_all:hover {
+  background-color: #dc2626;
+  border: 1px solid #dc2626;
+  color: #ffffff;
+}
+
+.bank_name_area {
+  border: 0px solid red;
+  margin-top: 120px;
+}
+.bank_name_area .bank_name_area_content {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+}
+.bank_name_area .bank_name_area_content .bank_name_area_title {
+  border: 0px solid red;
+  margin-right: 12px;
+}
+.bank_name_area .bank_name_area_content .bank_name_area_title .title {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "Medium";
+  color: #494949;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area {
+  border: 0px solid red;
+  gap: 12px;
+  display: flex;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .bank_logo_area .bank_logo span img {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area {
+  border: 0px solid red;
+  position: relative;
+  margin-left: 12px;
+  padding-left: 12px;
+}
+.bank_name_area .bank_name_area_content .ssl_area::before {
+  content: "";
+  width: 2px;
+  height: 20px;
+  background-color: #D2D2D2;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 100%;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_title {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_title .title {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Medium";
+  color: #777777;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_image {
+  border: 0px solid red;
+}
+.bank_name_area .bank_name_area_content .ssl_area .ssl_image img {
+  border: 0px solid red;
+}
+
+.free_seminar_area_copy {
+  padding-bottom: 120px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy {
+  width: 845px;
+  padding: 0px;
+  margin: auto;
+  background-color: unset;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy {
+  margin-bottom: 15px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .date_copy {
+  padding: 10px 30px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .date_copy .date_number_copy {
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .data_science_copy .data_science_text_title_copy {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Medium";
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .data_science_copy .data_science_text_sub_title_copy {
+  font-size: 14px;
+}
+.free_seminar_area_copy .free_seminar_area_content_copy .left_area_copy .date_line_area_copy .join_button_copy .button_all_copy {
+  padding: 10px 48px;
+}
+
+.our_course_area-copy {
+  padding-bottom: 0px;
+}
+
+.contact_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title {
+  border: 0px solid red;
+  text-align: center;
+  width: 996px;
+  margin: auto;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.contact_area .contact_area_content .title .contact_area_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_title .area_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_sub_title {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .title .contact_area_sub_title .sub_title {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Regular";
+}
+.contact_area .contact_area_content .phone_number_and_form_area {
+  border: 0px solid red;
+  margin-bottom: 80px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title {
+  border: 0px solid red;
+  margin-bottom: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_title .title_text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact {
+  border: 0px solid red;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .logo i {
+  border: 0px solid red;
+  font-size: 24px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .phone {
+  color: #1c1b1f;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .whatsapp {
+  color: #25d366;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .telegram {
+  color: #26a5e4;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .email {
+  color: #1c1b1f;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number {
+  border: 0px solid red;
+  padding-left: 6px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number .text {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  font-family: "Regular";
+  color: #494949;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .contact_number_and_email_area li .contact .number .text:hover {
+  color: #dc2626;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title {
+  border: 0px solid red;
+  padding: 30px 0px 24px 0px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media_title .text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "SemiBold";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 12px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a {
+  width: 48px;
+  height: 48px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #d6d6d6;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a:hover {
+  border: 1px solid #dc2626;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li a i {
+  border: 0px solid red;
+  font-size: 27px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .facebook {
+  color: #16a6fb;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .instagram {
+  color: #0a58ca;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .youtube {
+  color: #ff0000;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .linkedin-in {
+  color: #2567b3;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .left_area .social_media_area .social_media ul li .twitter {
+  color: #28a7e8;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px #a4a4a4;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title {
+  border: 0px solid red;
+  margin-bottom: 40px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area .contact_form_title .title_text {
+  border: 0px solid red;
+  font-size: 32px;
+  font-family: "Medium";
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form {
+  border: 0px solid red;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_item {
+  border: 0px solid red;
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: 0;
+  border: 1px solid #a4a4a4;
+  font-size: 16px;
+  line-height: 16px;
+  font-family: "Medium";
+  color: #494949;
+  padding: 14px 12px;
+  border-radius: 8px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form textarea {
+  height: 100px;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_button {
+  border: 0px solid red;
+  padding: 18px 12px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+  background-color: transparent;
+  border: 1px solid #a4a4a4;
+  transition-duration: 0.4s;
+}
+.contact_area .contact_area_content .phone_number_and_form_area .right_area form .form_button:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+  border: 1px solid #dc2626;
+}
+
+.general_question_area {
+  border: 0px solid red;
+  width: 846px;
+  margin: auto;
+  margin-top: 80px;
+}
+.general_question_area .question_title {
+  border: 0px solid red;
+  margin-bottom: 40px;
+}
+.general_question_area .question_title .general_question_title {
+  border: 0px solid red;
+}
+.general_question_area .question_title .general_question_title .text {
+  border: 0px solid red;
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Medium";
+  color: #1c1c1c;
+  margin-bottom: 10px;
+}
+.general_question_area .question_title .general_question_sub_title {
+  border: 0px solid red;
+}
+.general_question_area .question_title .general_question_sub_title .sub_text {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Regular";
+  color: #494949;
+}
+.general_question_area .question_and_ans_area {
+  border: 0px solid red;
+  border-bottom: 2px solid #d2d2d2;
+  margin-bottom: 30px;
+  padding-bottom: 0px;
+}
+.general_question_area .question_and_ans_area .question_area {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+  padding-bottom: 10px;
+}
+.general_question_area .question_and_ans_area .question_area .question {
+  border: 0px solid red;
+}
+.general_question_area .question_and_ans_area .question_area .question .q_text {
+  border: 0px solid red;
+  font-size: 20px;
+  font-family: "Medium";
+  color: #494949;
+}
+.general_question_area .question_and_ans_area .question_area .question_icon {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.general_question_area .question_and_ans_area .question_area .question_icon i {
+  border: 0px solid red;
+  font-size: 20px;
+  color: #494949;
+}
+.general_question_area .question_and_ans_area .ans_area {
+  border: 0px solid red;
+  background-color: #f3f4f6;
+  padding: 15px;
+  margin-top: 15px;
+}
+.general_question_area .question_and_ans_area .ans_area .a_text {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Regular";
+  color: #494949;
+}
+
+.science_and_technology {
+  border: 0px solid red;
+  margin-top: 120px;
+}
+.science_and_technology .science_and_technology_content {
+  border: 0px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 140px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area {
+  border: 0px solid red;
+  width: 561px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .title {
+  border: 0px solid red;
+  margin-bottom: 13px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .title .text {
+  border: 0px solid red;
+  color: #1c1c1c;
+  font-family: "Medium";
+  font-size: 20px;
+  line-height: 20px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .content_text {
+  border: 0px solid red;
+  margin-bottom: 32px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .content_text .text {
+  border: 0px solid red;
+  color: #1c1c1c;
+  font-family: "SemiBold";
+  font-size: 41px;
+  line-height: 61px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button {
+  border: 0px solid red;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button::before {
+  content: "";
+  width: 2px;
+  height: 144px;
+  position: absolute;
+  background-color: #d2d2d2;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text {
+  border: 0px solid red;
+  margin-bottom: 16px;
+  margin-left: 40px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .sub_content_text .text {
+  border: 0px solid red;
+  color: #494949;
+  font-family: "Regular";
+  font-size: 16px;
+  line-height: 24px;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .button_all {
+  border: 1px solid #6b7280;
+  margin-left: 40px;
+  transition-duration: 0.4s;
+}
+.science_and_technology .science_and_technology_content .science_and_technology_text_area .sub_content_text_and_button .button_all:hover {
+  background-color: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+.science_and_technology .science_and_technology_img_area {
+  border: 0px solid red;
+  width: 469px;
+  position: relative;
+  margin-right: 97px;
+}
+.science_and_technology .science_and_technology_img_area .blog_img {
+  width: 100%;
+  border-radius: 8px;
+}
+.science_and_technology .science_and_technology_img_area .color_image_left {
+  border: 0px solid red;
+  position: absolute;
+  top: 0;
+  left: -66px;
+}
+.science_and_technology .science_and_technology_img_area .color_image_right {
+  border: 0px solid red;
+  position: absolute;
+  bottom: 0;
+  right: -98px;
+}
+.science_and_technology .blog_nav {
+  border: 0px solid red;
+  margin-bottom: 64px;
+}
+.science_and_technology .blog_nav ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 24px;
+}
+.science_and_technology .blog_nav ul li {
+  border: 0px solid red;
+}
+.science_and_technology .blog_nav ul li a {
+  border: 0px solid red;
+  padding: 12px 24px;
+  color: #1c1c1c;
+  font-size: 16px;
+  font-family: "Medium";
+  line-height: 16px;
+  border: 1px solid #6b7280;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+}
+.science_and_technology .blog_nav ul li a:hover {
+  color: #ffffff;
+  background-color: #dc2626;
+  border-color: #dc2626;
+}
+.science_and_technology .blog_list {
+  border: 0px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 47px;
+}
+.science_and_technology .blog_list .blog {
+  border: 0px solid red;
+  width: 400px;
+  position: relative;
+}
+.science_and_technology .blog_list .blog .blog_image_and_image_button_area {
+  border: 0px solid red;
+  z-index: 99999;
+  position: relative;
+}
+.science_and_technology .blog_list .blog .blog_image_and_image_button_area .blog_image {
+  border: 0px solid red;
+  height: 294px;
+}
+.science_and_technology .blog_list .blog .blog_image_and_image_button_area .blog_image img {
+  border: 0px solid red;
+  width: 100%;
+  border-radius: 8px;
+  height: 100%;
+}
+.science_and_technology .blog_list .blog .blog_image_and_image_button_area .img_button {
+  border: 0px solid red;
+  margin-top: 18px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.science_and_technology .blog_list .blog .blog_image_and_image_button_area .img_button a {
+  border: 0px solid red;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Medium";
+  padding: 12px;
+  color: #ffffff;
+}
+.science_and_technology .blog_list .blog .extra_rite_area {
+  border: 0px solid red;
+  position: absolute;
+  top: 19px;
+  right: -8px;
+  z-index: 99;
+}
+.science_and_technology .blog_list .blog .extra_rite_area .img {
+  border: 0px solid red;
+}
+.science_and_technology .blog_list .blog .blog_text_content {
+  border: 0px solid red;
+}
+.science_and_technology .blog_list .blog .blog_text_content .day_and_time {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Medium";
+  line-height: 16px;
+  color: #777777;
+  margin: 16px 0px;
+}
+.science_and_technology .blog_list .blog .blog_text_content .day_and_time .day_text {
+  border: 0px solid red;
+}
+.science_and_technology .blog_list .blog .blog_text_content .day_and_time .min_text {
+  border: 0px solid red;
+}
+.science_and_technology .blog_list .blog .blog_text_content .text_title {
+  border: 0px solid red;
+  margin-bottom: 8px;
+}
+.science_and_technology .blog_list .blog .blog_text_content .text_title .title {
+  border: 0px solid red;
+  font-size: 26px;
+  font-family: "SemiBold";
+  line-height: 40px;
+  color: #1c1c1c;
+}
+.science_and_technology .blog_list .blog .blog_text_content .text_sub_title {
+  border: 0px solid red;
+}
+.science_and_technology .blog_list .blog .blog_text_content .text_sub_title .sub_title {
+  border: 0px solid red;
+  font-size: 16px;
+  font-family: "Regular";
+  line-height: 24px;
+  color: #494949;
+}
+.science_and_technology .next_page_button_area {
+  border: 0px solid red;
+  justify-content: center;
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+.science_and_technology .next_page_button_area ul {
+  border: 0px solid red;
+  display: flex;
+  gap: 24px;
+}
+.science_and_technology .next_page_button_area ul li {
+  border: 0px solid red;
+  align-items: center;
+  display: flex;
+}
+.science_and_technology .next_page_button_area ul li a {
+  border: 0px solid red;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Medium";
+  color: #1c1c1c;
+  align-items: center;
+  display: flex;
+  border: 1px solid #6b7280;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+.science_and_technology .next_page_button_area ul li a:hover {
+  color: #ffffff;
+  background-color: #dc2626;
+  border-color: #dc2626;
+}
+.science_and_technology .next_page_button_area ul li a .left_angle {
+  border: 0px solid red;
+  font-size: 16px;
+  margin-right: 4px;
+}
+.science_and_technology .next_page_button_area ul li a .right_angle {
+  border: 0px solid red;
+  font-size: 16px;
+  margin-left: 4px;
+}
+.science_and_technology .next_page_button_area ul li .title {
+  padding: 8px 12px;
+}
+.science_and_technology .next_page_button_area ul li .count_number {
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+}
+.science_and_technology .subscribe_area {
+  border: 0px solid red;
+  background-color: #f3f4f6;
+  width: 974px;
+  margin: auto;
+  border-radius: 12px;
+  padding: 0px 40px;
+}
+.science_and_technology .subscribe_area .subscribe_area_title {
+  border: 0px solid red;
+  padding-top: 48px;
+  margin-bottom: 12px;
+}
+.science_and_technology .subscribe_area .subscribe_area_title .title {
+  border: 0px solid red;
+  font-size: 32px;
+  line-height: 32px;
+  font-family: "Medium";
+  color: #1c1c1c;
+}
+.science_and_technology .subscribe_area .subscribe_area_sub_title {
+  border: 0px solid red;
+  margin-bottom: 32px;
+}
+.science_and_technology .subscribe_area .subscribe_area_sub_title .sub_title {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Regular";
+  color: #494949;
+}
+.science_and_technology .subscribe_area form {
+  border: 0px solid red;
+  padding-bottom: 40px;
+}
+.science_and_technology .subscribe_area form .subscribe_form_area {
+  border: 0px solid red;
+}
+.science_and_technology .subscribe_area form .subscribe_form_area input {
+  border: 0px solid red;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  color: #bdbdbd;
+  padding: 6px 24px;
+  border-radius: 8px;
+  width: 717px;
+  border: 1px solid #D1D5DB;
+}
+.science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button {
+  border: 0px solid red;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: "SemiBold";
+  color: #bdbdbd;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  margin-left: 16px;
+  border-radius: 8px;
+  border: 1px solid #D1D5DB;
+  transition-duration: 0.4s;
+}
+.science_and_technology .subscribe_area form .subscribe_form_area .subscribe_button:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.science_and_technology_area {
+  border: 0px solid red;
+  padding: 100px 0px;
+}
+.science_and_technology_area .science_and_technology_content {
+  border: 0px solid red;
+  width: 845px;
+  margin: auto;
+}
+.science_and_technology_area .science_and_technology_content .title_area {
+  border: 0px solid red;
+}
+.science_and_technology_area .science_and_technology_content .title_area .title {
+  border: 0px solid red;
+}
+.science_and_technology_area .science_and_technology_content .title_area .title .text {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 20px;
+  color: #494949;
+  font-family: "Medium";
+}
+.science_and_technology_area .science_and_technology_content .title_area .content_text {
+  border: 0px solid red;
+  margin: 16px 0px 24px 0px;
+}
+.science_and_technology_area .science_and_technology_content .title_area .content_text .text {
+  border: 0px solid red;
+  font-size: 40px;
+  line-height: 60px;
+  color: #1c1c1c;
+  font-family: "SemiBold";
+}
+.science_and_technology_area .science_and_technology_content .title_image {
+  border: 0px solid red;
+  width: 845px;
+  padding-bottom: 8px;
+}
+.science_and_technology_area .science_and_technology_content .title_image img {
+  border: 0px solid red;
+  width: 100%;
+  border-radius: 16px;
+}
+.science_and_technology_area .science_and_technology_content .section_area {
+  border: 0px solid red;
+  margin-top: 32px;
+}
+.science_and_technology_area .science_and_technology_content .section_area .title_area {
+  border: 0px solid red;
+}
+.science_and_technology_area .science_and_technology_content .section_area .title_area .title_text {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  color: #1c1c1c;
+  font-family: "SemiBold";
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_area {
+  border: 0px solid red;
+  margin-top: 12px;
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_area .details_text {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 24px;
+  color: #494949;
+  font-family: "Regular";
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_area ul {
+  border: 0px solid red;
+  gap: 10px;
+  display: grid;
+  margin-left: 25px;
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_area ul li {
+  border: 0px solid red;
+  list-style-type: disc;
+  color: #494949;
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_area ul li .details_text {
+  border: 0px solid red;
+}
+.science_and_technology_area .science_and_technology_content .section_area .advantages_of_technology_image {
+  border: 0px solid red;
+  width: 735px;
+  margin: 32px 0px 23px 0px;
+}
+.science_and_technology_area .science_and_technology_content .section_area .advantages_of_technology_image img {
+  border: 0px solid red;
+  width: 100%;
+  border-radius: 16px;
+}
+.science_and_technology_area .science_and_technology_content .section_area .details_text {
+  border: 0px solid red;
+}
+
+.blog_area {
+  border: 0px solid red;
+  background-color: #F3F4F6;
+  margin: 0px;
+  padding: 80px 0px 100px 0px;
+}
+.blog_area .blog_area_title {
+  border: 0px solid red;
+  margin-bottom: 24px;
+}
+.blog_area .blog_area_title .title {
+  border: 0px solid red;
+  font-size: 40px;
+  line-height: 40px;
+  font-family: "SemiBold";
+  color: #1c1c1c;
+}
+
+.subscribe_area_details {
+  border: 0px solid red;
+  margin-top: 100px;
+}
+.subscribe_area_details .subscribe_area {
+  border: 0px solid red;
+}
+
+.my_tema_area {
+  margin-top: 120px;
+}
+
+.orientation_class_area {
+  margin-top: 80px;
+}
+
+.farewell_area {
+  margin-top: 80px;
+}
+
+.all_area {
+  border: 0px solid red;
+}
+.all_area .gallery_area {
+  border: 0px solid red;
+}
+.all_area .gallery_area .gallery_title {
+  border: 0px solid red;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.all_area .gallery_area .gallery_title .title {
+  border: 0px solid red;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1c1c1c;
+  font-family: "Bold";
+}
+.all_area .gallery_area .gallery_content {
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+.all_area .gallery_area .gallery_content .gallery_content_img {
+  border: 0px solid red;
+  max-width: 410px;
+}
+.all_area .gallery_area .gallery_content .gallery_content_img img {
+  border: 0px solid red;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.success_story_title {
+  border: 0px solid red;
+  text-align: center;
+  margin: 100px 0px 80px 0px;
+}
+.success_story_title .success_story_main_title {
+  border: 0px solid red;
+  margin-bottom: 24px;
+}
+.success_story_title .success_story_main_title .main_title {
+  border: 0px solid red;
+  font-size: 40px;
+  line-height: 40px;
+  color: #1c1c1c;
+  font-family: "Bold";
+}
+.success_story_title .success_story_sub_title {
+  border: 0px solid red;
+  width: 550px;
+  margin: auto;
+}
+.success_story_title .success_story_sub_title .sub_title {
+  border: 0px solid red;
+}
+
+.success_story_nav_area {
+  border: 0px solid red;
+  margin-bottom: 48px;
+}
+.success_story_nav_area .success_story_nav_content {
+  border: 0px solid red;
+  border-bottom: 1px solid #777777;
+}
+.success_story_nav_area .success_story_nav_content ul {
+  border: 0px solid red;
+  display: flex;
+  margin-bottom: 8px;
+}
+.success_story_nav_area .success_story_nav_content ul li {
+  border: 0px solid red;
+  margin-right: 60px;
+}
+.success_story_nav_area .success_story_nav_content ul li a {
+  border: 0px solid red;
+  font-size: 26px;
+  line-height: 26px;
+  color: #494949;
+  font-family: "SemiBold";
+  transition-duration: 0.4s;
+  position: relative;
+}
+.success_story_nav_area .success_story_nav_content ul li a:hover::after {
+  background-color: #dc2626;
+}
+.success_story_nav_area .success_story_nav_content ul li a::after {
+  content: "";
+  width: 100%;
+  height: 5px;
+  background-color: transparent;
+  position: absolute;
+  top: 33px;
+  left: 0;
+  transition-duration: 0.4s;
+}
+
+.success_story_video_and_image_area .success_story_video_and_image_content {
+  border: 0px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 42px;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .content_area_video {
+  border: 0px solid red;
+  width: 626px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 23px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .content_area_video .play_button {
+  border: 0px solid red;
+  height: 130px;
+  width: 130px;
+  background-color: #dc2626;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .content_area_video .play_button i {
+  border: 0px solid red;
+  color: #ffffff;
+  font-size: 33px;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image {
+  border: 0px solid red;
+  background-color: transparent;
+  display: flex;
+  width: 626px;
+  height: 400px;
+  background-color: #F3F4F6;
+  border-radius: 20px;
+  padding: 32px 33px;
+  align-items: center;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area {
+  border: 0px solid red;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .imagee_content {
+  border: 0px solid red;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .imagee_content img {
+  border: 0px solid red;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation {
+  border: 0px solid red;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation .name_text {
+  border: 0px solid red;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1c1c1c;
+  font-family: "Bold";
+  margin: 24px 0px 12px 0px;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .imagee_area .name_and_profation .profation_text {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 16px;
+  color: #494949;
+  font-family: "Regular";
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area {
+  border: 0px solid red;
+  margin-left: 40px;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_title_area {
+  border: 0px solid red;
+  text-align: start;
+  margin-bottom: 16px;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_title_area .discription_title {
+  border: 0px solid red;
+  font-size: 20px;
+  color: #1c1c1c;
+  font-family: "SemiBold";
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_text_area {
+  border: 0px solid red;
+  text-align: start;
+}
+.success_story_video_and_image_area .success_story_video_and_image_content .contentt_area_image .text_discription_area .discription_text_area .discription_text {
+  border: 0px solid red;
+  font-size: 16px;
+  line-height: 26px;
+  color: #494949;
+  font-family: "Regular";
 }
 
 .footer_area_start {
