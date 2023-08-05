@@ -7089,6 +7089,7 @@ html ::-webkit-scrollbar-thumb:hover {
   margin-top: 51px;
 }
 .wordpress_site_development .service_packagage .service_all_package .service_package_details {
+  flex: 1;
   border-left: 1px solid #e5e5e5;
 }
 .wordpress_site_development .service_packagage .service_all_package .service_package_details .head {
