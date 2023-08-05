@@ -3920,6 +3920,7 @@ html ::-webkit-scrollbar-thumb:hover {
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 30px */
+  margin: 19px 15px;
 }
 @media screen and (max-width: 575.9px) {
   .course_details_area .course_details_part .course_info .course_info_div .admit_course .admit_course_batch .admit_course_batch_title {
