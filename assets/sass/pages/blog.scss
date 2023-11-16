@@ -1,0 +1,517 @@
+// blog area start
+.science_and_technology {
+    border: $border;
+    margin-top: 120px;
+    @include xs {
+        margin-top: 60px;
+    }
+    @include sm {
+        margin-top: 60px;
+    }
+    @include md {
+        margin-top: 60px;
+    }
+    // science_and_technology_content start
+    .science_and_technology_content {
+        border: $border;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 140px;
+        @include xs {
+            display: block;
+            margin-bottom: 60px;
+        }
+        @include sm {
+            display: block;
+            margin-bottom: 60px;
+        }
+        @include md {
+            display: block;
+            margin-bottom: 60px;
+        }
+        .science_and_technology_text_area {
+            border: $border;
+            width: 561px;
+            @include xs {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            @include sm {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            @include md {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            .title {
+                border: $border;
+                margin-bottom: 13px;
+                .text {
+                    border: $border;
+                    color: $mute_1;
+                    font-family: $font_medium;
+                    font-size: 20px;
+                    line-height: 20px;
+                }
+            }
+            .content_text {
+                border: $border;
+                margin-bottom: 32px;
+                .text {
+                    border: $border;
+                    color: $mute_1;
+                    font-family: $font_semibold;
+                    font-size: 41px;
+                    line-height: 61px;
+                    @include xs {
+                        font-size: 25px;
+                        line-height: 35px;
+                    }
+                    @include sm {
+                        font-size: 30px;
+                        line-height: 40px;
+                    }
+                }
+            }
+            .sub_content_text_and_button {
+                border: $border;
+                &::before {
+                    content: "";
+                    width: 2px;
+                    height: 144px;
+                    position: absolute;
+                    background-color: #d2d2d2;
+                }
+                .sub_content_text {
+                    border: $border;
+                    margin-bottom: 16px;
+                    margin-left: 40px;
+                    @include xs {
+                        margin-left: 20px;
+                    }
+                    @include lg {
+                        margin-left: 20px;
+                    }
+                    .text {
+                        border: $border;
+                        color: $mute_2;
+                        font-family: $font_regular;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                .button_all {
+                    border: 1px solid #6b7280;
+                    margin-left: 40px;
+                    transition-duration: 0.4s;
+                    @include xs {
+                        margin: auto;
+                        justify-content: center;
+                        display: flex;
+                    }
+                    @include lg {
+                        margin-left: 0px;
+                    }
+                    &:hover {
+                        background-color: $primary_color;
+                        border-color: $primary_color;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    .science_and_technology_img_area {
+        border: $border;
+        width: 469px;
+        position: relative;
+        margin-right: 97px;
+        @include xs {
+            width: 100%;
+            margin: auto;
+        }
+        @include sm {
+            width: 330px;
+            margin: auto;
+        }
+        @include md {
+            margin: auto;
+        }
+        .blog_img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .color_image_left {
+            border: $border;
+            position: absolute;
+            top: 0;
+            left: -66px;
+            @include xs {
+                display: none;
+            }
+        }
+        .color_image_right {
+            border: $border;
+            position: absolute;
+            bottom: 0;
+            right: -98px;
+            @include xs {
+                display: none;
+            }
+        }
+    }
+    // science_and_technology_content end
+    // blog nav bar area start
+    .blog_nav {
+        border: $border;
+        margin-bottom: 64px;
+        ul {
+            border: $border;
+            display: flex;
+            gap: 24px;
+            @include xs {
+                gap: 1px;
+                flex-wrap: wrap;
+            }
+            @include sm {
+                gap: 5px;
+                flex-wrap: wrap;
+            }
+            @include md {
+                gap: 5px;
+                flex-wrap: wrap;
+            }
+            @include lg {
+                gap: 2px;
+                flex-wrap: wrap;
+            }
+            li {
+                border: $border;
+                a {
+                    border: $border;
+                    padding: 12px 24px;
+                    color: $mute_1;
+                    font-size: 16px;
+                    font-family: $font_medium;
+                    line-height: 16px;
+                    border: 1px solid #6b7280;
+                    border-radius: 6px;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        color: $white;
+                        background-color: $primary_color;
+                        border-color: $primary_color;
+                    }
+                }
+            }
+        }
+    }
+    // blog nav bar area end
+
+    // blog list area start
+    .blog_list {
+        border: $border;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 47px;
+        @include xs {
+            justify-content: center;
+        }
+        @include lg {
+            gap: 30px;
+            justify-content: center;
+        }
+        @include sm {
+            gap: 15px;
+            justify-content: center;
+        }
+        @include md {
+            gap: 20px;
+            justify-content: center;
+        }
+        @include xl {
+            justify-content: center;
+        }
+        .blog {
+            border: $border;
+            width: 400px;
+            position: relative;
+            @include sm {
+                width: 249px;
+            }
+            @include md {
+                width: 330px;
+            }
+            .blog_image_and_image_button_area {
+                border: $border;
+                z-index: 99999;
+                position: relative;
+                .blog_image {
+                    border: $border;
+                    height: 294px;
+                    img {
+                        border: $border;
+                        width: 100%;
+                        border-radius: 8px;
+                        height: 100%;
+                    }
+                }
+                .img_button {
+                    border: $border;
+                    margin-top: 18px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    a {
+                        border: $border;
+                        font-size: 12px;
+                        line-height: 12px;
+                        font-family: $font_medium;
+                        // background-color: $primary_color;
+                        padding: 12px;
+                        color: $white;
+                    }
+                }
+            }
+            .extra_rite_area {
+                border: $border;
+                position: absolute;
+                top: 19px;
+                right: -8px;
+                z-index: 99;
+                .img {
+                    border: $border;
+                }
+            }
+            .blog_text_content {
+                border: $border;
+                .day_and_time {
+                    border: $border;
+                    font-size: 16px;
+                    font-family: $font_medium;
+                    line-height: 16px;
+                    color: $footer_text;
+                    margin: 16px 0px;
+                    .day_text {
+                        border: $border;
+                    }
+                    .min_text {
+                        border: $border;
+                    }
+                }
+                .text_title {
+                    border: $border;
+                    margin-bottom: 8px;
+                    .title {
+                        border: $border;
+                        font-size: 26px;
+                        font-family: $font_semibold;
+                        line-height: 40px;
+                        color: $mute_1;
+                        @include xs {
+                            font-size: 20px;
+                            line-height: 30px;
+                        }
+                    }
+                }
+                .text_sub_title {
+                    border: $border;
+                    .sub_title {
+                        border: $border;
+                        font-size: 16px;
+                        font-family: $font_regular;
+                        line-height: 24px;
+                        color: $mute_2;
+                    }
+                }
+            }
+        }
+    }
+    // blog list area end
+
+    // next_page_button_area start
+    .next_page_button_area {
+        border: $border;
+        justify-content: center;
+        display: flex;
+        margin-top: 80px;
+        margin-bottom: 120px;
+        @include xs {
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+        ul {
+            border: $border;
+            display: flex;
+            gap: 24px;
+            @include xs {
+                gap: 2px;
+            }
+            li {
+                border: $border;
+                align-items: center;
+                display: flex;
+
+                a {
+                    border: $border;
+                    font-size: 14px;
+                    line-height: 14px;
+                    font-family: $font_medium;
+                    color: $mute_1;
+                    align-items: center;
+                    display: flex;
+                    border: 1px solid #6b7280;
+                    border-radius: 4px;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        color: $white;
+                        background-color: $primary_color;
+                        border-color: $primary_color;
+                    }
+                    .left_angle {
+                        border: $border;
+                        font-size: 16px;
+                        margin-right: 4px;
+                    }
+                    .right_angle {
+                        border: $border;
+                        font-size: 16px;
+                        margin-left: 4px;
+                    }
+                }
+                .title {
+                    padding: 8px 12px;
+                }
+                .count_number {
+                    width: 36px;
+                    height: 36px;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    // next_page_button_area end
+    // subscribe_area_start
+    .subscribe_area {
+        border: $border;
+        background-color: #f3f4f6;
+        width: 974px;
+        margin: auto;
+        border-radius: 12px;
+        padding: 0px 40px;
+        @include xs {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        @include sm {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        @include md {
+            width: 100%;
+            padding: 0px 10px;
+        }
+        @include lg {
+            width: 100%;
+        }
+        .subscribe_area_title {
+            border: $border;
+            padding-top: 48px;
+            margin-bottom: 12px;
+            @include xs {
+                padding-top: 30px;
+            }
+            .title {
+                border: $border;
+                font-size: 32px;
+                line-height: 32px;
+                font-family: $font_medium;
+                color: $mute_1;
+                @include xs {
+                    font-size: 19px;
+                    line-height: 29px;
+                }
+            }
+        }
+        .subscribe_area_sub_title {
+            border: $border;
+            margin-bottom: 32px;
+            .sub_title {
+                border: $border;
+                font-size: 16px;
+                line-height: 24px;
+                font-family: $font_regular;
+                color: $mute_2;
+            }
+        }
+        // subscribe_form_area start
+        form {
+            border: $border;
+            padding-bottom: 40px;
+            .subscribe_form_area {
+                border: $border;
+                input {
+                    border: $border;
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-family: $font_semibold;
+                    color: #bdbdbd;
+                    padding: 6px 24px;
+                    border-radius: 8px;
+                    width: 717px;
+                    border: 1px solid #d1d5db;
+                    outline: 0;
+                    @include xs {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    @include sm {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    @include md {
+                        width: 100%;
+                        margin-bottom: 10px;
+                    }
+                    @include lg {
+                        margin-bottom: 10px;
+                    }
+                }
+                .subscribe_button {
+                    border: $border;
+                    font-size: 18px;
+                    line-height: 18px;
+                    font-family: $font_semibold;
+                    color: #bdbdbd;
+                    padding: 12px 24px;
+                    background-color: $white;
+                    margin-left: 16px;
+                    border-radius: 8px;
+                    border: 1px solid #d1d5db;
+                    transition-duration: 0.4s;
+                    @include xs {
+                        margin-left: 0px;
+                    }
+                    @include sm {
+                        margin-left: 0px;
+                    }
+                    @include md {
+                        margin-left: 0px;
+                    }
+                    @include lg {
+                        margin-left: 0px;
+                    }
+                    &:hover {
+                        background-color: $primary_color;
+                        color: $white;
+                    }
+                }
+            }
+        }
+        // subscribe_form_area end
+    }
+    // subscribe_area_end
+}
+// blog area end

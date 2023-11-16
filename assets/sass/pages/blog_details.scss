@@ -1,0 +1,172 @@
+// science_and_technology area start
+.science_and_technology_area {
+    border: $border;
+    padding: 100px 0px;
+    @include xs{
+        padding: 60px 0px;
+    }
+    .science_and_technology_content {
+        border: $border;
+        // title_area start
+        width: 845px;
+        margin: auto;
+        @include xs{
+            width: 100%;
+        }
+        .title_area {
+            border: $border;
+            .title {
+                border: $border;
+                .text {
+                    border: $border;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: $mute_2;
+                    font-family: $font_medium;
+                }
+            }
+            .content_text {
+                border: $border;
+                margin: 16px 0px 24px 0px;
+                .text {
+                    border: $border;
+                    font-size: 40px;
+                    line-height: 60px;
+                    color: $mute_1;
+                    font-family: $font_semibold;
+                    @include xs{
+                        font-size: 25px;
+                        line-height: 35px;
+                    }
+                }
+            }
+        }
+        // title_area end
+
+        // title_image start
+        .title_image {
+            border: $border;
+            width: 845px;
+            // height: 480px;
+            padding-bottom: 8px;
+            @include xs{
+                width: 100%;
+            }
+            img {
+                border: $border;
+                width: 100%;
+                border-radius: 16px;
+            }
+        }
+        // title_image end
+
+        // new_technology section_area start
+        .new_technology {
+        }
+        .section_area {
+            border: $border;
+            margin-top: 32px;
+            .title_area {
+                border: $border;
+                .title_text {
+                    border: $border;
+                    font-size: 26px;
+                    line-height: 26px;
+                    color: $mute_1;
+                    font-family: $font_semibold;
+                }
+            }
+            .details_area {
+                border: $border;
+                margin-top: 12px;
+                .details_text {
+                    border: $border;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $mute_2;
+                    font-family: $font_regular;
+                }
+                ul {
+                    border: $border;
+                    gap: 10px;
+                    display: grid;
+                    margin-left: 25px;
+                    li {
+                        border: $border;
+                        list-style-type: disc;
+                        color: $mute_2;
+                        .details_text {
+                            border: $border;
+                        }
+                    }
+                }
+            }
+            .advantages_of_technology_image {
+                border: $border;
+                width: 735px;
+                // height: 420px;
+                margin: 32px 0px 23px 0px;
+                @include xs{
+                    width: 100%;
+                }
+                @include lg {
+                  margin: auto;
+                  margin-bottom: 30px;
+                  margin-top: 30px;
+                }
+                @include xl{
+                  margin: auto;
+                  margin-bottom: 30px;
+                  margin-top: 30px;
+                }
+                img {
+                    border: $border;
+                    width: 100%;
+                    border-radius: 16px;
+                }
+            }
+            .details_text {
+                border: $border;
+            }
+        }
+        // new_technology section_area end
+    }
+}
+// science_and_technology area end
+
+// science_and_technology blog_area start
+.blog_area{
+    border: $border;
+    background-color: #F3F4F6;
+    margin: 0px;
+    padding: 80px 0px 100px 0px;
+    @include xs{
+        padding: 40px 0px 40px 0px;
+    }
+    .blog_area_title{
+        border: $border;
+        margin-bottom: 24px;
+        .title{
+            border: $border;
+            font-size: 40px;
+            line-height: 40px;
+            font-family: $font_semibold;
+            color: $mute_1;
+            @include xs{
+                font-size: 27px;
+                line-height: 37px;
+            }
+        }
+    }
+}
+// science_and_technology blog_area end
+
+// subscribe_area_start
+.subscribe_area_details{
+    border: $border;
+    margin-top: 100px;
+    .subscribe_area{
+        border: $border;
+    }
+}
+// subscribe_area_end

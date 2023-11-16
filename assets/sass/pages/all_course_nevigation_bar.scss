@@ -1,0 +1,24 @@
+.slider_iconn{
+    width: 60px;
+    height: 60px;
+    background-color: $white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    transition-duration: .4s;
+    border: 1px solid #dbdbdb;
+    &:hover{
+        background-color: $primary_color;
+        i{
+            color: $white;
+        }
+    }
+  
+    i{
+        font-size: 30px;
+        color: $secondary_color;
+        transition-duration: .4s;
+    }
+    
+}

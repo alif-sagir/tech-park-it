@@ -1,0 +1,106 @@
+// chating_and_go_to_top_area start
+.chating_and_go_to_top_area {
+    // display: none;
+    border: $border;
+    position: fixed;
+    right: 37px;
+    bottom: 77px;
+    overflow: hidden;
+    @include xs{
+        right: 10px;
+    bottom: 30px;
+    }
+    // chating_area start
+    .chating_area {
+        border: $border;
+        display: inline-flex;
+        background-color: $primary_color;
+        width: 40px;
+        height: 40px;
+        border-radius: 28px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        &:hover {
+            width: 109px;
+
+            .logo_and_text {
+                .logo {
+                    padding-left: 10px;
+                }
+                .text {
+                    
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+        .logo_and_text {
+            border: $border;
+            display: flex;
+            position: absolute;
+            left: 10px;
+            top: 9px;
+            .logo {
+                border: $border;
+                // padding-top: 3px;
+                transition-duration: 0.4s;
+                i {
+                    border: $border;
+                    color: $white;
+                    font-size: 20px;
+                }
+            }
+            .text {
+                border: $border;
+                font-size: 20px;
+                line-height: 24px;
+                font-family: $font_medium;
+                color: $white;
+                margin-left: 6px;
+                // display: none;
+                visibility: hidden;
+                opacity: 0;
+                transition-duration: 0.4s;
+            }
+        }
+    }
+    // chating_area end
+    // go_to_top_area start
+    .go_to_top_area {
+        border: $border;
+        margin-top: 16px;
+        text-align: end;
+        @include xs{
+            margin-top: 5px;
+        }
+        .logo {
+            border: $border;
+            align-items: center;
+            justify-content: center;
+            display: inline-flex;
+            border: 1px solid $primary_color;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition-duration: .4s;
+            &:hover{
+                background-color: $primary_color;
+                i{
+                    color: $white;
+                }
+            }
+            i {
+                border: $border;
+                font-size: 16px;
+                color: $primary_color;
+                transition-duration: .4s;
+            }
+        }
+    }
+    // go_to_top_area end
+}
+// chating_and_go_to_top_area end

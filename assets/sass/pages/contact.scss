@@ -1,0 +1,386 @@
+// contact area start
+.contact_area {
+    border: $border;
+    .contact_area_content {
+        border: $border;
+        // title start
+        .title {
+            border: $border;
+            text-align: center;
+            width: 996px;
+            margin: auto;
+            padding-top: 120px;
+            padding-bottom: 60px;
+            @include xs{
+                width: 100%;
+                padding-top: 40px;
+            }
+            @include lg{
+                width: 100%;
+                padding-top: 60px;
+            }
+            .contact_area_title {
+                border: $border;
+                .area_title {
+                    border: $border;
+                }
+            }
+            .contact_area_sub_title {
+                border: $border;
+                .sub_title {
+                    border: $border;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-family: $font_regular;
+                    @include xs{
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+        //  title end
+        // phone_number_and_form_area start
+        .phone_number_and_form_area {
+            border: $border;
+            margin-bottom: 80px;
+            @include xs{
+                margin-bottom: 60px;
+            }
+            // left_area start
+            .left_area {
+                border: $border;
+                // contact_title start
+                @include lg{
+                    margin-top: 25px;
+                }
+                .contact_title {
+                    border: $border;
+                    margin-bottom: 24px;
+                    .title_text {
+                        border: $border;
+                        font-size: 32px;
+                        font-family: $font_semibold;
+                        @include xs{
+                            font-size: 24px;
+                        }
+                    }
+                }
+                //contact_title end
+                // contact_number_and_email_area start
+                .contact_number_and_email_area {
+                    border: $border;
+                    li {
+                        border: $border;
+                        .contact {
+                            border: $border;
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 24px;
+                            @include xs{
+                                margin-bottom: 15px;
+                            }
+                            .logo {
+                                border: $border;
+                                align-items: center;
+                                display: flex;
+                                i {
+                                    border: $border;
+                                    font-size: 24px;
+                                    @include xs{
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                            .phone {
+                                color: #1c1b1f;
+                            }
+                            .whatsapp {
+                                color: #25d366;
+                            }
+                            .telegram {
+                                color: #26a5e4;
+                            }
+                            .email {
+                                color: #1c1b1f;
+                            }
+                            .number {
+                                border: $border;
+                                padding-left: 6px;
+                                .text {
+                                    border: $border;
+                                    font-size: 26px;
+                                    line-height: 26px;
+                                    font-family: $font_regular;
+                                    color: $mute_2;
+                                    transition-duration: 0.4s;
+                                    @include xs{
+                                        font-size: 16px;
+                                    line-height:22px;
+                                    }
+                                    @include lg{
+                                        font-size: 20px;
+                                    }
+                                    &:hover {
+                                        color: $primary_color;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // contact_number_and_email_area end
+
+                // social_media_area start
+                .social_media_area {
+                    border: $border;
+                    .social_media_title {
+                        border: $border;
+                        padding: 30px 0px 24px 0px;
+                        .text {
+                            border: $border;
+                            font-size: 32px;
+                            font-family: $font_semibold;
+                            @include xs{
+                                font-size: 24px;
+                            }
+                        }
+                    }
+                    .social_media {
+                        border: $border;
+                        ul {
+                            border: $border;
+                            display: flex;
+                            gap: 12px;
+                            li {
+                                border: $border;
+                                a {
+                                    // border: $border;
+                                    width: 48px;
+                                    height: 48px;
+                                    align-items: center;
+                                    display: flex;
+                                    justify-content: center;
+                                    border: 1px solid #d6d6d6;
+                                    transition-duration: 0.4s;
+                                    @include xs{
+                                        width: 38px;
+                                    height: 38px;
+                                    }
+                                    &:hover {
+                                        border: 1px solid $primary_color;
+                                    }
+                                    i {
+                                        border: $border;
+                                        font-size: 27px;
+                                    }
+                                }
+                                .facebook {
+                                    color: #16a6fb;
+                                }
+                                .instagram {
+                                    color: #0a58ca;
+                                }
+                                .youtube {
+                                    color: #ff0000;
+                                }
+                                .linkedin-in {
+                                    color: #2567b3;
+                                }
+                                .twitter {
+                                    color: #28a7e8;
+                                }
+                            }
+                        }
+                    }
+                }
+                // social_media_area end
+            }
+            // left_area end
+
+            // right_area start
+            .right_area {
+                background-color: $white;
+                padding: 30px 20px;
+                border-radius: 12px;
+                box-shadow: 0px 0px 25px #a4a4a4;
+                @include xs{
+                    padding: 30px 7px;
+                    margin-top: 40px;
+                }
+                // contact_form_title start
+                .contact_form_title {
+                    border: $border;
+                    margin-bottom: 40px;
+                    .title_text {
+                        border: $border;
+                        font-size: 32px;
+                        font-family: $font_medium;
+                        @include xs{
+                            font-size: 24px;
+                        }
+                    }
+                }
+                // contact_form_title end
+                // form_area start
+                form {
+                    border: $border;
+                    .form_item {
+                        border: $border;
+                        display: block;
+                        width: 100%;
+                        margin-bottom: 20px;
+                        outline: 0;
+                        border: 1px solid #a4a4a4;
+                        font-size: 16px;
+                        line-height: 16px;
+                        font-family: $font_medium;
+                        color: $mute_2;
+                        padding: 14px 12px;
+                        border-radius: 8px;
+                       
+                    }
+                    textarea {
+                        height: 100px;
+                    }
+                    .form_button {
+                        border: $border;
+                        padding: 18px 12px;
+                        border-radius: 8px;
+                        width: 100%;
+                        font-size: 18px;
+                        line-height: 18px;
+                        font-family: $font_semibold;
+                        color: $mute_1;
+                        background-color: transparent;
+                        border: 1px solid #a4a4a4;
+                        transition-duration: 0.4s;
+                        &:hover {
+                            background-color: $primary_color;
+                            color: $white;
+                            border: 1px solid $primary_color;
+                        }
+                    }
+                }
+                // form_area end
+            }
+            // right_area end
+        }
+        // phone_number_and_form_area end
+        // map area start
+        iframe{
+            @include xs{
+                height: 200px;
+            }
+            @include lg{
+                height: 350px;
+            }
+        }
+         // map area end
+    }
+}
+// contact area end
+
+// general question area start
+.general_question_area {
+    border: $border;
+    width: 846px;
+    margin: auto;
+    margin-top: 80px;
+    @include xs{
+        margin-top: 60px;
+        width: 100%;
+    }
+    // title start
+    .question_title {
+        border: $border;
+        margin-bottom: 40px;
+        .general_question_title {
+            border: $border;
+            .text {
+                border: $border;
+                font-size: 32px;
+                line-height: 32px;
+                font-family: $font_medium;
+                color: $mute_1;
+                margin-bottom: 10px;
+                @include xs{
+                    font-size: 24px;
+                }
+            }
+        }
+        .general_question_sub_title {
+            border: $border;
+            .sub_text {
+                border: $border;
+                font-size: 20px;
+                // line-height: 32px;
+                font-family: $font_regular;
+                color: $mute_2;
+                @include xs{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    // title end
+    // question_and_ans area start
+    .question_and_ans_area {
+        border: $border;
+        border-bottom: 2px solid #d2d2d2;
+        margin-bottom: 30px;
+        // padding-bottom: 30px;
+        padding-bottom: 0px;
+
+        // question_area start
+        .question_area {
+            border: $border;
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 15px;
+            // border-bottom: 2px solid #d2d2d2;
+            padding-bottom: 10px;
+            @include xs{
+                padding: 0px 0px;
+                margin-bottom: 12px;
+            }
+            .question {
+                border: $border;
+                .q_text {
+                    border: $border;
+                    font-size: 20px;
+                    font-family: $font_medium;
+                    color: $mute_2;
+                }
+            }
+            .question_icon {
+                border: $border;
+                align-items: center;
+                display: flex;
+                i {
+                    border: $border;
+                    font-size: 20px;
+                    color: $mute_2;
+                }
+            }
+        }
+        // question_area end
+        // ans_area start
+        .ans_area {
+            // display: none;
+            border: $border;
+            background-color: #f3f4f6;
+            padding: 15px;
+            margin-top: 15px;
+            .a_text {
+                border: $border;
+                font-size: 16px;
+                font-family: $font_regular;
+                color: $mute_2;
+            }
+        }
+        // ans_area end
+    }
+    // question_and_ans area end
+}
+// general question area end

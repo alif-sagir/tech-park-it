@@ -1,0 +1,93 @@
+.our_refund_policy_area {
+    margin-top: 100px;
+    @include xs(){
+        margin-top: 40px;
+    }
+    .our_refund_policy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .refund_policy_title {
+            color: var(--mute-color-100, #1c1c1c);
+            font-family: Baloo Da 2;
+            font-size: 41px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%; /* 61.5px */
+            margin-bottom: 32px;
+            display: flex;
+            justify-content: start;
+            width: 846px;
+            @include xs(){
+                width: 100%;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+        }
+        .our_refund_policy_description {
+            width: 846px;
+            @include xs(){
+                width: 100%;
+            }
+            .description_title {
+                color: var(--mute-color-100, #1c1c1c);
+    
+                /* H4/Semibold 26 */
+                font-family: Baloo Da 2;
+                font-size: 26px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%; /* 39px */
+                @include xs(){
+                    font-size: 16px;
+                }
+            }
+            .description_header {
+                color: var(--mute-color-80, #494949);
+                font-family: Baloo Da 2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                margin-top: 16px;
+                @include xs(){
+                    font-size: 14px;
+                }
+            }
+            ul {
+                color: var(--mute-color-80, #494949);
+                font-family: Baloo Da 2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                margin: 14px 0px 16px 30px;
+                @include xs(){
+                    font-size: 14px;
+                    margin: 14px 0px 15px 20px;
+                }
+    
+                li {
+                    list-style-type:disc;
+                    // list-style-position: inside;
+                    color: #494949;
+                    margin-bottom: 25px;
+                    @include xs(){
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .description_footer {
+                color: var(--mute-color-80, #494949);
+                font-family: Baloo Da 2;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                @include xs(){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,442 @@
+// header_area start
+.header_area {
+    border: $border;
+    position: sticky;
+    top: 0px;
+    background-color: $white;
+    z-index: 999999;
+    box-shadow: 0px -6px 5px 10px #e2e3e5;
+    .header_area_content {
+        border: $border;
+        display: flex;
+        align-items: center;
+        @include xs {
+            display: block;
+            position: relative;
+        }
+        @include sm {
+            display: block;
+            position: relative;
+        }
+        @include md {
+            display: block;
+            position: relative;
+        }
+        // logo_area start
+        .logo_area {
+            border: $border;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            width: 202px;
+            @include xs {
+                width: unset;
+                padding: 8px 0px;
+            }
+            @include sm {
+                width: unset;
+                padding: 15px 0px;
+            }
+            @include md {
+                width: unset;
+                padding: 15px 0px;
+            }
+            a {
+                border: $border;
+                width: 190px;
+                @include xs {
+                    width: 120px;
+                }
+                @include sm {
+                    width: 120px;
+                }
+                @include md {
+                    width: 120px;
+                }
+                img {
+                    border: $border;
+                    // width: 100%;
+                    height: 64px;
+                    @include xs {
+                        width: 100%;
+                        height: unset;
+                    }
+                    @include sm {
+                        width: 100%;
+                        height: unset;
+                    }
+                    @include md {
+                        width: 100%;
+                        height: unset;
+                    }
+                }
+            }
+        }
+        // logo_area end
+
+        // extra login_area start
+        .extra_login_area {
+            border: $border;
+            align-items: center;
+            display: none;
+            position: absolute;
+            top: 8px;
+            right: 40px;
+            @include xs {
+                display: flex;
+                top: 15px;
+            }
+            @include sm {
+                display: flex;
+                top: 23px;
+            }
+            @include md {
+                display: flex;
+                top: 23px;
+            }
+            a {
+                border: $border;
+                font-size: 14px;
+                color: $mute_1;
+                font-family: $font_medium;
+                padding: 2px 5px;
+                transition-duration: 0.4s;
+                &:hover {
+                    background-color: $primary_color;
+                    color: $white;
+                }
+            }
+        }
+        // extra login_area end
+
+        // menu_ber area start
+        .menu_ber {
+            border: $border;
+            position: absolute;
+            right: 0;
+            top: 9px;
+            padding: 0px;
+            background-color: transparent;
+            display: none;
+            transition-duration: 0.4s;
+            &:hover {
+                color: $primary_color;
+            }
+            @include xs {
+                align-content: center;
+                display: flex;
+                top: 16px;
+            }
+            @include sm {
+                align-content: center;
+                display: flex;
+                top: 22px;
+            }
+            @include md {
+                align-content: center;
+                display: flex;
+                top: 22px;
+            }
+
+            i {
+                border: $border;
+                @include xs {
+                    font-size: 20px;
+                }
+                @include sm {
+                    font-size: 20px;
+                }
+                @include md {
+                    font-size: 20px;
+                }
+            }
+        }
+        // menu_ber area end
+
+        //  nav_and_login_area start
+        .nav_and_login_area {
+            border: $border;
+            display: flex;
+            flex: 1;
+            justify-content: end;
+            @include xs {
+                display: block;
+                // background-color: #1414146e;
+                position: absolute;
+                left: -1000px;
+                opacity: 0;
+                visibility: hidden;
+                transition-duration: 0.4s;
+                height: 100vh;
+                width: 100%;
+                position: fixed;
+            }
+            @include sm {
+                display: block;
+                // background-color: #1414146e;
+                position: absolute;
+                left: -1000px;
+                opacity: 0;
+                visibility: hidden;
+                transition-duration: 0.4s;
+                height: 100vh;
+                width: 100%;
+                position: fixed;
+            }
+            @include md {
+                display: block;
+                // background-color: #1414146e;
+                position: absolute;
+                left: -1000px;
+                opacity: 0;
+                visibility: hidden;
+                transition-duration: 0.4s;
+                height: 100vh;
+                width: 100%;
+                position: fixed;
+            }
+            .full_nav_are{
+                display: flex;
+                @include xs {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                @include sm {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                @include md {
+                    width: 70%;
+                    height: 100%;
+                    background-color: #ecc9c9;
+                }
+                // nav_area start
+            .nav-area {
+                border: $border;
+                @include xs {
+                    width: 100%;
+                  }
+                @include sm {
+                    width: 100%;
+                  }
+                @include md {
+                    width: 100%;
+                  }
+                ul {
+                    border: $border;
+                    display: flex;
+                    padding: 48px 0px;
+                    @include xs {
+                        display: block;
+                        padding: 30px 0px;
+                    }
+                    @include sm {
+                        display: block;
+                        padding: 30px 0px;
+                    }
+                    @include md {
+                        display: block;
+                        padding: 30px 0px;
+                    }
+                    .nav-area_all{
+                       @include xs{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                       @include sm{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                       @include md{
+                        width: 30%;
+                        background-color: #1414146e;
+                        height: 100vh;
+                        position: absolute;
+                        top: 0px;
+                        right: 0px;
+                       }
+                    }
+                    li {
+                        border: $border;
+                        @include xs {
+                            margin: 10px 0px;
+                           
+                        }
+                        @include sm {
+                            margin: 10px 0px;
+                        }
+                        @include md {
+                            margin: 10px 0px;
+                        }
+                        a {
+                            border: $border;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: $mute_1;
+                            font-family: $font_medium;
+                            margin-left: 32px;
+                            transition-duration: 0.4s;
+                            position: relative;
+
+                            &::before {
+                                content: "";
+                                width: 100%;
+                                height: 2px;
+                                background-color: transparent;
+                                position: absolute;
+                                top: 19px;
+                                transition-duration: 0.4s;
+                            }
+                            &.active_button,
+                            &:hover {
+                                color: $primary_color;
+                                &::before {
+                                    background-color: $primary_color;
+                                }
+                            }
+                        }
+
+                        ul {
+                            padding: 0;
+                        }
+
+                        &.more_link {
+                            position: relative;
+                            > a {
+                                display: none;
+                            }
+                            @include lg {
+                                ul {
+                                    display: grid;
+                                    position: absolute;
+                                    top: 155%;
+                                    background: white;
+                                    box-shadow: 0px 0px 3px #8080809c;
+                                    padding: 15px;
+                                    min-width: 150px;
+                                    left: -27px;
+                                    li {
+                                        a {
+                                            margin-left: 0;
+                                            padding: 5px 0px;
+                                        }
+                                    }
+                                }
+                                > a {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    @include lg {
+                        .more_link {
+                            &:hover {
+                                .more_link_details {
+                                    opacity: 1;
+                                    visibility: visible;
+                                }
+                            }
+                            .more_link_details {
+                                // display: none;
+                                opacity: 0;
+                                visibility: hidden;
+                                transition-duration: 0.4s;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            // nav_area end
+
+            // login_area start
+            .login_area {
+                border: $border;
+                align-items: center;
+                display: flex;
+                @include xs {
+                    display: none;
+                }
+                @include sm {
+                    display: none;
+                }
+                @include md {
+                    display: none;
+                }
+                a {
+                    border: $border;
+                    font-size: 16px;
+                    line-height: 12px;
+                    color: $mute_1;
+                    font-family: $font_medium;
+                    border: 1px solid #6b7280;
+                    padding: 14.5px 30.5px;
+                    border-radius: 6px;
+                    margin-left: 32px;
+                    transition-duration: 0.4s;
+                    @include xs {
+                        border: 0px;
+                        padding: 7px;
+                        border-radius: 0px;
+                        margin-left: 0px;
+                    }
+                    @include sm {
+                        border: 0px;
+                        padding: 7px;
+                        border-radius: 0px;
+                        margin-left: 0px;
+                    }
+                    @include md {
+                        border: 0px;
+                        padding: 7px;
+                        border-radius: 0px;
+                        margin-left: 0px;
+                    }
+
+                    &:hover {
+                        background-color: $primary_color;
+                        color: $white;
+                        border: 1px solid transparent;
+                        @include xs {
+                            color: $white;
+                            border: 0px;
+                        }
+                        @include sm {
+                            color: $white;
+                            border: 0px;
+                        }
+                        @include md {
+                            color: $white;
+                            border: 0px;
+                        }
+                    }
+                }
+            }
+            // login_area end
+            }
+            
+        }
+        // active_class start
+        .activee_class {
+            // display: block;
+            // display: none;
+            left: 0px;
+            opacity: 1;
+            visibility: visible;
+        }
+        // active_class end
+
+        //  nav_and_login_area end
+    }
+}
+// header_area end

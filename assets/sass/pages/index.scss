@@ -1,0 +1,2296 @@
+// banner_part start
+.banner_part {
+    border: $border;
+    background-color: #f3f4f6;
+    .banner_part_content {
+        border: $border;
+        display: flex;
+        justify-content: space-between;
+        @include xs() {
+            display: block;
+        }
+        @include sm() {
+            display: block;
+        }
+        @include md() {
+            display: block;
+        }
+        // banner_part_left start
+        .banner_part_left {
+            border: $border;
+            padding-top: 221px;
+            padding-bottom: 175px;
+            @include xs() {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            @include sm() {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            @include md() {
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            @include lg() {
+                padding-top: unset;
+                padding-bottom: unset;
+                margin: 135px 0px;
+            }
+            // banner_title start
+            .banner_title {
+                border: $border;
+                .banner_title_text {
+                    border: $border;
+                    font-size: 52px;
+                    line-height: 83.2px;
+                    font-family: $font_bold;
+                    @include xs() {
+                        font-size: 25px;
+                        line-height: 30px;
+                        text-align: center;
+                    }
+                    @include sm() {
+                        font-size: 25px;
+                        line-height: 30px;
+                        text-align: center;
+                    }
+                    @include md() {
+                        font-size: 35px;
+                        line-height: 45px;
+                        text-align: center;
+                    }
+                    @include lg() {
+                        font-size: 35px;
+                        line-height: 45px;
+                    }
+                    @include xl() {
+                        font-size: 40px;
+                        line-height: 83px;
+                    }
+                    .title_bangla {
+                        border: $border;
+                        display: block;
+                        color: $primary_color;
+                        @include md() {
+                            margin-bottom: 10px;
+                        }
+                        @include lg() {
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .title_english {
+                        border: $border;
+                        color: $mute_1;
+                    }
+                }
+            }
+            // banner_title end
+
+            // description start
+            .description {
+                border: $border;
+                padding-top: 16px;
+                padding-bottom: 48px;
+                @include lg() {
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+                }
+                p {
+                    border: $border;
+                    font-size: 20px;
+                    line-height: 30px;
+                    font-family: $font_semibold;
+                    color: $mute_2;
+                    @include xs() {
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                    }
+                    @include sm() {
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                    }
+                    @include md() {
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                    }
+                }
+            }
+            // description end
+
+            // button_area start
+            .button_area {
+                border: $border;
+                display: flex;
+                @include xs() {
+                    display: block;
+                    text-align: center;
+                }
+                @include sm() {
+                    display: block;
+                    text-align: center;
+                }
+                @include md() {
+                    justify-content: center;
+                }
+                .button_left {
+                    border: $border;
+                    .button_all {
+                        transition-duration: 0.4s;
+                        &:hover {
+                            border: 1px solid transparent;
+                            background-color: $primary_color;
+                            color: $white;
+                            .btn_img {
+                                #icon {
+                                    fill: $white;
+                                }
+                            }
+                        }
+                        .btn_img {
+                            border: $border;
+                            #icon {
+                                fill: $secondary_color;
+                                transition-duration: 0.4s;
+                            }
+                            img {
+                                border: $border;
+                            }
+                        }
+                        .btn_text {
+                            border: $border;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+
+                .button_right {
+                    border: $border;
+                    margin-left: 51px;
+                    @include xs() {
+                        margin-left: unset;
+                        margin-top: 20px;
+                    }
+                    @include sm() {
+                        margin-left: unset;
+                        margin-top: 20px;
+                    }
+                    .button_all {
+                        height: 100%;
+                        transition-duration: 0.4s;
+                        &:hover {
+                            border: 1px solid transparent;
+                            background-color: $primary_color;
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            // button_area end
+        }
+        // banner_part_left end
+
+        // banner_part_right start
+        .banner_part_right {
+            border: $border;
+            position: relative;
+            margin-top: auto;
+            // banner_img start
+            .banner_img {
+                border: $border;
+                @include md() {
+                    justify-content: center;
+                    display: flex;
+                }
+                img {
+                    border: $border;
+                    @include xs() {
+                        width: 100%;
+                    }
+                    @include sm() {
+                        width: 100%;
+                    }
+                    @include lg() {
+                        width: 100%;
+                    }
+                }
+            }
+            // banner_img end
+
+            // banner_part_right_content start
+            .banner_part_right_content {
+                border: $border;
+                .right_area_content {
+                    border: $border;
+                    display: inline-flex;
+                    padding: 10px;
+                    background-color: white;
+                    border-radius: 8px;
+
+                    @keyframes bounce2 {
+                        0% {
+                            transform: translate(0px, 0px);
+                        }
+                        50% {
+                            transform: translate(-20px, -20px);
+                            // @include xs() {
+                            //     transform: translate(-10px, -10px);
+                            //   }
+                        }
+                        100% {
+                            transform: translate(0px, 0px);
+                        }
+                    }
+
+                    animation: bounce2 2s linear infinite;
+                    .left_site {
+                        border: $border;
+                        @include xs() {
+                            width: 30px;
+                        }
+                        @include sm() {
+                            width: 30px;
+                        }
+                        @include lg() {
+                            width: 50px;
+                        }
+                        img {
+                            border: $border;
+                            @include xs() {
+                                width: 100%;
+                            }
+                            @include sm() {
+                                width: 100%;
+                            }
+                            @include lg() {
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .right_site {
+                        border: $border;
+                        font-size: 18.69px;
+                        line-height: 28px;
+                        font-family: $font_semibold;
+                        align-items: center;
+                        display: flex;
+                        padding-left: 12px;
+                        @include xs() {
+                            font-size: 12px;
+                            line-height: 17px;
+                            padding-left: 8px;
+                        }
+                        @include sm() {
+                            font-size: 12px;
+                            line-height: 17px;
+                            padding-left: 8px;
+                        }
+                        @include lg() {
+                            font-size: 14px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+                .certificate {
+                    position: absolute;
+                    top: 187px;
+                    left: -50px;
+                    @include xs() {
+                        top: 0px;
+                        left: 18px;
+                    }
+                    @include sm() {
+                        top: 30px;
+                        left: 18px;
+                    }
+                    @include md() {
+                        top: 60px;
+                        left: 20px;
+                    }
+                    @include lg() {
+                        top: 153px;
+                        left: 20px;
+                    }
+                    @include xl() {
+                        top: 153px;
+                        left: -10px;
+                    }
+                }
+                .support {
+                    position: absolute;
+                    left: -50px;
+                    top: 525px;
+                    @include xs() {
+                        left: 18px;
+                        top: 200px;
+                    }
+                    @include sm() {
+                        left: 18px;
+                        top: 400px;
+                    }
+                    @include md() {
+                        left: 20px;
+                        top: 420px;
+                    }
+                    @include lg() {
+                        left: 22px;
+                        top: 370px;
+                    }
+                    @include xl() {
+                        left: -10px;
+                        top: 480px;
+                    }
+                }
+                .quiz {
+                    position: absolute;
+                    right: -25px;
+                    top: 280px;
+                    @include xs() {
+                        right: 0px;
+                        top: 40px;
+                    }
+                    @include sm() {
+                        right: 0px;
+                        top: 160px;
+                    }
+                    @include md() {
+                        right: 0px;
+                        top: 220px;
+                    }
+                    @include lg() {
+                        right: 0px;
+                        top: 235px;
+                    }
+                    @include xl() {
+                        right: 0px;
+                    }
+                }
+                .live_class {
+                    position: absolute;
+                    right: 45px;
+                    top: 580px;
+                    @include xs() {
+                        right: 0px;
+                        top: 250px;
+                    }
+                    @include sm() {
+                        right: 0px;
+                        top: 550px;
+                    }
+                    @include md() {
+                        right: 0px;
+                        top: 580px;
+                    }
+                    @include lg() {
+                        right: 0px;
+                        top: 490px;
+                    }
+                }
+            }
+            // banner_part_right_content end
+        }
+        // banner_part_right end
+    }
+}
+// banner_part end
+
+// course_item start
+.course_item {
+    border: $border;
+    padding: 100px 0px;
+    @include xs {
+        padding: 60px 0px;
+    }
+    .course_item_content {
+        border: $border;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        @include xs() {
+            display: block;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        @include sm() {
+            // display: block;
+            // text-align: center;
+            // gap: 20px;
+            // display: grid;
+            flex-wrap: wrap;
+        }
+        // course item start
+        .course {
+            border: $border;
+            border: 1px solid $primary_color;
+            border-radius: 8px;
+            @include xs {
+                width: 120px;
+            }
+            @include sm {
+                width: 200px;
+                overflow: hidden;
+                justify-content: center;
+                display: flex;
+            }
+            a {
+                border: $border;
+                border-radius: 8px;
+                @include xs {
+                    width: 100%;
+                }
+                @include sm {
+                    width: 100%;
+                }
+                .course_icon {
+                    border: $border;
+                    padding: 29px 98px 0px 98px;
+                    @include xs() {
+                        padding: 7px 10px 0px 10px;
+                    }
+                    @include sm() {
+                        padding: 29px 0px 0px 0px;
+                        justify-content: center;
+                        display: flex;
+                    }
+                    @include md() {
+                        padding: 16px 70px 0px 70px;
+                    }
+                    svg {
+                        @include xs() {
+                            width: 40px;
+                            height: 60px;
+                        }
+                        @include sm() {
+                            width: 50px;
+                        }
+                        @include md() {
+                            width: 60px;
+                        }
+                        @include lg() {
+                            width: 80px;
+                        }
+                        #icon_course {
+                            fill: $primary_color;
+                            transition-duration: 0.4s;
+                        }
+                    }
+                }
+                .course_text_area {
+                    border: $border;
+                    padding-top: 16px;
+                    padding-bottom: 28px;
+                    text-align: center;
+                    @include xs() {
+                        padding-top: 0px;
+                        padding-bottom: 16px;
+                    }
+                    @include md() {
+                        padding-top: 0px;
+                        padding-bottom: 16px;
+                    }
+                    .course_text {
+                        border: $border;
+                        font-size: 26px;
+                        line-height: 39px;
+                        font-family: $font_semibold;
+                        color: $mute_1;
+                        transition-duration: 0.4s;
+                        @include xs() {
+                            font-size: 13px;
+                            line-height: 28px;
+                        }
+                        @include sm() {
+                            font-size: 20px;
+                        }
+                        @include md() {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+                transition-duration: 0.4s;
+                &:hover {
+                    background-color: $primary_color;
+                    .course_icon {
+                        #icon_course {
+                            fill: $white;
+                        }
+                    }
+                    .course_text_area {
+                        .course_text {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+        // course item end
+    }
+}
+// course_item end
+
+// our_course area start
+.our_course_area {
+    border: $border;
+    padding-bottom: 120px;
+    @include xs {
+        padding-bottom: 60px;
+    }
+    .our_course_area_content {
+        border: $border;
+        background-color: $off_white;
+        border-radius: 20px;
+        padding-bottom: 49px;
+        @include xs() {
+            padding-bottom: 38px;
+        }
+        // our_course_area_title start
+        .our_course_area_title {
+            border: $border;
+            text-align: center;
+            padding: 48px 0px 58px 0px;
+            @include xs() {
+                padding: 38px 0px 38px 0px;
+            }
+            .area_title {
+                border: $border;
+                @include xs {
+                    font-size: 20px;
+                }
+            }
+        }
+        // our_course_area_title end
+        // course_schedule_name start
+        .course_schedule_name {
+            border: $border;
+            padding-bottom: 32px;
+            @include lg {
+                justify-content: center;
+                display: flex;
+            }
+            ul {
+                border: $border;
+                display: flex;
+                @include xs() {
+                    display: block;
+                    text-align: center;
+                    gap: 10px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                @include sm() {
+                    gap: 10px;
+                    justify-content: center;
+                }
+                @include md() {
+                    justify-content: center;
+                }
+                li {
+                    border: $border;
+                    margin-left: 64px;
+                    @include xs() {
+                        margin-left: 0px;
+                    }
+                    @include sm() {
+                        margin-left: 0px;
+                    }
+
+                    &:first-child {
+                        margin-left: 31px;
+                        @include xs() {
+                            margin-left: 0px;
+                        }
+                        @include sm() {
+                            margin-left: 0px;
+                        }
+                        @include md() {
+                            margin-left: 0px;
+                        }
+                        @include lg {
+                            margin-left: 0px;
+                        }
+                    }
+                    a {
+                        border: $border;
+                        font-size: 26px;
+                        line-height: 40px;
+                        font-family: $font_semibold;
+                        color: $mute_1;
+                        transition-duration: 0.4s;
+                        position: relative;
+                        @include xs() {
+                            font-size: 14px;
+                            line-height: 28px;
+                        }
+                        @include sm() {
+                            font-size: 18px;
+                        }
+                        @include md() {
+                            font-size: 20px;
+                        }
+                        &:hover {
+                            color: $primary_color;
+                            &::before {
+                                background-color: $primary_color;
+                            }
+                        }
+                        &::before {
+                            content: "";
+                            width: 100%;
+                            height: 2px;
+                            // background-color: $primary_color;
+                            background-color: transparent;
+                            position: absolute;
+                            top: 36px;
+                            transition-duration: 0.4s;
+                            @include xs() {
+                                top: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // course_schedule_name end
+
+        // our_course_all_card start
+        .our_course_all_card {
+            display: grid;
+            gap: 22px;
+            justify-content: center;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 0px 110px;
+            position: relative;
+            @include xs() {
+                display: block;
+                margin: unset;
+            }
+            @include sm() {
+                display: block;
+                margin: unset;
+            }
+            @include md() {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            @include lg {
+                grid-template-columns: 1fr 1fr;
+            }
+            // .slider_iconn{
+            //     width: 60px;
+            //     height: 60px;
+            //     background-color: $white;
+            //     justify-content: center;
+            //     display: flex;
+            //     align-items: center;
+            //     border-radius: 50%;
+            //     transition-duration: .4s;
+            //     border: 1px solid #dbdbdb;
+            //     &:hover{
+            //         background-color: $primary_color;
+            //         i{
+            //             color: $white;
+            //         }
+            //     }
+              
+            //     i{
+            //         font-size: 30px;
+            //         color: $secondary_color;
+            //         transition-duration: .4s;
+            //     }
+                
+            // }
+            .left_iconnn{
+                position: absolute;
+                top: 220px;
+                left: -90px;
+            }
+            .right_iconnn{
+                position: absolute;
+                top: 220px;
+                right: -90px;
+            }
+            .c_card {
+                border: 1px solid rgb(228, 227, 227);
+                // display: grid;
+                // align-content: space-between;
+                background-color: $white;
+
+                margin-bottom: 49px;
+                border-radius: 8px 8px 0px;
+
+
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                // margin-bottom: 49px;
+
+                @include xs() {
+                    margin: 20px 10px 0px 12px;
+                }
+                @include sm() {
+                    margin: 20px 10px 0px 12px;
+                    width: 350px;
+                    margin: auto;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
+
+                &:hover {
+                    .card_title_area {
+                        .card_title {
+                            .title_text {
+                                color: $primary_color;
+                            }
+                        }
+                        .amount_and_button_area {
+                            .button_all {
+                                background-color: $primary_color;
+                                @include xs {
+                                    // width: 85px;
+                                    // display: block;
+                                }
+                                .btn-text {
+                                    color: $white;
+                                }
+                                .btn_icon {
+                                    i {
+                                        color: $white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .card_img_area {
+                        .card_img {
+                            img {
+                                transform: scale(0.9);
+                            }
+                        }
+                    }
+                }
+
+                .card_img_area {
+                    border: $border;
+                    justify-content: center;
+                    display: flex;
+                    padding: 24px 72px;
+                    height: 250px;
+                    border-bottom: 2px solid #e0e0e0;
+                    @include xs() {
+                        padding: unset;
+                        height: 190px;
+                    }
+                    // height: 225px;
+                    // align-items: center;
+                    // display: grid;
+                    .card_img {
+                        border: $border;
+                        width: 200px;
+                        @include xs() {
+                            width: 170px;
+                            align-content: center;
+                            display: grid;
+                        }
+                        // justify-content: center;
+                        // display: flex;
+                        // padding: 24px 72px;
+                        img {
+                            border: $border;
+                            width: 100%;
+                            transition-duration: 0.4s;
+                        }
+                    }
+                }
+                // card_title_area start
+                .card_title_area {
+                    // border-top: 2px solid #e0e0e0;
+                    padding-top: 17px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex: 1;
+                    .card_title {
+                        border: $border;
+                        padding-bottom: 14px;
+                        margin-left: 16px;
+                        @include xs() {
+                            margin: 0px 5px;
+                        }
+                        .title_text {
+                            border: $border;
+                            font-size: 20px;
+                            line-height: 30px;
+                            font-family: $font_semibold;
+                            color: $mute_1;
+                            transition-duration: 0.4s;
+                            @include xs() {
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                    .day_and_boking_area {
+                        border: $border;
+                        display: flex;
+                        justify-content: space-between;
+                        padding-bottom: 14px;
+                        margin-left: 19px;
+                        @include xs() {
+                            margin: 0px 5px;
+                        }
+                        .day_area {
+                            border: $border;
+                            align-items: center;
+                            display: flex;
+                            font-size: 16px;
+                            line-height: 24px;
+                            font-family: $font_medium;
+                            .day_icon {
+                                border: $border;
+                                padding-right: 8px;
+                                img {
+                                    border: $border;
+                                }
+                            }
+                            .day_tex {
+                                border: $border;
+                            }
+                        }
+                        .boking_area {
+                            border: $border;
+                            font-size: 12px;
+                            line-height: 15px;
+                            font-family: $font_medium;
+                            border: 3px solid $primary_color;
+                            margin-right: 16px;
+
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+
+                            // align-items: center;
+                            // display: grid;
+                            // justify-content: center;
+                            padding-top: 10px;
+                            text-align: center;
+
+                            .boking_text {
+                                border: $border;
+                                display: block;
+                            }
+                        }
+                    }
+                    .amount_and_button_area {
+                        border: $border;
+                        display: flex;
+                        justify-content: space-between;
+                        border-top: 1px solid $off_orange;
+                        margin-left: 16px;
+                        @include xs() {
+                            // display: unset;
+                            text-align: center;
+                            margin: 0px 5px;
+
+                            // display: flex;
+                        }
+                        .all_amount {
+                            border: $border;
+                            display: flex;
+                            align-items: center;
+
+                            .previous_amount_area {
+                                border: $border;
+                                .previous_amount {
+                                    border: $border;
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                    font-family: $font_semibold;
+                                    color: $primary_color;
+                                    padding-right: 6px;
+                                    @include xs {
+                                        font-size: 13px;
+                                    }
+                                    .taka {
+                                        border: $border;
+                                        text-decoration: line-through;
+                                    }
+                                }
+                            }
+                            .current_amount_area {
+                                border: $border;
+                                .current_amount {
+                                    border: $border;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    font-family: $font_semibold;
+                                    @include xs {
+                                        font-size: 16px;
+                                    }
+                                    .taka {
+                                        border: $border;
+                                    }
+                                }
+                            }
+                        }
+                        .button_all {
+                            // border: $border;
+                            font-size: 16px;
+                            line-height: 14px;
+                            font-family: $font_medium;
+                            padding: 17px 25px;
+                            border-radius: 6px;
+                            border: 1px solid $primary_color;
+                            // background-color: $primary_color;
+                            color: $primary_color;
+                            transition-duration: 0.7s;
+                            // border: transparent;
+                            @include xs() {
+                                margin: 10px 0px;
+                                padding: 10px 5px;
+                                width: 95px;
+                            }
+                            .btn-text {
+                                border: $border;
+                                padding-right: 8px;
+                                transition-duration: 0.4s;
+                                @include xs {
+                                    font-size: 12px;
+                                    display: unset;
+                                }
+                            }
+                            .btn_icon {
+                                border: $border;
+                                @keyframes right_animation {
+                                    0% {
+                                        transform: translate(0px);
+                                    }
+
+                                    50% {
+                                        transform: translate(10px);
+                                    }
+
+                                    100% {
+                                        transform: translate(0px);
+                                    }
+                                }
+                                animation: right_animation 2s linear infinite;
+                                i {
+                                    border: $border;
+                                    font-size: 16px;
+                                    color: $primary_color;
+                                    transition-duration: 0.4s;
+                                    @include xs {
+                                        font-size: 12px;
+                                    }
+                                }
+                                // img {
+                                //     border: $border;
+                                // }
+                            }
+                        }
+                    }
+                }
+                // card_title_area end
+            }
+        }
+        // our_course_all_card end
+    }
+}
+// our_course area end
+
+// our_course_specialty area start
+.our_course_specialty {
+    border: $border;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 230px;
+    @include xs {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    @include sm {
+        padding-bottom: 120px;
+    }
+    @include md {
+        padding-bottom: 120px;
+    }
+    @include lg {
+        padding-bottom: 100px;
+    }
+    .our_course_specialty_area_content {
+        border: $border;
+        // our_course_specialty_area_title start
+        .our_course_specialty_area_title {
+            border: $border;
+            text-align: center;
+            padding-bottom: 72px;
+            .area_title {
+                color: $white;
+                @include xs {
+                    font-size: 20px;
+                }
+            }
+        }
+        // our_course_specialty_area_title end
+
+        // course_card_area start
+        .course_card_area {
+            border: $border;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            @include xs {
+                display: block;
+            }
+            @include sm {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            @include md {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            // card start
+            .c_card {
+                border: $border;
+                text-align: center;
+                align-items: center;
+                background-color: $off_orange;
+                border-radius: 12px;
+                display: grid;
+                align-content: space-between;
+                @include xs {
+                    margin-bottom: 15px;
+                    display: flex;
+                }
+                @include lg {
+                    width: 295px;
+                }
+                .card_img_area {
+                    border: $border;
+                    padding: 82px 120px;
+                    @include xs {
+                        padding: 12px 10px;
+                    }
+                    @include sm {
+                        padding: 28px 70px;
+                    }
+                    @include md {
+                        padding: 40px 78px;
+                    }
+                    @include lg {
+                        padding: 50px 84px;
+                    }
+                    .card_img {
+                        border: $border;
+                        width: 175px;
+                        @include xs {
+                            width: 50px;
+                        }
+                        @include sm {
+                            width: 100px;
+                        }
+                        @include lg {
+                            width: 100px;
+                        }
+                        @include xl {
+                            width: 100px;
+                        }
+                        img {
+                            border: $border;
+                            width: 100%;
+                            // height: 100%;
+                        }
+                    }
+                }
+                .card_text {
+                    border: $border;
+                    background-color: $white;
+                    width: 100%;
+                    border-radius: 0px 0px 12px 12px;
+                    padding: 35px 0px 29px 0px;
+                    @include xs {
+                        padding: 20px 0px 20px 0px;
+                        background-color: transparent;
+                    }
+                    p {
+                        border: $border;
+                        font-size: 26px;
+                        line-height: 39px;
+                        font-family: $font_semibold;
+                        @include xs {
+                            font-size: 18px;
+                        }
+                        @include sm {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            .card_1 {
+            }
+            .card_2 {
+            }
+            .card_3 {
+            }
+            .card_4 {
+                display: none;
+            }
+            .card_5 {
+                display: none;
+            }
+            // card end
+        }
+        // course_card_area end
+    }
+}
+// our_course_specialty area end
+
+// earning_area start
+.earning_area {
+    border: $border;
+    padding-top: 120px;
+    @include xs {
+        padding-top: 60px;
+    }
+    .earning_area_content {
+        border: $border;
+        background-color: $off_white;
+        padding: 64px 0px;
+        border-radius: 20px;
+        // earning_area_title start
+        .earning_area_title {
+            border: $border;
+            text-align: center;
+            .area_title {
+                border: $border;
+                color: $primary_color;
+                padding-bottom: 12px;
+            }
+        }
+        // earning_area_title end
+
+        // earning_area_sub_title start
+        .earning_area_sub_title {
+            border: $border;
+            text-align: center;
+            .sub_title {
+                border: $border;
+            }
+        }
+        // earning_area_sub_title end
+
+        // earning_area_bottom start
+        .earning_area_bottom {
+            border: $border;
+            justify-content: center;
+            display: flex;
+            // padding: 0px 192px;
+            ul {
+                border: $border;
+                display: flex;
+                gap: 64px;
+                @include xs {
+                    display: block;
+                }
+                @include sm {
+                    gap: 10px;
+                }
+                @include md {
+                    gap: 20px;
+                }
+                li {
+                    border: $border;
+                    text-align: center;
+                    position: relative;
+                    @include sm {
+                        width: 100%;
+                    }
+                    .step_number {
+                        border: $border;
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 50%;
+                        background-color: $primary_color;
+                        font-size: 26px;
+                        line-height: 26px;
+                        color: $white;
+                        font-family: $font_regular;
+                        justify-content: center;
+                        display: inline-flex;
+                        align-items: center;
+                        margin-top: 58px;
+                        margin-bottom: 16px;
+                        position: relative;
+
+                        a {
+                            // border: $border;
+                            border: 2px solid $primary_color;
+                            color: $white;
+                        }
+                        .right_arrow_area {
+                            border: $border;
+                            position: absolute;
+                            // right: -165px;
+                            .right_arrow {
+                                border: $border;
+                                // width: 153px;
+                                height: 2px;
+                                border: 0px;
+                                background-color: #fca5a5;
+                                position: relative;
+                                @include xs {
+                                    display: none;
+                                }
+                                i {
+                                    border: $border;
+                                    font-size: 18px;
+                                    position: absolute;
+                                    top: -7px;
+                                    right: -3px;
+                                    color: #fca5a5;
+                                }
+                            }
+                            .arrow_1 {
+                                width: 147px;
+                                @include sm {
+                                    width: 60px;
+                                }
+                                @include md {
+                                    width: 75px;
+                                }
+                                @include lg {
+                                    width: 125px;
+                                }
+                            }
+                            .arrow_2 {
+                                width: 256px;
+                                @include sm {
+                                    width: 66px;
+                                }
+                                @include md {
+                                    width: 155px;
+                                }
+                                @include lg {
+                                    width: 212px;
+                                }
+                            }
+                            .arrow_3 {
+                                width: 220px;
+                                @include sm {
+                                    width: 68px;
+                                }
+                                @include md {
+                                    width: 130px;
+                                }
+                                @include lg {
+                                    width: 190px;
+                                }
+                            }
+                        }
+                        .arrow_area_1 {
+                            right: -159px;
+                            @include sm {
+                                right: -72px;
+                            }
+                            @include md {
+                                right: -90px;
+                            }
+                            @include lg {
+                                right: -136px;
+                            }
+                        }
+                        .arrow_area_2 {
+                            right: -268px;
+                            @include sm {
+                                right: -78px;
+                            }
+                            @include md {
+                                right: -174px;
+                            }
+                            @include lg {
+                                right: -224px;
+                            }
+                        }
+                        .arrow_area_3 {
+                            right: -232px;
+                            @include sm {
+                                right: -78px;
+                            }
+                            @include md {
+                                right: -147px;
+                            }
+                            @include lg {
+                                right: -199px;
+                            }
+                        }
+                    }
+
+                    .bottom_text {
+                        border: $border;
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-family: $font_bold;
+                        color: $mute_2;
+                        @include sm() {
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                        @include md() {
+                            font-size: 16px;
+                        }
+                        @include lg() {
+                            font-size: 16px;
+                        }
+                    }
+                    .arrow {
+                        border: $border;
+                        img {
+                            border: $border;
+                        }
+                    }
+                }
+            }
+        }
+        // earning_area_bottom end
+    }
+}
+// earning_area end
+
+// Student success history arer start
+.student_success_history_area {
+    border: $border;
+    padding-top: 120px;
+    @include xs() {
+        padding-top: 60px;
+    }
+    .student_success_history_content {
+        border: $border;
+        // student_success_history_area_title start
+        .student_success_history_area_title {
+            border: $border;
+            padding-bottom: 24px;
+            text-align: center;
+            .area_title {
+                border: $border;
+            }
+        }
+        // student_success_history_area_title end
+
+        //  student_success_history_area_sub_title start
+        .student_success_history_area_sub_title {
+            border: $border;
+            padding-bottom: 65px;
+            text-align: center;
+            .sub_title {
+                border: $border;
+                display: block;
+            }
+        }
+        //  student_success_history_area_sub_title end
+
+        // student_success_video_area start
+        .student_success_video_area {
+            border: $border;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 26px;
+            justify-content: center;
+            .success_video_area {
+                border: $border;
+                position: relative;
+                background-color: transparent;
+                padding: 0px;
+                position: relative;
+                @include sm {
+                    width: 240px;
+                }
+                @include md {
+                    width: 330px;
+                }
+                @include lg {
+                    width: 400px;
+                }
+                @include xl {
+                    width: 500px;
+                }
+                // &::after{
+                //     content: '';
+                //     width: 130px;
+                //     height: 130px;
+                //     background-color: $primary_color;
+                //     position: absolute;
+                //     z-index: 9999;
+                //     border-radius: 50%;
+                // }
+                .success_video_cover_photo {
+                    border: $border;
+                    img {
+                        border: $border;
+                        width: 100%;
+                        border-radius: 23px;
+                    }
+                }
+                .video_button_icon {
+                    border: $border;
+                    width: 130px;
+                    height: 130px;
+                    background-color: $primary_color;
+                    border-radius: 50%;
+                    position: absolute;
+                    z-index: 9999;
+                    left: 50%;
+                    top: 50%;
+                    transform: translateY(-50%) translateX(-50%);
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                    @include xs() {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    @include sm() {
+                        width: 75px;
+                        height: 75px;
+                    }
+                    @include md() {
+                        width: 85px;
+                        height: 85px;
+                    }
+                    @include lg() {
+                        width: 90px;
+                        height: 90px;
+                    }
+
+                    i {
+                        border: $border;
+                        font-size: 50px;
+                        color: $white;
+                        @include xs() {
+                            font-size: 30px;
+                        }
+                        @include sm() {
+                            font-size: 32px;
+                        }
+                        @include md() {
+                            font-size: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        // student_success_video_area end
+
+        // student_success_history_area_button start
+        .success_history_button_area {
+            border: $border;
+            text-align: center;
+            padding-top: 78px;
+            @include xs() {
+                padding-top: 40px;
+            }
+            .button_all {
+                padding: 12px 45px 11px 45px;
+                transition-duration: 0.4s;
+                &:hover {
+                    background-color: $primary_color;
+                    border: 1px solid transparent;
+                    .btn_text {
+                        color: $white;
+                    }
+                    .btn_icon {
+                        i {
+                            color: $white;
+                        }
+                    }
+                }
+                .btn_text {
+                    border: $border;
+                    transition-duration: 0.4s;
+                }
+                .btn_icon {
+                    border: $border;
+                    padding-left: 14px;
+                    @keyframes right_animation {
+                        0% {
+                            transform: translate(0px);
+                        }
+
+                        50% {
+                            transform: translate(10px);
+                        }
+
+                        100% {
+                            transform: translate(0px);
+                        }
+                    }
+                    animation: right_animation 2s linear infinite;
+                    i {
+                        vertical-align: middle;
+                        transition-duration: 0.4s;
+                    }
+                }
+            }
+        }
+        // student_success_history_area_button end
+    }
+}
+// Student success history arer end
+
+// profational_trainer area start
+.profational_trainer_area {
+    border: $border;
+    padding-top: 120px;
+    @include xs() {
+        padding-top: 60px;
+    }
+    .profational_trainer_area_content {
+        border: $border;
+        // left_area start
+        .left_area {
+            border: $border;
+            .trainer_img {
+                border: $border;
+                border-radius: 16px;
+                img {
+                    border: $border;
+                    border-radius: 16px;
+                    width: 100%;
+                }
+            }
+        }
+        // left_area end
+        // right_area start
+        .right_area {
+            border: $border;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            .right_area_content {
+                border: $border;
+                .profational_trainer_area_title {
+                    border: $border;
+                    margin-top: 15px;
+                    .area_title {
+                        border: $border;
+                        @include xs {
+                            font-size: 20px;
+                        }
+                        @include sm {
+                            font-size: 30px;
+                        }
+                        @include md {
+                            font-size: 26px;
+                        }
+                        @include lg {
+                            font-size: 37px;
+                        }
+                    }
+                }
+                .profational_trainer_area_sub_title {
+                    border: $border;
+                    padding-top: 16px;
+                    padding-bottom: 56px;
+                    @include xs() {
+                        padding-bottom: 30px;
+                    }
+                    .sub_title {
+                        border: $border;
+                    }
+                    .sub1 {
+                        padding-bottom: 28px;
+                    }
+                }
+                // profational_trainer_area_button start
+                .profational_trainer_button_area {
+                    border: $border;
+                    .button_all {
+                        transition-duration: 0.4s;
+                        &:hover {
+                            background-color: $primary_color;
+                            border: 1px solid transparent;
+                            .btn_text {
+                                color: $white;
+                            }
+                            .btn_icon {
+                                i {
+                                    color: $white;
+                                }
+                            }
+                        }
+                        .btn_text {
+                            border: $border;
+                            transition-duration: 0.4s;
+                        }
+                        .btn_icon {
+                            border: $border;
+                            padding-left: 14px;
+                            @keyframes right_animation {
+                                0% {
+                                    transform: translate(0px);
+                                }
+
+                                50% {
+                                    transform: translate(10px);
+                                }
+
+                                100% {
+                                    transform: translate(0px);
+                                }
+                            }
+                            animation: right_animation 2s linear infinite;
+                            i {
+                                border: $border;
+                                vertical-align: middle;
+                                transition-duration: 0.4s;
+                            }
+                        }
+                    }
+                }
+                // profational_trainer_area_button end
+            }
+        }
+        // right_area end
+    }
+}
+// profational_trainer area end
+
+// free_seminar_area_start
+.free_seminar_area {
+    border: $border;
+    padding-top: 120px;
+    @include xs() {
+        padding-top: 60px;
+    }
+    .free_seminar_area_content {
+        border: $border;
+        background-color: $off_white;
+        border-radius: 20px;
+        padding: 64px 33px 64px 64px;
+        @include xs() {
+            padding: 64px 0px 64px 0px;
+        }
+        @include lg() {
+            padding: 64px 33px 33px 33px;
+        }
+        // left_area start
+        .left_area {
+            border: $border;
+            // free_seminar_area title start
+            .free_seminar_area_title {
+                border: $border;
+                .area_title {
+                    border: $border;
+                    @include sm() {
+                        font-size: 30px;
+                    }
+                }
+            }
+            // free_seminar_area title end
+            // free_seminar_area sub_title start
+            .free_seminar_area_sub_title {
+                border: $border;
+                padding-top: 16px;
+                padding-bottom: 40px;
+                .sub_title {
+                    border: $border;
+                }
+            }
+            // free_seminar_area sub_title end
+
+            // date_line_area start
+            .date_line_area {
+                border: 1px solid $deep_orange;
+                display: flex;
+                // display: flex;
+                background-color: $white;
+                border-radius: 12px;
+                align-items: center;
+                margin-bottom: 32px;
+                @include xs() {
+                    display: block;
+                }
+                @include lg() {
+                    display: block;
+                }
+                .date {
+                    border: $border;
+                    text-align: center;
+                    padding: 10px 23px;
+                    background-color: $deep_orange;
+                    border-radius: 12px 0px 0px 12px;
+                    @include xs() {
+                        border-radius: 0px;
+                        margin-bottom: 10px;
+                    }
+                    @include lg() {
+                        margin-bottom: 10px;
+                    }
+                    .date_number {
+                        border: $border;
+                        display: block;
+                        font-size: 20px;
+                        line-height: 20px;
+                        font-family: $font_semibold;
+                        // @include xs() {
+                        //     font-size: 14px;
+                        // }
+                    }
+                    .date_text {
+                        border: $border;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-family: $font_medium;
+                        @include xs() {
+                            font-size: 12px;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .data_science {
+                    border: $border;
+                    padding-left: 16px;
+                    .data_science_text_title {
+                        border: $border;
+                        font-size: 16px;
+                        line-height: 24px;
+                        font-family: $font_semibold;
+                        display: block;
+                        @include xs() {
+                            margin-bottom: 10px;
+                        }
+                    }
+                    .data_science_text_sub_title {
+                        border: $border;
+                        font-size: 13px;
+                        line-height: 19px;
+                        // font-family: $font_regular;
+                        font-family: $font_semibold;
+                        .space_space {
+                            padding: 0px 5px;
+                        }
+                    }
+                }
+                .join_button {
+                    border: $border;
+                    flex: 1;
+                    justify-content: end;
+                    display: flex;
+                    margin-right: 8px;
+                    @include xs() {
+                        justify-content: center;
+                        margin-bottom: 15px;
+                    }
+                    @include lg() {
+                        justify-content: center;
+                        margin-top: 10px;
+                    }
+                    .button_all {
+                        border: 1px solid #6b7280;
+                        font-size: 16px;
+                        line-height: 27px;
+                        font-family: $font_medium;
+                        padding: 10px 27px;
+                        transition-duration: 0.4s;
+                        @include xs() {
+                            padding: 5px 27px;
+                            margin-top: 10px;
+                        }
+                        &:hover {
+                            background-color: $primary_color;
+                            border: 1px solid transparent;
+                            .btn_text {
+                                color: $white;
+                            }
+                        }
+                        .btn_text {
+                            border: $border;
+                            transition-duration: 0.4s;
+                        }
+                    }
+                }
+            }
+            // date_line_area end
+
+            // free_seminar_area_button start
+            .free_seminar_button_area {
+                border: $border;
+                @include xs() {
+                    justify-content: center;
+                    display: flex;
+                }
+                @include lg {
+                    justify-content: center;
+                    display: flex;
+                }
+                .button_all {
+                    font-size: 16px;
+                    line-height: 27px;
+                    font-family: $font_medium;
+                    padding: 11px 20px 10px 20px;
+                    transition-duration: 0.4s;
+                    &:hover {
+                        background-color: $primary_color;
+                        border: 1px solid transparent;
+                        .btn_text {
+                            color: $white;
+                        }
+                        .btn_icon {
+                            i {
+                                color: $white;
+                            }
+                        }
+                    }
+                    .btn_icon {
+                        border: $border;
+                        i {
+                            border: $border;
+                            color: $secondary_color;
+                            // vertical-align: middle;
+                            transition-duration: 0.4s;
+                        }
+                    }
+                    .btn_text {
+                        border: $border;
+                        margin-left: 10px;
+                        transition-duration: 0.4s;
+                    }
+                }
+            }
+            // free_seminar_area_button end
+        }
+        // left_area end
+
+        // right_area start
+        .right_area {
+            border: $border;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            justify-content: end;
+            .free_seminar_image {
+                border: $border;
+                @include xs() {
+                    width: 272px;
+                }
+                @include sm() {
+                    width: 100%;
+                }
+                @include lg {
+                    width: 100%;
+                }
+                @include xl {
+                    width: 100%;
+                }
+                img {
+                    border: $border;
+                    @include xs() {
+                        width: 100%;
+                    }
+                    @include sm() {
+                        width: 100%;
+                    }
+                    @include lg {
+                        width: 100%;
+                    }
+                    @include xl {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        // right_area end
+    }
+}
+// free_seminar_area_end
+
+// job_career_area start
+.job_career_area {
+    border: $border;
+    margin-top: 120px;
+    @include xs() {
+        margin-top: 60px;
+    }
+    .job_career_area_content {
+        border: $border;
+        // left_area start
+        .left_area {
+            border: $border;
+            // job_career_area title start
+            .job_career_area_title {
+                border: $border;
+                margin-bottom: 25px;
+                .area_title {
+                    border: $border;
+                    @include sm() {
+                        font-size: 30px;
+                    }
+                    @include md() {
+                        font-size: 29px;
+                    }
+                }
+            }
+            // job_career_area title end
+            .job_career_image {
+                border: $border;
+                @include xs() {
+                    width: 272px;
+                }
+                @include sm() {
+                    width: 100%;
+                }
+                @include md() {
+                    width: 100%;
+                }
+                @include lg {
+                    width: 454px;
+                }
+                img {
+                    border: $border;
+                    @include xs() {
+                        width: 100%;
+                    }
+                    @include sm() {
+                        width: 100%;
+                    }
+                    @include md() {
+                        width: 100%;
+                    }
+                    @include lg {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        // left_area end
+
+        // right_area start
+        .right_area {
+            border: $border;
+            background-color: $off_white;
+            // height: 100%;
+            border-radius: 12px;
+            padding: 32px 24px;
+            @include xs {
+                padding: 32px 5px;
+            }
+            // form_area start
+            .form_area {
+                border: $border;
+                .form_area_sub_title {
+                    border: $border;
+                    margin-bottom: 12px;
+                    .sub_title {
+                        border: $border;
+                        font-family: $font_medium;
+                        line-height: 24px;
+                        color: $mute_1;
+                    }
+                }
+                form {
+                    border: $border;
+                    input {
+                        border: $border;
+                        display: block;
+                        font-size: 16px;
+                        line-height: 26px;
+                        font-family: $font_medium;
+                        padding: 15px 0px 15px 16px;
+                        outline: 0;
+                        width: 100%;
+                        border-radius: 8px;
+                        margin-bottom: 16px;
+                    }
+                    textarea {
+                        border: $border;
+                        display: block;
+                        outline: 0;
+                        padding: 15px 0px 15px 16px;
+                        height: 100px;
+                        width: 100%;
+                        border-radius: 8px;
+                        margin-bottom: 24px;
+                    }
+                    .button_all {
+                        width: 100%;
+                        // border: 0px;
+                        transition-duration: 0.4s;
+                        i {
+                            border: 0px;
+                            font-size: 18px;
+                            margin-right: 5px;
+                        }
+                        &:hover {
+                            background-color: $primary_color;
+                            color: $white;
+                            border: 1px solid $primary_color;
+                        }
+                    }
+                }
+            }
+            // form_area end
+        }
+        // right_area end
+    }
+}
+// job_career_area end
+
+// my_it_service_area start
+.my_it_service_area {
+    border: $border;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 120px;
+    padding-bottom: 80px;
+    @include xs {
+        margin-top: 60px;
+        padding-bottom: 60px;
+    }
+    .my_it_service_area_content {
+        border: $border;
+        // my_it_service_area_title start
+        .my_it_service_area_title {
+            border: $border;
+            text-align: center;
+            .area_title {
+                border: $border;
+                color: $white;
+                padding-top: 80px;
+                @include xs {
+                    padding-top: 40px;
+                }
+                @include sm {
+                   font-size: 30px;
+                }
+            }
+        }
+        // my_it_service_area_title end
+        .my_it_service_area_sub_title {
+            border: $border;
+            text-align: center;
+            margin: 4px 0px 48px 0px;
+            .sub_title {
+                border: $border;
+                color: #e8e8e8;
+            }
+        }
+        // service_area start
+        .service_area {
+            border: $border;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+            @include xs {
+                justify-content: center;
+            }
+            @include sm {
+                gap: 10px;
+                justify-content: center;
+            }
+            @include md {
+                gap: 40px;
+                justify-content: center;
+            }
+            @include lg {
+                justify-content: center;
+            }
+            @include xl {
+                justify-content: center;
+            }
+            .service {
+                border: $border;
+                // max-width: 410px;
+                width: 410px;
+                // border-radius: 16px;
+                background-color: $white;
+                border-radius: 16px;
+                @include sm {
+                    width: 250px;
+                }
+                @include md {
+                    width: 300px;
+                }
+                .service_logo {
+                    border: $border;
+                    text-align: center;
+                    height: 220px;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    border-radius: 16px 16px 0px 0px;
+                    img {
+                        @include xs {
+                            width: 100px;
+                        }
+                        @include sm {
+                            width: 100px;
+                        }
+                        @include md {
+                            width: 120px;
+                        }
+                    }
+                }
+            }
+            .wordpress {
+                .service_logo {
+                    background-color: #e6f1f8;
+                }
+            }
+            .react {
+                .service_logo {
+                    background-color: #e6fbff;
+                }
+            }
+            .e_commers {
+                .service_logo {
+                    background-color: #fef2f2;
+                }
+            }
+            .psd {
+                .service_logo {
+                    background-color: #fef2f2;
+                }
+            }
+            .vue {
+                .service_logo {
+                    background-color: #ecf8f3;
+                }
+            }
+            .server {
+                .service_logo {
+                    background-color: #fef2f2;
+                }
+            }
+            .service_title_and_description {
+                border: $border;
+                background-color: $white;
+                border-radius: 16px;
+                // border-radius: 0px 0px 8px 8px;
+                padding: 0px 16px 16px;
+                .title {
+                    border: $border;
+                    .title_text {
+                        border: $border;
+                        font-size: 26px;
+                        line-height: 40px;
+                        font-family: $font_semibold;
+                        color: $mute_1;
+                        padding: 20px 0px 8px 0px;
+                        @include xs {
+                            font-size: 20px;
+                        }
+                        @include sm {
+                            font-size: 20px;
+                        }
+                    }
+                }
+                .description {
+                    border: $border;
+
+                    padding-bottom: 8px;
+                    .description_text {
+                        border: $border;
+                        font-size: 16px;
+                        line-height: 26px;
+                        font-family: $font_regular;
+                        color: $mute_2;
+                    }
+                }
+            }
+        }
+        // service_area end
+    }
+}
+// my_it_service_area end
+
+// working_company_name area start
+.working_company_name_area {
+    border: $border;
+    padding-top: 120px;
+    @include xs {
+        padding-top: 60px;
+    }
+    .working_company_name_area_content {
+        border: $border;
+        // -working_company_name_area_title start
+        .working_company_name_area_title {
+            border: $border;
+            text-align: center;
+            margin-bottom: 48px;
+            @include xs {
+                padding: 0px 10px;
+            }
+            .area_title {
+                @include xs {
+                    font-size: 20px;
+                }
+                @include sm {
+                    font-size: 30px;
+                }
+            }
+        }
+        // -working_company_name_area_title end
+        // all_company_name and logo area start
+        .all_company_name {
+            border: $border;
+            ul {
+                border: $border;
+                display: flex;
+                justify-content: center;
+                gap: 48px;
+                @include xs {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 25px;
+                }
+                @include sm {
+                    gap: 5px;
+                }
+                @include md {
+                    gap: 10px;
+                }
+                .company_logo {
+                    border: $border;
+                    width: 193px;
+                    height: 91px;
+                    @include xs {
+                        width: 100px;
+                        height: unset;
+                    }
+                    @include sm {
+                        height: unset;
+                    }
+                    @include md {
+                        height: unset;
+                    }
+                    @include lg {
+                        height: 0px;
+                    }
+                    a {
+                        img {
+                            border: $border;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        // all_company_name and logo area end
+    }
+}
+// working_company_name area end

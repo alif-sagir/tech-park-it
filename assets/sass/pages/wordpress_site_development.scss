@@ -1,0 +1,497 @@
+.wordpress_site_development {
+    margin-top: 100px;
+    @include xs() {
+        margin-top: 30px;
+    }
+    .wordpress_site_title {
+        color: var(--mute-color-100, #1c1c1c);
+
+        /* H2/Bold 41p */
+        font-family: Baloo Da 2;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 61.5px */
+        @include xs() {
+            font-size: 18px;
+        }
+    }
+    .wordpress_site_price_and_logo {
+        display: flex;
+        margin-top: 32px;
+        justify-content: space-between;
+        @include xs() {
+            flex-direction: column;
+        }
+        .wordpress_logo_services_and_package {
+            flex: 1;
+            @include lg() {
+                // flex: unset;
+            }
+            .wordpress_logo {
+                display: flex;
+                justify-content: center;
+                border-radius: 16px;
+                background: #e6f1f8;
+                img {
+                    width: 412px;
+                    height: 412px;
+                    margin: 34px 0px;
+                    @include xs() {
+                        width: 100%;
+                        height: 100%;
+                        margin: 10px 0px;
+                    }
+                    @include lg() {
+
+                    }
+                }
+            }
+            .wordpress_services {
+                // display: none;
+                .wordpress_services_title {
+                    color: var(--mute-color-100, #1c1c1c);
+                    /* H4/Semibold 26 */
+                    font-family: Baloo Da 2;
+                    font-size: 26px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 39px */
+                    margin-top: 48px;
+                    margin-bottom: 24px;
+                    @include xs() {
+                        font-size: 18px;
+                        margin-top: 30px;
+                        margin-bottom: 10px;
+                    }
+                }
+                ul {
+                    li {
+                        margin-bottom: 20px;
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%; /* 30px */
+                        display: flex;
+                        align-items: center;
+                        @include xs() {
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+                        i {
+                            color: #27ae60;
+                            font-size: 24px;
+                            margin-right: 8px;
+                            @include xs() {
+                                font-size: 16px;
+                                margin-right: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+        }
+        .wordpress_site_consting_and_info {
+            // flex: 1;
+            .wordpress_site_costing {
+                width: 411px;
+                margin-left: 24px;
+                border-radius: 12px;
+                border: 1px solid var(--mute-color-20, #d2d2d2);
+                @include xs() {
+                    margin-top: 50px;
+                    width: 100%;
+                    margin-left: 0px;
+                }
+                @include lg() {
+                }
+                table {
+                    width: 100%;
+                    thead {
+                        tr {
+                            th {
+                                color: var(--mute-color-80, #494949);
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 150%; /* 30px */
+                                padding-top: 16px;
+                                padding-left: 24px;
+                                padding-bottom: 12px;
+                                padding-right: 24px;
+                                @include xs() {
+                                    font-size: 16px;
+                                    padding: 8px 10px;
+                                }
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            th {
+                                color: var(--mute-color-100, #1c1c1c);
+
+                                /* H5/Semibold 20 */
+                                font-family: Baloo Da 2;
+                                font-size: 20px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: 150%; /* 30px */
+                                padding-top: 16px;
+                                padding-left: 28px;
+                                padding-right: 28px;
+                                padding-bottom: 25px;
+                                border: 1px solid var(--mute-color-20, #d2d2d2);
+                                @include xs() {
+                                    font-size: 16px;
+                                    padding: 8px 10px;
+                                }
+                                &:first-child {
+                                    border-left: none;
+                                }
+                                &:last-child {
+                                    border-right: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .wordpress_site_info {
+                    margin-left: 24px;
+                    .wordpress_about_pricing_title {
+                        color: var(--mute-color-100, #1c1c1c);
+                        font-family: Baloo Da 2;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 30px */
+                        width: 258px;
+                        margin-top: 24px;
+                        margin-bottom: 16px;
+                        @include xs() {
+                            font-size: 18px;
+                        }
+                    }
+                    .phone_number {
+                        display: flex;
+                        align-items: center;
+
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 26px;
+                            color: #1c1c1c;
+                            @include xs() {
+                                font-size: 16px;
+                            }
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .whatsup {
+                        display: flex;
+                        align-items: center;
+
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 30px;
+                            color: #27ae60;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .telegram {
+                        display: flex;
+                        align-items: center;
+
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 28px;
+                            color: #2aabee;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+                    .email {
+                        display: flex;
+                        align-items: center;
+
+                        display: flex;
+                        // justify-content: center;
+                        align-items: center;
+                        margin: 16px 0px;
+                        i {
+                            margin-right: 6px;
+                            font-size: 26px;
+                            color: #1c1c1c;
+                            @include xs() {
+                                font-size: 18px;
+                            }
+                        }
+                        span {
+                            color: var(--mute-color-100, #1c1c1c);
+                            font-family: Baloo Da 2;
+                            font-size: 26px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 150%; /* 39px */
+                            text-decoration-line: underline;
+                            @include xs() {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    .costing_special_note {
+                        color: var(--mute-color-80, #494949);
+                        font-family: Baloo Da 2;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 160%; /* 25.6px */
+                        margin-bottom: 24px;
+                        @include xs() {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .service_packagage {
+        // display: none;
+        @include xs() {
+            // width: 400px;
+            // border: 2px solid red;
+            overflow-x: scroll;
+        }
+
+        .service_all_package {
+            display: flex;
+            // justify-content: space-between;
+            // align-items: center;
+            width: 845px;
+            border-radius: 12px;
+            border: 1px solid #e5e5e5;
+            margin-top: 51px;
+            @include lg() {
+                // overflow: x;
+                // width: 100%;
+            }
+            .service_package_details {
+                flex: 1;
+                border-left: 1px solid #e5e5e5;
+                .head {
+                    color: var(--mute-color-100, #1c1c1c);
+
+                    /* H3/Semibold 32 */
+                    font-family: Baloo Da 2;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 48px */
+                    padding: 24px 16px;
+                    height: 182px;
+                    @include xs() {
+                        font-size: 18px;
+                    }
+                    h2 {
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H3/Semibold 32 */
+                        font-family: Baloo Da 2;
+                        font-size: 32px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 48px */
+                        @include xs() {
+                            font-size: 18px;
+                        }
+                    }
+
+                    p {
+                        color: var(--mute-color-80, #494949);
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%; /* 39px */
+                        @include xs() {
+                            font-size: 18px;
+                        }
+                    }
+                }
+                .package_list {
+                    ul {
+                        .active {
+                            i {
+                                color: #219653;
+                            }
+                        }
+                        li {
+                            color: var(--mute-color-80, #494949);
+                            font-family: Baloo Da 2;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 150%; /* 30px */
+                            padding: 16px 0px;
+                            padding-left: 24px;
+                            text-align: center;
+                            @include xs() {
+                                font-size: 16px;
+                                padding: 8px 0px;
+                                padding-left: 10px;
+                            }
+                            i {
+                                text-align: center;
+                                color: #e0e0e0;
+                            }
+
+                            &:nth-child(even) {
+                                background-color: #f3f3f3;
+                                // background-color: #F9F9F9;
+                            }
+                        }
+                    }
+                }
+                &:first-child {
+                    width: 291px;
+                    flex: unset;
+                    border-left: none;
+                    @include xs() {
+                    }
+                    .head {
+                        padding-left: 24px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .package_list {
+                        ul {
+                            li {
+                                text-align: start;
+                            }
+                        }
+                    }
+                    .package_footer {
+                        padding-left: 24px;
+                        height: 128px;
+                        h4 {
+                            text-align: start;
+                        }
+                    }
+                }
+                .package_footer {
+                    color: var(--mute-color-100, #1c1c1c);
+
+                    /* H3/Semibold 32 */
+                    font-family: Baloo Da 2;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 150%; /* 48px */
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    // border: 1px solid red;
+                    // padding-left: 16px;
+                    // padding-top: 12px;
+                    // padding-bottom: 16px;
+                    // padding-right: 16px;
+                    @include xs() {
+                    }
+                    h4 {
+                        color: var(--mute-color-100, #1c1c1c);
+
+                        /* H4/Semibold 26 */
+                        font-family: Baloo Da 2;
+                        font-size: 26px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 150%; /* 39px */
+                        text-align: center;
+                        @include xs() {
+                            font-size: 18px;
+                            margin-top: 10px;
+                        }
+                    }
+                    a {
+                        display: inline-flex;
+                        // height: 48px;
+                        padding: 12px 24px 11px 24px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        flex-shrink: 0;
+                        color: var(--mute-color-100, #1c1c1c);
+                        text-align: center;
+                        font-family: Baloo Da 2;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        border-radius: 8px;
+                        border: 1px solid var(--secondary-60, #6b7280);
+                        background: var(--white-100, #fff);
+                        // margin-top: 9px;
+                        margin: 10px;
+                        @include xs() {
+                            font-size: 16px;
+                            padding: 8px 14px 7px 14px;
+                            margin: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+// all area main class
+// .batch_no_and_certificate_button,
+// .modioul_box_area,
+// .quiz_report_area,
+// .assainment_information_all-area,
+.leader_bord_area {
+    // display: none;
+}
+/* responsive_desine_mixin start*/
+@mixin xs() {
+    @media screen and (max-width: 575.9px) {
+        @content();
+    }
+}
+@mixin sm() {
+    @media (min-width: 576px) and (max-width: 767.9px) {
+        @content();
+    }
+}
+@mixin md() {
+    @media (min-width: 768px) and (max-width: 991.9px) {
+        @content();
+    }
+}
+@mixin lg() {
+    @media (min-width: 992px) and (max-width: 1199.9px) {
+        @content();
+    }
+}
+@mixin xl() {
+    @media (min-width: 1200px) and (max-width: 1399.9px) {
+        @content();
+    }
+}
+@mixin xxl() {
+    @media (min-width: 1400px) {
+        @content();
+    }
+}
+/* responsive_desine_mixin end*/

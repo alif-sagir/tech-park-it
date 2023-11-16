@@ -1,0 +1,68 @@
+// my_tema_area start
+.my_tema_area {
+    margin-top: 120px;
+    @include xs{
+        margin-top: 40px;
+    }
+}
+// my_tema_area end
+
+// orientation_class_area start
+.orientation_class_area{
+    margin-top: 80px;
+    @include xs{
+        margin-top: 50px;
+    }
+}
+// orientation_class_area end
+
+// farewell_area start
+.farewell_area{
+    margin-top: 80px;
+}
+// farewell_area end
+
+.all_area {
+    border: $border;
+    .gallery_area {
+        border: $border;
+        .gallery_title {
+            border: $border;
+            margin-bottom: 32px;
+            text-align: center;
+            .title {
+                border: $border;
+                font-size: 40px;
+                line-height: 40px;
+                color: $mute_1;
+                font-family: $font_bold;
+                @include xs{
+                    font-size: 24px;
+                    line-height: 34px;
+                }
+            }
+        }
+        .gallery_content {
+            border: $border;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 32px;
+            @include xs{
+                gap: 4px;
+            }
+            .gallery_content_img {
+                border: $border;
+                max-width: 410px;
+                // height: 310px;
+                img {
+                    border: $border;
+                    width: 100%;
+                    border-radius: 16px;
+                    @include xs{
+                        border-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}

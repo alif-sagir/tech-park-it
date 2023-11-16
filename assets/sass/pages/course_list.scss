@@ -1,0 +1,18 @@
+// our_course area start
+.our_course_area_copy{
+    margin-top: 120px;
+    gap: 22px;
+    padding-bottom: 0px;
+    @include xs{
+        margin-top: 40px;
+    }
+    .our_course_area_content_copy{
+        .our_course_all_card_copy{
+            .c_card_copy{
+                margin-bottom: 0px;
+            }
+        }
+    }
+    
+}
+// our_course area end

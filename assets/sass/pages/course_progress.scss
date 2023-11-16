@@ -1,0 +1,553 @@
+// batch_no_and_course_certificate_button start
+.batch_no_and_certificate_button {
+    border: $border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 12px;
+    .batch_no_area {
+        border: $border;
+        .batch_no_text {
+            border: $border;
+            font-size: 16px;
+            font-family: $font_bold;
+            color: $mute_2;
+        }
+    }
+    .certificate_button_area {
+        border: $border;
+        .course_text {
+            border: $border;
+            font-size: 10px;
+            font-family: $font_semibold;
+            color: $white;
+            background-color: rgb(99, 99, 247);
+            border-radius: 10px;
+        }
+    }
+}
+// batch_no_and_course_certificate_button end
+
+// modioul_box_area start
+.modioul_box_area {
+    border: $border;
+    margin-bottom: 50px;
+    .modioul_box_area_content {
+        border: $border;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid $footer_text;
+        border-radius: 5px;
+        .box_item {
+            border: $border;
+            // width: 371px;
+            width: 33.3%;
+            padding: 33px;
+            border-right: 1px solid $footer_text;
+            @include xs() {
+                width: 100%;
+                border-right: unset;
+                border-bottom: 1px solid $footer_text;
+                &:last-child {
+                    border-bottom: 0px solid $footer_text;
+                }
+            }
+            @include sm() {
+                width: 100%;
+                border-right: unset;
+                border-bottom: 1px solid $footer_text;
+                &:last-child {
+                    border-bottom: 0px solid $footer_text;
+                }
+            }
+            @include md() {
+                width: 100%;
+                border-right: unset;
+                border-bottom: 1px solid $footer_text;
+                &:last-child {
+                    border-bottom: 0px solid $footer_text;
+                }
+            }
+            @include lg() {
+                width: 100%;
+                border-right: unset;
+                border-bottom: 1px solid $footer_text;
+                &:last-child {
+                    border-bottom: 0px solid $footer_text;
+                }
+            }
+            &:last-child {
+                border-right: unset;
+            }
+            .item_title {
+                border: $border;
+                .title_text {
+                    border: $border;
+                    font-size: 14px;
+                    font-family: $font_bold;
+                    color: $mute_2;
+                }
+            }
+            .modioul_no_and_persentence {
+                border: $border;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .modioul_no_area {
+                    border: $border;
+                    display: flex;
+                    @include xs() {
+                        display: block;
+                        margin-top: 5px;
+                    }
+                    @include sm() {
+                        display: block;
+                        margin-top: 5px;
+                    }
+                    @include md() {
+                        display: block;
+                        margin-top: 5px;
+                    }
+                    @include lg() {
+                        display: block;
+                        margin-top: 5px;
+                    }
+                    .modioul_number {
+                        border: $border;
+                        font-size: 24px;
+                        font-family: $font_bold;
+                        color: $mute_2;
+                    }
+                    .discription_text {
+                        border: $border;
+                        font-size: 12px;
+                        font-family: $font_medium;
+                        color: $mute_2;
+
+                        align-items: end;
+                        display: flex;
+                        margin-left: 5px;
+                    }
+                }
+                .persentence_area {
+                    border: $border;
+                    background: #d1ffe2;
+                    padding: 0px 10px;
+                    border-radius: 10px;
+                    .persentence_text {
+                        border: $border;
+                        font-size: 12px;
+                        font-family: $font_medium;
+                        color: #02733b;
+                        align-items: center;
+                        display: flex;
+                        i {
+                            border: $border;
+                            font-size: 12px;
+                            margin-right: 2px;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// modioul_box_area end
+
+// quiz_report_area start
+.quiz_report_area {
+    border: $border;
+    .quiz_report_area_content {
+        border: $border;
+        .left_right_area {
+            border: $border;
+            .area_title {
+                border: $border;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 12px;
+                @include xs() {
+                    display: block;
+                    margin-top: 12px;
+                }
+                @include sm() {
+                    display: block;
+                    margin-top: 12px;
+                }
+                @include md() {
+                    display: block;
+                    margin-top: 12px;
+                }
+                .area_title_text {
+                    border: $border;
+                    font-size: 16px;
+                    font-family: $font_bold;
+                    color: $mute_2;
+                    @include xs() {
+                        margin-bottom: 5px;
+                    }
+                }
+                .description_area {
+                    border: $border;
+                    align-items: center;
+                    display: flex;
+                    .description_text {
+                        border: $border;
+                        font-size: 12px;
+                        font-family: $font_medium;
+                        color: $mute_2;
+                        line-height: 12px;
+                    }
+                }
+            }
+
+            .quiz_report_content_area {
+                border: $border;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid $footer_text;
+                align-items: center;
+                min-height: 150px;
+                border-radius: 5px;
+                .left_area {
+                    border: $border;
+                    .content_icon_and_text {
+                        border: $border;
+                        font-size: 14px;
+                        font-family: $font_medium;
+                        color: $mute_2;
+                        i {
+                            border: $border;
+                            color: rgb(99, 99, 247);
+                        }
+                    }
+                }
+                .right-area {
+                    border: $border;
+                    .content-text {
+                        border: $border;
+                        border-radius: 50%;
+                        padding: 16px;
+                        border: 10px solid rgb(99, 99, 247);
+                        width: 100px;
+                        height: 100px;
+
+                        .persentence-text {
+                            border: $border;
+                            color: rgb(99, 99, 247);
+                            font-family: $font_bold;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        .discription_text {
+                            border: $border;
+                            text-align: center;
+                            color: $mute_1;
+                            font-family: $font_bold;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+
+            .marks_content_all {
+                border: $border;
+                min-height: 150px;
+                border: 1px solid $footer_text;
+                border-radius: 5px;
+                .marks_content {
+                    border: $border;
+                    padding: 10px 120px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 15px;
+                    @include xs() {
+                        padding: 10px 34px;
+                    }
+                    @include md() {
+                        padding: 10px 34px;
+                    }
+                    .mark-box {
+                        border: $border;
+                        width: 15px;
+                        height: 15px;
+                        border-radius: 3px;
+                    }
+                    .green_color {
+                        background-color: green;
+                    }
+                    .red_color {
+                        background-color: rgb(163 0 0);
+                    }
+                }
+            }
+        }
+    }
+}
+// quiz_report_area end
+
+// assainment_information_all-area start
+.assainment_information_all-area {
+    border: $border;
+    margin-top: 50px;
+    .assainment_information_all-area_content {
+        border: $border;
+        .left_area {
+            border: $border;
+            .table_area {
+                @include xs() {
+                    overflow-x: scroll;
+                    max-width: calc(100vw - 30px);
+                    padding-bottom: 10px;
+                }
+                table {
+                    border: $border;
+                    width: 100%;
+                    tr {
+                        border: $border;
+                        th {
+                            border: $border;
+                            border: 1px solid $footer_text;
+                            padding: 8px;
+                            font-family: $font_bold;
+                            font-size: 16px;
+                            color: $mute_1;
+                        }
+                        td {
+                            border: $border;
+                            border: 1px solid $footer_text;
+                            padding: 8px;
+                            font-family: $font_medium;
+                            font-size: 16px;
+                            color: $mute_1;
+                        }
+
+                        .edit_width_1 {
+                            // width: 100%;
+                            // text-align: center;
+                        }
+                        .edit_width_2 {
+                            width: 100px;
+                            text-align: center;
+                        }
+                        .edit_width_3 {
+                            width: 230px;
+                        }
+                        .edit_width_4 {
+                            width: 230px;
+                        }
+                        .edit_center {
+                            text-align: center;
+                        }
+                        .color_text_1 {
+                            color: $perple;
+                        }
+                        .green_color {
+                            color: #00b95d;
+                        }
+                        .red_color {
+                            color: #c20000;
+                        }
+                    }
+                }
+            }
+        }
+        .right_area {
+            border: $border;
+            height: 100%;
+            @include xs() {
+               margin-top: 25px;
+            }
+            @include sm() {
+               margin-top: 25px;
+            }
+            @include md() {
+               margin-top: 25px;
+            }
+            @include lg() {
+               margin-top: 25px;
+            }
+            @include xl() {
+               margin-top: 25px;
+            }
+            .quiz_report_content_area {
+                border: $border;
+                height: 100%;
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid $footer_text;
+                align-items: center;
+                min-height: 150px;
+                border-radius: 5px;
+                .left_area {
+                    border: $border;
+                    .content_icon_and_text {
+                        border: $border;
+                        font-size: 14px;
+                        font-family: $font_medium;
+                        color: $mute_2;
+                        i {
+                            border: $border;
+                            color: $perple;
+                        }
+                    }
+                }
+                .right-area {
+                    border: $border;
+                    .content-text {
+                        border: $border;
+                        border-radius: 50%;
+                        padding: 16px;
+                        border: 10px solid $perple;
+                        width: 100px;
+                        height: 100px;
+
+                        .persentence-text {
+                            border: $border;
+                            color: $perple;
+                            font-family: $font_bold;
+                            font-size: 20px;
+                            text-align: center;
+                        }
+                        .discription_text {
+                            border: $border;
+                            text-align: center;
+                            color: $mute_1;
+                            font-family: $font_bold;
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// assainment_information_all-area end
+
+// leader_bord_area start
+.leader_bord_area {
+    border: $border;
+    margin-top: 50px;
+    .leader_bord_area_content {
+        border: $border;
+        .area_title {
+            border: $border;
+            margin-bottom: 12px;
+            .area_title_text {
+                border: $border;
+                font-size: 16px;
+                font-family: $font_bold;
+                color: $mute_2;
+            }
+        }
+
+        .leader_bord_content_all {
+            border: $border;
+            border: 1px solid $mute_2;
+            padding: 30px 15px;
+            border-radius: 5px;
+            .leader_bord_area_content_top_and_bottom {
+                border: $border;
+
+                .leader_bord_title {
+                    border: $border;
+                    margin-bottom: 12px;
+                    .leader_bord_title_text {
+                        border: $border;
+                        font-size: 16px;
+                        font-family: $font_bold;
+                        color: $mute_2;
+                    }
+                }
+                .leader_bord_area_content {
+                    border: $border;
+                    @include xs() {
+                       overflow-x: scroll;
+                       max-width: calc(100vw - 30px);
+                       padding-bottom: 10px;
+                     }
+                    table {
+                        border: $border;
+                       width: 100%;
+                        tr {
+                            border: $border;
+                            th {
+                                border: $border;
+                                border: 1px solid $footer_text;
+                                padding: 8px;
+                                font-family: $font_bold;
+                                font-size: 16px;
+                                color: $mute_1;
+                            }
+
+                            td {
+                                border: $border;
+                                border: 1px solid $footer_text;
+                                padding: 8px;
+
+                                font-family: $font_medium;
+                                font-size: 16px;
+                                color: $mute_1;
+
+                                .profile_area {
+                                    display: flex;
+                                    align-items: center;
+
+                                    .profile_img {
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+
+                                        img {
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 50%;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                    .profile_name {
+                                        margin-left: 10px;
+                                        .name_text {
+                                            font-family: $font_bold;
+                                            font-size: 16px;
+                                            color: $perple;
+                                        }
+                                    }
+                                }
+                            }
+                            .tex_center {
+                                text-align: center;
+                            }
+                            .edit_width_serial_no {
+                                width: 100px;
+                            }
+                            .edit_width {
+                               
+                            }
+                            .edit_width_totla_number {
+                                width: 200px;
+                            }
+
+                            .color_text {
+                                color: $perple;
+                            }
+                        }
+                        .edit_tr {
+                            border: 3px solid $perple;
+                        }
+                    }
+                }
+            }
+
+            .leader_bord_area_content_bottom {
+                margin-top: 50px;
+            }
+        }
+    }
+}
+// leader_bord_area end

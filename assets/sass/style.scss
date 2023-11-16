@@ -1,0 +1,58 @@
+:root{
+    --mute-color-100: #1C1C1C;
+    --mute-color-80: #494949;
+    --mute-color-60: #777;
+    --mute-color-10: #E8E8E8;
+    --primary-color-60: #FCA5A5;
+    --primary-color-40: #FECACA;
+    --primary-color-20: #FEE2E2;
+    --primary-color-10: #FEF2F2;
+    --secondary-100: #101727;
+    --secondary-90: #1F2937;
+    --secondary-80: #374151;
+    --secondary-70: #4B5563;
+    --secondary-60: #6B7280;
+    --secondary-50: #9CA3AF;
+    --secondary-40: #D1D5DB;
+    --secondary-30: #E5E7EB;
+    --secondary-20: #F3F4F6;
+    --secondary-10: #F9FAFB;
+}
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+@import "./core/typography";
+@import "./components/buttons";
+@import "./components/area_title";
+@import "./components/sub_title";
+@import "./core/reset";
+@import "./core/root";
+@import "./vendors/grid";
+
+@import "./layouts/header";
+@import "./pages/index.scss";
+@import "./pages/course_enrollment.scss";
+@import "./pages/free_seminar.scss";
+@import "./pages/contact.scss";
+@import "./pages/blog.scss";
+@import "./pages/blog_details.scss";
+@import "./pages/gallery.scss";
+@import "./pages/success\ _story.scss";
+
+@import "./layouts/footer";
+@import "./layouts/chating_and_go_to_top";
+@import "./pages/about.scss";
+@import "./pages/course_list.scss";
+@import "./pages/course_details.scss";
+@import "./pages/course_details_quiz.scss";
+@import "./pages/my_courses.scss";
+@import "./pages/change_password.scss";
+@import "./pages/login_by_password.scss";
+@import "./pages/our_it_services.scss";
+@import "./pages/wordpress_site_development.scss";
+@import "./pages/not_found.scss";
+@import "./pages/our_refund_policy.scss";
+@import "./pages/sitemap.scss";
+@import "./pages/career.scss";
+@import "./pages/all_course_nevigation_bar.scss";
+
+@import "./pages/course_progress.scss";
